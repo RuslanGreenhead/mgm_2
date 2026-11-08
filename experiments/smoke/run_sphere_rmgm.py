@@ -48,6 +48,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--config", type=Path, default=ROOT / "configs/development/sphere_smoke.json")
     parser.add_argument("--device", choices=("auto", "mps", "cpu"), default="auto")
     parser.add_argument("--steps", type=int, help="Override runtime.max_steps.")
+    parser.add_argument("--seed", type=int, help="Override runtime.seed.")
     return parser.parse_args()
 
 
@@ -184,6 +185,26 @@ def plot_samples(target: torch.Tensor, rmgm: torch.Tensor, rfm: torch.Tensor, pa
     plt.close(fig)
 
 
+def sphere_sample_metrics(samples: torch.Tensor, target: torch.Tensor) -> dict[str, float]:
+    """Small diagnostic metrics, not the paper evaluation protocol."""
+    x, y = samples.detach().cpu().double(), target.detach().cpu().double()
+    reference_distances = torch.cdist(y, y)
+    positive = reference_distances[reference_distances > 1e-12]
+    bandwidth2 = positive.square().median() if positive.numel() else torch.tensor(1.0, dtype=x.dtype)
+    mmd2 = (
+        torch.exp(-torch.cdist(x, x).square() / bandwidth2).mean()
+        + torch.exp(-torch.cdist(y, y).square() / bandwidth2).mean()
+        - 2.0 * torch.exp(-torch.cdist(x, y).square() / bandwidth2).mean()
+    )
+    chord_minus = (x[:, None, :] - y[None, :, :]).norm(dim=-1)
+    chord_plus = (x[:, None, :] + y[None, :, :]).norm(dim=-1)
+    geodesic = 2.0 * torch.atan2(chord_minus, chord_plus)
+    return {
+        "mmd2_biased_chordal": float(mmd2),
+        "symmetric_nearest_neighbour_geodesic": float((geodesic.min(1).values.mean() + geodesic.min(0).values.mean()) / 2.0),
+    }
+
+
 def git_commit() -> str | None:
     try:
         return subprocess.check_output(["git", "rev-parse", "HEAD"], cwd=ROOT, text=True, stderr=subprocess.DEVNULL).strip()
@@ -208,6 +229,8 @@ def run() -> Path:
         if args.steps < 1:
             raise ValueError("--steps must be positive.")
         cfg["runtime"]["max_steps"] = args.steps
+    if args.seed is not None:
+        cfg["runtime"]["seed"] = args.seed
     device = select_device(args.device, cfg["runtime"]["device_preference"])
     seed_everything(cfg["runtime"]["seed"])
     output, dtype = make_output_dir(cfg), torch.float32
@@ -232,6 +255,7 @@ def run() -> Path:
                                                "rfm_max": float(constraint_error(manifold, rfm_samples, "max").cpu()),
                                                "rfm_mean": float(constraint_error(manifold, rfm_samples, "mean").cpu())},
                    "finite_samples": {"target": bool(torch.isfinite(target).all()), "rmgm": bool(torch.isfinite(rmgm_samples).all()), "rfm": bool(torch.isfinite(rfm_samples).all())},
+                   "sample_diagnostics": {"rmgm": sphere_sample_metrics(rmgm_samples, target), "rfm": sphere_sample_metrics(rfm_samples, target)},
                    "events": events}
         if not all(metrics["finite_samples"].values()):
             raise FloatingPointError("Generated non-finite sample values.")

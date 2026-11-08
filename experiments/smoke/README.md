@@ -16,3 +16,8 @@ Run it from the project root after installing the local environment:
 It produces a new, non-overwriting directory below `artifacts/smoke/`.
 The generated losses and sample metrics are functional checks only. They are
 not comparable with paper tables or the Fire dataset.
+
+For the medium synthetic diagnostic, use
+`configs/development/sphere_diagnostic.json` with seeds 0, 1, and 2. It adds
+small sphere-MMD and nearest-neighbour diagnostics for within-run monitoring;
+they are not the paper evaluation protocol.

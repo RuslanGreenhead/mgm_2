@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "purpose": "Medium synthetic stability diagnostic; not a paper-quality experiment.",
+  "dataset": {
+    "name": "synthetic_sphere",
+    "requires_downloaded_raw_data": false
+  },
+  "method": {
+    "rmgm_generator": "local_gmm",
+    "rmgm_components": 3,
+    "latent_dim": 16,
+    "hidden_dim": 64,
+    "num_layers": 3,
+    "critic_fourier_features": 4,
+    "learning_rate": 0.0002,
+    "rfm_ode_steps": 32
+  },
+  "runtime": {
+    "device_preference": "mps_then_cpu",
+    "seed": 0,
+    "max_steps": 300,
+    "batch_size": 64,
+    "evaluation_samples": 256
+  },
+  "output": {
+    "root": "artifacts/diagnostics/sphere-rmgm",
+    "overwrite": false
+  }
+}

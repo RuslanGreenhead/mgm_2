@@ -10,10 +10,10 @@ from paper.benchmarks2026.common import ManifoldOps,make_rng
 from paper.benchmarks2026.meanflow import create_method
 
 def main():
- p=argparse.ArgumentParser();p.add_argument('--seed',type=int,required=True);p.add_argument('--steps',type=int,default=2000);p.add_argument('--width',type=int,default=128);p.add_argument('--device',choices=('auto','mps','cpu'),default='auto');a=p.parse_args()
+ p=argparse.ArgumentParser();p.add_argument('--seed',type=int,required=True);p.add_argument('--steps',type=int,default=2000);p.add_argument('--width',type=int,default=128);p.add_argument('--device',choices=('auto','mps','cpu'),default='auto');p.add_argument('--output-root',type=Path);a=p.parse_args()
  cfg,csv,split=load(ROOT/'configs/reproduction/fire_historical.json');dev=device(a.device,'mps_then_cpu');seed_all(a.seed);ops=ManifoldOps('sphere',3)
  method=create_method(ops,{'variant':'rmf_mt','width':a.width,'depth':3,'batch_size':256,'lr':2e-4,'weight_decay':.01,'prop_equal_times':.75,'time_distribution':'uniform'},dev)
- tier='rmf_mt_capacity_matched' if a.width==2 else 'rmf_mt_native';stamp=dt.datetime.now(dt.timezone.utc).strftime('%Y%m%dT%H%M%SZ');out=ROOT/'artifacts/comparison2026/fire'/tier/f'seed{a.seed}-{stamp}';out.mkdir(parents=True,exist_ok=False)
+ tier='rmf_mt_capacity_matched' if a.width==2 else 'rmf_mt_native';stamp=dt.datetime.now(dt.timezone.utc).strftime('%Y%m%dT%H%M%SZ');base=a.output_root if a.output_root else ROOT/'artifacts/comparison2026/fire'/tier;out=base/f'seed{a.seed}-{stamp}';out.mkdir(parents=True,exist_ok=False)
  train=split['train'].to(dev);rng_target=make_rng(50000+a.seed,dev);rng_method=make_rng(70000+a.seed,dev);curve=[]
  for step in range(1,a.steps+1):
   batch=train[torch.randint(len(train),(256,),device=dev,generator=rng_target)];logs=method.update(batch,rng_method)

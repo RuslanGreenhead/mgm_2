@@ -19,7 +19,7 @@ from rfm_baseline_train import BaseSampler,TrainConfig,rfm_path,sample_rfm  # no
 
 def args():
  p=argparse.ArgumentParser(description=__doc__);p.add_argument("--config",type=Path,default=ROOT/"configs/reproduction/fire_historical.json")
- p.add_argument("--method",choices=("rmgm_gmm","rfm"),required=True);p.add_argument("--seed",type=int,required=True)
+ p.add_argument("--method",choices=("rmgm_gmm","rmgm_mlp","mmd_mlp","rfm"),required=True);p.add_argument("--seed",type=int,required=True)
  p.add_argument("--steps",type=int);p.add_argument("--device",choices=("auto","mps","cpu"),default="auto");return p.parse_args()
 
 def device(requested,preference):
@@ -83,13 +83,16 @@ def seed_all(seed):random.seed(seed);np.random.seed(seed);torch.manual_seed(seed
 
 def main():
  a=args();cfg,csv,split=load(a.config);dev=device(a.device,cfg["runtime"]["device_preference"]);seed_all(a.seed);model=cfg["model"]
- steps=a.steps or (2000 if a.method=="rmgm_gmm" else 10000);out=outdir(cfg,a.method,a.seed);manifold=Sphere();target_val=fixed_target(split["val"],82010,cfg["data"]["evaluation_size"]);target_test=fixed_target(split["test"],82011,cfg["data"]["evaluation_size"]);ref=reference(split["train"])
+ steps=a.steps or (2000 if a.method in ("rmgm_gmm","rmgm_mlp","mmd_mlp") else 10000);out=outdir(cfg,a.method,a.seed);manifold=Sphere();target_val=fixed_target(split["val"],82010,cfg["data"]["evaluation_size"]);target_test=fixed_target(split["test"],82011,cfg["data"]["evaluation_size"]);ref=reference(split["train"])
  metadata={"scope":"portable reconstruction; separate from archived outputs", "method":a.method,"seed":a.seed,"steps":steps,"device":str(dev),"config":cfg,"csv_sha256":sha(csv),"source_commit":git(),"counts":{k:len(v) for k,v in split.items()},"reference":ref}
  (out/"config.json").write_text(json.dumps(metadata,indent=2)+"\n")
  log=[]
- if a.method=="rmgm_gmm":
-  gen=build_generator({"generator":{"generator_type":"local_gmm","generator_components":model["mixture_components"],"latent_dim":model["latent_dim"],"hidden_dim":model["hidden_dim"],"num_layers":model["num_layers"]}},manifold,3).to(dev)
-  critic=build_critic({"critic":{"hidden_dim":model["hidden_dim"],"num_layers":model["num_layers"],"fourier":8}},manifold,3).to(dev);kmeans_init(gen,split["train"],model,dev);og=torch.optim.AdamW(gen.parameters(),lr=model["learning_rate"]);oc=torch.optim.AdamW(critic.parameters(),lr=model["learning_rate"])
+ if a.method in ("rmgm_gmm","rmgm_mlp"):
+  generator_cfg={"generator":{"generator_type":"local_gmm","generator_components":model["mixture_components"],"latent_dim":model["latent_dim"],"hidden_dim":model["hidden_dim"],"num_layers":model["num_layers"]}} if a.method=="rmgm_gmm" else {"generator":{"generator_type":"mlp","latent_dim":model["latent_dim"],"hidden_dim":model["hidden_dim"],"num_layers":model["num_layers"]}}
+  gen=build_generator(generator_cfg,manifold,3).to(dev)
+  critic=build_critic({"critic":{"hidden_dim":model["hidden_dim"],"num_layers":model["num_layers"],"fourier":8}},manifold,3).to(dev)
+  if a.method=="rmgm_gmm":kmeans_init(gen,split["train"],model,dev)
+  og=torch.optim.AdamW(gen.parameters(),lr=model["learning_rate"]);oc=torch.optim.AdamW(critic.parameters(),lr=model["learning_rate"])
   def draw(i):g=torch.Generator(device=dev).manual_seed(100000+i);return gen(torch.randn(len(target_test),model["latent_dim"],device=dev,generator=g))
   initial={"val":metrics_for(draw,target_val,ref),"test":metrics_for(draw,target_test,ref)};torch.save({"step":0,"generator":gen.state_dict(),"critic":critic.state_dict()},out/"checkpoint_step0.pt")
   train=split["train"].to(dev);start=time.perf_counter()
@@ -99,6 +102,14 @@ def main():
    if step==1 or step%cfg["runtime"]["log_every"]==0 or step==steps:
     row={"step":step,"critic_loss":float(lc.detach().cpu()),"generator_loss":float(lg.detach().cpu())};log.append(row);print(json.dumps(row),flush=True)
   final={"val":metrics_for(draw,target_val,ref),"test":metrics_for(draw,target_test,ref)};torch.save({"step":steps,"generator":gen.state_dict(),"critic":critic.state_dict()},out/f"checkpoint_step{steps}.pt");extra={"generator_class":gen.__class__.__name__,"critic_class":critic.__class__.__name__,"finite_parameters":finite(gen) and finite(critic)}
+ elif a.method=="mmd_mlp":
+  gen=build_generator({"generator":{"generator_type":"mlp","latent_dim":model["latent_dim"],"hidden_dim":model["hidden_dim"],"num_layers":model["num_layers"]}},manifold,3).to(dev);opt=torch.optim.AdamW(gen.parameters(),lr=model["learning_rate"]);train=split["train"].to(dev);start=time.perf_counter()
+  def draw(i):g=torch.Generator(device=dev).manual_seed(100000+i);return gen(torch.randn(len(target_test),model["latent_dim"],device=dev,generator=g))
+  initial={"val":metrics_for(draw,target_val,ref),"test":metrics_for(draw,target_test,ref)}
+  for step in range(1,steps+1):
+   z=torch.randn(model["batch_size"],model["latent_dim"],device=dev);x=gen(z);y=train[torch.randint(len(train),(model["batch_size"],),device=dev)];h=ref["bandwidth2"];loss=(torch.exp(-torch.cdist(x,x).square()/h).mean()+torch.exp(-torch.cdist(y,y).square()/h).mean()-2*torch.exp(-torch.cdist(x,y).square()/h).mean());opt.zero_grad(set_to_none=True);loss.backward();opt.step()
+   if step==1 or step%cfg["runtime"]["log_every"]==0 or step==steps:log.append({"step":step,"mmd_loss":float(loss.detach().cpu())})
+  final={"val":metrics_for(draw,target_val,ref),"test":metrics_for(draw,target_test,ref)};torch.save({"step":steps,"generator":gen.state_dict()},out/f"checkpoint_step{steps}.pt");extra={"generator_class":gen.__class__.__name__,"finite_parameters":finite(gen)}
  else:
   field=build_critic({"critic":{"hidden_dim":model["hidden_dim"],"num_layers":model["num_layers"],"fourier":8}},manifold,3).to(dev);base=BaseSampler(manifold,3);opt=torch.optim.AdamW(field.parameters(),lr=model["learning_rate"])
   def draw(i):g=torch.Generator(device=dev).manual_seed(100000+i);tc=TrainConfig(experiment="fire",ode_steps=model["rfm_ode_steps"]);return sample_rfm(tc,manifold,base,field,len(target_test),dev,torch.float32)

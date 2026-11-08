@@ -21,6 +21,19 @@ Activate it with:
 source .venv/bin/activate
 ```
 
+If the environment needs to be recreated, use the project-local interpreter and
+the exact core set below. The current network path to PyPI timed out before the
+PyTorch wheel could finish downloading, so use a longer timeout on a normal
+local terminal connection:
+
+```sh
+python3.12 -m venv .venv
+.venv/bin/python -m pip install --upgrade pip
+.venv/bin/python -m pip install --timeout 120 \
+  torch==2.5.1 numpy==2.2.5 pandas==2.3.3 matplotlib==3.10.9 \
+  scipy==1.15.3 geoopt==0.5.1 torchdiffeq==0.2.5
+```
+
 ## Output policy
 
 Write all newly generated local artifacts under `artifacts/`; Git ignores the

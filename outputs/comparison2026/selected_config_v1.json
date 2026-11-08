@@ -1,0 +1,539 @@
+{
+  "generator_steps": 50000,
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "groups": {
+    "sphere": {
+      "kgdm": {
+        "width": 128,
+        "depth": 3,
+        "latent_dim": 16,
+        "batch_size": 256,
+        "lr": 0.0002,
+        "kernel": "gauss",
+        "step_size": 1.0
+      },
+      "meanflow": {
+        "width": 128,
+        "depth": 3,
+        "latent_dim": 16,
+        "batch_size": 256,
+        "lr": 0.0002,
+        "variant": "rmf_mt"
+      },
+      "mgm": {
+        "width": 128,
+        "depth": 3,
+        "batch_size": 256,
+        "latent_dim": 16,
+        "lr": 0.0002,
+        "lr_c": 0.0004,
+        "critic_steps": 10,
+        "critic_warmup": 500,
+        "harmonics": 4,
+        "noise": 0.0,
+        "critic_width": 256
+      },
+      "rwflow": {
+        "width": 128,
+        "depth": 3,
+        "latent_dim": 16,
+        "batch_size": 256,
+        "lr": 0.0002,
+        "epsilon": 0.3,
+        "flow_step": 0.2,
+        "sinkhorn_iters": 128,
+        "sinkhorn_solver": "graph64"
+      }
+    },
+    "torus2": {
+      "kgdm": {
+        "width": 128,
+        "depth": 3,
+        "latent_dim": 16,
+        "batch_size": 256,
+        "lr": 0.0002,
+        "kernel": "gauss",
+        "step_size": 1.0
+      },
+      "meanflow": {
+        "width": 128,
+        "depth": 3,
+        "latent_dim": 16,
+        "batch_size": 256,
+        "lr": 0.0002,
+        "variant": "rmf_mt"
+      },
+      "mgm": {
+        "width": 128,
+        "depth": 3,
+        "batch_size": 256,
+        "latent_dim": 16,
+        "lr": 0.0002,
+        "lr_c": 0.0004,
+        "critic_steps": 10,
+        "critic_warmup": 500,
+        "harmonics": 4,
+        "noise": 0.7,
+        "critic_width": 256
+      },
+      "rwflow": {
+        "width": 128,
+        "depth": 3,
+        "latent_dim": 16,
+        "batch_size": 256,
+        "lr": 0.0002,
+        "epsilon": 0.3,
+        "flow_step": 0.2,
+        "sinkhorn_iters": 256,
+        "sinkhorn_solver": "graph64"
+      }
+    },
+    "torus7": {
+      "kgdm": {
+        "width": 128,
+        "depth": 3,
+        "latent_dim": 16,
+        "batch_size": 256,
+        "lr": 0.0002,
+        "kernel": "gauss",
+        "step_size": 1.0
+      },
+      "meanflow": {
+        "width": 128,
+        "depth": 3,
+        "latent_dim": 16,
+        "batch_size": 256,
+        "lr": 0.0002,
+        "variant": "rmf_mt"
+      },
+      "mgm": {
+        "width": 128,
+        "depth": 3,
+        "batch_size": 256,
+        "latent_dim": 16,
+        "lr": 0.0002,
+        "lr_c": 0.0002,
+        "critic_steps": 5,
+        "critic_warmup": 500,
+        "harmonics": 4,
+        "noise": 0.0
+      },
+      "rwflow": {
+        "width": 128,
+        "depth": 3,
+        "latent_dim": 16,
+        "batch_size": 256,
+        "lr": 0.0002,
+        "epsilon": 0.3,
+        "flow_step": 0.2,
+        "sinkhorn_iters": 1024,
+        "sinkhorn_solver": "graph64"
+      }
+    }
+  },
+  "selection": [
+    {
+      "group": "sphere",
+      "method": "kgdm",
+      "selected_folder": "calibration_v2\\fire_kgdm_c2_s0",
+      "validation_mmd2": 0.00789109529255183,
+      "selected_step": 4000,
+      "config": {
+        "width": 128,
+        "depth": 3,
+        "latent_dim": 16,
+        "batch_size": 256,
+        "lr": 0.0002,
+        "kernel": "gauss",
+        "step_size": 1.0
+      },
+      "candidates": [
+        {
+          "folder": "calibration_v2\\fire_kgdm_c0_s0",
+          "validation_mmd2": 0.008682657409293748
+        },
+        {
+          "folder": "calibration_v2\\fire_kgdm_c1_s0",
+          "validation_mmd2": 0.008945471512891268
+        },
+        {
+          "folder": "calibration_v2\\fire_kgdm_c2_s0",
+          "validation_mmd2": 0.00789109529255183
+        }
+      ]
+    },
+    {
+      "group": "sphere",
+      "method": "meanflow",
+      "selected_folder": "calibration_v2\\fire_meanflow_c1_s0",
+      "validation_mmd2": 0.009139379834702033,
+      "selected_step": 2000,
+      "config": {
+        "width": 128,
+        "depth": 3,
+        "latent_dim": 16,
+        "batch_size": 256,
+        "lr": 0.0002,
+        "variant": "rmf_mt"
+      },
+      "candidates": [
+        {
+          "folder": "calibration_v2\\fire_meanflow_c0_s0",
+          "validation_mmd2": 0.009874412655617504
+        },
+        {
+          "folder": "calibration_v2\\fire_meanflow_c1_s0",
+          "validation_mmd2": 0.009139379834702033
+        }
+      ]
+    },
+    {
+      "group": "sphere",
+      "method": "mgm",
+      "selected_folder": "mgm_refinement_v1\\fire_c1_s0",
+      "validation_mmd2": 0.0026627596253739894,
+      "selected_step": 3000,
+      "config": {
+        "width": 128,
+        "depth": 3,
+        "batch_size": 256,
+        "latent_dim": 16,
+        "lr": 0.0002,
+        "lr_c": 0.0004,
+        "critic_steps": 10,
+        "critic_warmup": 500,
+        "harmonics": 4,
+        "noise": 0.0,
+        "critic_width": 256
+      },
+      "candidates": [
+        {
+          "folder": "mgm_calibration_v1\\fire_noise0",
+          "validation_mmd2": 0.0029489973851211104
+        },
+        {
+          "folder": "mgm_refinement_v1\\fire_c0_s0",
+          "validation_mmd2": 0.002681097265594956
+        },
+        {
+          "folder": "mgm_refinement_v1\\fire_c1_s0",
+          "validation_mmd2": 0.0026627596253739894
+        }
+      ]
+    },
+    {
+      "group": "sphere",
+      "method": "rwflow",
+      "selected_folder": "calibration_v2\\fire_rwflow_c1_s0",
+      "validation_mmd2": 0.0013122138060416288,
+      "selected_step": 4000,
+      "config": {
+        "width": 128,
+        "depth": 3,
+        "latent_dim": 16,
+        "batch_size": 256,
+        "lr": 0.0002,
+        "epsilon": 0.3,
+        "flow_step": 0.2,
+        "sinkhorn_iters": 128,
+        "sinkhorn_solver": "graph64"
+      },
+      "candidates": [
+        {
+          "folder": "calibration_v2\\fire_rwflow_c0_s0",
+          "validation_mmd2": 0.0013123032848808558
+        },
+        {
+          "folder": "calibration_v2\\fire_rwflow_c1_s0",
+          "validation_mmd2": 0.0013122138060416288
+        },
+        {
+          "folder": "calibration_v2\\fire_rwflow_c2_s0",
+          "validation_mmd2": 0.0021232605917435032
+        },
+        {
+          "folder": "calibration_v2\\fire_rwflow_c3_s0",
+          "validation_mmd2": 0.0021226566947498693
+        }
+      ]
+    },
+    {
+      "group": "torus2",
+      "method": "kgdm",
+      "selected_folder": "calibration_v2\\general_kgdm_c2_s0",
+      "validation_mmd2": 0.006775771538638287,
+      "selected_step": 4000,
+      "config": {
+        "width": 128,
+        "depth": 3,
+        "latent_dim": 16,
+        "batch_size": 256,
+        "lr": 0.0002,
+        "kernel": "gauss",
+        "step_size": 1.0
+      },
+      "candidates": [
+        {
+          "folder": "calibration_v2\\general_kgdm_c0_s0",
+          "validation_mmd2": 0.011637935321404225
+        },
+        {
+          "folder": "calibration_v2\\general_kgdm_c1_s0",
+          "validation_mmd2": 0.011010986473452333
+        },
+        {
+          "folder": "calibration_v2\\general_kgdm_c2_s0",
+          "validation_mmd2": 0.006775771538638287
+        }
+      ]
+    },
+    {
+      "group": "torus2",
+      "method": "meanflow",
+      "selected_folder": "calibration_v2\\general_meanflow_c1_s0",
+      "validation_mmd2": 0.009674624064728965,
+      "selected_step": 4000,
+      "config": {
+        "width": 128,
+        "depth": 3,
+        "latent_dim": 16,
+        "batch_size": 256,
+        "lr": 0.0002,
+        "variant": "rmf_mt"
+      },
+      "candidates": [
+        {
+          "folder": "calibration_v2\\general_meanflow_c0_s0",
+          "validation_mmd2": 0.010881096624624553
+        },
+        {
+          "folder": "calibration_v2\\general_meanflow_c1_s0",
+          "validation_mmd2": 0.009674624064728965
+        }
+      ]
+    },
+    {
+      "group": "torus2",
+      "method": "mgm",
+      "selected_folder": "mgm_refinement_v1\\general_c1_s0",
+      "validation_mmd2": 0.00999375117911705,
+      "selected_step": 4000,
+      "config": {
+        "width": 128,
+        "depth": 3,
+        "batch_size": 256,
+        "latent_dim": 16,
+        "lr": 0.0002,
+        "lr_c": 0.0004,
+        "critic_steps": 10,
+        "critic_warmup": 500,
+        "harmonics": 4,
+        "noise": 0.7,
+        "critic_width": 256
+      },
+      "candidates": [
+        {
+          "folder": "mgm_calibration_v1\\general_noise0",
+          "validation_mmd2": 0.020386365999223055
+        },
+        {
+          "folder": "mgm_calibration_v1\\general_noise0.7",
+          "validation_mmd2": 0.010071803596222506
+        },
+        {
+          "folder": "mgm_refinement_v1\\general_c0_s0",
+          "validation_mmd2": 0.012059726456139952
+        },
+        {
+          "folder": "mgm_refinement_v1\\general_c1_s0",
+          "validation_mmd2": 0.00999375117911705
+        }
+      ]
+    },
+    {
+      "group": "torus2",
+      "method": "rwflow",
+      "selected_folder": "calibration_v2\\general_rwflow_c1_s0",
+      "validation_mmd2": 0.0017460653005754168,
+      "selected_step": 4000,
+      "config": {
+        "width": 128,
+        "depth": 3,
+        "latent_dim": 16,
+        "batch_size": 256,
+        "lr": 0.0002,
+        "epsilon": 0.3,
+        "flow_step": 0.2,
+        "sinkhorn_iters": 256,
+        "sinkhorn_solver": "graph64"
+      },
+      "candidates": [
+        {
+          "folder": "calibration_v2\\general_rwflow_c0_s0",
+          "validation_mmd2": 0.0017464544775107615
+        },
+        {
+          "folder": "calibration_v2\\general_rwflow_c1_s0",
+          "validation_mmd2": 0.0017460653005754168
+        },
+        {
+          "folder": "calibration_v2\\general_rwflow_c2_s0",
+          "validation_mmd2": 0.002067433049976586
+        },
+        {
+          "folder": "calibration_v2\\general_rwflow_c3_s0",
+          "validation_mmd2": 0.0020670292730078366
+        }
+      ]
+    },
+    {
+      "group": "torus7",
+      "method": "kgdm",
+      "selected_folder": "calibration_v2\\rna_kgdm_c2_s0",
+      "validation_mmd2": 0.19622498645153458,
+      "selected_step": 4000,
+      "config": {
+        "width": 128,
+        "depth": 3,
+        "latent_dim": 16,
+        "batch_size": 256,
+        "lr": 0.0002,
+        "kernel": "gauss",
+        "step_size": 1.0
+      },
+      "candidates": [
+        {
+          "folder": "calibration_v2\\rna_kgdm_c0_s0",
+          "validation_mmd2": 0.2049861185350616
+        },
+        {
+          "folder": "calibration_v2\\rna_kgdm_c1_s0",
+          "validation_mmd2": 0.19981535609656792
+        },
+        {
+          "folder": "calibration_v2\\rna_kgdm_c2_s0",
+          "validation_mmd2": 0.19622498645153458
+        }
+      ]
+    },
+    {
+      "group": "torus7",
+      "method": "meanflow",
+      "selected_folder": "calibration_v2\\rna_meanflow_c1_s0",
+      "validation_mmd2": 0.23955135519248727,
+      "selected_step": 4000,
+      "config": {
+        "width": 128,
+        "depth": 3,
+        "latent_dim": 16,
+        "batch_size": 256,
+        "lr": 0.0002,
+        "variant": "rmf_mt"
+      },
+      "candidates": [
+        {
+          "folder": "calibration_v2\\rna_meanflow_c0_s0",
+          "validation_mmd2": 0.2409463174779245
+        },
+        {
+          "folder": "calibration_v2\\rna_meanflow_c1_s0",
+          "validation_mmd2": 0.23955135519248727
+        }
+      ]
+    },
+    {
+      "group": "torus7",
+      "method": "mgm",
+      "selected_folder": "mgm_calibration_v1\\rna_noise0",
+      "validation_mmd2": 0.19840912401396754,
+      "selected_step": 4000,
+      "config": {
+        "width": 128,
+        "depth": 3,
+        "batch_size": 256,
+        "latent_dim": 16,
+        "lr": 0.0002,
+        "lr_c": 0.0002,
+        "critic_steps": 5,
+        "critic_warmup": 500,
+        "harmonics": 4,
+        "noise": 0.0
+      },
+      "candidates": [
+        {
+          "folder": "mgm_calibration_v1\\rna_noise0",
+          "validation_mmd2": 0.19840912401396754
+        },
+        {
+          "folder": "mgm_calibration_v1\\rna_noise0.7",
+          "validation_mmd2": 0.20091712922097832
+        },
+        {
+          "folder": "mgm_refinement_v1\\rna_c0_s0",
+          "validation_mmd2": 0.2093062840977385
+        },
+        {
+          "folder": "mgm_refinement_v1\\rna_c1_s0",
+          "validation_mmd2": 0.20534466658270845
+        }
+      ]
+    },
+    {
+      "group": "torus7",
+      "method": "rwflow",
+      "selected_folder": "calibration_v2\\rna_rwflow_c1_s0",
+      "validation_mmd2": 0.1612298997417329,
+      "selected_step": 4000,
+      "config": {
+        "width": 128,
+        "depth": 3,
+        "latent_dim": 16,
+        "batch_size": 256,
+        "lr": 0.0002,
+        "epsilon": 0.3,
+        "flow_step": 0.2,
+        "sinkhorn_iters": 1024,
+        "sinkhorn_solver": "graph64"
+      },
+      "candidates": [
+        {
+          "folder": "calibration_v2\\rna_rwflow_c0_s0",
+          "validation_mmd2": 0.1613162842518608
+        },
+        {
+          "folder": "calibration_v2\\rna_rwflow_c1_s0",
+          "validation_mmd2": 0.1612298997417329
+        },
+        {
+          "folder": "calibration_v2\\rna_rwflow_c2_s0",
+          "validation_mmd2": 0.1618315790905855
+        },
+        {
+          "folder": "calibration_v2\\rna_rwflow_c3_s0",
+          "validation_mmd2": 0.16180295478483803
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "phase": "mgm_calibration_v1",
+      "protocol_sha256": "bf011cf62559144d08ec192b8616d5a8dba3f83f9fa0635735e19f936b191828"
+    },
+    {
+      "phase": "calibration_v2",
+      "protocol_sha256": "abb350ee2213c9a3d22244f89844ded9000a2fd402a6d301807356ca70dedeb1"
+    },
+    {
+      "phase": "mgm_refinement_v1",
+      "protocol_sha256": "2f206d8a1ea82ba1dd0bd35bb09cb519f87ebbf1b99dfefd6960d51320d62170"
+    }
+  ],
+  "solver_probe_sha256": "84a39ed3c4e3582d9fa4ad323afc70b335ff82b876e78632c9c997db1035e822",
+  "rule": "Lowest fixed-probe validation kernel MMD squared; representative fire/T2-general/T7-rna; initial checkpoint eligible; no test inspected.",
+  "scope": "Controlled small-backbone comparison; not author-budget reproduction or a convergence guarantee. All final jobs get 50000 generator updates; MGM critic updates counted separately."
+}

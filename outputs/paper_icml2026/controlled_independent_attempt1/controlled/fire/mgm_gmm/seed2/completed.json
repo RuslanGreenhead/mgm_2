@@ -1,0 +1,15 @@
+{
+  "data": "fire",
+  "method": "mgm_gmm",
+  "seed": 2,
+  "steps": 2000,
+  "train_seconds": 12.786468199999945,
+  "finished_at": "2026-10-23T19:43:32.386956+00:00",
+  "finite_parameters": true,
+  "evaluation_rng_invariance_verified": true,
+  "parameter_change_l2": {
+    "centers": 0.1470775604248047,
+    "log_scale": 0.0851302519440651,
+    "component_logits": 0.0
+  }
+}

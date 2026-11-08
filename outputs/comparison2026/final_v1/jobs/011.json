@@ -1,0 +1,22 @@
+{
+  "data": "volcano",
+  "method": "rwflow",
+  "seed": 2,
+  "steps": 50000,
+  "eval_every": 5000,
+  "validation_draws": 3,
+  "score_test": true,
+  "output": "outputs/comparison2026/final_v1/volcano_rwflow_c0_s2",
+  "config": {
+    "width": 128,
+    "depth": 3,
+    "latent_dim": 16,
+    "batch_size": 256,
+    "lr": 0.0002,
+    "epsilon": 0.3,
+    "flow_step": 0.2,
+    "sinkhorn_iters": 128,
+    "sinkhorn_solver": "graph64"
+  },
+  "concurrent_training_workers": 2
+}

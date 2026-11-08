@@ -1,0 +1,17 @@
+{
+  "data": "fire",
+  "method": "kgdm",
+  "seed": 0,
+  "steps": 100,
+  "eval_every": 100,
+  "validation_draws": 1,
+  "score_test": false,
+  "output": "outputs/comparison2026/integration_v1/fire_kgdm_c0_s0",
+  "config": {
+    "width": 128,
+    "depth": 3,
+    "latent_dim": 16,
+    "batch_size": 256,
+    "lr": 0.0002
+  }
+}

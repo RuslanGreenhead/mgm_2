@@ -1,0 +1,59 @@
+{
+  "data": "volcano",
+  "method": "meanflow",
+  "seed": 1,
+  "steps": 50000,
+  "eval_every": 5000,
+  "validation_draws": 3,
+  "score_test": true,
+  "output": "outputs/comparison2026/final_v1/volcano_meanflow_c0_s1",
+  "config": {
+    "width": 128,
+    "depth": 3,
+    "latent_dim": 16,
+    "batch_size": 256,
+    "lr": 0.0002,
+    "variant": "rmf_mt"
+  },
+  "concurrent_training_workers": 2,
+  "data_manifest_sha256": "a95d28e5be47a5895206b7f5ce566099cde5aba3b3ad1aa554b4e87b3b0a45fa",
+  "model_parameters": 51721,
+  "gpu": "NVIDIA GeForce RTX 4090",
+  "torch": "2.5.1",
+  "worker_pid": 21432,
+  "critic_parameters": 0,
+  "resolved_config": {
+    "width": 128,
+    "depth": 3,
+    "latent_dim": 16,
+    "lr": 0.0002,
+    "batch_size": 256,
+    "weight_decay": 0.01,
+    "prop_equal_times": 0.75,
+    "time_distribution": "uniform",
+    "variant": "rmf_mt",
+    "torus_fourier": 1,
+    "pcgrad_reduction": "mean",
+    "grad_clip": null
+  },
+  "provenance": {
+    "method": "RMF-MT",
+    "author_url": "https://github.com/haolsun/Riemannian_MeanFlow",
+    "author_commit": "45d96bcd09a271ea3a770b2014865dabbac9eeeb",
+    "paper_url": "https://arxiv.org/abs/2603.10718v3",
+    "fidelity": "source-derived native loss/TMLP; benchmark adaptation",
+    "common_generator": false,
+    "teacher": false,
+    "parameter_count": 51721,
+    "torus_periodic_features": false,
+    "derivative": "native ambient JVP; stopped target",
+    "scheduler": "none; parent owns schedule/budget"
+  },
+  "author_source": {
+    "AUTHOR_URL": "https://github.com/haolsun/Riemannian_MeanFlow",
+    "AUTHOR_COMMIT": "45d96bcd09a271ea3a770b2014865dabbac9eeeb",
+    "PAPER_URL": "https://arxiv.org/abs/2603.10718v3"
+  },
+  "executed_worker_sha256": "603bd567db5767008e175396493ea016077c3fbed1b3c58ceeae6e61e15719a1",
+  "method_source_sha256": "d80909b40c59ea99bc5010aec4977f1c21ac91e57b2ae9f47e14f4be4f082717"
+}

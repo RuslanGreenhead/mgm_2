@@ -1,0 +1,17 @@
+{
+  "scope": "pre-archive selection checks; final CRC/SHA checks are in the external .checks.json",
+  "all_discovered_canonical_code_selected": true,
+  "canonical_code_files": 581,
+  "static_index_syntax_errors": [],
+  "article_pdf_unchanged": true,
+  "article_pdf_sha256": "b7eaa12fc7f7b3f52a18fe74ade669d65b6ceb3e3f2d69db8f2ecef151fcb755",
+  "recorded_evidence_status": {
+    "completed": 18,
+    "interrupted": 2,
+    "not_started": 88
+  },
+  "weights_and_raw_arrays_selected": false,
+  "gpu_used": false,
+  "training_launched": false,
+  "fresh_dependency_installation_tested": false
+}

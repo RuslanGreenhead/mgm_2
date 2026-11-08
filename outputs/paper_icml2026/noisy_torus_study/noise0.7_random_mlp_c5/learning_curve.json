@@ -1,0 +1,608 @@
+[
+  {
+    "step": 1,
+    "loss": 2.698995351791382,
+    "critic_loss": 2.8562746047973633,
+    "critic_updates": 505
+  },
+  {
+    "step": 100,
+    "loss": 1.0793874263763428,
+    "critic_loss": 3.1776089668273926,
+    "critic_updates": 1000
+  },
+  {
+    "step": 200,
+    "loss": 0.12355887144804001,
+    "critic_loss": 4.226552486419678,
+    "critic_updates": 1500
+  },
+  {
+    "step": 300,
+    "loss": 0.2251535952091217,
+    "critic_loss": 3.7838854789733887,
+    "critic_updates": 2000
+  },
+  {
+    "step": 400,
+    "loss": 0.20411668717861176,
+    "critic_loss": 3.772026777267456,
+    "critic_updates": 2500
+  },
+  {
+    "step": 500,
+    "loss": 0.14419104158878326,
+    "critic_loss": 3.8917057514190674,
+    "critic_updates": 3000
+  },
+  {
+    "step": 600,
+    "loss": 0.43192583322525024,
+    "critic_loss": 4.448278427124023,
+    "critic_updates": 3500
+  },
+  {
+    "step": 700,
+    "loss": 0.4129442274570465,
+    "critic_loss": 4.107773780822754,
+    "critic_updates": 4000
+  },
+  {
+    "step": 800,
+    "loss": 0.121815025806427,
+    "critic_loss": 4.195653915405273,
+    "critic_updates": 4500
+  },
+  {
+    "step": 900,
+    "loss": 0.18601088225841522,
+    "critic_loss": 4.259943008422852,
+    "critic_updates": 5000
+  },
+  {
+    "step": 1000,
+    "loss": 0.19827038049697876,
+    "critic_loss": 4.273672103881836,
+    "critic_updates": 5500
+  },
+  {
+    "step": 1100,
+    "loss": 0.38422560691833496,
+    "critic_loss": 4.230247497558594,
+    "critic_updates": 6000
+  },
+  {
+    "step": 1200,
+    "loss": 0.4217883348464966,
+    "critic_loss": 4.141413688659668,
+    "critic_updates": 6500
+  },
+  {
+    "step": 1300,
+    "loss": 0.19690091907978058,
+    "critic_loss": 4.089206218719482,
+    "critic_updates": 7000
+  },
+  {
+    "step": 1400,
+    "loss": 0.3499087691307068,
+    "critic_loss": 4.23394775390625,
+    "critic_updates": 7500
+  },
+  {
+    "step": 1500,
+    "loss": 0.22912637889385223,
+    "critic_loss": 4.195363998413086,
+    "critic_updates": 8000
+  },
+  {
+    "step": 1600,
+    "loss": 0.3781590461730957,
+    "critic_loss": 4.397221565246582,
+    "critic_updates": 8500
+  },
+  {
+    "step": 1700,
+    "loss": 0.36266225576400757,
+    "critic_loss": 3.780698776245117,
+    "critic_updates": 9000
+  },
+  {
+    "step": 1800,
+    "loss": 0.3005625903606415,
+    "critic_loss": 4.088834285736084,
+    "critic_updates": 9500
+  },
+  {
+    "step": 1900,
+    "loss": 0.246834859251976,
+    "critic_loss": 4.140483856201172,
+    "critic_updates": 10000
+  },
+  {
+    "step": 2000,
+    "loss": 0.31006914377212524,
+    "critic_loss": 4.203617572784424,
+    "critic_updates": 10500
+  },
+  {
+    "step": 2100,
+    "loss": 0.4212232232093811,
+    "critic_loss": 4.109982490539551,
+    "critic_updates": 11000
+  },
+  {
+    "step": 2200,
+    "loss": 0.24753950536251068,
+    "critic_loss": 3.954723358154297,
+    "critic_updates": 11500
+  },
+  {
+    "step": 2300,
+    "loss": 0.32184529304504395,
+    "critic_loss": 4.327676773071289,
+    "critic_updates": 12000
+  },
+  {
+    "step": 2400,
+    "loss": 0.20406508445739746,
+    "critic_loss": 4.007503986358643,
+    "critic_updates": 12500
+  },
+  {
+    "step": 2500,
+    "loss": 0.2704859972000122,
+    "critic_loss": 3.920891523361206,
+    "critic_updates": 13000
+  },
+  {
+    "step": 2600,
+    "loss": 0.41479068994522095,
+    "critic_loss": 4.425235748291016,
+    "critic_updates": 13500
+  },
+  {
+    "step": 2700,
+    "loss": 0.2585127651691437,
+    "critic_loss": 4.472024917602539,
+    "critic_updates": 14000
+  },
+  {
+    "step": 2800,
+    "loss": 0.2419743835926056,
+    "critic_loss": 4.00841760635376,
+    "critic_updates": 14500
+  },
+  {
+    "step": 2900,
+    "loss": 0.25315624475479126,
+    "critic_loss": 4.227280139923096,
+    "critic_updates": 15000
+  },
+  {
+    "step": 3000,
+    "loss": 0.27328813076019287,
+    "critic_loss": 4.2086381912231445,
+    "critic_updates": 15500
+  },
+  {
+    "step": 3100,
+    "loss": 0.023572733625769615,
+    "critic_loss": 4.099645614624023,
+    "critic_updates": 16000
+  },
+  {
+    "step": 3200,
+    "loss": 0.2571537494659424,
+    "critic_loss": 4.115852355957031,
+    "critic_updates": 16500
+  },
+  {
+    "step": 3300,
+    "loss": 0.23813889920711517,
+    "critic_loss": 3.979105234146118,
+    "critic_updates": 17000
+  },
+  {
+    "step": 3400,
+    "loss": 0.21257609128952026,
+    "critic_loss": 4.123432159423828,
+    "critic_updates": 17500
+  },
+  {
+    "step": 3500,
+    "loss": 0.2833172678947449,
+    "critic_loss": 3.8013148307800293,
+    "critic_updates": 18000
+  },
+  {
+    "step": 3600,
+    "loss": 0.28539764881134033,
+    "critic_loss": 4.125217437744141,
+    "critic_updates": 18500
+  },
+  {
+    "step": 3700,
+    "loss": 0.33199548721313477,
+    "critic_loss": 3.9409568309783936,
+    "critic_updates": 19000
+  },
+  {
+    "step": 3800,
+    "loss": 0.2968665361404419,
+    "critic_loss": 4.245206832885742,
+    "critic_updates": 19500
+  },
+  {
+    "step": 3900,
+    "loss": 0.1824743151664734,
+    "critic_loss": 4.232183456420898,
+    "critic_updates": 20000
+  },
+  {
+    "step": 4000,
+    "loss": 0.3897816240787506,
+    "critic_loss": 4.3307085037231445,
+    "critic_updates": 20500
+  },
+  {
+    "step": 4100,
+    "loss": 0.3611045181751251,
+    "critic_loss": 4.473920822143555,
+    "critic_updates": 21000
+  },
+  {
+    "step": 4200,
+    "loss": 0.31828370690345764,
+    "critic_loss": 4.419057369232178,
+    "critic_updates": 21500
+  },
+  {
+    "step": 4300,
+    "loss": 0.3958296775817871,
+    "critic_loss": 4.215030670166016,
+    "critic_updates": 22000
+  },
+  {
+    "step": 4400,
+    "loss": 0.342887282371521,
+    "critic_loss": 4.044742584228516,
+    "critic_updates": 22500
+  },
+  {
+    "step": 4500,
+    "loss": 0.33759069442749023,
+    "critic_loss": 3.7810328006744385,
+    "critic_updates": 23000
+  },
+  {
+    "step": 4600,
+    "loss": 0.3200546205043793,
+    "critic_loss": 4.166225910186768,
+    "critic_updates": 23500
+  },
+  {
+    "step": 4700,
+    "loss": 0.42290768027305603,
+    "critic_loss": 3.7442128658294678,
+    "critic_updates": 24000
+  },
+  {
+    "step": 4800,
+    "loss": 0.3402647078037262,
+    "critic_loss": 4.247403144836426,
+    "critic_updates": 24500
+  },
+  {
+    "step": 4900,
+    "loss": 0.2416963130235672,
+    "critic_loss": 4.138256072998047,
+    "critic_updates": 25000
+  },
+  {
+    "step": 5000,
+    "loss": 0.36836203932762146,
+    "critic_loss": 4.088824272155762,
+    "critic_updates": 25500
+  },
+  {
+    "step": 5100,
+    "loss": 0.21028505265712738,
+    "critic_loss": 4.208801746368408,
+    "critic_updates": 26000
+  },
+  {
+    "step": 5200,
+    "loss": 0.279485821723938,
+    "critic_loss": 4.227537155151367,
+    "critic_updates": 26500
+  },
+  {
+    "step": 5300,
+    "loss": 0.3561389446258545,
+    "critic_loss": 3.846268653869629,
+    "critic_updates": 27000
+  },
+  {
+    "step": 5400,
+    "loss": 0.21720793843269348,
+    "critic_loss": 3.955047607421875,
+    "critic_updates": 27500
+  },
+  {
+    "step": 5500,
+    "loss": 0.3307192921638489,
+    "critic_loss": 3.9262051582336426,
+    "critic_updates": 28000
+  },
+  {
+    "step": 5600,
+    "loss": 0.37913891673088074,
+    "critic_loss": 4.372432708740234,
+    "critic_updates": 28500
+  },
+  {
+    "step": 5700,
+    "loss": 0.3307984471321106,
+    "critic_loss": 4.427075386047363,
+    "critic_updates": 29000
+  },
+  {
+    "step": 5800,
+    "loss": 0.4080740213394165,
+    "critic_loss": 4.4739580154418945,
+    "critic_updates": 29500
+  },
+  {
+    "step": 5900,
+    "loss": 0.4165351390838623,
+    "critic_loss": 4.00494909286499,
+    "critic_updates": 30000
+  },
+  {
+    "step": 6000,
+    "loss": 0.29266268014907837,
+    "critic_loss": 4.193974018096924,
+    "critic_updates": 30500
+  },
+  {
+    "step": 6100,
+    "loss": 0.47302019596099854,
+    "critic_loss": 4.262646198272705,
+    "critic_updates": 31000
+  },
+  {
+    "step": 6200,
+    "loss": 0.21737684309482574,
+    "critic_loss": 4.1756086349487305,
+    "critic_updates": 31500
+  },
+  {
+    "step": 6300,
+    "loss": 0.4291086792945862,
+    "critic_loss": 4.221193313598633,
+    "critic_updates": 32000
+  },
+  {
+    "step": 6400,
+    "loss": 0.38051262497901917,
+    "critic_loss": 4.050049304962158,
+    "critic_updates": 32500
+  },
+  {
+    "step": 6500,
+    "loss": 0.33162155747413635,
+    "critic_loss": 4.166994094848633,
+    "critic_updates": 33000
+  },
+  {
+    "step": 6600,
+    "loss": 0.33911824226379395,
+    "critic_loss": 4.343649864196777,
+    "critic_updates": 33500
+  },
+  {
+    "step": 6700,
+    "loss": 0.40408357977867126,
+    "critic_loss": 4.096749782562256,
+    "critic_updates": 34000
+  },
+  {
+    "step": 6800,
+    "loss": 0.10238714516162872,
+    "critic_loss": 3.9123663902282715,
+    "critic_updates": 34500
+  },
+  {
+    "step": 6900,
+    "loss": 0.3334181308746338,
+    "critic_loss": 3.873076915740967,
+    "critic_updates": 35000
+  },
+  {
+    "step": 7000,
+    "loss": 0.23900029063224792,
+    "critic_loss": 4.38261604309082,
+    "critic_updates": 35500
+  },
+  {
+    "step": 7100,
+    "loss": 0.3660578727722168,
+    "critic_loss": 4.5267839431762695,
+    "critic_updates": 36000
+  },
+  {
+    "step": 7200,
+    "loss": 0.3270738124847412,
+    "critic_loss": 3.9728879928588867,
+    "critic_updates": 36500
+  },
+  {
+    "step": 7300,
+    "loss": 0.35546761751174927,
+    "critic_loss": 3.734309673309326,
+    "critic_updates": 37000
+  },
+  {
+    "step": 7400,
+    "loss": 0.38368165493011475,
+    "critic_loss": 4.126956939697266,
+    "critic_updates": 37500
+  },
+  {
+    "step": 7500,
+    "loss": 0.24675381183624268,
+    "critic_loss": 4.139587879180908,
+    "critic_updates": 38000
+  },
+  {
+    "step": 7600,
+    "loss": 0.31307676434516907,
+    "critic_loss": 4.1477861404418945,
+    "critic_updates": 38500
+  },
+  {
+    "step": 7700,
+    "loss": 0.42922693490982056,
+    "critic_loss": 4.168345928192139,
+    "critic_updates": 39000
+  },
+  {
+    "step": 7800,
+    "loss": 0.28691405057907104,
+    "critic_loss": 4.1475510597229,
+    "critic_updates": 39500
+  },
+  {
+    "step": 7900,
+    "loss": 0.35563063621520996,
+    "critic_loss": 3.945948839187622,
+    "critic_updates": 40000
+  },
+  {
+    "step": 8000,
+    "loss": 0.46758681535720825,
+    "critic_loss": 4.050751209259033,
+    "critic_updates": 40500
+  },
+  {
+    "step": 8100,
+    "loss": 0.39370545744895935,
+    "critic_loss": 4.109360218048096,
+    "critic_updates": 41000
+  },
+  {
+    "step": 8200,
+    "loss": 0.22522278130054474,
+    "critic_loss": 4.464107513427734,
+    "critic_updates": 41500
+  },
+  {
+    "step": 8300,
+    "loss": 0.3328612446784973,
+    "critic_loss": 3.9639275074005127,
+    "critic_updates": 42000
+  },
+  {
+    "step": 8400,
+    "loss": 0.29475826025009155,
+    "critic_loss": 3.797807455062866,
+    "critic_updates": 42500
+  },
+  {
+    "step": 8500,
+    "loss": 0.27023404836654663,
+    "critic_loss": 3.617863893508911,
+    "critic_updates": 43000
+  },
+  {
+    "step": 8600,
+    "loss": 0.2778446674346924,
+    "critic_loss": 3.8650505542755127,
+    "critic_updates": 43500
+  },
+  {
+    "step": 8700,
+    "loss": 0.15600623190402985,
+    "critic_loss": 4.0486297607421875,
+    "critic_updates": 44000
+  },
+  {
+    "step": 8800,
+    "loss": 0.3782694935798645,
+    "critic_loss": 4.260470390319824,
+    "critic_updates": 44500
+  },
+  {
+    "step": 8900,
+    "loss": 0.26669391989707947,
+    "critic_loss": 3.9737284183502197,
+    "critic_updates": 45000
+  },
+  {
+    "step": 9000,
+    "loss": 0.4020056128501892,
+    "critic_loss": 4.331665992736816,
+    "critic_updates": 45500
+  },
+  {
+    "step": 9100,
+    "loss": 0.20283618569374084,
+    "critic_loss": 3.7763285636901855,
+    "critic_updates": 46000
+  },
+  {
+    "step": 9200,
+    "loss": 0.31721797585487366,
+    "critic_loss": 4.002241134643555,
+    "critic_updates": 46500
+  },
+  {
+    "step": 9300,
+    "loss": 0.3725401759147644,
+    "critic_loss": 4.296311855316162,
+    "critic_updates": 47000
+  },
+  {
+    "step": 9400,
+    "loss": 0.1587708592414856,
+    "critic_loss": 4.116648197174072,
+    "critic_updates": 47500
+  },
+  {
+    "step": 9500,
+    "loss": 0.44407549500465393,
+    "critic_loss": 4.20854377746582,
+    "critic_updates": 48000
+  },
+  {
+    "step": 9600,
+    "loss": 0.13366514444351196,
+    "critic_loss": 4.0411834716796875,
+    "critic_updates": 48500
+  },
+  {
+    "step": 9700,
+    "loss": 0.3126392364501953,
+    "critic_loss": 4.487314224243164,
+    "critic_updates": 49000
+  },
+  {
+    "step": 9800,
+    "loss": 0.31990358233451843,
+    "critic_loss": 4.24522066116333,
+    "critic_updates": 49500
+  },
+  {
+    "step": 9900,
+    "loss": 0.2677745223045349,
+    "critic_loss": 4.108173847198486,
+    "critic_updates": 50000
+  },
+  {
+    "step": 10000,
+    "loss": 0.44763439893722534,
+    "critic_loss": 4.496686935424805,
+    "critic_updates": 50500
+  }
+]

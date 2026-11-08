@@ -1,0 +1,8 @@
+{
+  "include_in_final_tables": false,
+  "completed_jobs_before_stop": 13,
+  "started_jobs_before_stop": 14,
+  "reason": "First wrapper used metric_inner reduction instead of original controlled-suite manifold.inner(...).mean()/dim for RFM. Constant normalization differs on FlatTorus. Entire attempt preserved but excluded, including otherwise valid cases. Corrected clean rerun uses exact original expression with AST-equivalence guard.",
+  "superseded_by": "../controlled_independent",
+  "original_controlled_and_source_snapshot_untouched": true
+}

@@ -1,0 +1,33 @@
+# Local Python environments and editor state
+.venv/
+.DS_Store
+.idea/
+.vscode/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local experiment artifacts (never source-of-truth inputs)
+artifacts/*
+!artifacts/.gitkeep
+runs/
+local/
+
+# Generated model/data files
+*.ckpt
+*.pt
+*.pth
+*.safetensors
+*.onnx
+*.npy
+*.npz
+*.h5
+*.hdf5
+
+# Locally restored raw datasets; acquisition instructions and README files remain tracked
+external/riemannian-fm/data/earth_data/
+external/riemannian-fm/data/top500/aggregated_angles.tsv
+external/riemannian-fm/data/rna/aggregated_angles.tsv
+external/riemannian-fm/data/mesh/

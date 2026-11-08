@@ -1,0 +1,116 @@
+{
+  "stage": "Real ACRONYM two-object CPU integration; NOT a training comparison or physical success study",
+  "protocol": "within_object_heldout_pose",
+  "integration_eval_split": "val",
+  "primary_test_quality_peeked": false,
+  "gpu_used": false,
+  "physical_success_rate": null,
+  "runs": {
+    "mgm": {
+      "exact_resume_model_optimizer_and_all_rng": true,
+      "cpu_seconds": 0.36965150000014546,
+      "iterations": 30,
+      "batch": 64,
+      "width": 64,
+      "cpu_threads": 2,
+      "parameter_count": 23622,
+      "critic_parameter_count": 23494,
+      "seconds_per_iteration_including_warmup": 0.012321716666671515,
+      "linear_10k_cpu_estimate_seconds_same_smoke_config": 123.21716666671516,
+      "metrics_paths": [
+        "outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration_reference\\mgm\\eval_val_nfe1\\metrics.json"
+      ],
+      "final_losses": {
+        "critic_loss": 2.2658531665802,
+        "critic_grad_norm": 0.26327142119407654,
+        "loss": 0.05794033408164978,
+        "grad_norm": 0.08159422129392624
+      }
+    },
+    "rmf_mt": {
+      "exact_resume_model_optimizer_and_all_rng": true,
+      "cpu_seconds": 0.35249449999992066,
+      "iterations": 30,
+      "batch": 64,
+      "width": 64,
+      "cpu_threads": 2,
+      "parameter_count": 23494,
+      "critic_parameter_count": 0,
+      "seconds_per_iteration_including_warmup": 0.011749816666664022,
+      "linear_10k_cpu_estimate_seconds_same_smoke_config": 117.49816666664022,
+      "metrics_paths": [
+        "outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration_reference\\rmf_mt\\eval_val_nfe1\\metrics.json"
+      ],
+      "final_losses": {
+        "native_loss_1": 13.521615028381348,
+        "native_loss_2": -0.001245906576514244,
+        "loss": 13.520369529724121,
+        "grad_norm": 1.0532816648483276
+      }
+    },
+    "rfm": {
+      "exact_resume_model_optimizer_and_all_rng": true,
+      "cpu_seconds": 0.08253830000012385,
+      "iterations": 30,
+      "batch": 64,
+      "width": 64,
+      "cpu_threads": 2,
+      "parameter_count": 23494,
+      "critic_parameter_count": 0,
+      "seconds_per_iteration_including_warmup": 0.002751276666670795,
+      "linear_10k_cpu_estimate_seconds_same_smoke_config": 27.51276666670795,
+      "metrics_paths": [
+        "outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration_reference\\rfm\\eval_val_nfe50\\metrics.json",
+        "outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration_reference\\rfm\\eval_val_nfe100\\metrics.json"
+      ],
+      "final_losses": {
+        "loss": 2.2524514198303223,
+        "grad_norm": 0.348432719707489
+      }
+    },
+    "rmf_ccadapt": {
+      "exact_resume_model_optimizer_and_all_rng": true,
+      "cpu_seconds": 0.1149543999999878,
+      "iterations": 30,
+      "batch": 64,
+      "width": 64,
+      "cpu_threads": 2,
+      "parameter_count": 23494,
+      "critic_parameter_count": 0,
+      "seconds_per_iteration_including_warmup": 0.0038318133333329267,
+      "linear_10k_cpu_estimate_seconds_same_smoke_config": 38.318133333329264,
+      "metrics_paths": [
+        "outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration_reference\\rmf_ccadapt\\eval_val_nfe1\\metrics.json"
+      ],
+      "final_losses": {
+        "loss": 2.236523389816284,
+        "grad_norm": 0.18482205271720886
+      }
+    },
+    "glsd": {
+      "exact_resume_model_optimizer_and_all_rng": true,
+      "cpu_seconds": 0.20770880000054603,
+      "iterations": 30,
+      "batch": 64,
+      "width": 64,
+      "cpu_threads": 2,
+      "parameter_count": 23494,
+      "critic_parameter_count": 0,
+      "seconds_per_iteration_including_warmup": 0.0069236266666848675,
+      "linear_10k_cpu_estimate_seconds_same_smoke_config": 69.23626666684868,
+      "metrics_paths": [
+        "outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration_reference\\glsd\\eval_val_nfe1\\metrics.json"
+      ],
+      "final_losses": {
+        "loss": 2.252479314804077,
+        "grad_norm": 0.34809964895248413
+      }
+    }
+  },
+  "figures": [
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration_reference\\Mug_10f6e09036350e92b3f21f1137c3c347_0.0002682457830986903_comparison.png",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration_reference\\Table_99cf659ae2fe4b87b72437fd995483b_0.009700376721042367_comparison.png"
+  ],
+  "gpu_timing": "Not measured; parent queue release required",
+  "performance_limitations": "CPU timings use width64, batch64 and two MGM critic updates; do not extrapolate to the width128/batch256/five-critic GPU schedule."
+}

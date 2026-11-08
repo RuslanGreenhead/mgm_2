@@ -1,0 +1,69 @@
+# Training defaults for the promoter-DNA drift model. A --formulation overrides
+# the geometry + tuned scalars from configs/winners.yaml; explicit CLI flags
+# override everything. Fields are grouped only for readability -- src.main
+# flattens data/model/train/wandb into one namespace.
+
+data:
+  # Directory holding the promoter data + Sei weights:
+  #   Homo_sapiens.GRCh38.dna.primary_assembly.fa(.fai)
+  #   agg.plus.bw.bedgraph.bw   agg.minus.bw.bedgraph.bw
+  #   FANTOM_CAT.lv3_robust.tss.sortedby_fantomcage.hg38.v4.tsv
+  #   best.sei.model.pth.tar    (+ the Sei target/feature .npy/.tsv files)
+  # Splits are by chromosome: train = all but chr8/9/10, valid = chr10,
+  # test = chr8/9. Relative paths resolve against the dna/ directory you run
+  # `python -m src.main` from. Point this at your local copy (symlink `data/`
+  # at the data, or override with `--data_dir /abs/path`).
+  data_dir: data/dna_promoter
+  logs_root: ./logs
+  batch: 128
+  val_batch: 128
+  num_workers: 8
+
+model:
+  # Default geometry = the headline winner (sphere + kernel-gradient drift).
+  # A --formulation replaces these four booleans from the registry in src.main.
+  sphere: true
+  simplex: false
+  spectral: false
+  grad_form: true
+  dist_norm: true            # scale-free distance normalization (App. A.5-A.6)
+
+  # multi-temperature sequence drift (ignored when spectral: true)
+  t_list: "0.01,0.04,0.15"
+
+  # spectral Matern kernel score on (S^3_+)^L (used only when spectral: true)
+  kappa: 1.0
+  kappa_list: "8,24,60"
+  nu: 10.0
+  lmax: 200
+  eta: 1.0
+
+train:
+  epochs: 200
+  lr: 1.0e-4
+  warmup_steps: 2000
+  weight_decay: 0.0
+  betas: "0.9,0.95"
+  grad_clip: 1.0
+  ema_decay: 0.999
+
+  # activity-stratified ("coherent") batches -- the general conditioning lever.
+  # 0 disables (uniform batches); 0.1 is used for every reported number.
+  sei_batch_tau: 0.1
+
+  # eval + satisficing objective (selection is always on the chr10 val split)
+  eval_every_epochs: 1
+  test_eval_every_epochs: 20    # periodic chr8/9 eval, REPORTING ONLY
+  score_kmer_floor: 0.83        # reach k-mer floor, then minimize Sei ratio
+  best_kmer_min_epoch: 0        # skip early transient k-mer spikes (ambient: 50)
+
+  seed: 0
+  strict_determinism: false
+  log_every: 50
+  run_name: dna_drift
+
+wandb:
+  wandb_project: drifting-dna
+  wandb_entity: null
+  wandb_mode: online
+  wandb_run_name: null

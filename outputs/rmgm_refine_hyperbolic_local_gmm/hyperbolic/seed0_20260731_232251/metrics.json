@@ -1,0 +1,9 @@
+{
+  "step": 2000,
+  "critic_loss": 2593.76806640625,
+  "generator_loss": 2.585801839828491,
+  "target_norm": 5190.35546875,
+  "sample_norm": 5019.04833984375,
+  "mmd2": 0.00045245885848999023,
+  "constraint_error": 0.0
+}

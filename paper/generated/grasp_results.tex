@@ -1,0 +1,15 @@
+\begin{table*}[t]
+\centering\small
+\caption{\textbf{Completed two-object SE(3) pilot.} Equal object means are formed within each training seed, then mean $\pm$ sample SD over three seeds. Every model trains for 10,000 generator/field updates. Pose MMD is an \emph{unbiased product-kernel} statistic, distinct from \cref{tab:main,tab:recent}. The thin-gripper static proxy is not physical success; full-Franka collision tests a different geometry. Reference poses have 92\%/100\% static-proxy passes on Mug/Table and 0\% full collisions. Lower pose MMD and collision, but higher proxy fraction, are better.}
+\label{tab:grasp}
+\begin{tabular}{@{}lrrrr@{}}
+\toprule
+Method & NFE & Pose MMD$^2\times10^3$ & Static proxy (\%) & Full collision (\%) \\
+\midrule
+R-MGM (ours) & 1 & $4.265\,\pm\,1.591$ & $24.67\,\pm\,1.76$ & $71.00\,\pm\,5.22$ \\
+RMF-MT adaptation & 1 & $12.096\,\pm\,1.458$ & $10.83\,\pm\,2.47$ & $34.17\,\pm\,0.29$ \\
+RFM & 50 & $0.530\,\pm\,0.099$ & $32.17\,\pm\,3.51$ & $67.00\,\pm\,2.50$ \\
+RFM & 100 & $0.515\,\pm\,0.119$ & $32.00\,\pm\,3.28$ & $66.67\,\pm\,2.25$ \\
+\bottomrule
+\end{tabular}
+\end{table*}

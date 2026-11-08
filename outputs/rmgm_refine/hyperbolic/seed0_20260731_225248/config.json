@@ -1,0 +1,28 @@
+{
+  "config": {
+    "experiment": "hyperbolic",
+    "steps": 1200,
+    "batch_size": 384,
+    "latent_dim": 16,
+    "hidden_dim": 192,
+    "num_layers": 4,
+    "critic_steps": 3,
+    "lr_g": 3e-05,
+    "lr_c": 0.0002,
+    "weight_decay": 0.0,
+    "seed": 0,
+    "log_every": 150,
+    "plot_every": 300,
+    "eval_samples": 4096,
+    "device": "cuda",
+    "output_dir": "../../outputs/rmgm_refine",
+    "dtype": "float32",
+    "metric_normalize": false,
+    "torus_map": "mod"
+  },
+  "device": "cuda",
+  "torch": "2.5.1",
+  "cuda": "12.1",
+  "manifold": "PoincareBall",
+  "dim": 2
+}

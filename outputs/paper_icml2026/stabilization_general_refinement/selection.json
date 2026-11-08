@@ -1,0 +1,29 @@
+{
+  "selected_at": "2026-10-23T19:33:08.965110+00:00",
+  "selected_trial": "periodic_random_mlp_c5_lr2e4",
+  "rule": "Lowest fixed-final-step validation mean MMD2 across all five periodic random-initialized MGM candidates",
+  "validation_summary": {
+    "trial": "periodic_random_mlp_c5_lr2e4",
+    "finished_at": "2026-10-23T19:33:08.964112+00:00",
+    "training_seed": 0,
+    "steps": 2000,
+    "critic_updates": 10500,
+    "train_seconds": 20.808990199999243,
+    "total_optimizer_updates": 12500,
+    "test_evaluations": 0,
+    "parameter_change_l2": {
+      "raw.net.0.weight": 1.513412594795227,
+      "raw.net.0.bias": 0.4451933205127716,
+      "raw.net.2.weight": 4.065293788909912,
+      "raw.net.2.bias": 0.35272231698036194,
+      "raw.net.4.weight": 0.5387932062149048,
+      "raw.net.4.bias": 0.02306463196873665
+    },
+    "initial_validation_mmd2_mean": 0.7503351439821078,
+    "final_validation_mmd2_mean": 0.03500399966114417,
+    "final_validation_mmd2_sd_mc": 0.003212447306917646,
+    "validation_mmd2_change": -0.7153311443209636
+  },
+  "new_test_evaluations": 0,
+  "scope": "Exploratory seed-0 selection; independent-seed confirmation and locked test assessment remain future work"
+}

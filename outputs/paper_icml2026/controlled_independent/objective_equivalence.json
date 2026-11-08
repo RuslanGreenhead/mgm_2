@@ -1,0 +1,6 @@
+{
+  "critic_loss_abs_diff": 0.0,
+  "generator_loss_abs_diff": 0.0,
+  "generator_gradient_max_abs_diff": 0.0,
+  "rfm_loss_expression_ast_equal_original": true
+}

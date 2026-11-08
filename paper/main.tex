@@ -1,0 +1,65 @@
+\documentclass{article}
+\usepackage{microtype,graphicx,booktabs,multirow}
+\usepackage{hyperref}
+\usepackage{xurl}
+\newcommand{\theHalgorithm}{\arabic{algorithm}}
+\usepackage{icml2026}
+\usepackage{amsmath,amssymb,mathtools,amsthm}
+\usepackage{algorithm,algorithmic}
+\usepackage[capitalize,noabbrev]{cleveref}
+\hypersetup{pdftitle={Midpoint Generative Models for General Geometries},pdfauthor={},pdfsubject={Research draft; experimental snapshot 26 October 2026}}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{lemma}[theorem]{Lemma}
+\theoremstyle{definition}
+\newtheorem{assumption}[theorem]{Assumption}
+\newtheorem{definition}[theorem]{Definition}
+\theoremstyle{remark}
+\newtheorem{remark}[theorem]{Remark}
+\crefname{assumption}{Assumption}{Assumptions}
+\Crefname{assumption}{Assumption}{Assumptions}
+\newcommand{\M}{\mathcal M}
+\newcommand{\R}{\mathbb R}
+\newcommand{\E}{\mathbb E}
+\newcommand{\D}{\mathcal D}
+\newcommand{\Lcal}{\mathcal L}
+\newcommand{\Exp}{\operatorname{Exp}}
+\newcommand{\Log}{\operatorname{Log}}
+\newcommand{\Law}{\operatorname{Law}}
+\newcommand{\grad}{\operatorname{grad}}
+\newcommand{\Tr}{\operatorname{tr}}
+\newcommand{\RMGM}{\textsc{R-MGM}}
+\newcommand{\norm}[2]{\lVert #2\rVert_{#1}}
+\newcommand{\dd}{\,\mathrm d}
+\icmltitlerunning{Midpoint Generative Models for General Geometries}
+\begin{document}
+\twocolumn[
+\icmltitle{Midpoint Generative Models for General Geometries}
+\begin{icmlauthorlist}
+\icmlauthor{Anonymous Authors}{anon}
+\end{icmlauthorlist}
+\icmlaffiliation{anon}{Anonymous Institution}
+\icmlcorrespondingauthor{Anonymous Author}{anon.email@domain.com}
+\icmlkeywords{Generative modeling, Riemannian geometry, midpoint divergence, one-step generation}
+\vskip 0.3in
+]
+\printAffiliationsAndNotice{}
+\begin{abstract}
+We introduce Riemannian Midpoint Generative Models, which train a manifold-valued one-step generator using a tangent regression critic and randomly flipped geometric interpolations. For reversible finite-energy paths, we prove that the intrinsic discrepancy is symmetric, vanishes exactly when its endpoint distributions agree, and upper-bounds squared Wasserstein-1 distance. Its variational form gives alternating training, with simulation-free interpolation where closed-form paths are available and no learned flow integration at inference. A nine-task controlled study exposes finite-critic optimization failures, while a partial comparison with recent one-step methods does not establish practical superiority. In a completed two-object SE(3) pilot, midpoint generation improves pose MMD over an adapted one-step MeanFlow but remains less accurate than multi-step RFM and has substantial gripper collisions. These results distinguish population discrepancy guarantees, successful finite-network learning, and downstream physical feasibility.
+\end{abstract}
+\input{sections/introduction}
+\input{sections/method}
+\input{sections/geometries}
+\input{sections/experiments}
+\input{sections/discussion}
+\clearpage
+\section*{Impact Statement}
+This work studies distribution learning on geometric domains. Potential applications include molecular representations, covariance modeling, spatial data, and robot grasp proposals. Geometric validity alone does not establish physical, biological, or clinical validity. The empirical study makes no claim of forecasting hazards, supporting medical decisions, or safely executing grasps. The grasp pilot measures distributional and static geometric properties, not closing, lifting, friction, scene safety, or robot reachability. We use public research datasets and disclose evaluation and licensing limits.
+\bibliography{references}
+\bibliographystyle{icml2026}
+\clearpage
+\appendix
+\onecolumn
+\input{sections/appendix}
+\end{document}

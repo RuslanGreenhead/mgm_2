@@ -1,0 +1,222 @@
+{
+  "started_reruns": 13,
+  "finished_reruns": 13,
+  "planned_reruns": 54,
+  "copied_unchanged": 18,
+  "runs": [
+    {
+      "data": "fire",
+      "method": "mgm_gmm",
+      "seed": 0,
+      "steps": 2000,
+      "train_seconds": 12.860156700000516,
+      "finished_at": "2026-10-23T19:42:18.954720+00:00",
+      "finite_parameters": true,
+      "evaluation_rng_invariance_verified": true,
+      "parameter_change_l2": {
+        "centers": 0.16335874795913696,
+        "log_scale": 0.09008632600307465,
+        "component_logits": 0.0
+      }
+    },
+    {
+      "data": "fire",
+      "method": "rfm",
+      "seed": 0,
+      "steps": 10000,
+      "train_seconds": 20.84237839999878,
+      "finished_at": "2026-10-23T19:42:41.416176+00:00",
+      "finite_parameters": true,
+      "evaluation_rng_invariance_verified": true,
+      "parameter_change_l2": {
+        "net.net.0.weight": 4.09097146987915,
+        "net.net.0.bias": 0.7761951684951782,
+        "net.net.2.weight": 7.235596179962158,
+        "net.net.2.bias": 0.3112119734287262,
+        "net.net.4.weight": 1.0292105674743652,
+        "net.net.4.bias": 0.024576770141720772
+      }
+    },
+    {
+      "data": "fire",
+      "method": "mgm_gmm",
+      "seed": 1,
+      "steps": 2000,
+      "train_seconds": 12.741341700000703,
+      "finished_at": "2026-10-23T19:42:55.680393+00:00",
+      "finite_parameters": true,
+      "evaluation_rng_invariance_verified": true,
+      "parameter_change_l2": {
+        "centers": 0.16164641082286835,
+        "log_scale": 0.08311155438423157,
+        "component_logits": 0.0
+      }
+    },
+    {
+      "data": "fire",
+      "method": "rfm",
+      "seed": 1,
+      "steps": 10000,
+      "train_seconds": 20.9810679000002,
+      "finished_at": "2026-10-23T19:43:18.269320+00:00",
+      "finite_parameters": true,
+      "evaluation_rng_invariance_verified": true,
+      "parameter_change_l2": {
+        "net.net.0.weight": 4.05593204498291,
+        "net.net.0.bias": 0.7492173314094543,
+        "net.net.2.weight": 7.379705905914307,
+        "net.net.2.bias": 0.43533629179000854,
+        "net.net.4.weight": 1.063326120376587,
+        "net.net.4.bias": 0.04614366590976715
+      }
+    },
+    {
+      "data": "fire",
+      "method": "mgm_gmm",
+      "seed": 2,
+      "steps": 2000,
+      "train_seconds": 12.786468199999945,
+      "finished_at": "2026-10-23T19:43:32.386956+00:00",
+      "finite_parameters": true,
+      "evaluation_rng_invariance_verified": true,
+      "parameter_change_l2": {
+        "centers": 0.1470775604248047,
+        "log_scale": 0.0851302519440651,
+        "component_logits": 0.0
+      }
+    },
+    {
+      "data": "fire",
+      "method": "rfm",
+      "seed": 2,
+      "steps": 10000,
+      "train_seconds": 19.924686600001223,
+      "finished_at": "2026-10-23T19:43:53.911979+00:00",
+      "finite_parameters": true,
+      "evaluation_rng_invariance_verified": true,
+      "parameter_change_l2": {
+        "net.net.0.weight": 3.9933247566223145,
+        "net.net.0.bias": 0.7016143202781677,
+        "net.net.2.weight": 6.958766460418701,
+        "net.net.2.bias": 0.3601452708244324,
+        "net.net.4.weight": 1.0329596996307373,
+        "net.net.4.bias": 0.027768254280090332
+      }
+    },
+    {
+      "data": "general",
+      "method": "mgm_gmm",
+      "seed": 0,
+      "steps": 2000,
+      "train_seconds": 6.375346800001353,
+      "finished_at": "2026-10-23T19:44:04.143543+00:00",
+      "finite_parameters": true,
+      "evaluation_rng_invariance_verified": true,
+      "parameter_change_l2": {
+        "centers": 2.801950693130493,
+        "log_scale": 0.2786654531955719,
+        "component_logits": 0.0
+      }
+    },
+    {
+      "data": "general",
+      "method": "rfm",
+      "seed": 0,
+      "steps": 10000,
+      "train_seconds": 13.024092699999528,
+      "finished_at": "2026-10-23T19:44:19.612592+00:00",
+      "finite_parameters": true,
+      "evaluation_rng_invariance_verified": true,
+      "parameter_change_l2": {
+        "net.net.0.weight": 3.6594111919403076,
+        "net.net.0.bias": 1.493329405784607,
+        "net.net.2.weight": 9.710392951965332,
+        "net.net.2.bias": 0.7912377119064331,
+        "net.net.4.weight": 1.4906256198883057,
+        "net.net.4.bias": 0.034796830266714096
+      }
+    },
+    {
+      "data": "general",
+      "method": "mgm_gmm",
+      "seed": 1,
+      "steps": 2000,
+      "train_seconds": 6.383704599998964,
+      "finished_at": "2026-10-23T19:44:29.761861+00:00",
+      "finite_parameters": true,
+      "evaluation_rng_invariance_verified": true,
+      "parameter_change_l2": {
+        "centers": 3.010059118270874,
+        "log_scale": 0.3095826804637909,
+        "component_logits": 0.0
+      }
+    },
+    {
+      "data": "general",
+      "method": "rfm",
+      "seed": 1,
+      "steps": 10000,
+      "train_seconds": 13.18560989999969,
+      "finished_at": "2026-10-23T19:44:45.515341+00:00",
+      "finite_parameters": true,
+      "evaluation_rng_invariance_verified": true,
+      "parameter_change_l2": {
+        "net.net.0.weight": 3.881588935852051,
+        "net.net.0.bias": 1.330207347869873,
+        "net.net.2.weight": 10.068221092224121,
+        "net.net.2.bias": 0.783012866973877,
+        "net.net.4.weight": 1.513157844543457,
+        "net.net.4.bias": 0.011120999231934547
+      }
+    },
+    {
+      "data": "general",
+      "method": "mgm_gmm",
+      "seed": 2,
+      "steps": 2000,
+      "train_seconds": 6.363411400001496,
+      "finished_at": "2026-10-23T19:44:55.619296+00:00",
+      "finite_parameters": true,
+      "evaluation_rng_invariance_verified": true,
+      "parameter_change_l2": {
+        "centers": 3.000753402709961,
+        "log_scale": 0.27481114864349365,
+        "component_logits": 0.0
+      }
+    },
+    {
+      "data": "general",
+      "method": "rfm",
+      "seed": 2,
+      "steps": 10000,
+      "train_seconds": 13.100458500000968,
+      "finished_at": "2026-10-23T19:45:11.217362+00:00",
+      "finite_parameters": true,
+      "evaluation_rng_invariance_verified": true,
+      "parameter_change_l2": {
+        "net.net.0.weight": 3.7910118103027344,
+        "net.net.0.bias": 1.5423099994659424,
+        "net.net.2.weight": 10.683305740356445,
+        "net.net.2.bias": 0.8358542919158936,
+        "net.net.4.weight": 1.6174226999282837,
+        "net.net.4.bias": 0.025695547461509705
+      }
+    },
+    {
+      "data": "rna",
+      "method": "mgm_gmm",
+      "seed": 0,
+      "steps": 2000,
+      "train_seconds": 6.460493500000666,
+      "finished_at": "2026-10-23T19:45:20.193319+00:00",
+      "finite_parameters": true,
+      "evaluation_rng_invariance_verified": true,
+      "parameter_change_l2": {
+        "centers": 1.4273697137832642,
+        "log_scale": 0.8986755609512329,
+        "component_logits": 0.0
+      }
+    }
+  ],
+  "updated_at": "2026-10-23T19:45:20.200081+00:00"
+}

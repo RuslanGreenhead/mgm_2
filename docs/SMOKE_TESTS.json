@@ -1,0 +1,54 @@
+{
+  "passed": true,
+  "tests_run": 144,
+  "passed_tests": 138,
+  "skipped_tests": 6,
+  "failures": 0,
+  "errors": 0,
+  "archive_prerequisite_skips": [
+    {
+      "test": "paper.benchmarks2026.test_meanflow.MeanFlowTests.test_author_checkout_commit_is_pinned_without_processes",
+      "reason": "Git checkout metadata intentionally omitted; use MANIFEST source hashes and UPSTREAM_PROVENANCE"
+    },
+    {
+      "test": "test_controlled_suite.ProtocolTests.test_saved_float32_sphere_duplicates_are_exact_zero",
+      "reason": "Saved Volcano binary reference arrays intentionally omitted"
+    },
+    {
+      "test": "test_controlled_suite.ProtocolTests.test_saved_volcano_radius_matches_normalized_reference",
+      "reason": "Saved Volcano binary reference arrays intentionally omitted"
+    },
+    {
+      "test": "test_controlled_suite.ProtocolTests.test_split_matches_author",
+      "reason": "Raw Fire CSV intentionally not included in the code archive"
+    }
+  ],
+  "all_skips": [
+    {
+      "test": "skip",
+      "reason": "Git checkout metadata intentionally omitted; use MANIFEST source hashes and UPSTREAM_PROVENANCE"
+    },
+    {
+      "test": "paper.benchmarks2026.test_rwflow_graph.Graph64CUDATests.test_uniform_concentrated_field_matching_and_changing_cost_ownership",
+      "reason": "CUDA reserved; requires explicit parent GPU release"
+    },
+    {
+      "test": "paper.benchmarks2026.test_rwflow_graph.Graph64CUDATests.test_warm_replay_speed_probe_at_training_batch_shape",
+      "reason": "CUDA reserved; requires explicit parent GPU release"
+    },
+    {
+      "test": "skip",
+      "reason": "Saved Volcano binary reference arrays intentionally omitted"
+    },
+    {
+      "test": "skip",
+      "reason": "Saved Volcano binary reference arrays intentionally omitted"
+    },
+    {
+      "test": "skip",
+      "reason": "Raw Fire CSV intentionally not included in the code archive"
+    }
+  ],
+  "cuda_initialized": false,
+  "scope": "unit tests only, no experimental training or dataset reproduction"
+}

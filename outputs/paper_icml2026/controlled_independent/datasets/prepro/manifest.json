@@ -1,0 +1,23 @@
+{
+  "data_seed": 0,
+  "counts": {
+    "train": 5528,
+    "val": 691,
+    "test": 691
+  },
+  "split_indices_sha256": {
+    "train": "942f2b5ca8bb788db4f62a83b6c7634c7170bbe6e658109f266e9d5b3cd0de56",
+    "val": "87366ea85236a99070c70687a51854f0f37feda99d2d40ce4bc5a8677fd872e0",
+    "test": "f3cdf5397f89883e86175dd5b1206bce81ce3dab1bf39a9eacd90361344357c2"
+  },
+  "data_tensor_sha256": {
+    "train": "06d64c1fcb176c3fd45076819c87932b484a457851bf51c6b92d75a3ebf1665e",
+    "val": "f1b7ae50171bd85958bbc9ea126b7ddc7ebfdce158404d3e540d5a7d6d7d52d2",
+    "test": "f31e2fe7330c5f612a0fd4afd888f8c18f4bf92b039272a386424e3eb1ceaed1"
+  },
+  "bandwidth2": 1.0946851573507086,
+  "coverage_radius": 0.02477884802909548,
+  "reference_sha256": "0cc9316db272bf7afac9487207afa5296bfea57951da27e61c979d7cdf3c642b",
+  "reference_n": 1024,
+  "target_selection": "without replacement; min(1024, split size); independent fixed val/test RNG"
+}

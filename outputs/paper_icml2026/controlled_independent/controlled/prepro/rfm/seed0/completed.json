@@ -1,0 +1,18 @@
+{
+  "data": "prepro",
+  "method": "rfm",
+  "seed": 0,
+  "steps": 10000,
+  "train_seconds": 17.230841400001736,
+  "finished_at": "2026-10-23T20:02:07.930958+00:00",
+  "finite_parameters": true,
+  "evaluation_rng_invariance_verified": true,
+  "parameter_change_l2": {
+    "net.net.0.weight": 3.114189386367798,
+    "net.net.0.bias": 1.4375797510147095,
+    "net.net.2.weight": 9.166897773742676,
+    "net.net.2.bias": 0.9446768760681152,
+    "net.net.4.weight": 1.417423963546753,
+    "net.net.4.bias": 0.0250429417937994
+  }
+}

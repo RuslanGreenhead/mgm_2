@@ -1,0 +1,24 @@
+{
+  "data_seed": 0,
+  "counts": {
+    "train": 3901,
+    "val": 487,
+    "test": 487
+  },
+  "split_indices_sha256": {
+    "train": "7a02a9c8cf28a937434965a8b1262332c77755ba3e076d33a12eaceba4e3c8db",
+    "val": "8f265fdbdceca8386dad055849812b312f3bfa5b4c5ded72509656915ab6ebb2",
+    "test": "5b335dd35d29e694b02848133f1dfcb6865d5e8baea6425b1456325d128b9444"
+  },
+  "data_tensor_sha256": {
+    "train": "367df467fac2c0833e4aa4b55d0830c7a8bdbd4aaaf29e29efa984850dd73b32",
+    "val": "c26821634afab1e89e54f1849faabcca15b05c531eef4351b3ed098e5a9ae0e5",
+    "test": "d645bcaac2af5f12f30e20d304e562494e3c1d34ef22c1b0519c50ae203c3d3d"
+  },
+  "bandwidth2": 1.5516315901008322,
+  "coverage_radius": 0.01471887870780884,
+  "reference_sha256": "564f29df8287f2142fc607c0d375e58d664fb46160b809e769a48879bc5ccc41",
+  "reference_n": 1024,
+  "target_selection": "without replacement; min(1024, split size); independent fixed val/test RNG",
+  "coverage_metric_version": "sphere_normalized_float64_atan2_v2"
+}

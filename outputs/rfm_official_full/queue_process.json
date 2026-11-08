@@ -1,0 +1,24 @@
+{
+  "pid": 35092,
+  "started_at": "2026-08-01T17:24:20+00:00",
+  "cmd": [
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\.conda\\rmgm\\python.exe",
+    "-B",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\external\\riemannian-fm\\rmgm_official_full_queue.py",
+    "--official-repo",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\external\\riemannian-fm-official-clean",
+    "--output-root",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\rfm_official_full",
+    "--seed",
+    "0",
+    "--eval-samples",
+    "4096",
+    "--metric-samples",
+    "2048",
+    "--sample-batch-size",
+    "1024"
+  ],
+  "cwd": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\external\\riemannian-fm",
+  "stdout": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\rfm_official_full\\queue_stdout.log",
+  "stderr": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\rfm_official_full\\queue_stderr.log"
+}

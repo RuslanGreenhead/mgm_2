@@ -1,0 +1,32 @@
+{
+  "config": {
+    "experiment": "torus2d",
+    "steps": 4000,
+    "batch_size": 512,
+    "latent_dim": 16,
+    "hidden_dim": 256,
+    "num_layers": 4,
+    "critic_steps": 3,
+    "lr_g": 0.0001,
+    "lr_c": 0.0002,
+    "weight_decay": 0.0,
+    "seed": 0,
+    "log_every": 100,
+    "plot_every": 250,
+    "eval_samples": 4096,
+    "device": "cuda",
+    "output_dir": "../../outputs/rmgm_refine_torus_gmm",
+    "dtype": "float32",
+    "metric_normalize": false,
+    "torus_map": "mod",
+    "torus_generator": "gmm",
+    "torus_components": 4,
+    "torus_residual_scale": 0.25,
+    "torus_mixture_init": "grid"
+  },
+  "device": "cuda",
+  "torch": "2.5.1",
+  "cuda": "12.1",
+  "manifold": "FlatTorus",
+  "dim": 2
+}

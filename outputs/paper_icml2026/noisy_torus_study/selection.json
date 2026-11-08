@@ -1,0 +1,28 @@
+{
+  "selected_at": "2026-10-24T07:46:38.470997+00:00",
+  "selection": {
+    "trial": "noise0.7_random_mlp_c5",
+    "finished_at": "2026-10-24T07:46:38.463997+00:00",
+    "training_seed": 0,
+    "steps": 10000,
+    "critic_updates": 50500,
+    "train_seconds": 150.20542710000012,
+    "total_optimizer_updates": 60500,
+    "test_evaluations": 0,
+    "parameter_change_l2": {
+      "raw.net.0.weight": 2.1495325565338135,
+      "raw.net.0.bias": 0.6586289405822754,
+      "raw.net.2.weight": 6.011609077453613,
+      "raw.net.2.bias": 0.5508208870887756,
+      "raw.net.4.weight": 0.704658031463623,
+      "raw.net.4.bias": 0.04202382266521454
+    },
+    "initial_validation_mmd2_mean": 0.7503351439821078,
+    "final_validation_mmd2_mean": 0.03167882167773709,
+    "final_validation_mmd2_sd_mc": 0.0007135034261761953,
+    "validation_mmd2_change": -0.7186563223043707,
+    "noise_amplitude": 0.7
+  },
+  "new_test_evaluations": 0,
+  "interpretation": "Single-seed exploratory validation diagnostic, not confirmed efficacy."
+}

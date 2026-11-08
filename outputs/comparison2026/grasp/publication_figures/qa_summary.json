@@ -1,0 +1,345 @@
+{
+  "pdf_count": 30,
+  "comparison_count": 6,
+  "all_vector": true,
+  "all_dimensions_passed": true,
+  "all_first12_captions_passed": true,
+  "files": [
+    {
+      "pdf": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\publication_figures\\seed0\\mug_comparison.pdf",
+      "png": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\publication_figures\\seed0\\mug_comparison.png",
+      "png_dimensions": [
+        5280,
+        1474
+      ],
+      "pages": 1,
+      "embedded_raster_images": 0,
+      "first12_caption_verified": true,
+      "rendered_pdf_png": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\publication_figures\\pdf_qa\\seed0_mug_comparison.png"
+    },
+    {
+      "pdf": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\publication_figures\\seed0\\mug_mgm_zoom.pdf",
+      "png": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\publication_figures\\seed0\\mug_mgm_zoom.png",
+      "png_dimensions": [
+        2400,
+        2400
+      ],
+      "pages": 1,
+      "embedded_raster_images": 0,
+      "first12_caption_verified": true
+    },
+    {
+      "pdf": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\publication_figures\\seed0\\mug_reference_zoom.pdf",
+      "png": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\publication_figures\\seed0\\mug_reference_zoom.png",
+      "png_dimensions": [
+        2400,
+        2400
+      ],
+      "pages": 1,
+      "embedded_raster_images": 0,
+      "first12_caption_verified": true
+    },
+    {
+      "pdf": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\publication_figures\\seed0\\mug_rfm_zoom.pdf",
+      "png": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\publication_figures\\seed0\\mug_rfm_zoom.png",
+      "png_dimensions": [
+        2400,
+        2400
+      ],
+      "pages": 1,
+      "embedded_raster_images": 0,
+      "first12_caption_verified": true
+    },
+    {
+      "pdf": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\publication_figures\\seed0\\mug_rmf_mt_zoom.pdf",
+      "png": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\publication_figures\\seed0\\mug_rmf_mt_zoom.png",
+      "png_dimensions": [
+        2400,
+        2400
+      ],
+      "pages": 1,
+      "embedded_raster_images": 0,
+      "first12_caption_verified": true
+    },
+    {
+      "pdf": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\publication_figures\\seed0\\table_comparison.pdf",
+      "png": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\publication_figures\\seed0\\table_comparison.png",
+      "png_dimensions": [
+        5280,
+        1474
+      ],
+      "pages": 1,
+      "embedded_raster_images": 0,
+      "first12_caption_verified": true,
+      "rendered_pdf_png": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\publication_figures\\pdf_qa\\seed0_table_comparison.png"
+    },
+    {
+      "pdf": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\publication_figures\\seed0\\table_mgm_zoom.pdf",
+      "png": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\publication_figures\\seed0\\table_mgm_zoom.png",
+      "png_dimensions": [
+        2400,
+        2400
+      ],
+      "pages": 1,
+      "embedded_raster_images": 0,
+      "first12_caption_verified": true
+    },
+    {
+      "pdf": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\publication_figures\\seed0\\table_reference_zoom.pdf",
+      "png": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\publication_figures\\seed0\\table_reference_zoom.png",
+      "png_dimensions": [
+        2400,
+        2400
+      ],
+      "pages": 1,
+      "embedded_raster_images": 0,
+      "first12_caption_verified": true
+    },
+    {
+      "pdf": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\publication_figures\\seed0\\table_rfm_zoom.pdf",
+      "png": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\publication_figures\\seed0\\table_rfm_zoom.png",
+      "png_dimensions": [
+        2400,
+        2400
+      ],
+      "pages": 1,
+      "embedded_raster_images": 0,
+      "first12_caption_verified": true
+    },
+    {
+      "pdf": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\publication_figures\\seed0\\table_rmf_mt_zoom.pdf",
+      "png": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\publication_figures\\seed0\\table_rmf_mt_zoom.png",
+      "png_dimensions": [
+        2400,
+        2400
+      ],
+      "pages": 1,
+      "embedded_raster_images": 0,
+      "first12_caption_verified": true
+    },
+    {
+      "pdf": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\publication_figures\\seed1\\mug_comparison.pdf",
+      "png": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\publication_figures\\seed1\\mug_comparison.png",
+      "png_dimensions": [
+        5280,
+        1474
+      ],
+      "pages": 1,
+      "embedded_raster_images": 0,
+      "first12_caption_verified": true,
+      "rendered_pdf_png": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\publication_figures\\pdf_qa\\seed1_mug_comparison.png"
+    },
+    {
+      "pdf": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\publication_figures\\seed1\\mug_mgm_zoom.pdf",
+      "png": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\publication_figures\\seed1\\mug_mgm_zoom.png",
+      "png_dimensions": [
+        2400,
+        2400
+      ],
+      "pages": 1,
+      "embedded_raster_images": 0,
+      "first12_caption_verified": true
+    },
+    {
+      "pdf": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\publication_figures\\seed1\\mug_reference_zoom.pdf",
+      "png": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\publication_figures\\seed1\\mug_reference_zoom.png",
+      "png_dimensions": [
+        2400,
+        2400
+      ],
+      "pages": 1,
+      "embedded_raster_images": 0,
+      "first12_caption_verified": true
+    },
+    {
+      "pdf": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\publication_figures\\seed1\\mug_rfm_zoom.pdf",
+      "png": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\publication_figures\\seed1\\mug_rfm_zoom.png",
+      "png_dimensions": [
+        2400,
+        2400
+      ],
+      "pages": 1,
+      "embedded_raster_images": 0,
+      "first12_caption_verified": true
+    },
+    {
+      "pdf": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\publication_figures\\seed1\\mug_rmf_mt_zoom.pdf",
+      "png": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\publication_figures\\seed1\\mug_rmf_mt_zoom.png",
+      "png_dimensions": [
+        2400,
+        2400
+      ],
+      "pages": 1,
+      "embedded_raster_images": 0,
+      "first12_caption_verified": true
+    },
+    {
+      "pdf": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\publication_figures\\seed1\\table_comparison.pdf",
+      "png": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\publication_figures\\seed1\\table_comparison.png",
+      "png_dimensions": [
+        5280,
+        1474
+      ],
+      "pages": 1,
+      "embedded_raster_images": 0,
+      "first12_caption_verified": true,
+      "rendered_pdf_png": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\publication_figures\\pdf_qa\\seed1_table_comparison.png"
+    },
+    {
+      "pdf": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\publication_figures\\seed1\\table_mgm_zoom.pdf",
+      "png": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\publication_figures\\seed1\\table_mgm_zoom.png",
+      "png_dimensions": [
+        2400,
+        2400
+      ],
+      "pages": 1,
+      "embedded_raster_images": 0,
+      "first12_caption_verified": true
+    },
+    {
+      "pdf": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\publication_figures\\seed1\\table_reference_zoom.pdf",
+      "png": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\publication_figures\\seed1\\table_reference_zoom.png",
+      "png_dimensions": [
+        2400,
+        2400
+      ],
+      "pages": 1,
+      "embedded_raster_images": 0,
+      "first12_caption_verified": true
+    },
+    {
+      "pdf": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\publication_figures\\seed1\\table_rfm_zoom.pdf",
+      "png": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\publication_figures\\seed1\\table_rfm_zoom.png",
+      "png_dimensions": [
+        2400,
+        2400
+      ],
+      "pages": 1,
+      "embedded_raster_images": 0,
+      "first12_caption_verified": true
+    },
+    {
+      "pdf": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\publication_figures\\seed1\\table_rmf_mt_zoom.pdf",
+      "png": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\publication_figures\\seed1\\table_rmf_mt_zoom.png",
+      "png_dimensions": [
+        2400,
+        2400
+      ],
+      "pages": 1,
+      "embedded_raster_images": 0,
+      "first12_caption_verified": true
+    },
+    {
+      "pdf": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\publication_figures\\seed2\\mug_comparison.pdf",
+      "png": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\publication_figures\\seed2\\mug_comparison.png",
+      "png_dimensions": [
+        5280,
+        1474
+      ],
+      "pages": 1,
+      "embedded_raster_images": 0,
+      "first12_caption_verified": true,
+      "rendered_pdf_png": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\publication_figures\\pdf_qa\\seed2_mug_comparison.png"
+    },
+    {
+      "pdf": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\publication_figures\\seed2\\mug_mgm_zoom.pdf",
+      "png": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\publication_figures\\seed2\\mug_mgm_zoom.png",
+      "png_dimensions": [
+        2400,
+        2400
+      ],
+      "pages": 1,
+      "embedded_raster_images": 0,
+      "first12_caption_verified": true
+    },
+    {
+      "pdf": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\publication_figures\\seed2\\mug_reference_zoom.pdf",
+      "png": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\publication_figures\\seed2\\mug_reference_zoom.png",
+      "png_dimensions": [
+        2400,
+        2400
+      ],
+      "pages": 1,
+      "embedded_raster_images": 0,
+      "first12_caption_verified": true
+    },
+    {
+      "pdf": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\publication_figures\\seed2\\mug_rfm_zoom.pdf",
+      "png": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\publication_figures\\seed2\\mug_rfm_zoom.png",
+      "png_dimensions": [
+        2400,
+        2400
+      ],
+      "pages": 1,
+      "embedded_raster_images": 0,
+      "first12_caption_verified": true
+    },
+    {
+      "pdf": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\publication_figures\\seed2\\mug_rmf_mt_zoom.pdf",
+      "png": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\publication_figures\\seed2\\mug_rmf_mt_zoom.png",
+      "png_dimensions": [
+        2400,
+        2400
+      ],
+      "pages": 1,
+      "embedded_raster_images": 0,
+      "first12_caption_verified": true
+    },
+    {
+      "pdf": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\publication_figures\\seed2\\table_comparison.pdf",
+      "png": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\publication_figures\\seed2\\table_comparison.png",
+      "png_dimensions": [
+        5280,
+        1474
+      ],
+      "pages": 1,
+      "embedded_raster_images": 0,
+      "first12_caption_verified": true,
+      "rendered_pdf_png": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\publication_figures\\pdf_qa\\seed2_table_comparison.png"
+    },
+    {
+      "pdf": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\publication_figures\\seed2\\table_mgm_zoom.pdf",
+      "png": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\publication_figures\\seed2\\table_mgm_zoom.png",
+      "png_dimensions": [
+        2400,
+        2400
+      ],
+      "pages": 1,
+      "embedded_raster_images": 0,
+      "first12_caption_verified": true
+    },
+    {
+      "pdf": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\publication_figures\\seed2\\table_reference_zoom.pdf",
+      "png": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\publication_figures\\seed2\\table_reference_zoom.png",
+      "png_dimensions": [
+        2400,
+        2400
+      ],
+      "pages": 1,
+      "embedded_raster_images": 0,
+      "first12_caption_verified": true
+    },
+    {
+      "pdf": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\publication_figures\\seed2\\table_rfm_zoom.pdf",
+      "png": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\publication_figures\\seed2\\table_rfm_zoom.png",
+      "png_dimensions": [
+        2400,
+        2400
+      ],
+      "pages": 1,
+      "embedded_raster_images": 0,
+      "first12_caption_verified": true
+    },
+    {
+      "pdf": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\publication_figures\\seed2\\table_rmf_mt_zoom.pdf",
+      "png": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\publication_figures\\seed2\\table_rmf_mt_zoom.png",
+      "png_dimensions": [
+        2400,
+        2400
+      ],
+      "pages": 1,
+      "embedded_raster_images": 0,
+      "first12_caption_verified": true
+    }
+  ]
+}

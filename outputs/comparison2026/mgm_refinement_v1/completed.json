@@ -1,0 +1,90 @@
+{
+  "all_completed": true,
+  "jobs": [
+    {
+      "data": "fire",
+      "method": "mgm",
+      "seed": 0,
+      "steps": 4000,
+      "attempts": 4500,
+      "train_seconds": 47.72435889999997,
+      "selected_step": 2000,
+      "selected_validation_mmd2": 0.002681097265594956,
+      "test_mmd2": null,
+      "critic_updates": 20500,
+      "test_evaluations": 0,
+      "selection": "Lowest fixed-probe validation MMD; no test tuning"
+    },
+    {
+      "data": "fire",
+      "method": "mgm",
+      "seed": 0,
+      "steps": 4000,
+      "attempts": 4500,
+      "train_seconds": 80.92383100000097,
+      "selected_step": 3000,
+      "selected_validation_mmd2": 0.0026627596253739894,
+      "test_mmd2": null,
+      "critic_updates": 40500,
+      "test_evaluations": 0,
+      "selection": "Lowest fixed-probe validation MMD; no test tuning"
+    },
+    {
+      "data": "general",
+      "method": "mgm",
+      "seed": 0,
+      "steps": 4000,
+      "attempts": 4500,
+      "train_seconds": 26.7920415999979,
+      "selected_step": 3000,
+      "selected_validation_mmd2": 0.012059726456139952,
+      "test_mmd2": null,
+      "critic_updates": 20500,
+      "test_evaluations": 0,
+      "selection": "Lowest fixed-probe validation MMD; no test tuning"
+    },
+    {
+      "data": "general",
+      "method": "mgm",
+      "seed": 0,
+      "steps": 4000,
+      "attempts": 4500,
+      "train_seconds": 47.316063200000826,
+      "selected_step": 4000,
+      "selected_validation_mmd2": 0.00999375117911705,
+      "test_mmd2": null,
+      "critic_updates": 40500,
+      "test_evaluations": 0,
+      "selection": "Lowest fixed-probe validation MMD; no test tuning"
+    },
+    {
+      "data": "rna",
+      "method": "mgm",
+      "seed": 0,
+      "steps": 4000,
+      "attempts": 4500,
+      "train_seconds": 26.145811700000195,
+      "selected_step": 4000,
+      "selected_validation_mmd2": 0.2093062840977385,
+      "test_mmd2": null,
+      "critic_updates": 20500,
+      "test_evaluations": 0,
+      "selection": "Lowest fixed-probe validation MMD; no test tuning"
+    },
+    {
+      "data": "rna",
+      "method": "mgm",
+      "seed": 0,
+      "steps": 4000,
+      "attempts": 4500,
+      "train_seconds": 45.426112599999215,
+      "selected_step": 4000,
+      "selected_validation_mmd2": 0.20534466658270845,
+      "test_mmd2": null,
+      "critic_updates": 40500,
+      "test_evaluations": 0,
+      "selection": "Lowest fixed-probe validation MMD; no test tuning"
+    }
+  ],
+  "summed_training_seconds": 274.3282189999991
+}

@@ -1,0 +1,154 @@
+test_antipodal_reversal (paper.benchmarks2026.test_common.SharedGeometry) ... ok
+test_generator_and_mixed_derivatives (paper.benchmarks2026.test_common.SharedGeometry) ... ok
+test_mgm_finite (paper.benchmarks2026.test_common.SharedGeometry) ... ok
+test_paths (paper.benchmarks2026.test_common.SharedGeometry) ... ok
+test_coincident_samples_ties_and_biased_mmd (paper.benchmarks2026.test_data_metrics.MetricTests) ... ok
+test_known_separated_and_symmetric_metrics (paper.benchmarks2026.test_data_metrics.MetricTests) ... ok
+test_sphere_normalization_and_antipodes (paper.benchmarks2026.test_data_metrics.MetricTests) ... ok
+test_torus_seam_and_periodicity (paper.benchmarks2026.test_data_metrics.MetricTests) ... ok
+test_checkpoint_is_frozen_and_resumes_optimizer_ema_rng (paper.benchmarks2026.test_kgdm.AdapterTests) ... ok
+test_common_generator_exact_parameterization (paper.benchmarks2026.test_kgdm.AdapterTests) ... ok
+test_configs_and_invalid_batches (paper.benchmarks2026.test_kgdm.AdapterTests) ... ok
+test_optional_author_warmup (paper.benchmarks2026.test_kgdm.AdapterTests) ... ok
+test_rna7_resume_and_sampling_contract (paper.benchmarks2026.test_kgdm.AdapterTests) ... ok
+test_sample_one_forward_and_explicit_rng (paper.benchmarks2026.test_kgdm.AdapterTests) ... ok
+test_update_does_not_use_global_rng (paper.benchmarks2026.test_kgdm.AdapterTests) ... ok
+test_update_is_finite_changes_weights_and_not_real_batch (paper.benchmarks2026.test_kgdm.AdapterTests) ... ok
+test_bad_field_inputs_fail (paper.benchmarks2026.test_kgdm.IntrinsicGradientTests) ... ok
+test_cap_target_tangency_and_constraints (paper.benchmarks2026.test_kgdm.IntrinsicGradientTests) ... ok
+test_drop_temperature_keeps_author_constants (paper.benchmarks2026.test_kgdm.IntrinsicGradientTests) ... ok
+test_field_target_and_all_normalizers_are_detached (paper.benchmarks2026.test_kgdm.IntrinsicGradientTests) ... ok
+test_full_field_against_frozen_kernel_autodiff (paper.benchmarks2026.test_kgdm.IntrinsicGradientTests) ... ok
+test_identical_points_remain_finite_and_zero (paper.benchmarks2026.test_kgdm.IntrinsicGradientTests) ... ok
+test_pair_gradients_against_autodiff (paper.benchmarks2026.test_kgdm.IntrinsicGradientTests) ... ok
+test_pair_gradients_against_finite_difference (paper.benchmarks2026.test_kgdm.IntrinsicGradientTests) ... ok
+test_permutation_equivariance (paper.benchmarks2026.test_kgdm.IntrinsicGradientTests) ... ok
+test_rna7_full_field_against_frozen_autodiff (paper.benchmarks2026.test_kgdm.IntrinsicGradientTests) ... ok
+test_self_diagonal_is_removed_from_affinity (paper.benchmarks2026.test_kgdm.IntrinsicGradientTests) ... ok
+test_single_positive_attraction_has_correct_sign (paper.benchmarks2026.test_kgdm.IntrinsicGradientTests) ... ok
+test_sphere_executes_exact_author_field (paper.benchmarks2026.test_kgdm.IntrinsicGradientTests) ... ok
+test_temperature_ladder_is_sum_not_mean (paper.benchmarks2026.test_kgdm.IntrinsicGradientTests) ... ok
+test_analytic_geodesic_velocity_sphere_and_torus_seam (paper.benchmarks2026.test_meanflow.MeanFlowTests) ... ok
+test_analytic_loss_stops_entire_target_and_holds_r_fixed (paper.benchmarks2026.test_meanflow.MeanFlowTests) ... ok
+unittest.case.FunctionTestCase (skip)
+paper.benchmarks2026.test_meanflow.MeanFlowTests.test_author_checkout_commit_is_pinned_without_processes ... skipped 'Git checkout metadata intentionally omitted; use MANIFEST source hashes and UPSTREAM_PROVENANCE'
+test_author_reference_configs_and_parameter_counts (paper.benchmarks2026.test_meanflow.MeanFlowTests) ... ok
+test_jvp_finite_difference_and_sphere_normal_component_retained (paper.benchmarks2026.test_meanflow.MeanFlowTests) ... ok
+test_native_architecture_output_jvp_and_reverse_gradient (paper.benchmarks2026.test_meanflow.MeanFlowTests) ... ok
+test_native_loss_terms_gradients_and_sampling_equivalence (paper.benchmarks2026.test_meanflow.MeanFlowTests) ... ok
+test_native_pcgrad_default_equivalence_and_zero_gradient (paper.benchmarks2026.test_meanflow.MeanFlowTests) ... ok
+test_nonfinite_input_fails_before_optimizer_step (paper.benchmarks2026.test_meanflow.MeanFlowTests) ... ok
+test_periodic_torus_field_and_jvp (paper.benchmarks2026.test_meanflow.MeanFlowTests) ... ok
+test_sampling_sign_nfe_and_training_state (paper.benchmarks2026.test_meanflow.MeanFlowTests) ... ok
+test_time_sampling_native_law_equal_fraction_and_isolated_rng (paper.benchmarks2026.test_meanflow.MeanFlowTests) ... ok
+test_update_checkpoint_exact_continuation_both_variants (paper.benchmarks2026.test_meanflow.MeanFlowTests) ... ok
+test_chunked_mmd_matches_direct (paper.benchmarks2026.test_partial_report.PartialReportTests) ... ok
+test_duplicate_seed_rejected (paper.benchmarks2026.test_partial_report.PartialReportTests) ... ok
+test_no_imputation_of_missing_seeds (paper.benchmarks2026.test_partial_report.PartialReportTests) ... ok
+test_periodic_embedding (paper.benchmarks2026.test_partial_report.PartialReportTests) ... ok
+test_sd_is_across_training_seeds (paper.benchmarks2026.test_partial_report.PartialReportTests) ... ok
+test_common_scale_and_large_png_contract (paper.benchmarks2026.test_plots.PlotContracts) ... ok
+test_comparison_headings_and_footer_do_not_overlap_panel_labels (paper.benchmarks2026.test_plots.PlotContracts) ... ok
+test_completion_budget_and_identity_must_match (paper.benchmarks2026.test_plots.PlotContracts) ... ok
+test_discovery_ignores_unfinished_jobs_and_root_summaries (paper.benchmarks2026.test_plots.PlotContracts) ... ok
+test_duplicate_seed_cannot_inflate_replicates (paper.benchmarks2026.test_plots.PlotContracts) ... ok
+test_final_resolved_defaults_and_sources_must_match (paper.benchmarks2026.test_plots.PlotContracts) ... ok
+test_frozen_final_identity_matches_across_seeds (paper.benchmarks2026.test_plots.PlotContracts) ... ok
+test_incomplete_or_test_disabled_final_is_rejected_before_read (paper.benchmarks2026.test_plots.PlotContracts) ... ok
+test_individual_rna_exports_reuse_row_scales_and_cover_every_pair (paper.benchmarks2026.test_plots.PlotContracts) ... ok
+test_metric_identity_draws_nfe_and_score_are_checked (paper.benchmarks2026.test_plots.PlotContracts) ... ok
+test_nonfinal_test_enabled_job_is_ignored_before_completion_read (paper.benchmarks2026.test_plots.PlotContracts) ... ok
+test_only_selected_test_checkpoint_can_be_read (paper.benchmarks2026.test_plots.PlotContracts) ... ok
+test_periodic_density_and_integral (paper.benchmarks2026.test_plots.PlotContracts) ... ok
+test_phases_are_not_pooled_and_missing_seeds_are_explicit (paper.benchmarks2026.test_plots.PlotContracts) ... ok
+test_require_complete_fails_before_heldout_access (paper.benchmarks2026.test_plots.PlotContracts) ... ok
+test_rna_marginals_cover_all_seven_angles (paper.benchmarks2026.test_plots.PlotContracts) ... ok
+test_sphere_radial_normalization (paper.benchmarks2026.test_plots.PlotContracts) ... ok
+test_spherical_density_integrates_to_one (paper.benchmarks2026.test_plots.PlotContracts) ... ok
+test_split_guards_precede_file_access (paper.benchmarks2026.test_plots.PlotContracts) ... ok
+test_tables_expose_identity_uncertainties_and_missing_methods (paper.benchmarks2026.test_plots.PlotContracts) ... ok
+test_training_curve_excludes_critic_warmup (paper.benchmarks2026.test_plots.PlotContracts) ... ok
+test_training_seed_sd_is_not_draw_sd (paper.benchmarks2026.test_plots.PlotContracts) ... ok
+test_validation_selection_and_final_duplicate_guard (paper.benchmarks2026.test_plots.PlotContracts) ... ok
+test_variants_and_configs_are_not_pooled (paper.benchmarks2026.test_plots.PlotContracts) ... ok
+test_include_project_blocks_project_workers_but_excludes_self (paper.benchmarks2026.test_queue_profile.GpuGuardTests) ... ok
+test_training_guard_waits_without_modifying_another_process (paper.benchmarks2026.test_queue_profile.GpuGuardTests) ... ok
+test_isolated_profile_never_reads_arrays_or_advances_weights_training_state (paper.benchmarks2026.test_queue_profile.LatencyWorkerTests) ... ok
+test_missing_completed_job_or_other_gpu_worker_rejected (paper.benchmarks2026.test_queue_profile.LatencyWorkerTests) ... ok
+test_sampling_profile_restores_cpu_rng_and_removes_hooks (paper.benchmarks2026.test_queue_profile.LatencyWorkerTests) ... ok
+test_selected_checkpoint_job_identity_mismatch_rejected (paper.benchmarks2026.test_queue_profile.LatencyWorkerTests) ... ok
+test_profiles_serial_frozen_paths_and_resumes_valid_profiles (paper.benchmarks2026.test_queue_profile.ProfileDriverTests) ... ok
+test_rejects_nonisolated_or_stale_checkpoint_profile (paper.benchmarks2026.test_queue_profile.ProfileDriverTests) ... ok
+test_requires_completed_phase_and_no_other_gpu_python (paper.benchmarks2026.test_queue_profile.ProfileDriverTests) ... ok
+test_snapshot_tamper_or_worker_failure_never_publishes_profiles_completed (paper.benchmarks2026.test_queue_profile.ProfileDriverTests) ... ok
+test_completed_jobs_skip_and_resume_without_relaunch (paper.benchmarks2026.test_queue_profile.QueueTests) ... ok
+test_failure_cancels_queued_and_waits_active_exit_without_phase_completion (paper.benchmarks2026.test_queue_profile.QueueTests) ... ok
+test_runtime_publication_failure_after_spawn_still_waits_for_child_exit (paper.benchmarks2026.test_queue_profile.QueueTests) ... ok
+test_single_worker_plan_is_serial (paper.benchmarks2026.test_queue_profile.QueueTests) ... ok
+test_source_snapshot_paths_and_frozen_worker_command (paper.benchmarks2026.test_queue_profile.QueueTests) ... ok
+test_tampered_snapshot_and_changed_frozen_plan_rejected_before_spawn (paper.benchmarks2026.test_queue_profile.QueueTests) ... ok
+test_two_process_cap_and_pid_runtime_bookkeeping (paper.benchmarks2026.test_queue_profile.QueueTests) ... ok
+test_unvalidated_concurrency_rejected_before_spawn (paper.benchmarks2026.test_queue_profile.QueueTests) ... ok
+test_fixed_count_config_and_nonfinite_step_do_not_mutate_optimizer (paper.benchmarks2026.test_rwflow.AdapterTests) ... ok
+test_scaling_checkpoint_continuation_and_cpu_adam_counters (paper.benchmarks2026.test_rwflow.AdapterTests) ... ok
+test_shared_generator_update_checkpoint_sample_and_rng (paper.benchmarks2026.test_rwflow.AdapterTests) ... ok
+test_batched_and_scaling_match_original_at_every_fixed_count (paper.benchmarks2026.test_rwflow.MathematicsTests) ... ok
+test_cost_gradient_directional_finite_difference (paper.benchmarks2026.test_rwflow.MathematicsTests) ... ok
+test_equal_real_and_self_bank_cancel_exactly (paper.benchmarks2026.test_rwflow.MathematicsTests) ... ok
+test_field_is_negative_full_sinkhorn_divergence_gradient (paper.benchmarks2026.test_rwflow.MathematicsTests) ... ok
+test_independent_bank_field_finite_difference (paper.benchmarks2026.test_rwflow.MathematicsTests) ... ok
+test_invalid_solver_inputs (paper.benchmarks2026.test_rwflow.MathematicsTests) ... ok
+test_log_reference_is_scriptable_and_unchanged (paper.benchmarks2026.test_rwflow.MathematicsTests) ... ok
+test_no_convergence_scalar_reads_inside_either_solver (paper.benchmarks2026.test_rwflow.MathematicsTests) ... ok
+test_periodic_embedding_and_gradient (paper.benchmarks2026.test_rwflow.MathematicsTests) ... ok
+test_scale_equivalence (paper.benchmarks2026.test_rwflow.MathematicsTests) ... ok
+test_scaling64_expands_safe_range_without_removing_fallback (paper.benchmarks2026.test_rwflow.MathematicsTests) ... ok
+test_scaling64_field_preserves_float32_contract (paper.benchmarks2026.test_rwflow.MathematicsTests) ... ok
+test_scaling64_matches_same_cost_float64_reference_then_cast (paper.benchmarks2026.test_rwflow.MathematicsTests) ... ok
+test_scaling_field_matches_reference_for_both_bank_layouts (paper.benchmarks2026.test_rwflow.MathematicsTests) ... ok
+test_scaling_large_representable_range_and_underflow_fallback (paper.benchmarks2026.test_rwflow.MathematicsTests) ... ok
+test_singleton_field_has_both_terms_and_correct_sign (paper.benchmarks2026.test_rwflow.MathematicsTests) ... ok
+test_sinkhorn_analytic_diagonal_and_entropy_units (paper.benchmarks2026.test_rwflow.MathematicsTests) ... ok
+test_sinkhorn_rectangular_uniform_marginals (paper.benchmarks2026.test_rwflow.MathematicsTests) ... ok
+test_targets_and_field_are_fully_detached (paper.benchmarks2026.test_rwflow.MathematicsTests) ... ok
+test_adapter_default_unchanged_and_cpu_graph_continuation (paper.benchmarks2026.test_rwflow_graph.Graph64CPUTests) ... ok
+test_batch_independence_and_owned_results_after_changed_cost (paper.benchmarks2026.test_rwflow_graph.Graph64CPUTests) ... ok
+test_chordal_global_bounds_fit_fp64_guard (paper.benchmarks2026.test_rwflow_graph.Graph64CPUTests) ... ok
+test_finite_L_body_matches_unchanged_scaling64_and_log_reference (paper.benchmarks2026.test_rwflow_graph.Graph64CPUTests) ... ok
+test_guarded_fallback_and_no_rng_or_autograd_or_cuda_cache (paper.benchmarks2026.test_rwflow_graph.Graph64CPUTests) ... ok
+test_uniform_and_concentrated_fields_match_for_equal_and_unequal_banks (paper.benchmarks2026.test_rwflow_graph.Graph64CPUTests) ... ok
+test_uniform_concentrated_field_matching_and_changing_cost_ownership (paper.benchmarks2026.test_rwflow_graph.Graph64CUDATests) ... skipped 'CUDA reserved; requires explicit parent GPU release'
+test_warm_replay_speed_probe_at_training_batch_shape (paper.benchmarks2026.test_rwflow_graph.Graph64CUDATests) ... skipped 'CUDA reserved; requires explicit parent GPU release'
+test_atomic_json_failure_preserves_existing_or_absent_completion_flag (paper.benchmarks2026.test_worker_protocol.SelectionAndMetricsTests) ... ok
+test_draw_mean_precedes_sample_sd_across_training_seeds (paper.benchmarks2026.test_worker_protocol.SelectionAndMetricsTests) ... ok
+test_metric_mmd_matches_independent_numpy_on_synthetic_manifolds (paper.benchmarks2026.test_worker_protocol.SelectionAndMetricsTests) ... ok
+test_refinement_has_six_validation_only_jobs_and_unchanged_generator (paper.benchmarks2026.test_worker_protocol.SelectionAndMetricsTests) ... ok
+test_selection_excludes_completed_jobs_outside_frozen_plan (paper.benchmarks2026.test_worker_protocol.SelectionAndMetricsTests) ... ok
+test_calibration_never_materializes_test_target (paper.benchmarks2026.test_worker_protocol.WorkerProtocolTests) ... ok
+test_failed_temporary_write_preserves_last_and_recovers_newer_interrupted (paper.benchmarks2026.test_worker_protocol.WorkerProtocolTests) ... ok
+test_failed_test_restarts_from_training_not_selected_sampling_weights (paper.benchmarks2026.test_worker_protocol.WorkerProtocolTests) ... ok
+test_failed_validation_does_not_publish_training_interruption_state (paper.benchmarks2026.test_worker_protocol.WorkerProtocolTests) ... ok
+test_plain_resume_preserves_model_and_both_explicit_rngs (paper.benchmarks2026.test_worker_protocol.WorkerProtocolTests) ... ok
+test_resume_chooses_highest_training_step_from_each_candidate (paper.benchmarks2026.test_worker_protocol.WorkerProtocolTests) ... ok
+test_resume_recovers_complete_snapshot_after_torn_last_write (paper.benchmarks2026.test_worker_protocol.WorkerProtocolTests) ... ok
+test_resume_rejects_changed_training_seed (paper.benchmarks2026.test_worker_protocol.WorkerProtocolTests) ... ok
+test_validation_and_test_stage_interrupted_snapshots_are_ignored (paper.benchmarks2026.test_worker_protocol.WorkerProtocolTests) ... ok
+test_cpu_draw_does_not_reseed_cuda (test_controlled_suite.ProtocolTests) ... ok
+test_fixed_kernel_and_identity (test_controlled_suite.ProtocolTests) ... ok
+test_mixture_logits_have_no_pathwise_gradient (test_controlled_suite.ProtocolTests) ... ok
+test_no_manifold_attribute_required_for_sphere_mlp (test_controlled_suite.ProtocolTests) ... ok
+unittest.case.FunctionTestCase (skip)
+test_controlled_suite.ProtocolTests.test_saved_float32_sphere_duplicates_are_exact_zero ... skipped 'Saved Volcano binary reference arrays intentionally omitted'
+unittest.case.FunctionTestCase (skip)
+test_controlled_suite.ProtocolTests.test_saved_volcano_radius_matches_normalized_reference ... skipped 'Saved Volcano binary reference arrays intentionally omitted'
+test_sphere_radius_explicitly_excludes_duplicate_neighbors (test_controlled_suite.ProtocolTests) ... ok
+unittest.case.FunctionTestCase (skip)
+test_controlled_suite.ProtocolTests.test_split_matches_author ... skipped 'Raw Fire CSV intentionally not included in the code archive'
+test_stabilization_field_is_periodic (test_controlled_suite.ProtocolTests) ... ok
+test_torus_wrap (test_controlled_suite.ProtocolTests) ... ok
+
+----------------------------------------------------------------------
+Ran 144 tests in 7.546s
+
+OK (skipped=6)
+{"passed": true, "tests_run": 144, "passed_tests": 138, "skipped_tests": 6, "failures": 0, "errors": 0, "archive_prerequisite_skips": [{"test": "paper.benchmarks2026.test_meanflow.MeanFlowTests.test_author_checkout_commit_is_pinned_without_processes", "reason": "Git checkout metadata intentionally omitted; use MANIFEST source hashes and UPSTREAM_PROVENANCE"}, {"test": "test_controlled_suite.ProtocolTests.test_saved_float32_sphere_duplicates_are_exact_zero", "reason": "Saved Volcano binary reference arrays intentionally omitted"}, {"test": "test_controlled_suite.ProtocolTests.test_saved_volcano_radius_matches_normalized_reference", "reason": "Saved Volcano binary reference arrays intentionally omitted"}, {"test": "test_controlled_suite.ProtocolTests.test_split_matches_author", "reason": "Raw Fire CSV intentionally not included in the code archive"}], "all_skips": [{"test": "skip", "reason": "Git checkout metadata intentionally omitted; use MANIFEST source hashes and UPSTREAM_PROVENANCE"}, {"test": "paper.benchmarks2026.test_rwflow_graph.Graph64CUDATests.test_uniform_concentrated_field_matching_and_changing_cost_ownership", "reason": "CUDA reserved; requires explicit parent GPU release"}, {"test": "paper.benchmarks2026.test_rwflow_graph.Graph64CUDATests.test_warm_replay_speed_probe_at_training_batch_shape", "reason": "CUDA reserved; requires explicit parent GPU release"}, {"test": "skip", "reason": "Saved Volcano binary reference arrays intentionally omitted"}, {"test": "skip", "reason": "Saved Volcano binary reference arrays intentionally omitted"}, {"test": "skip", "reason": "Raw Fire CSV intentionally not included in the code archive"}], "cuda_initialized": false, "scope": "unit tests only, no experimental training or dataset reproduction"}

@@ -1,0 +1,19 @@
+{
+  "name": "volcano",
+  "kind": "sphere",
+  "dim": 3,
+  "counts": {
+    "train": 663,
+    "val": 82,
+    "test": 82
+  },
+  "data_seed": 0,
+  "reference": {
+    "bandwidth2": 1.571376492522926,
+    "coverage_radius": 0.010018575232836861
+  },
+  "source_manifest_sha256": "b99034f88c3f1baf3b87d6a4108555f14bdd32a658a9ed0e956e734de95e4a3f",
+  "source_arrays_sha256": "55d140d58db65f58f69ba2fdae3e5fbeeee51abee6b07b5e7844ec896bada4ca",
+  "arrays_sha256": "2409cb6d4127380eca700bfba21f01f178714234b39a754bc6217d5b47f394f5",
+  "split_policy": "Existing historically exposed row split, no source-group transfer claim"
+}

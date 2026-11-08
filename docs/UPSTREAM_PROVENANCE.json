@@ -1,0 +1,41 @@
+[
+  {
+    "path": "external/riemannian-fm",
+    "git_head_if_available": null,
+    "tracked_changes_if_available": null,
+    "license_files": [
+      "LICENSE"
+    ]
+  },
+  {
+    "path": "external/riemannian-fm-official-clean",
+    "git_head_if_available": "b6ac1e9d60e18e594fb6310ec8a68d9ae683e2b2",
+    "tracked_changes_if_available": "",
+    "license_files": [
+      "LICENSE"
+    ]
+  },
+  {
+    "path": "external/kgdm-author",
+    "git_head_if_available": null,
+    "tracked_changes_if_available": null,
+    "license_files": [
+      "LICENSE"
+    ]
+  },
+  {
+    "path": "external/riemannian-meanflow-author",
+    "git_head_if_available": null,
+    "tracked_changes_if_available": null,
+    "license_files": []
+  },
+  {
+    "path": "external/acronym-data/public",
+    "git_head_if_available": null,
+    "tracked_changes_if_available": null,
+    "license_files": [
+      "LICENSE",
+      "THIRDPARTYLICENSES"
+    ]
+  }
+]

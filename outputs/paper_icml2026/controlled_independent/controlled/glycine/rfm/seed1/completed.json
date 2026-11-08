@@ -1,0 +1,18 @@
+{
+  "data": "glycine",
+  "method": "rfm",
+  "seed": 1,
+  "steps": 10000,
+  "train_seconds": 13.377547300000515,
+  "finished_at": "2026-10-23T20:00:03.928447+00:00",
+  "finite_parameters": true,
+  "evaluation_rng_invariance_verified": true,
+  "parameter_change_l2": {
+    "net.net.0.weight": 4.708779811859131,
+    "net.net.0.bias": 1.9286199808120728,
+    "net.net.2.weight": 9.730283737182617,
+    "net.net.2.bias": 0.7324059009552002,
+    "net.net.4.weight": 1.630334496498108,
+    "net.net.4.bias": 0.014381872490048409
+  }
+}

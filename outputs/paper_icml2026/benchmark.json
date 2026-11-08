@@ -1,0 +1,52 @@
+[
+  {
+    "data": "fire",
+    "method": "mgm_gmm",
+    "seed": 7,
+    "steps": 100,
+    "train_seconds": 1.190487199999552,
+    "seconds_per_step": 0.011904871999995521,
+    "model_parameters": 168,
+    "critic_parameters": 19459
+  },
+  {
+    "data": "fire",
+    "method": "mgm_mlp",
+    "seed": 7,
+    "steps": 100,
+    "train_seconds": 0.575978099999702,
+    "seconds_per_step": 0.005759780999997019,
+    "model_parameters": 19075,
+    "critic_parameters": 19459
+  },
+  {
+    "data": "fire",
+    "method": "rfm",
+    "seed": 7,
+    "steps": 100,
+    "train_seconds": 0.21099000000049273,
+    "seconds_per_step": 0.002109900000004927,
+    "model_parameters": 19459,
+    "critic_parameters": 0
+  },
+  {
+    "data": "rna",
+    "method": "mgm_gmm",
+    "seed": 7,
+    "steps": 100,
+    "train_seconds": 0.3437895999995817,
+    "seconds_per_step": 0.003437895999995817,
+    "model_parameters": 480,
+    "critic_parameters": 20487
+  },
+  {
+    "data": "rna",
+    "method": "rfm",
+    "seed": 7,
+    "steps": 100,
+    "train_seconds": 0.13546250000035798,
+    "seconds_per_step": 0.0013546250000035797,
+    "model_parameters": 20487,
+    "critic_parameters": 0
+  }
+]

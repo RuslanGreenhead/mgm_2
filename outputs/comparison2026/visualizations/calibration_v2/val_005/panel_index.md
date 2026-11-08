@@ -1,0 +1,47 @@
+# VALIDATION ONLY: individual density panels
+
+Each PNG is at least 2000 px wide; each PDF is vector. Density arrays and color limits exactly match the corresponding comparison row.
+Missing methods are not imputed or exported. RNA exports contain six separate pair marginals per available method/target.
+
+## Fire
+
+[Dataset comparison PNG](<E:/Codex Projects/Riemmanian Midpoint Generative Models/outputs/comparison2026/visualizations/calibration_v2/val_005/fire_comparison.png>) | [Vector PDF](<E:/Codex Projects/Riemmanian Midpoint Generative Models/outputs/comparison2026/visualizations/calibration_v2/val_005/fire_comparison.pdf>)
+
+| Panel | Angle pair | PNG zoom | Vector PDF |
+| --- | --- | --- | --- |
+| Held-out target | -- | [PNG](<E:/Codex Projects/Riemmanian Midpoint Generative Models/outputs/comparison2026/visualizations/calibration_v2/val_005/panels/fire_target.png>) | [PDF](<E:/Codex Projects/Riemmanian Midpoint Generative Models/outputs/comparison2026/visualizations/calibration_v2/val_005/panels/fire_target.pdf>) |
+| MGM | -- | [PNG](<E:/Codex Projects/Riemmanian Midpoint Generative Models/outputs/comparison2026/visualizations/calibration_v2/val_005/panels/fire_mgm.png>) | [PDF](<E:/Codex Projects/Riemmanian Midpoint Generative Models/outputs/comparison2026/visualizations/calibration_v2/val_005/panels/fire_mgm.pdf>) |
+| RWFlow | -- | [PNG](<E:/Codex Projects/Riemmanian Midpoint Generative Models/outputs/comparison2026/visualizations/calibration_v2/val_005/panels/fire_rwflow.png>) | [PDF](<E:/Codex Projects/Riemmanian Midpoint Generative Models/outputs/comparison2026/visualizations/calibration_v2/val_005/panels/fire_rwflow.pdf>) |
+| KGDM | -- | [PNG](<E:/Codex Projects/Riemmanian Midpoint Generative Models/outputs/comparison2026/visualizations/calibration_v2/val_005/panels/fire_kgdm.png>) | [PDF](<E:/Codex Projects/Riemmanian Midpoint Generative Models/outputs/comparison2026/visualizations/calibration_v2/val_005/panels/fire_kgdm.pdf>) |
+| MeanFlow | -- | [PNG](<E:/Codex Projects/Riemmanian Midpoint Generative Models/outputs/comparison2026/visualizations/calibration_v2/val_005/panels/fire_meanflow.png>) | [PDF](<E:/Codex Projects/Riemmanian Midpoint Generative Models/outputs/comparison2026/visualizations/calibration_v2/val_005/panels/fire_meanflow.pdf>) |
+
+## General
+
+[Dataset comparison PNG](<E:/Codex Projects/Riemmanian Midpoint Generative Models/outputs/comparison2026/visualizations/calibration_v2/val_005/general_comparison.png>) | [Vector PDF](<E:/Codex Projects/Riemmanian Midpoint Generative Models/outputs/comparison2026/visualizations/calibration_v2/val_005/general_comparison.pdf>)
+
+| Panel | Angle pair | PNG zoom | Vector PDF |
+| --- | --- | --- | --- |
+| Held-out target | -- | [PNG](<E:/Codex Projects/Riemmanian Midpoint Generative Models/outputs/comparison2026/visualizations/calibration_v2/val_005/panels/general_target.png>) | [PDF](<E:/Codex Projects/Riemmanian Midpoint Generative Models/outputs/comparison2026/visualizations/calibration_v2/val_005/panels/general_target.pdf>) |
+| MGM | -- | [PNG](<E:/Codex Projects/Riemmanian Midpoint Generative Models/outputs/comparison2026/visualizations/calibration_v2/val_005/panels/general_mgm.png>) | [PDF](<E:/Codex Projects/Riemmanian Midpoint Generative Models/outputs/comparison2026/visualizations/calibration_v2/val_005/panels/general_mgm.pdf>) |
+| RWFlow | -- | [PNG](<E:/Codex Projects/Riemmanian Midpoint Generative Models/outputs/comparison2026/visualizations/calibration_v2/val_005/panels/general_rwflow.png>) | [PDF](<E:/Codex Projects/Riemmanian Midpoint Generative Models/outputs/comparison2026/visualizations/calibration_v2/val_005/panels/general_rwflow.pdf>) |
+| KGDM | -- | [PNG](<E:/Codex Projects/Riemmanian Midpoint Generative Models/outputs/comparison2026/visualizations/calibration_v2/val_005/panels/general_kgdm.png>) | [PDF](<E:/Codex Projects/Riemmanian Midpoint Generative Models/outputs/comparison2026/visualizations/calibration_v2/val_005/panels/general_kgdm.pdf>) |
+| MeanFlow | -- | [PNG](<E:/Codex Projects/Riemmanian Midpoint Generative Models/outputs/comparison2026/visualizations/calibration_v2/val_005/panels/general_meanflow.png>) | [PDF](<E:/Codex Projects/Riemmanian Midpoint Generative Models/outputs/comparison2026/visualizations/calibration_v2/val_005/panels/general_meanflow.pdf>) |
+
+## RNA (7D)
+
+[Dataset comparison PNG](<E:/Codex Projects/Riemmanian Midpoint Generative Models/outputs/comparison2026/visualizations/calibration_v2/val_005/rna_comparison.png>) | [Vector PDF](<E:/Codex Projects/Riemmanian Midpoint Generative Models/outputs/comparison2026/visualizations/calibration_v2/val_005/rna_comparison.pdf>)
+
+| Panel | Angle pair | PNG zoom | Vector PDF |
+| --- | --- | --- | --- |
+| Held-out target | 1-2 | [PNG](<E:/Codex Projects/Riemmanian Midpoint Generative Models/outputs/comparison2026/visualizations/calibration_v2/val_005/panels/rna_pair1_2_target.png>) | [PDF](<E:/Codex Projects/Riemmanian Midpoint Generative Models/outputs/comparison2026/visualizations/calibration_v2/val_005/panels/rna_pair1_2_target.pdf>) |
+| MGM | 1-2 | [PNG](<E:/Codex Projects/Riemmanian Midpoint Generative Models/outputs/comparison2026/visualizations/calibration_v2/val_005/panels/rna_pair1_2_mgm.png>) | [PDF](<E:/Codex Projects/Riemmanian Midpoint Generative Models/outputs/comparison2026/visualizations/calibration_v2/val_005/panels/rna_pair1_2_mgm.pdf>) |
+| Held-out target | 2-3 | [PNG](<E:/Codex Projects/Riemmanian Midpoint Generative Models/outputs/comparison2026/visualizations/calibration_v2/val_005/panels/rna_pair2_3_target.png>) | [PDF](<E:/Codex Projects/Riemmanian Midpoint Generative Models/outputs/comparison2026/visualizations/calibration_v2/val_005/panels/rna_pair2_3_target.pdf>) |
+| MGM | 2-3 | [PNG](<E:/Codex Projects/Riemmanian Midpoint Generative Models/outputs/comparison2026/visualizations/calibration_v2/val_005/panels/rna_pair2_3_mgm.png>) | [PDF](<E:/Codex Projects/Riemmanian Midpoint Generative Models/outputs/comparison2026/visualizations/calibration_v2/val_005/panels/rna_pair2_3_mgm.pdf>) |
+| Held-out target | 3-4 | [PNG](<E:/Codex Projects/Riemmanian Midpoint Generative Models/outputs/comparison2026/visualizations/calibration_v2/val_005/panels/rna_pair3_4_target.png>) | [PDF](<E:/Codex Projects/Riemmanian Midpoint Generative Models/outputs/comparison2026/visualizations/calibration_v2/val_005/panels/rna_pair3_4_target.pdf>) |
+| MGM | 3-4 | [PNG](<E:/Codex Projects/Riemmanian Midpoint Generative Models/outputs/comparison2026/visualizations/calibration_v2/val_005/panels/rna_pair3_4_mgm.png>) | [PDF](<E:/Codex Projects/Riemmanian Midpoint Generative Models/outputs/comparison2026/visualizations/calibration_v2/val_005/panels/rna_pair3_4_mgm.pdf>) |
+| Held-out target | 4-5 | [PNG](<E:/Codex Projects/Riemmanian Midpoint Generative Models/outputs/comparison2026/visualizations/calibration_v2/val_005/panels/rna_pair4_5_target.png>) | [PDF](<E:/Codex Projects/Riemmanian Midpoint Generative Models/outputs/comparison2026/visualizations/calibration_v2/val_005/panels/rna_pair4_5_target.pdf>) |
+| MGM | 4-5 | [PNG](<E:/Codex Projects/Riemmanian Midpoint Generative Models/outputs/comparison2026/visualizations/calibration_v2/val_005/panels/rna_pair4_5_mgm.png>) | [PDF](<E:/Codex Projects/Riemmanian Midpoint Generative Models/outputs/comparison2026/visualizations/calibration_v2/val_005/panels/rna_pair4_5_mgm.pdf>) |
+| Held-out target | 5-6 | [PNG](<E:/Codex Projects/Riemmanian Midpoint Generative Models/outputs/comparison2026/visualizations/calibration_v2/val_005/panels/rna_pair5_6_target.png>) | [PDF](<E:/Codex Projects/Riemmanian Midpoint Generative Models/outputs/comparison2026/visualizations/calibration_v2/val_005/panels/rna_pair5_6_target.pdf>) |
+| MGM | 5-6 | [PNG](<E:/Codex Projects/Riemmanian Midpoint Generative Models/outputs/comparison2026/visualizations/calibration_v2/val_005/panels/rna_pair5_6_mgm.png>) | [PDF](<E:/Codex Projects/Riemmanian Midpoint Generative Models/outputs/comparison2026/visualizations/calibration_v2/val_005/panels/rna_pair5_6_mgm.pdf>) |
+| Held-out target | 6-7 | [PNG](<E:/Codex Projects/Riemmanian Midpoint Generative Models/outputs/comparison2026/visualizations/calibration_v2/val_005/panels/rna_pair6_7_target.png>) | [PDF](<E:/Codex Projects/Riemmanian Midpoint Generative Models/outputs/comparison2026/visualizations/calibration_v2/val_005/panels/rna_pair6_7_target.pdf>) |
+| MGM | 6-7 | [PNG](<E:/Codex Projects/Riemmanian Midpoint Generative Models/outputs/comparison2026/visualizations/calibration_v2/val_005/panels/rna_pair6_7_mgm.png>) | [PDF](<E:/Codex Projects/Riemmanian Midpoint Generative Models/outputs/comparison2026/visualizations/calibration_v2/val_005/panels/rna_pair6_7_mgm.pdf>) |

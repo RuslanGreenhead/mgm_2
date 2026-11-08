@@ -1,0 +1,18 @@
+{
+  "data": "fire",
+  "method": "rfm",
+  "seed": 0,
+  "steps": 10000,
+  "train_seconds": 19.58813829999781,
+  "finished_at": "2026-10-23T19:46:59.484675+00:00",
+  "finite_parameters": true,
+  "evaluation_rng_invariance_verified": true,
+  "parameter_change_l2": {
+    "net.net.0.weight": 4.09097146987915,
+    "net.net.0.bias": 0.7761951684951782,
+    "net.net.2.weight": 7.235596179962158,
+    "net.net.2.bias": 0.3112119734287262,
+    "net.net.4.weight": 1.0292105674743652,
+    "net.net.4.bias": 0.024576770141720772
+  }
+}

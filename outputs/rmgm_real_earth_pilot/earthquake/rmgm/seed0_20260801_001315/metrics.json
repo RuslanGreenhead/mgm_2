@@ -1,0 +1,15 @@
+{
+  "mmd2": NaN,
+  "nn_sample_to_data": NaN,
+  "nn_data_to_sample": NaN,
+  "symmetric_nn": NaN,
+  "coverage_radius": 0.017449019476771355,
+  "coverage_at_radius": 0.0,
+  "step": 800,
+  "method": "rmgm",
+  "critic_loss": NaN,
+  "generator_loss": NaN,
+  "target_norm": NaN,
+  "sample_norm": NaN,
+  "constraint_error": NaN
+}

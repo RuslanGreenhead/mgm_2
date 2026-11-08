@@ -1,0 +1,18 @@
+\begin{table}[t]
+\caption{\textbf{Initialization and objective controls.} Biased MMD$^2\times10^3$, mean $\pm$ SD across three training seeds. All trained rows use 2,000 iterations/updates. MLP rows share architecture and output constraints; mixture rows have a different restricted parameterization.}
+\label{tab:ablation}
+\centering\small
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{@{}lrrr@{}}
+\toprule
+Method & Fire & General & RNA \\
+\midrule
+Init. GMM & $0.7\,\pm\,0.6$ & $0.6\,\pm\,0.1$ & $1.5\,\pm\,0.1$ \\
+R-MGM GMM & $1.0\,\pm\,0.6$ & $33.8\,\pm\,3.9$ & $2.4\,\pm\,0.2$ \\
+R-MGM MLP & $21.4\,\pm\,16.4$ & $60.7\,\pm\,10.8$ & $283.0\,\pm\,119.0$ \\
+MMD MLP & $2.2\,\pm\,0.7$ & $31.1\,\pm\,0.8$ & $8.5\,\pm\,0.7$ \\
+RFM (1) & $27.5\,\pm\,2.3$ & $61.0\,\pm\,1.5$ & $343.6\,\pm\,4.6$ \\
+RFM (128) & $4.1\,\pm\,0.5$ & $40.7\,\pm\,0.8$ & $205.4\,\pm\,1.8$ \\
+\bottomrule
+\end{tabular}
+\end{table}

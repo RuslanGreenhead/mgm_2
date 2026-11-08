@@ -1,0 +1,15 @@
+{
+  "data": "proline",
+  "method": "mgm_gmm",
+  "seed": 2,
+  "steps": 2000,
+  "train_seconds": 6.614451199999166,
+  "finished_at": "2026-10-23T20:01:26.422400+00:00",
+  "finite_parameters": true,
+  "evaluation_rng_invariance_verified": true,
+  "parameter_change_l2": {
+    "centers": 1.8405582904815674,
+    "log_scale": 0.28121066093444824,
+    "component_logits": 0.0
+  }
+}

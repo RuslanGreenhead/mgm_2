@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "purpose": "Local functional smoke test; not a paper-quality experiment.",
+  "dataset": {
+    "name": "synthetic_sphere",
+    "requires_downloaded_raw_data": false
+  },
+  "method": {
+    "name": "rmgm",
+    "generator": "mlp",
+    "critic": "mlp"
+  },
+  "runtime": {
+    "device_preference": "mps_then_cpu",
+    "seed": 0,
+    "max_steps": 20
+  },
+  "output": {
+    "root": "artifacts/smoke/sphere-rmgm-seed0",
+    "overwrite": false
+  }
+}

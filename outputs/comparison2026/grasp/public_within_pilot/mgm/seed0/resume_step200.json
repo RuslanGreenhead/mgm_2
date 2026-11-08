@@ -1,0 +1,17 @@
+{
+  "restored_step": 200,
+  "verified": true,
+  "checks": [
+    "model",
+    "optimizer",
+    "critic",
+    "critic_optimizer",
+    "rng",
+    "torch_rng",
+    "python_rng",
+    "numpy_rng",
+    "cuda_rng"
+  ],
+  "device": "cuda",
+  "checkpoint_sha256": "3403ce9bdd7a12eaafebb70448bdd4ce5e4999d1859b7db36e8c319c24c9c931"
+}

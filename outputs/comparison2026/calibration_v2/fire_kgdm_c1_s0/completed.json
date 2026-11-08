@@ -1,0 +1,14 @@
+{
+  "data": "fire",
+  "method": "kgdm",
+  "seed": 0,
+  "steps": 4000,
+  "attempts": 4000,
+  "train_seconds": 22.762901900000088,
+  "selected_step": 4000,
+  "selected_validation_mmd2": 0.008945471512891268,
+  "test_mmd2": null,
+  "critic_updates": 0,
+  "test_evaluations": 0,
+  "selection": "Lowest fixed-probe validation MMD; no test tuning"
+}

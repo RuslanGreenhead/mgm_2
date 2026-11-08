@@ -1,0 +1,4 @@
+data,method,seed,step,loss,run
+rna,kgdm,0,100,0.22732087969779968,E:\Codex Projects\Riemmanian Midpoint Generative Models\outputs\comparison2026\integration_v1\rna_kgdm_c0_s0
+rna,meanflow,0,100,18.12605094909668,E:\Codex Projects\Riemmanian Midpoint Generative Models\outputs\comparison2026\integration_v1\rna_meanflow_c0_s0
+rna,rwflow,0,100,0.11367323994636536,E:\Codex Projects\Riemmanian Midpoint Generative Models\outputs\comparison2026\integration_v1\rna_rwflow_c0_s0

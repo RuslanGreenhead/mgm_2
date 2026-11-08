@@ -1,0 +1,22 @@
+#!/bin/bash
+
+python E:\Codex Projects\Riemmanian Midpoint Generative Models\external\riemannian-fm\train.py \
+	experiment=maze3v2 \
+	seed=0 \
+	use_wandb=False \
+	earth_datadir=E:/Codex Projects/Riemmanian Midpoint Generative Models/external/riemannian-fm/data/earth_data \
+	top500_datadir=E:/Codex Projects/Riemmanian Midpoint Generative Models/external/riemannian-fm/data/top500 \
+	rna_datadir=E:/Codex Projects/Riemmanian Midpoint Generative Models/external/riemannian-fm/data/rna \
+	mesh_datadir=E:/Codex Projects/Riemmanian Midpoint Generative Models/external/riemannian-fm/data/mesh \
+	hydra.run.dir=E:/Codex Projects/Riemmanian Midpoint Generative Models/outputs/rfm_official_smoke/maze3v2 \
+	optim.num_iterations=1 \
+	optim.batch_size=2 \
+	optim.val_batch_size=8 \
+	val_every=1 \
+	model.d_model=32 \
+	model.num_layers=2 \
+	mesh.numeigs=20 \
+	mesh.nsteps=5 \
+	mesh.method=euler \
+	mesh.projx=True \
+	visualize=False

@@ -1,0 +1,18 @@
+{
+  "data": "proline",
+  "method": "rfm",
+  "seed": 1,
+  "steps": 10000,
+  "train_seconds": 13.939644000001863,
+  "finished_at": "2026-10-23T20:01:17.566305+00:00",
+  "finite_parameters": true,
+  "evaluation_rng_invariance_verified": true,
+  "parameter_change_l2": {
+    "net.net.0.weight": 5.034236431121826,
+    "net.net.0.bias": 1.6746513843536377,
+    "net.net.2.weight": 12.312477111816406,
+    "net.net.2.bias": 0.8691534399986267,
+    "net.net.4.weight": 2.271472215652466,
+    "net.net.4.bias": 0.027990246191620827
+  }
+}

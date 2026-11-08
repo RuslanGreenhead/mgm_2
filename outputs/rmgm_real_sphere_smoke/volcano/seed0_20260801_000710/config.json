@@ -1,0 +1,51 @@
+{
+  "config": {
+    "data": "volcano",
+    "earth_datadir": "data/earth_data",
+    "steps": 1,
+    "batch_size": 8,
+    "latent_dim": 4,
+    "hidden_dim": 16,
+    "num_layers": 2,
+    "critic_steps": 1,
+    "lr_g": 0.0002,
+    "lr_c": 0.0002,
+    "weight_decay": 0.0,
+    "seed": 0,
+    "data_seed": null,
+    "log_every": 1,
+    "plot_every": 1,
+    "eval_samples": 32,
+    "metric_samples": 32,
+    "device": "cpu",
+    "output_dir": "..\\..\\outputs\\rmgm_real_sphere_smoke",
+    "dtype": "float32",
+    "metric_normalize": false,
+    "generator_type": "local_gmm",
+    "generator_components": 2,
+    "generator_residual_scale": 0.25,
+    "generator_kmeans_init": true,
+    "generator_kmeans_samples": 32,
+    "generator_kmeans_iters": 2
+  },
+  "dataset": {
+    "data": "volcano",
+    "csv_path": "data\\earth_data\\volcano.csv",
+    "rows": 827,
+    "splits": {
+      "train": 663,
+      "val": 82,
+      "test": 82
+    },
+    "lat_min": -62.970001220703125,
+    "lat_max": 65.7300033569336,
+    "lon_min": -178.47000122070312,
+    "lon_max": 177.17999267578125
+  },
+  "device": "cpu",
+  "torch": "2.5.1",
+  "cuda": "12.1",
+  "manifold": "Sphere",
+  "dim": 3,
+  "likelihood_note": "NLL is not reported: implicit one-step MGM has no tractable RFM-style likelihood without adding a separate density estimator."
+}

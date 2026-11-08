@@ -1,0 +1,257 @@
+{
+  "created_utc": "2026-10-24T08:51:45.158219+00:00",
+  "split": "val",
+  "phases": [
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\integration_v1"
+  ],
+  "phase_name": "integration_v1",
+  "requested_datasets": [
+    "rna"
+  ],
+  "plotted_datasets": [
+    "rna"
+  ],
+  "missing_cells": [
+    [
+      "rna",
+      "mgm",
+      0
+    ],
+    [
+      "rna",
+      "mgm",
+      1
+    ],
+    [
+      "rna",
+      "mgm",
+      2
+    ],
+    [
+      "rna",
+      "rwflow",
+      1
+    ],
+    [
+      "rna",
+      "rwflow",
+      2
+    ],
+    [
+      "rna",
+      "kgdm",
+      1
+    ],
+    [
+      "rna",
+      "kgdm",
+      2
+    ],
+    [
+      "rna",
+      "meanflow",
+      1
+    ],
+    [
+      "rna",
+      "meanflow",
+      2
+    ]
+  ],
+  "complete_three_seed_comparison": false,
+  "preview_rule": "minimum completed selected_validation_mmd2 per dataset/method/seed",
+  "candidate_count": 3,
+  "selected_run_count": 3,
+  "selected_runs": [
+    {
+      "data": "rna",
+      "method": "kgdm",
+      "seed": 0,
+      "folder": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\integration_v1\\rna_kgdm_c0_s0",
+      "step": 100,
+      "budget": 100,
+      "config": {
+        "width": 128,
+        "depth": 3,
+        "latent_dim": 16,
+        "batch_size": 256,
+        "lr": 0.0002
+      }
+    },
+    {
+      "data": "rna",
+      "method": "meanflow",
+      "seed": 0,
+      "folder": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\integration_v1\\rna_meanflow_c0_s0",
+      "step": 100,
+      "budget": 100,
+      "config": {
+        "width": 128,
+        "depth": 3,
+        "latent_dim": 16,
+        "batch_size": 256,
+        "lr": 0.0002,
+        "variant": "rmf_mt"
+      }
+    },
+    {
+      "data": "rna",
+      "method": "rwflow",
+      "seed": 0,
+      "folder": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\integration_v1\\rna_rwflow_c0_s0",
+      "step": 100,
+      "budget": 100,
+      "config": {
+        "width": 128,
+        "depth": 3,
+        "latent_dim": 16,
+        "batch_size": 256,
+        "lr": 0.0002,
+        "epsilon": 1.0,
+        "sinkhorn_iters": 64
+      }
+    }
+  ],
+  "figure_seed": 0,
+  "figure_draw": 0,
+  "table_seed_policy": "draw mean within seed; seed mean and sample SD across available seeds 0,1,2",
+  "kde": {
+    "sphere": "vMF on S2, kappa=45, per steradian",
+    "torus": "120x120 histogram, wrapped Gaussian sigma=2.4 bins, per radian squared",
+    "scale": "row max across held-out and all available methods; LogNorm 1e-3*max to max",
+    "rna_pairs_zero_based": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ]
+    ]
+  },
+  "row_scales": {
+    "rna:(0, 1)": {
+      "vmin": 0.00290988476795542,
+      "vmax": 2.90988476795542,
+      "unit": "per_radian_squared"
+    },
+    "rna:(1, 2)": {
+      "vmin": 0.0034769719982234533,
+      "vmax": 3.476971998223453,
+      "unit": "per_radian_squared"
+    },
+    "rna:(2, 3)": {
+      "vmin": 0.005041898170300028,
+      "vmax": 5.041898170300028,
+      "unit": "per_radian_squared"
+    },
+    "rna:(3, 4)": {
+      "vmin": 0.005934109953432481,
+      "vmax": 5.934109953432481,
+      "unit": "per_radian_squared"
+    },
+    "rna:(4, 5)": {
+      "vmin": 0.00551444042936519,
+      "vmax": 5.51444042936519,
+      "unit": "per_radian_squared"
+    },
+    "rna:(5, 6)": {
+      "vmin": 0.004059800770709019,
+      "vmax": 4.0598007707090185,
+      "unit": "per_radian_squared"
+    }
+  },
+  "dpi": 240,
+  "vector_pdf": true,
+  "source_files_sha256": {
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\integration_v1\\fire_kgdm_c0_s0\\job.json": "bc66672729b4978374f38750040502b942c400f15d525b8e242fc70e2f5349c5",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\integration_v1\\fire_meanflow_c0_s0\\job.json": "9c00e21f2782fa4b81d73f63e4391e8f6b1a6fdf609b9ac1e5f821331e13da75",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\integration_v1\\fire_rwflow_c0_s0\\job.json": "dd7a1e6fe7ea10d38d4ae1ad7efa38e5930f739040fb85488f08a97b0c1758c7",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\integration_v1\\general_kgdm_c0_s0\\job.json": "445ffafe02077497bb9a6536805d7bb04d6128ef351a78c74b7dcc65c6f0bb23",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\integration_v1\\general_meanflow_c0_s0\\job.json": "97ae68b62a37210fc348129dc9aeda1014ca2b55b1fbe5fc912e7108896d7d53",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\integration_v1\\general_rwflow_c0_s0\\job.json": "85a715a2abab7d02fed989281f015c391d50a4d4d28dcb5a562339702e8e5932",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\integration_v1\\rna_kgdm_c0_s0\\job.json": "36c6cf96c282eb20ecff89903726ff0cb017d646ac5631324d06678da5476f94",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\integration_v1\\rna_kgdm_c0_s0\\completed.json": "1e7006312aac3377a146b84c710f95262545c3b398d62b952ae2cbae59fbc2ee",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\integration_v1\\rna_meanflow_c0_s0\\job.json": "bcffd351dc39d053cc2e49567197b4c2abe418615512f95bac7e9de9e08a2c19",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\integration_v1\\rna_meanflow_c0_s0\\completed.json": "d7668c9e5932409d7d2d90ab47652f20aa3db4d3960034b0eb4554848d80b9e8",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\integration_v1\\rna_rwflow_c0_s0\\job.json": "a14a23429ab75b825140d4c727c9cb32f7832184a3b690d60c23cecb3fed1c60",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\integration_v1\\rna_rwflow_c0_s0\\completed.json": "01445352895a238bc0fd12473dcce2f242e6f1af5be83a7a6a187c5268124f1f",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\integration_v1\\rna_kgdm_c0_s0\\val_step100_metrics.json": "2dec58b6efb5a549fa22a5a0097128d2beb4c2d25b19bfd325caa39e431a9a4a",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\integration_v1\\rna_meanflow_c0_s0\\val_step100_metrics.json": "0a7cc9bc0293b123adf2ea5a8d31adf5a8a2ceb4bfd500a1ef173ddc7d390a5d",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\integration_v1\\rna_rwflow_c0_s0\\val_step100_metrics.json": "2e902f82779d927ef09398fcd9b7cbf996558a76d44a6290fe414a7b3603bf08",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\paper\\vendor\\ne_110m_land.geojson": "9e0729ee253ca7d7a5c4ae9395fb1902264c5377c52e224d13dd85010e2835d9",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\integration_v1\\rna_kgdm_c0_s0\\val_step0_metrics.json": "1925f003837ab65337c7f63931bb3b47318ae096d592bd1e22b0077488fa927a",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\integration_v1\\rna_kgdm_c0_s0\\curve.json": "8061659ca7d8f57c1075100c2b8e559d86d9fef301258b06b43038358fcc406a",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\integration_v1\\rna_meanflow_c0_s0\\val_step0_metrics.json": "12e504b006ed98613ee5932d0d29c9525d092fcec012ec00600a476173f2628b",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\integration_v1\\rna_meanflow_c0_s0\\curve.json": "ebfe7f3b51ca241ed1373d103aa3e92829647564ec597c3e2becf1deb328ed60",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\integration_v1\\rna_rwflow_c0_s0\\val_step0_metrics.json": "b63b1f42040fa4b8ecada1376764bf0a4a29c2fa88aa68fb0535ba489db7f2f7",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\integration_v1\\rna_rwflow_c0_s0\\curve.json": "1048a3a75038018df6225ce7ddabd8edd2dbc4fa2ab593ec970c1ea6b5152f57"
+  },
+  "accessed_npz_members": [
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\data\\rna\\data.npz",
+      "key": "val_target",
+      "shape": [
+        947,
+        7
+      ],
+      "array_sha256_float64": "4ddb5913657cedef951d3be01bb83490c97b675160296be42afa7c7d00905d14"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\integration_v1\\rna_kgdm_c0_s0\\val_step100_samples.npz",
+      "key": "generated_draw_0",
+      "shape": [
+        947,
+        7
+      ],
+      "array_sha256_float64": "e02a779a0e1c2765caf7e8c1564be53838bce02f1ae504f1b716fd57c7781684"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\integration_v1\\rna_meanflow_c0_s0\\val_step100_samples.npz",
+      "key": "generated_draw_0",
+      "shape": [
+        947,
+        7
+      ],
+      "array_sha256_float64": "ecdeeeaa2478290cf2d64324e927f2a5eefabf1c0e2a5cf5fdec6707880b25c9"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\integration_v1\\rna_rwflow_c0_s0\\val_step100_samples.npz",
+      "key": "generated_draw_0",
+      "shape": [
+        947,
+        7
+      ],
+      "array_sha256_float64": "4a49b82b935a2ec7378044194b52fed4f45b3ded3cec47e97044b9d55fc89dc2"
+    }
+  ],
+  "script_sha256": "37f20e5a0fe027fbf0344fa8e2a42334c947ea919bee2560bbd42a228b83bb88",
+  "warnings": [],
+  "figures": [
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\visualizations\\integration_v1\\val\\rna_comparison.png",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\visualizations\\integration_v1\\val\\rna_comparison.pdf",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\visualizations\\integration_v1\\val\\overview.png",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\visualizations\\integration_v1\\val\\overview.pdf",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\visualizations\\integration_v1\\val\\validation_learning_curves.png",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\visualizations\\integration_v1\\val\\validation_learning_curves.pdf",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\visualizations\\integration_v1\\val\\training_loss_curves.png",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\visualizations\\integration_v1\\val\\training_loss_curves.pdf"
+  ]
+}

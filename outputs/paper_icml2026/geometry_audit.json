@@ -1,0 +1,43 @@
+{
+  "seed": 5801,
+  "geometric_audits": [
+    {
+      "geometry": "sphere",
+      "dtype": "float64",
+      "pairs": 64,
+      "max_point_reversal_ambient": 2.384087621156909e-14,
+      "max_velocity_reversal_metric": 3.4826335462941055e-15,
+      "max_velocity_vs_fd_ambient": 2.880881905440467e-10,
+      "target_is_exact_derivative": true
+    },
+    {
+      "geometry": "torus",
+      "dtype": "float64",
+      "pairs": 64,
+      "max_point_reversal_ambient": 1.2755491433176288e-15,
+      "max_velocity_reversal_metric": 0.0,
+      "max_velocity_vs_fd_ambient": 5.362546191274579e-10,
+      "target_is_exact_derivative": true
+    },
+    {
+      "geometry": "spd",
+      "dtype": "float64",
+      "pairs": 64,
+      "max_point_reversal_ambient": 1.6250646570963809e-15,
+      "max_velocity_reversal_metric": 5.958287718498491e-16,
+      "max_velocity_vs_fd_ambient": 6.58263180090715e-10,
+      "target_is_exact_derivative": true
+    },
+    {
+      "geometry": "hyperbolic",
+      "dtype": "float64",
+      "pairs": 64,
+      "max_point_reversal_ambient": 7.08802054110523e-08,
+      "max_velocity_reversal_metric": 8.016111605639022e-08,
+      "max_velocity_vs_fd_ambient": 8.374296757644164e-08,
+      "target_is_exact_derivative": false
+    }
+  ],
+  "two_point_transport_bound_cases": 200,
+  "note": "Numerical implementation checks, not a replacement for the proofs."
+}

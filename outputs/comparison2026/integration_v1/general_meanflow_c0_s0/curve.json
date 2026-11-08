@@ -1,0 +1,12 @@
+[
+  {
+    "step": 100,
+    "attempts": 100,
+    "loss": 5.57186222076416,
+    "loss1": 5.408659934997559,
+    "loss2": -0.0006956756114959717,
+    "updates": 100,
+    "parameter_count": 51718,
+    "equal_time_fraction": 0.75
+  }
+]

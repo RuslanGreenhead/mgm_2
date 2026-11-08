@@ -1,0 +1,552 @@
+{
+  "plan": {
+    "phase": "calibration_v2",
+    "jobs": [
+      {
+        "data": "fire",
+        "method": "kgdm",
+        "seed": 0,
+        "steps": 4000,
+        "eval_every": 1000,
+        "validation_draws": 1,
+        "score_test": false,
+        "output": "outputs/comparison2026/calibration_v2/fire_kgdm_c0_s0",
+        "config": {
+          "width": 128,
+          "depth": 3,
+          "latent_dim": 16,
+          "batch_size": 256,
+          "lr": 0.0002,
+          "kernel": "laplace",
+          "step_size": 0.5
+        }
+      },
+      {
+        "data": "fire",
+        "method": "kgdm",
+        "seed": 0,
+        "steps": 4000,
+        "eval_every": 1000,
+        "validation_draws": 1,
+        "score_test": false,
+        "output": "outputs/comparison2026/calibration_v2/fire_kgdm_c1_s0",
+        "config": {
+          "width": 128,
+          "depth": 3,
+          "latent_dim": 16,
+          "batch_size": 256,
+          "lr": 0.0002,
+          "kernel": "laplace",
+          "step_size": 1.0
+        }
+      },
+      {
+        "data": "fire",
+        "method": "kgdm",
+        "seed": 0,
+        "steps": 4000,
+        "eval_every": 1000,
+        "validation_draws": 1,
+        "score_test": false,
+        "output": "outputs/comparison2026/calibration_v2/fire_kgdm_c2_s0",
+        "config": {
+          "width": 128,
+          "depth": 3,
+          "latent_dim": 16,
+          "batch_size": 256,
+          "lr": 0.0002,
+          "kernel": "gauss",
+          "step_size": 1.0
+        }
+      },
+      {
+        "data": "fire",
+        "method": "meanflow",
+        "seed": 0,
+        "steps": 4000,
+        "eval_every": 1000,
+        "validation_draws": 1,
+        "score_test": false,
+        "output": "outputs/comparison2026/calibration_v2/fire_meanflow_c0_s0",
+        "config": {
+          "width": 128,
+          "depth": 3,
+          "latent_dim": 16,
+          "batch_size": 256,
+          "lr": 0.0002,
+          "variant": "rmf"
+        }
+      },
+      {
+        "data": "fire",
+        "method": "meanflow",
+        "seed": 0,
+        "steps": 4000,
+        "eval_every": 1000,
+        "validation_draws": 1,
+        "score_test": false,
+        "output": "outputs/comparison2026/calibration_v2/fire_meanflow_c1_s0",
+        "config": {
+          "width": 128,
+          "depth": 3,
+          "latent_dim": 16,
+          "batch_size": 256,
+          "lr": 0.0002,
+          "variant": "rmf_mt"
+        }
+      },
+      {
+        "data": "fire",
+        "method": "rwflow",
+        "seed": 0,
+        "steps": 4000,
+        "eval_every": 1000,
+        "validation_draws": 1,
+        "score_test": false,
+        "output": "outputs/comparison2026/calibration_v2/fire_rwflow_c0_s0",
+        "config": {
+          "width": 128,
+          "depth": 3,
+          "latent_dim": 16,
+          "batch_size": 256,
+          "lr": 0.0002,
+          "epsilon": 0.3,
+          "flow_step": 0.05,
+          "sinkhorn_iters": 128
+        }
+      },
+      {
+        "data": "fire",
+        "method": "rwflow",
+        "seed": 0,
+        "steps": 4000,
+        "eval_every": 1000,
+        "validation_draws": 1,
+        "score_test": false,
+        "output": "outputs/comparison2026/calibration_v2/fire_rwflow_c1_s0",
+        "config": {
+          "width": 128,
+          "depth": 3,
+          "latent_dim": 16,
+          "batch_size": 256,
+          "lr": 0.0002,
+          "epsilon": 0.3,
+          "flow_step": 0.2,
+          "sinkhorn_iters": 128
+        }
+      },
+      {
+        "data": "fire",
+        "method": "rwflow",
+        "seed": 0,
+        "steps": 4000,
+        "eval_every": 1000,
+        "validation_draws": 1,
+        "score_test": false,
+        "output": "outputs/comparison2026/calibration_v2/fire_rwflow_c2_s0",
+        "config": {
+          "width": 128,
+          "depth": 3,
+          "latent_dim": 16,
+          "batch_size": 256,
+          "lr": 0.0002,
+          "epsilon": 1.0,
+          "flow_step": 0.05,
+          "sinkhorn_iters": 128
+        }
+      },
+      {
+        "data": "fire",
+        "method": "rwflow",
+        "seed": 0,
+        "steps": 4000,
+        "eval_every": 1000,
+        "validation_draws": 1,
+        "score_test": false,
+        "output": "outputs/comparison2026/calibration_v2/fire_rwflow_c3_s0",
+        "config": {
+          "width": 128,
+          "depth": 3,
+          "latent_dim": 16,
+          "batch_size": 256,
+          "lr": 0.0002,
+          "epsilon": 1.0,
+          "flow_step": 0.2,
+          "sinkhorn_iters": 128
+        }
+      },
+      {
+        "data": "general",
+        "method": "kgdm",
+        "seed": 0,
+        "steps": 4000,
+        "eval_every": 1000,
+        "validation_draws": 1,
+        "score_test": false,
+        "output": "outputs/comparison2026/calibration_v2/general_kgdm_c0_s0",
+        "config": {
+          "width": 128,
+          "depth": 3,
+          "latent_dim": 16,
+          "batch_size": 256,
+          "lr": 0.0002,
+          "kernel": "laplace",
+          "step_size": 0.5
+        }
+      },
+      {
+        "data": "general",
+        "method": "kgdm",
+        "seed": 0,
+        "steps": 4000,
+        "eval_every": 1000,
+        "validation_draws": 1,
+        "score_test": false,
+        "output": "outputs/comparison2026/calibration_v2/general_kgdm_c1_s0",
+        "config": {
+          "width": 128,
+          "depth": 3,
+          "latent_dim": 16,
+          "batch_size": 256,
+          "lr": 0.0002,
+          "kernel": "laplace",
+          "step_size": 1.0
+        }
+      },
+      {
+        "data": "general",
+        "method": "kgdm",
+        "seed": 0,
+        "steps": 4000,
+        "eval_every": 1000,
+        "validation_draws": 1,
+        "score_test": false,
+        "output": "outputs/comparison2026/calibration_v2/general_kgdm_c2_s0",
+        "config": {
+          "width": 128,
+          "depth": 3,
+          "latent_dim": 16,
+          "batch_size": 256,
+          "lr": 0.0002,
+          "kernel": "gauss",
+          "step_size": 1.0
+        }
+      },
+      {
+        "data": "general",
+        "method": "meanflow",
+        "seed": 0,
+        "steps": 4000,
+        "eval_every": 1000,
+        "validation_draws": 1,
+        "score_test": false,
+        "output": "outputs/comparison2026/calibration_v2/general_meanflow_c0_s0",
+        "config": {
+          "width": 128,
+          "depth": 3,
+          "latent_dim": 16,
+          "batch_size": 256,
+          "lr": 0.0002,
+          "variant": "rmf"
+        }
+      },
+      {
+        "data": "general",
+        "method": "meanflow",
+        "seed": 0,
+        "steps": 4000,
+        "eval_every": 1000,
+        "validation_draws": 1,
+        "score_test": false,
+        "output": "outputs/comparison2026/calibration_v2/general_meanflow_c1_s0",
+        "config": {
+          "width": 128,
+          "depth": 3,
+          "latent_dim": 16,
+          "batch_size": 256,
+          "lr": 0.0002,
+          "variant": "rmf_mt"
+        }
+      },
+      {
+        "data": "general",
+        "method": "rwflow",
+        "seed": 0,
+        "steps": 4000,
+        "eval_every": 1000,
+        "validation_draws": 1,
+        "score_test": false,
+        "output": "outputs/comparison2026/calibration_v2/general_rwflow_c0_s0",
+        "config": {
+          "width": 128,
+          "depth": 3,
+          "latent_dim": 16,
+          "batch_size": 256,
+          "lr": 0.0002,
+          "epsilon": 0.3,
+          "flow_step": 0.05,
+          "sinkhorn_iters": 128
+        }
+      },
+      {
+        "data": "general",
+        "method": "rwflow",
+        "seed": 0,
+        "steps": 4000,
+        "eval_every": 1000,
+        "validation_draws": 1,
+        "score_test": false,
+        "output": "outputs/comparison2026/calibration_v2/general_rwflow_c1_s0",
+        "config": {
+          "width": 128,
+          "depth": 3,
+          "latent_dim": 16,
+          "batch_size": 256,
+          "lr": 0.0002,
+          "epsilon": 0.3,
+          "flow_step": 0.2,
+          "sinkhorn_iters": 128
+        }
+      },
+      {
+        "data": "general",
+        "method": "rwflow",
+        "seed": 0,
+        "steps": 4000,
+        "eval_every": 1000,
+        "validation_draws": 1,
+        "score_test": false,
+        "output": "outputs/comparison2026/calibration_v2/general_rwflow_c2_s0",
+        "config": {
+          "width": 128,
+          "depth": 3,
+          "latent_dim": 16,
+          "batch_size": 256,
+          "lr": 0.0002,
+          "epsilon": 1.0,
+          "flow_step": 0.05,
+          "sinkhorn_iters": 128
+        }
+      },
+      {
+        "data": "general",
+        "method": "rwflow",
+        "seed": 0,
+        "steps": 4000,
+        "eval_every": 1000,
+        "validation_draws": 1,
+        "score_test": false,
+        "output": "outputs/comparison2026/calibration_v2/general_rwflow_c3_s0",
+        "config": {
+          "width": 128,
+          "depth": 3,
+          "latent_dim": 16,
+          "batch_size": 256,
+          "lr": 0.0002,
+          "epsilon": 1.0,
+          "flow_step": 0.2,
+          "sinkhorn_iters": 128
+        }
+      },
+      {
+        "data": "rna",
+        "method": "kgdm",
+        "seed": 0,
+        "steps": 4000,
+        "eval_every": 1000,
+        "validation_draws": 1,
+        "score_test": false,
+        "output": "outputs/comparison2026/calibration_v2/rna_kgdm_c0_s0",
+        "config": {
+          "width": 128,
+          "depth": 3,
+          "latent_dim": 16,
+          "batch_size": 256,
+          "lr": 0.0002,
+          "kernel": "laplace",
+          "step_size": 0.5
+        }
+      },
+      {
+        "data": "rna",
+        "method": "kgdm",
+        "seed": 0,
+        "steps": 4000,
+        "eval_every": 1000,
+        "validation_draws": 1,
+        "score_test": false,
+        "output": "outputs/comparison2026/calibration_v2/rna_kgdm_c1_s0",
+        "config": {
+          "width": 128,
+          "depth": 3,
+          "latent_dim": 16,
+          "batch_size": 256,
+          "lr": 0.0002,
+          "kernel": "laplace",
+          "step_size": 1.0
+        }
+      },
+      {
+        "data": "rna",
+        "method": "kgdm",
+        "seed": 0,
+        "steps": 4000,
+        "eval_every": 1000,
+        "validation_draws": 1,
+        "score_test": false,
+        "output": "outputs/comparison2026/calibration_v2/rna_kgdm_c2_s0",
+        "config": {
+          "width": 128,
+          "depth": 3,
+          "latent_dim": 16,
+          "batch_size": 256,
+          "lr": 0.0002,
+          "kernel": "gauss",
+          "step_size": 1.0
+        }
+      },
+      {
+        "data": "rna",
+        "method": "meanflow",
+        "seed": 0,
+        "steps": 4000,
+        "eval_every": 1000,
+        "validation_draws": 1,
+        "score_test": false,
+        "output": "outputs/comparison2026/calibration_v2/rna_meanflow_c0_s0",
+        "config": {
+          "width": 128,
+          "depth": 3,
+          "latent_dim": 16,
+          "batch_size": 256,
+          "lr": 0.0002,
+          "variant": "rmf"
+        }
+      },
+      {
+        "data": "rna",
+        "method": "meanflow",
+        "seed": 0,
+        "steps": 4000,
+        "eval_every": 1000,
+        "validation_draws": 1,
+        "score_test": false,
+        "output": "outputs/comparison2026/calibration_v2/rna_meanflow_c1_s0",
+        "config": {
+          "width": 128,
+          "depth": 3,
+          "latent_dim": 16,
+          "batch_size": 256,
+          "lr": 0.0002,
+          "variant": "rmf_mt"
+        }
+      },
+      {
+        "data": "rna",
+        "method": "rwflow",
+        "seed": 0,
+        "steps": 4000,
+        "eval_every": 1000,
+        "validation_draws": 1,
+        "score_test": false,
+        "output": "outputs/comparison2026/calibration_v2/rna_rwflow_c0_s0",
+        "config": {
+          "width": 128,
+          "depth": 3,
+          "latent_dim": 16,
+          "batch_size": 256,
+          "lr": 0.0002,
+          "epsilon": 0.3,
+          "flow_step": 0.05,
+          "sinkhorn_iters": 128
+        }
+      },
+      {
+        "data": "rna",
+        "method": "rwflow",
+        "seed": 0,
+        "steps": 4000,
+        "eval_every": 1000,
+        "validation_draws": 1,
+        "score_test": false,
+        "output": "outputs/comparison2026/calibration_v2/rna_rwflow_c1_s0",
+        "config": {
+          "width": 128,
+          "depth": 3,
+          "latent_dim": 16,
+          "batch_size": 256,
+          "lr": 0.0002,
+          "epsilon": 0.3,
+          "flow_step": 0.2,
+          "sinkhorn_iters": 128
+        }
+      },
+      {
+        "data": "rna",
+        "method": "rwflow",
+        "seed": 0,
+        "steps": 4000,
+        "eval_every": 1000,
+        "validation_draws": 1,
+        "score_test": false,
+        "output": "outputs/comparison2026/calibration_v2/rna_rwflow_c2_s0",
+        "config": {
+          "width": 128,
+          "depth": 3,
+          "latent_dim": 16,
+          "batch_size": 256,
+          "lr": 0.0002,
+          "epsilon": 1.0,
+          "flow_step": 0.05,
+          "sinkhorn_iters": 128
+        }
+      },
+      {
+        "data": "rna",
+        "method": "rwflow",
+        "seed": 0,
+        "steps": 4000,
+        "eval_every": 1000,
+        "validation_draws": 1,
+        "score_test": false,
+        "output": "outputs/comparison2026/calibration_v2/rna_rwflow_c3_s0",
+        "config": {
+          "width": 128,
+          "depth": 3,
+          "latent_dim": 16,
+          "batch_size": 256,
+          "lr": 0.0002,
+          "epsilon": 1.0,
+          "flow_step": 0.2,
+          "sinkhorn_iters": 128
+        }
+      }
+    ],
+    "protocol": "Shared 128x3 neural map for MGM/KGDM/RWFlow; native RMF time network. Validation-only grid; no test tuning. No author-budget reproduction claim."
+  },
+  "plan_sha256": "18892a879acc42cbd0d0f70bbe4ce32fe52d08aea206771c21c94bc0eef97b84",
+  "source_sha256": {
+    "paper\\benchmarks2026\\common.py": "8b77d30bc3f9ff87997e9f6485a92729ceee96573ad34c4407cc34ee598ed8ee",
+    "paper\\benchmarks2026\\data_metrics.py": "da0f1485a68b051c3a8bd0bac38337fb33e7263866fd112fba0e71ab5b86a699",
+    "paper\\benchmarks2026\\kgdm.py": "b47967d454bd35b8bb6dd8ba5451f93c3fb4e5e06d2806f2bf576681ac1b3abf",
+    "paper\\benchmarks2026\\make_comparison_plan.py": "e819c8f107a08c38b110dc1dcc0f7630cc17a000f521cd9250fd5fdd059e66af",
+    "paper\\benchmarks2026\\make_mgm_plan.py": "c6208492993a9d02e659d13a7178890b1e58db1be0dd740d8eb45972786f5b70",
+    "paper\\benchmarks2026\\meanflow.py": "d80909b40c59ea99bc5010aec4977f1c21ac91e57b2ae9f47e14f4be4f082717",
+    "paper\\benchmarks2026\\mgm.py": "a9505f5bb662fb4027611e4ba5ce30df7f7348b26e04d92e32403d71525daabb",
+    "paper\\benchmarks2026\\run_jobs.py": "c29f158cb27b939ecbf94c9a6a319dc529cc7e596f96bf7fec94f90d467228d7",
+    "paper\\benchmarks2026\\rwflow.py": "0decfdcfb8af50e9aabde0eb235069fd43592e17a81479011a6d13d4415b587c",
+    "paper\\benchmarks2026\\test_common.py": "e1e3c3c490c29984a25059efc3ef9aa71aa2a01f13bbe58232469e14d11f0cc5",
+    "paper\\benchmarks2026\\test_kgdm.py": "4e00e6b09e073e82b9f35711bfcf2bdf85cedc55e2cf62c23a902e097af5996b",
+    "paper\\benchmarks2026\\test_meanflow.py": "eb5dfb3ec456ddca275458aa15c7eb41a75337383cb53bb7bb7069672baa0ec4",
+    "paper\\benchmarks2026\\test_rwflow.py": "1fc15e00eafe705bb14b2129f04ccaa4f1ec5c03e59e68808162f2d3289aa2c2",
+    "paper\\benchmarks2026\\worker.py": "e22746a936d5319d9ad8388e2576e326dc091782ce9780373f4158d215abe743",
+    "paper\\benchmarks2026\\__init__.py": "08937aa609de49e878234758172fc7031946701833b6b1cffea0ec031b8a2855",
+    "paper\\benchmarks2026\\KGDM_NOTES.md": "74652361865edb5c99a0eee0d80b800f690265e386f04caaf2600c182f0ca2f3",
+    "paper\\benchmarks2026\\MEANFLOW_NOTES.md": "2735577431ba6a522be929b33e313cb18915de8952deb551ef2c0a28b4a277c5",
+    "paper\\benchmarks2026\\RWFlow_NOTES.md": "aba2d40853495e39e0aa5bc9c203eaba0537fee058f7d0882284736e0be96f90",
+    "external\\kgdm-author\\earth\\drift_core.py": "853cc4c29c387632434a2f19e5ed18dfeb31586030b5ae48bd5c6d1cab9075c4"
+  },
+  "selection": "Validation only. Test scoring disabled for tuning; frozen final jobs are scored once after training.",
+  "gpu_policy": "Single sequential queue; no sidecar GPU training.",
+  "created_unix": 1792830990.9795208
+}

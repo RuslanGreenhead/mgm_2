@@ -1,0 +1,15 @@
+[
+  {
+    "step": 100.0,
+    "attempts": 100,
+    "loss": 0.11367323994636536,
+    "grad_norm": 0.3930881917476654,
+    "target_row_error": 7.152557373046875e-07,
+    "target_column_error": 7.152557373046875e-07,
+    "self_row_error": 3.5762786865234375e-07,
+    "self_column_error": 7.152557373046875e-07,
+    "attraction_norm": 3.287498950958252,
+    "repulsion_norm": 1.3634841442108154,
+    "field_norm": 3.3075122833251953
+  }
+]

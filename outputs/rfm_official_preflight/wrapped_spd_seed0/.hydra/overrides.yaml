@@ -1,0 +1,5 @@
+- experiment=wrapped_spd
+- seed=0
+- use_wandb=False
+- optim.num_iterations=1
+- val_every=100000

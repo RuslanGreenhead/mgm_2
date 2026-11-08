@@ -1,0 +1,14 @@
+{
+  "data": "volcano",
+  "method": "kgdm",
+  "seed": 0,
+  "steps": 50000,
+  "attempts": 50000,
+  "train_seconds": 357.8343251999995,
+  "selected_step": 50000,
+  "selected_validation_mmd2": 0.009586127337200434,
+  "test_mmd2": 0.015610131025539542,
+  "critic_updates": 0,
+  "test_evaluations": 3,
+  "selection": "Lowest fixed-probe validation MMD; no test tuning"
+}

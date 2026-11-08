@@ -1,0 +1,24 @@
+{
+  "data": "volcano",
+  "method": "mgm",
+  "seed": 0,
+  "steps": 50000,
+  "eval_every": 5000,
+  "validation_draws": 3,
+  "score_test": true,
+  "output": "outputs/comparison2026/final_v1/volcano_mgm_c0_s0",
+  "config": {
+    "width": 128,
+    "depth": 3,
+    "latent_dim": 16,
+    "batch_size": 256,
+    "lr": 0.0002,
+    "lr_c": 0.0004,
+    "critic_steps": 10,
+    "critic_warmup": 500,
+    "harmonics": 4,
+    "noise": 0.0,
+    "critic_width": 256
+  },
+  "concurrent_training_workers": 2
+}

@@ -1,0 +1,10 @@
+{
+  "n": 1024,
+  "ray_hit_fraction": 0.982421875,
+  "roundtrip_mmd2": 6.198883056640625e-06,
+  "roundtrip_symmetric_chamfer": 0.04169397056102753,
+  "roundtrip_l2_mean": 0.07210249453783035,
+  "roundtrip_l2_q90": 2.8546581233968027e-05,
+  "center_mode": "bbox",
+  "choose": "first"
+}

@@ -1,0 +1,111 @@
+{
+  "status": "PASSED",
+  "seed": 0,
+  "cpu_only": true,
+  "reports": [
+    {
+      "metrics": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\public_within_pilot\\mgm\\seed0\\eval_test_nfe1\\metrics.json",
+      "metrics_sha256": "3c526de9513f58296fc72e8094533a648335b159db3ee4523496cb3f0000362e",
+      "objects": [
+        {
+          "object_id": "Mug_10f6e09036350e92b3f21f1137c3c347_0.0002682457830986903",
+          "reference_rows": 129,
+          "generated": 512,
+          "source_rows_verified": true,
+          "mmd2_float64_recomputed": 0.003657366601888178,
+          "static_proxy_bookkeeping_verified": true,
+          "heldout_reference_proxy_rows": 100,
+          "heldout_reference_proxy_order_verified": true
+        },
+        {
+          "object_id": "Table_99cf659ae2fe4b87b72437fd995483b_0.009700376721042367",
+          "reference_rows": 157,
+          "generated": 512,
+          "source_rows_verified": true,
+          "mmd2_float64_recomputed": 0.0025525561618901784,
+          "static_proxy_bookkeeping_verified": true,
+          "heldout_reference_proxy_rows": 100,
+          "heldout_reference_proxy_order_verified": true
+        }
+      ]
+    },
+    {
+      "metrics": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\public_within_pilot\\rmf_mt\\seed0\\eval_test_nfe1\\metrics.json",
+      "metrics_sha256": "e141ccf3bc5b4dfb76f122eb9958915549481d95e04034b2c48496b495c0a290",
+      "objects": [
+        {
+          "object_id": "Mug_10f6e09036350e92b3f21f1137c3c347_0.0002682457830986903",
+          "reference_rows": 129,
+          "generated": 512,
+          "source_rows_verified": true,
+          "mmd2_float64_recomputed": 0.018042823276716396,
+          "static_proxy_bookkeeping_verified": true,
+          "heldout_reference_proxy_rows": 100,
+          "heldout_reference_proxy_order_verified": true
+        },
+        {
+          "object_id": "Table_99cf659ae2fe4b87b72437fd995483b_0.009700376721042367",
+          "reference_rows": 157,
+          "generated": 512,
+          "source_rows_verified": true,
+          "mmd2_float64_recomputed": 0.008888989359096676,
+          "static_proxy_bookkeeping_verified": true,
+          "heldout_reference_proxy_rows": 100,
+          "heldout_reference_proxy_order_verified": true
+        }
+      ]
+    },
+    {
+      "metrics": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\public_within_pilot\\rfm\\seed0\\eval_test_nfe50\\metrics.json",
+      "metrics_sha256": "5d93fb4a4b55f3c9eee35f5cda250172329e57bc9faf1e87e6aa7abbc0f034f3",
+      "objects": [
+        {
+          "object_id": "Mug_10f6e09036350e92b3f21f1137c3c347_0.0002682457830986903",
+          "reference_rows": 129,
+          "generated": 512,
+          "source_rows_verified": true,
+          "mmd2_float64_recomputed": 0.0005573278974191831,
+          "static_proxy_bookkeeping_verified": true,
+          "heldout_reference_proxy_rows": 100,
+          "heldout_reference_proxy_order_verified": true
+        },
+        {
+          "object_id": "Table_99cf659ae2fe4b87b72437fd995483b_0.009700376721042367",
+          "reference_rows": 157,
+          "generated": 512,
+          "source_rows_verified": true,
+          "mmd2_float64_recomputed": 0.0007217103881504224,
+          "static_proxy_bookkeeping_verified": true,
+          "heldout_reference_proxy_rows": 100,
+          "heldout_reference_proxy_order_verified": true
+        }
+      ]
+    },
+    {
+      "metrics": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\public_within_pilot\\rfm\\seed0\\eval_test_nfe100\\metrics.json",
+      "metrics_sha256": "30c7e0d8104bb53914e98277f5c03998f22757cdb1494750df5c8bc0c7c312ff",
+      "objects": [
+        {
+          "object_id": "Mug_10f6e09036350e92b3f21f1137c3c347_0.0002682457830986903",
+          "reference_rows": 129,
+          "generated": 512,
+          "source_rows_verified": true,
+          "mmd2_float64_recomputed": 0.0007300066392359264,
+          "static_proxy_bookkeeping_verified": true,
+          "heldout_reference_proxy_rows": 100,
+          "heldout_reference_proxy_order_verified": true
+        },
+        {
+          "object_id": "Table_99cf659ae2fe4b87b72437fd995483b_0.009700376721042367",
+          "reference_rows": 157,
+          "generated": 512,
+          "source_rows_verified": true,
+          "mmd2_float64_recomputed": 0.0005628027593355296,
+          "static_proxy_bookkeeping_verified": true,
+          "heldout_reference_proxy_rows": 100,
+          "heldout_reference_proxy_order_verified": true
+        }
+      ]
+    }
+  ]
+}

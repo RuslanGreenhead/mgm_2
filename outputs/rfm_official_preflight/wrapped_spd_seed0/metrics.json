@@ -1,0 +1,1 @@
+{"train/loss": 0.12574586272239685, "train/loss_step": 0.12574586272239685, "train/loss_epoch": 0.12574586272239685, "nfe": 1000.0, "integ_error": 0.0, "frac_within_manifold": 1.0, "test/loss": 6.389705657958984}

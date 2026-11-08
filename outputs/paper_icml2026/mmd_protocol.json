@@ -1,0 +1,80 @@
+{
+  "created_at": "2026-10-23T19:22:15.392981+00:00",
+  "jobs": [
+    [
+      "fire",
+      "mmd_mlp",
+      0
+    ],
+    [
+      "fire",
+      "mmd_mlp",
+      1
+    ],
+    [
+      "fire",
+      "mmd_mlp",
+      2
+    ],
+    [
+      "general",
+      "mmd_mlp",
+      0
+    ],
+    [
+      "general",
+      "mmd_mlp",
+      1
+    ],
+    [
+      "general",
+      "mmd_mlp",
+      2
+    ],
+    [
+      "rna",
+      "mmd_mlp",
+      0
+    ],
+    [
+      "rna",
+      "mmd_mlp",
+      1
+    ],
+    [
+      "rna",
+      "mmd_mlp",
+      2
+    ],
+    [
+      "rna",
+      "mgm_mlp",
+      0
+    ],
+    [
+      "rna",
+      "mgm_mlp",
+      1
+    ],
+    [
+      "rna",
+      "mgm_mlp",
+      2
+    ]
+  ],
+  "steps": 2000,
+  "batch_size": 256,
+  "data_seed": 0,
+  "label": "MMD objective, natural-embedding fixed-training-bandwidth biased V-statistic",
+  "not_reproduced": [
+    "KGDM",
+    "RW-Flow",
+    "R-WGF",
+    "Riemannian MeanFlow"
+  ],
+  "control": "Same constrained MLP initial weights as random-init MGM MLP; no critic; same final-step protocol",
+  "source_sha256": {
+    "paper\\experiments\\mmd_control.py": "48242e6bbeb6d3a49db1edb3499c511984cd06209f0311976346fb5a3578763e",
+    "paper\\experiments\\controlled_suite.py": "5ec61db04e55d7868451470e0979ea8192dec984c11bc1b78a9a4282d789935a"
+  }
+}

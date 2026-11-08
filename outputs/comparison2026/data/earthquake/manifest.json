@@ -1,0 +1,19 @@
+{
+  "name": "earthquake",
+  "kind": "sphere",
+  "dim": 3,
+  "counts": {
+    "train": 4896,
+    "val": 612,
+    "test": 612
+  },
+  "data_seed": 0,
+  "reference": {
+    "bandwidth2": 1.6295523731587915,
+    "coverage_radius": 0.01047195383970225
+  },
+  "source_manifest_sha256": "70a084042007b98e88a37f13e8601a0721ab95f52a1c6ae03f05396314bad662",
+  "source_arrays_sha256": "0a3945482eb5003d3390b56bb59bc6154e9fbd5c8c22c6223cfd90cd2feea690",
+  "arrays_sha256": "4889dcad8bb459395c7b47270f6ebf48928bacb42c67fdeabab5295ad3e96061",
+  "split_policy": "Existing historically exposed row split, no source-group transfer claim"
+}

@@ -1,0 +1,18 @@
+{
+  "data": "rna",
+  "method": "meanflow",
+  "seed": 0,
+  "steps": 4000,
+  "eval_every": 1000,
+  "validation_draws": 1,
+  "score_test": false,
+  "output": "outputs/comparison2026/calibration_v2/rna_meanflow_c0_s0",
+  "config": {
+    "width": 128,
+    "depth": 3,
+    "latent_dim": 16,
+    "batch_size": 256,
+    "lr": 0.0002,
+    "variant": "rmf"
+  }
+}

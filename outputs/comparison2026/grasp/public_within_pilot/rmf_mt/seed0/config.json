@@ -1,0 +1,238 @@
+{
+  "command": "train",
+  "manifest": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\data\\public_within_object\\manifest.json",
+  "method": "rmf_mt",
+  "seed": 0,
+  "iterations": 10000,
+  "batch": 256,
+  "width": 128,
+  "lr": 0.0002,
+  "translation_weight": 1.0,
+  "critic_steps": 5,
+  "warmup": 100,
+  "save_every": 2000,
+  "out": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\public_within_pilot\\rmf_mt\\seed0",
+  "resume": true,
+  "device": "cuda",
+  "cpu_threads": 2,
+  "gpu_release": true,
+  "allow_smoke_data": true,
+  "manifest_sha256": "d48d21ea264b8aa41dcd656c75125f0b715664e3885832b77fedb53104b8f58f",
+  "source_sha256": {
+    "audit.py": "4dc4ef985b01b999bcef38c5c26cd4fb1b12c2ebacd39445a6a261c5eb8ac428",
+    "cli.py": "4ea734832a665a27eb792dd882713995cb0909a50cdff05cbb6549d702d96098",
+    "data.py": "98e52c06b11e68bf40ceba84d60b1e2fb7b07a6008aadd3bb99a5a0651b4982e",
+    "evaluation.py": "c79968080e5992cb6189bb96ede8d07d3206fbdeee1f75313bdca422670ccf07",
+    "geometry.py": "5f735ff24caa9b5c716128046e0db1ed28ae253a69e350889bb4157a533ecdd6",
+    "models.py": "b43099d477e3a076625bbd86a7a574e1a305fc7c2ff4eb6a34fe85238840f6d2",
+    "pilot.py": "b7eb6692b125d375496b2a6d9903f67b26c46d6a0d668087aeabbcf055b9bdd3",
+    "pilot_plan.py": "89b9764fc058620e7f41ebdc50f6b5c927ddc064d7e08e6b2dd6fa8f565c70a3",
+    "runner.py": "098d677fe1c493343a58824c2fdabbaef416d0a39913cca157b7548b3efdd3ef",
+    "smoke.py": "4dc8c6903fef4c4a4343ad0a75b16ad4b7097e189c7d897fbcefc226719b5dac",
+    "source_mt.py": "462d4d085df33529a236be59e73003681a16402517871e43ae0668af02b3ef8d",
+    "tests.py": "2b75051eea4306e5dfe83e6d8bf6952bd1d75ba23ce27aa69d5d1ef762c3e2db",
+    "visualization.py": "ada65c9c703e5fadc2fe5db6412a35d8148376377a8065d7ef67ac5296473965",
+    "__init__.py": "e0e313ad77f65f11d8bbef290af1f96be2541155bd614ffe8a00b254e313e2ae"
+  },
+  "dependency_versions": {
+    "torch": "2.5.1",
+    "numpy": "2.2.5",
+    "scipy": "1.15.3",
+    "roma": "1.8.0",
+    "h5py": "3.16.0",
+    "trimesh": "4.12.2",
+    "python-fcl": "0.7.0.11",
+    "rtree": "1.4.1",
+    "matplotlib": "3.10.9"
+  },
+  "gpu_guard": {
+    "device": "cuda",
+    "gpu_inspected": true,
+    "processes": [
+      {
+        "pid": 1928,
+        "process_name": "[Insufficient Permissions]",
+        "classification": "unknown_nonpython"
+      },
+      {
+        "pid": 8772,
+        "process_name": "C:\\Windows\\explorer.exe",
+        "classification": "desktop_gui"
+      },
+      {
+        "pid": 11960,
+        "process_name": "C:\\Windows\\SystemApps\\Microsoft.Windows.Search_cw5n1h2txyewy\\SearchApp.exe",
+        "classification": "desktop_gui"
+      },
+      {
+        "pid": 8844,
+        "process_name": "[Insufficient Permissions]",
+        "classification": "unknown_nonpython"
+      },
+      {
+        "pid": 2824,
+        "process_name": "[Insufficient Permissions]",
+        "classification": "unknown_nonpython"
+      },
+      {
+        "pid": 15416,
+        "process_name": "C:\\Windows\\SystemApps\\Microsoft.LockApp_cw5n1h2txyewy\\LockApp.exe",
+        "classification": "desktop_gui"
+      },
+      {
+        "pid": 16776,
+        "process_name": "C:\\Program Files\\WindowsApps\\Microsoft.YourPhone_1.25072.81.0_x64__8wekyb3d8bbwe\\PhoneExperienceHost.exe",
+        "classification": "desktop_gui"
+      },
+      {
+        "pid": 16644,
+        "process_name": "C:\\Windows\\SystemApps\\ShellExperienceHost_cw5n1h2txyewy\\ShellExperienceHost.exe",
+        "classification": "desktop_gui"
+      },
+      {
+        "pid": 18288,
+        "process_name": "[Insufficient Permissions]",
+        "classification": "unknown_nonpython"
+      },
+      {
+        "pid": 18572,
+        "process_name": "C:\\Windows\\ImmersiveControlPanel\\SystemSettings.exe",
+        "classification": "desktop_gui"
+      },
+      {
+        "pid": 3136,
+        "process_name": "C:\\Program Files\\WindowsApps\\Microsoft.ZuneVideo_10.26091.10011.0_x64__8wekyb3d8bbwe\\Video.UI.exe",
+        "classification": "desktop_gui"
+      },
+      {
+        "pid": 13072,
+        "process_name": "C:\\Program Files (x86)\\Kaspersky Lab\\Kaspersky 21.26\\avpui.exe",
+        "classification": "desktop_gui"
+      },
+      {
+        "pid": 16336,
+        "process_name": "C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\TextInputHost.exe",
+        "classification": "desktop_gui"
+      },
+      {
+        "pid": 3908,
+        "process_name": "[Insufficient Permissions]",
+        "classification": "unknown_nonpython"
+      },
+      {
+        "pid": 11904,
+        "process_name": "C:\\Program Files (x86)\\Red Shield VPN\\RedShieldVPN.exe",
+        "classification": "desktop_gui"
+      },
+      {
+        "pid": 17484,
+        "process_name": "C:\\Users\\Alexander\\AppData\\Local\\OpenAI\\Codex\\runtimes\\cua_node\\1fb7137c46617d50\\bin\\node_modules\\@oai\\sky\\bin\\windows\\swift\\x64\\codex-computer-use-swift.exe",
+        "classification": "desktop_gui"
+      },
+      {
+        "pid": 17016,
+        "process_name": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\.conda\\rmgm\\python.exe",
+        "classification": "own_process"
+      }
+    ],
+    "raw_compute_apps_csv": "1928, [Insufficient Permissions]\n8772, C:\\Windows\\explorer.exe\n11960, C:\\Windows\\SystemApps\\Microsoft.Windows.Search_cw5n1h2txyewy\\SearchApp.exe\n8844, [Insufficient Permissions]\n2824, [Insufficient Permissions]\n15416, C:\\Windows\\SystemApps\\Microsoft.LockApp_cw5n1h2txyewy\\LockApp.exe\n16776, C:\\Program Files\\WindowsApps\\Microsoft.YourPhone_1.25072.81.0_x64__8wekyb3d8bbwe\\PhoneExperienceHost.exe\n16644, C:\\Windows\\SystemApps\\ShellExperienceHost_cw5n1h2txyewy\\ShellExperienceHost.exe\n18288, [Insufficient Permissions]\n18572, C:\\Windows\\ImmersiveControlPanel\\SystemSettings.exe\n3136, C:\\Program Files\\WindowsApps\\Microsoft.ZuneVideo_10.26091.10011.0_x64__8wekyb3d8bbwe\\Video.UI.exe\n13072, C:\\Program Files (x86)\\Kaspersky Lab\\Kaspersky 21.26\\avpui.exe\n16336, C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\TextInputHost.exe\n3908, [Insufficient Permissions]\n11904, C:\\Program Files (x86)\\Red Shield VPN\\RedShieldVPN.exe\n17484, C:\\Users\\Alexander\\AppData\\Local\\OpenAI\\Codex\\runtimes\\cua_node\\1fb7137c46617d50\\bin\\node_modules\\@oai\\sky\\bin\\windows\\swift\\x64\\codex-computer-use-swift.exe\n17016, E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\.conda\\rmgm\\python.exe\n",
+    "raw_gpu_csv": "NVIDIA GeForce RTX 4090, 560.94, 2081, 24564, 2\n",
+    "gpus": [
+      {
+        "name": "NVIDIA GeForce RTX 4090",
+        "driver": "560.94",
+        "memory_used_mib": "2081",
+        "memory_total_mib": "24564",
+        "utilization_percent": "2"
+      }
+    ],
+    "unknown_entries": [
+      {
+        "pid": 1928,
+        "process_name": "[Insufficient Permissions]",
+        "classification": "unknown_nonpython"
+      },
+      {
+        "pid": 8844,
+        "process_name": "[Insufficient Permissions]",
+        "classification": "unknown_nonpython"
+      },
+      {
+        "pid": 2824,
+        "process_name": "[Insufficient Permissions]",
+        "classification": "unknown_nonpython"
+      },
+      {
+        "pid": 18288,
+        "process_name": "[Insufficient Permissions]",
+        "classification": "unknown_nonpython"
+      },
+      {
+        "pid": 3908,
+        "process_name": "[Insufficient Permissions]",
+        "classification": "unknown_nonpython"
+      }
+    ],
+    "guard_scope": "Block every foreign Python/pythonw GPU PID, including this project's other workers; WDDM desktop/unknown entries logged, not classified as training"
+  },
+  "source_verification": [
+    {
+      "object_id": "Mug_10f6e09036350e92b3f21f1137c3c347_0.0002682457830986903",
+      "raw_mesh_h5_cache_verified": true,
+      "h5_mesh_reference": "meshes/Mug/10f6e09036350e92b3f21f1137c3c347.obj",
+      "mesh_scale": 0.0002682458,
+      "center_m": [
+        -2.2039009368323564e-05,
+        -0.012493402560275042,
+        0.1019612304254364
+      ],
+      "radius_m": 0.050531735796343014,
+      "source_rows": 2000,
+      "positive_rows": 1290,
+      "translation_scale_applied": false,
+      "conditioning_reconstructed_exactly": true
+    },
+    {
+      "object_id": "Table_99cf659ae2fe4b87b72437fd995483b_0.009700376721042367",
+      "raw_mesh_h5_cache_verified": true,
+      "h5_mesh_reference": "meshes/Table/99cf659ae2fe4b87b72437fd995483b.obj",
+      "mesh_scale": 0.0097003767,
+      "center_m": [
+        2.7555051758489078,
+        1.2043241597296261,
+        0.0973966364358796
+      ],
+      "radius_m": 0.099371121041941,
+      "source_rows": 2000,
+      "positive_rows": 1559,
+      "translation_scale_applied": false,
+      "conditioning_reconstructed_exactly": true
+    }
+  ],
+  "local_implementation": true,
+  "author_architecture_reproduction": false,
+  "geometry": "SO3 x R3 product metric; body angular and object-frame translation velocities",
+  "method_note": "MGM hidden-fold tangent minimax; RFM reverse geodesic regression; RMF-MT pinned two-loss/PCGrad adaptation distinct from RMF-CC; G-LSD endpoint JVP + FM regularizer",
+  "data_status": "within-object held-out-pose pilot, NOT unseen-object ACRONYM",
+  "physical_success_evaluation": false,
+  "method_label": "RMF-MT source-loss adaptation",
+  "method_provenance": {
+    "author_commit": "45d96bcd09a271ea3a770b2014865dabbac9eeeb",
+    "loss_file_sha256": "bd14b702da8bf97a62bb9960147811b30c303ec21dbe8584fc9e31ce45106eea",
+    "pcgrad_file_sha256": "908542515fd4b1657a729642d77ae8976f0cbee0a6664695fcccefa0728ee354",
+    "native_loss_algebra": "compute_loss_pc angular/R3 loss tail, executed unchanged",
+    "native_pcgrad": "PCGrad class executed unchanged except removing the torch.compile decorator; no compilation/child workers",
+    "architecture": "Common local PointNet encoder and six-vector field, NOT author SDF/12-output network",
+    "time_path": "Data(0)->Haar/Gaussian(1), sample backwards; fixes source grasp training/sampler time-pair mismatch",
+    "diagonal_fraction": 0.0,
+    "sigma_min": 0.0,
+    "loss_weights": {
+      "so3_loss_weight": 1.0,
+      "r3_loss_weight": 3.0
+    },
+    "optimizer_hyperparameters": "Common pilot Adam/LR/gradient cap, not native optimizer schedule",
+    "classification": "RMF-MT source-loss adaptation, NOT native-author experiment reproduction"
+  },
+  "model_parameter_count": 62022,
+  "critic_parameter_count": 0
+}

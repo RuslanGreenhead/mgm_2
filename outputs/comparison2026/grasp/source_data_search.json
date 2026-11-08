@@ -1,0 +1,37 @@
+{
+  "utc": "2026-10-24T08:51:05.790296+00:00",
+  "author_commit": "45d96bcd09a271ea3a770b2014865dabbac9eeeb",
+  "searched": [
+    "https://github.com/haolsun/Riemannian_MeanFlow/tree/45d96bcd09a271ea3a770b2014865dabbac9eeeb/grasp",
+    "https://github.com/haolsun/Riemannian_MeanFlow/releases",
+    "https://github.com/Ferdydh/RFM-Grasp",
+    "https://github.com/NVlabs/acronym",
+    "https://huggingface.co/datasets/ShapeNet/ShapeNetSem-archive"
+  ],
+  "author_tracked_data_assets": [
+    {
+      "path": "grasp/data/grasp/1Shelves_1e3df0ab57e8ca8587f357007f9e75d1_0.011099225885734912.h5",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ce9ff53f2a19432a451c032a6ec332d0383d237e",
+      "size": 230697,
+      "url": "https://api.github.com/repos/haolsun/Riemannian_MeanFlow/git/blobs/ce9ff53f2a19432a451c032a6ec332d0383d237e",
+      "local_sha256": "2d01b236e5c91930fab0b41c8f877eb416b5be477249455ce5a3e726d75478cb"
+    },
+    {
+      "path": "grasp/data/meshes/1e3df0ab57e8ca8587f357007f9e75d1.obj",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b62425969f6efbdf5bd9eed5796e03a3c88dba76",
+      "size": 1337079,
+      "url": "https://api.github.com/repos/haolsun/Riemannian_MeanFlow/git/blobs/b62425969f6efbdf5bd9eed5796e03a3c88dba76",
+      "local_sha256": "3300025acb16e0b6e57744b0bf84687fa4319bbd3a1a870f79191a51640527dd"
+    }
+  ],
+  "author_release_count": 0,
+  "author_license_files": [],
+  "finding": "Author tree contains one additional 1Shelves H5/OBJ pair, but no explicit repository license grant was found. It is NOT included in this pilot. No processed grasp cache or checkpoint bundle is tracked or linked by the grasp README/code.",
+  "rfm_grasp_finding": "Upstream RFM-Grasp main tree has only data/.gitkeep; README requires supplying the ACRONYM and ShapeNetSem data, no extra processed bundle link.",
+  "authorized_pilot_assets": "Exactly the NVIDIA-distributed public mug/table matched pairs under CC BY-NC 4.0; full meshes remain gated.",
+  "action": "No massive full-H5 download, no gated-license bypass, no third-object inclusion; user confirmed no local licensed full data."
+}

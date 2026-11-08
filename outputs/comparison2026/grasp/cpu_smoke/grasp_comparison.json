@@ -1,0 +1,85 @@
+{
+  "image_sha256": "a64767d1c08491906385080dc5745406d4f29100dba1260edd4089331399c626",
+  "object": {
+    "object_id": "Mug_10f6e09036350e92b3f21f1137c3c347_0.0002682457830986903",
+    "mesh_identity": "10f6e09036350e92b3f21f1137c3c347",
+    "category": "Mug",
+    "h5_path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\external\\acronym-data\\public\\data\\examples\\grasps\\Mug_10f6e09036350e92b3f21f1137c3c347_0.0002682457830986903.h5",
+    "h5_sha256": "a18b524c37f0ac40de980ed87b9b334390b7675a9f734e10a3e9a15435235cb0",
+    "mesh_path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\external\\acronym-data\\public\\data\\examples\\meshes\\Mug\\10f6e09036350e92b3f21f1137c3c347.obj",
+    "mesh_sha256": "5d7aa38e4bb19efd34201ab7399983842dd0d750ad144c7daacd5821f506d350",
+    "mesh_scale": 0.0002682458,
+    "center_m": [
+      -2.2039009368323564e-05,
+      -0.012493402560275042,
+      0.1019612304254364
+    ],
+    "radius_m": 0.050531735796343014,
+    "cache": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\data\\public_smoke\\objects\\Mug_10f6e09036350e92b3f21f1137c3c347_0.0002682457830986903.npz",
+    "cache_sha256": "eb5b37f33fc135d4c17adb8c2778552615ae72e1a367ffe432eb64f42479b6a7",
+    "n_source": 2000,
+    "n_positive": 1290,
+    "mesh_watertight": true,
+    "mesh_faces": 2334,
+    "source_se3_validation": {
+      "orthogonality_max": 1.6146417536333502e-10,
+      "determinant_error_max": 1.5646151041437406e-10,
+      "bottom_row_error_max": 0.0
+    },
+    "split": "test"
+  },
+  "cameras": [
+    [
+      26,
+      -56
+    ],
+    [
+      65,
+      36
+    ]
+  ],
+  "axis_limits_m": [
+    [
+      -0.1370612335860881,
+      0.22869088541140756
+    ],
+    [
+      -0.18722546063143203,
+      0.17852665836606363
+    ],
+    [
+      -0.07176394286042607,
+      0.29398817613706957
+    ]
+  ],
+  "draws_per_panel_max": 12,
+  "selection": "First draws in stored evaluation order; no quality filtering",
+  "stage": "PUBLIC TWO-OBJECT CPU INTEGRATION ONLY; NOT A BENCHMARK",
+  "source_reports": [
+    {
+      "metrics_path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\cpu_smoke\\mgm\\eval_test_nfe1\\metrics.json",
+      "metrics_sha256": "12a39108783dae8b822f652d4623640c6c1a4897319971da93867340ca01503e",
+      "samples_path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\cpu_smoke\\mgm\\eval_test_nfe1\\Mug_10f6e09036350e92b3f21f1137c3c347_0.0002682457830986903.npz",
+      "samples_sha256": "8d743444b288fd5d17e7a013e03b81d54d2e132b6bf2d1f23d6fc7cfcd5f1925"
+    },
+    {
+      "metrics_path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\cpu_smoke\\rfm\\eval_test_nfe1\\metrics.json",
+      "metrics_sha256": "e4cb07ff4361728b278d5cce4d81ac93ae656edd94e9d8d1edcc2e4cccb1a408",
+      "samples_path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\cpu_smoke\\rfm\\eval_test_nfe1\\Mug_10f6e09036350e92b3f21f1137c3c347_0.0002682457830986903.npz",
+      "samples_sha256": "266393fd1f355feca8090bd83071f6018d76f150a3888e6207d160973474d9d1"
+    },
+    {
+      "metrics_path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\cpu_smoke\\rmf\\eval_test_nfe1\\metrics.json",
+      "metrics_sha256": "6525ed25f949c669d81968bbeabdc672390362d6b732355dff469db2f676d664",
+      "samples_path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\cpu_smoke\\rmf\\eval_test_nfe1\\Mug_10f6e09036350e92b3f21f1137c3c347_0.0002682457830986903.npz",
+      "samples_sha256": "9991c49368f8978d679c1a6d2607f95b7f577992f5c6c4c402beac16683a7bdb"
+    },
+    {
+      "metrics_path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\cpu_smoke\\glsd\\eval_test_nfe1\\metrics.json",
+      "metrics_sha256": "e2efa78c3ae7bff724e45a0e6d40a4d6e4f39884375ea2d712801be62a889fa6",
+      "samples_path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\cpu_smoke\\glsd\\eval_test_nfe1\\Mug_10f6e09036350e92b3f21f1137c3c347_0.0002682457830986903.npz",
+      "samples_sha256": "4362027512a58a446eaf5802352cba1d34559ffb7607e91bf938f94046b16db5"
+    }
+  ],
+  "physical_success_evaluated": false
+}

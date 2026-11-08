@@ -1,0 +1,19 @@
+{
+  "name": "flood",
+  "kind": "sphere",
+  "dim": 3,
+  "counts": {
+    "train": 3901,
+    "val": 487,
+    "test": 487
+  },
+  "data_seed": 0,
+  "reference": {
+    "bandwidth2": 1.5516315901008322,
+    "coverage_radius": 0.01471887870780884
+  },
+  "source_manifest_sha256": "ff821b0801654d63294b4db3b28d5fa2446c47cf30721bed4e0cb4a7bf9c717f",
+  "source_arrays_sha256": "97f6407e2ffd2c0cae2db906ceefdfa9a3720d707e5f9dce8469822a55c35820",
+  "arrays_sha256": "04b1cefa0a17a7d81bd9a546c923789cc432d6ca68d9aadc8b6b447faf8f0c4e",
+  "split_policy": "Existing historically exposed row split, no source-group transfer claim"
+}

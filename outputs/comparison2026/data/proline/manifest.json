@@ -1,0 +1,19 @@
+{
+  "name": "proline",
+  "kind": "torus",
+  "dim": 2,
+  "counts": {
+    "train": 6108,
+    "val": 763,
+    "test": 763
+  },
+  "data_seed": 0,
+  "reference": {
+    "bandwidth2": 1.7780789919668443,
+    "coverage_radius": 0.014123295758115486
+  },
+  "source_manifest_sha256": "319a9dd5eb452a40eeb093939451b5f381ddf80b19dae449516fa288c32b0b2d",
+  "source_arrays_sha256": "ced60e733098bbeb29688fb922c714411fced8065e21b93e933ff7988731cba4",
+  "arrays_sha256": "da483693d56aec1e759bf5b0fd02a118302c729cb4a4b346c6f90a2fa91e17a5",
+  "split_policy": "Existing historically exposed row split, no source-group transfer claim"
+}

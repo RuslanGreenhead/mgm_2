@@ -1,0 +1,13 @@
+\begin{table*}[t]
+\centering\small
+\caption{\textbf{Completed modern one-step comparisons.} Test $\widehat{\mathrm{MMD}}_V^2\times10^3$, mean $\pm$ training-seed SD (three seeds); lower is better. Each available cell completed 50,000 generator/field updates and uses a validation-selected checkpoint. All samplers use one network evaluation. The paused 108-job plan has only 18 completed jobs; n/a means unavailable, not a performance score. These are small-network adaptations, not original-author benchmark reproductions.}
+\label{tab:recent}
+\begin{tabular}{@{}llrrrr@{}}
+\toprule
+Dataset & Test $n$ & R-MGM (ours) & RW-Flow-C & KGDM & RMF-MT \\
+\midrule
+Volcano & 82 & $13.135\,\pm\,1.555$ & $12.537\,\pm\,0.277$ & $13.900\,\pm\,1.694$ & $11.957\,\pm\,0.275$ \\
+Earthquake & 612 & n/a & n/a & $2.132\,\pm\,0.115$ & $2.814\,\pm\,0.694$ \\
+\bottomrule
+\end{tabular}
+\end{table*}

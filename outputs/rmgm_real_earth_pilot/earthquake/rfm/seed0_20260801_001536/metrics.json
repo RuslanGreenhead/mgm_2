@@ -1,0 +1,16 @@
+{
+  "mmd2": 0.010831713676452637,
+  "nn_sample_to_data": 0.17584873735904694,
+  "nn_data_to_sample": 0.05953652411699295,
+  "symmetric_nn": 0.11769263446331024,
+  "coverage_radius": 0.01789093390107155,
+  "coverage_at_radius": 0.17320261895656586,
+  "step": 800,
+  "method": "rfm",
+  "rfm_loss": 0.8076478838920593,
+  "target_norm": 2.9679603576660156,
+  "pred_norm": 0.5318982005119324,
+  "train_residual": 2.422943592071533,
+  "constraint_error": 7.791456924088891e-10,
+  "ode_steps": 32
+}

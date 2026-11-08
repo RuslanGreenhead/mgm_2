@@ -1,0 +1,21 @@
+[
+  {
+    "kernel_mmd2_v": 0.051019807713300724,
+    "symmetric_nn": 0.13872660838970577,
+    "minimum_matching_distance": 0.03955968598237587,
+    "radius_coverage": 0.005859375,
+    "nn_occupancy_coverage": 0.216796875,
+    "one_nna": 0.892578125,
+    "constraint_mean": 3.036827282373346e-08,
+    "generated_n": 1024,
+    "target_n": 1024,
+    "data": "fire",
+    "method": "kgdm",
+    "seed": 0,
+    "step": 1000,
+    "split": "val",
+    "draw": 0,
+    "train_seconds": 5.374705500000346,
+    "model_forward_calls": 1
+  }
+]

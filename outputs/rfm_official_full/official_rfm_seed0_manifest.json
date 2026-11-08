@@ -1,0 +1,222 @@
+{
+  "created_at": "2026-08-01T17:28:12+00:00",
+  "official_repo": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\external\\riemannian-fm-official-clean",
+  "output_root": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\rfm_official_full",
+  "python": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\.conda\\rmgm\\python.exe",
+  "seed": 0,
+  "jobs": [
+    {
+      "label": "wrapped_spd_d3",
+      "experiment": "wrapped_spd",
+      "group": "appendix_highdim",
+      "seed": 0,
+      "expected_steps": 50000,
+      "overrides": {
+        "wrapped.dim": "3"
+      },
+      "required_files": [],
+      "run_dir": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\rfm_official_full\\seed0\\wrapped_spd_d3\\train"
+    },
+    {
+      "label": "wrapped_spd_d6",
+      "experiment": "wrapped_spd",
+      "group": "appendix_highdim",
+      "seed": 0,
+      "expected_steps": 50000,
+      "overrides": {
+        "wrapped.dim": "6"
+      },
+      "required_files": [],
+      "run_dir": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\rfm_official_full\\seed0\\wrapped_spd_d6\\train"
+    },
+    {
+      "label": "wrapped_spd_d10",
+      "experiment": "wrapped_spd",
+      "group": "appendix_highdim",
+      "seed": 0,
+      "expected_steps": 50000,
+      "overrides": {
+        "wrapped.dim": "10"
+      },
+      "required_files": [],
+      "run_dir": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\rfm_official_full\\seed0\\wrapped_spd_d10\\train"
+    },
+    {
+      "label": "wrapped_torus_d5",
+      "experiment": "wrapped_torus",
+      "group": "appendix_highdim",
+      "seed": 0,
+      "expected_steps": 50000,
+      "overrides": {
+        "wrapped.dim": "5"
+      },
+      "required_files": [],
+      "run_dir": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\rfm_official_full\\seed0\\wrapped_torus_d5\\train"
+    },
+    {
+      "label": "wrapped_torus_d10",
+      "experiment": "wrapped_torus",
+      "group": "appendix_highdim",
+      "seed": 0,
+      "expected_steps": 50000,
+      "overrides": {
+        "wrapped.dim": "10"
+      },
+      "required_files": [],
+      "run_dir": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\rfm_official_full\\seed0\\wrapped_torus_d10\\train"
+    },
+    {
+      "label": "wrapped_torus_d20",
+      "experiment": "wrapped_torus",
+      "group": "appendix_highdim",
+      "seed": 0,
+      "expected_steps": 50000,
+      "overrides": {
+        "wrapped.dim": "20"
+      },
+      "required_files": [],
+      "run_dir": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\rfm_official_full\\seed0\\wrapped_torus_d20\\train"
+    },
+    {
+      "label": "hyperbolic",
+      "experiment": "hyperbolic",
+      "group": "appendix",
+      "seed": 0,
+      "expected_steps": 100000,
+      "overrides": {},
+      "required_files": [],
+      "run_dir": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\rfm_official_full\\seed0\\hyperbolic\\train"
+    },
+    {
+      "label": "simple_bunny",
+      "experiment": "simple_bunny",
+      "group": "mesh_boundary",
+      "seed": 0,
+      "expected_steps": 50000,
+      "overrides": {},
+      "required_files": [
+        "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\external\\riemannian-fm\\data\\mesh\\bunny_simple.npy"
+      ],
+      "run_dir": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\rfm_official_full\\seed0\\simple_bunny\\train"
+    },
+    {
+      "label": "maze3v2",
+      "experiment": "maze3v2",
+      "group": "mesh_boundary",
+      "seed": 0,
+      "expected_steps": 100000,
+      "overrides": {},
+      "required_files": [
+        "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\external\\riemannian-fm\\data\\mesh\\maze_3x3v2.npz"
+      ],
+      "run_dir": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\rfm_official_full\\seed0\\maze3v2\\train"
+    },
+    {
+      "label": "maze4v2",
+      "experiment": "maze4v2",
+      "group": "mesh_boundary",
+      "seed": 0,
+      "expected_steps": 100000,
+      "overrides": {},
+      "required_files": [
+        "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\external\\riemannian-fm\\data\\mesh\\maze_4x4v2.npz"
+      ],
+      "run_dir": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\rfm_official_full\\seed0\\maze4v2\\train"
+    },
+    {
+      "label": "volcano",
+      "experiment": "volcano",
+      "group": "earth_real",
+      "seed": 0,
+      "expected_steps": 1000000,
+      "overrides": {},
+      "required_files": [],
+      "run_dir": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\rfm_official_full\\seed0\\volcano\\train"
+    },
+    {
+      "label": "earthquake",
+      "experiment": "earthquake",
+      "group": "earth_real",
+      "seed": 0,
+      "expected_steps": 1000000,
+      "overrides": {},
+      "required_files": [],
+      "run_dir": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\rfm_official_full\\seed0\\earthquake\\train"
+    },
+    {
+      "label": "fire",
+      "experiment": "fire",
+      "group": "earth_real",
+      "seed": 0,
+      "expected_steps": 1000000,
+      "overrides": {},
+      "required_files": [],
+      "run_dir": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\rfm_official_full\\seed0\\fire\\train"
+    },
+    {
+      "label": "flood",
+      "experiment": "flood",
+      "group": "earth_real",
+      "seed": 0,
+      "expected_steps": 1000000,
+      "overrides": {},
+      "required_files": [],
+      "run_dir": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\rfm_official_full\\seed0\\flood\\train"
+    },
+    {
+      "label": "general",
+      "experiment": "general",
+      "group": "torus_real",
+      "seed": 0,
+      "expected_steps": 1000000,
+      "overrides": {},
+      "required_files": [],
+      "run_dir": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\rfm_official_full\\seed0\\general\\train"
+    },
+    {
+      "label": "glycine",
+      "experiment": "glycine",
+      "group": "torus_real",
+      "seed": 0,
+      "expected_steps": 1000000,
+      "overrides": {},
+      "required_files": [],
+      "run_dir": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\rfm_official_full\\seed0\\glycine\\train"
+    },
+    {
+      "label": "proline",
+      "experiment": "proline",
+      "group": "torus_real",
+      "seed": 0,
+      "expected_steps": 1000000,
+      "overrides": {},
+      "required_files": [],
+      "run_dir": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\rfm_official_full\\seed0\\proline\\train"
+    },
+    {
+      "label": "prepro",
+      "experiment": "prepro",
+      "group": "torus_real",
+      "seed": 0,
+      "expected_steps": 1000000,
+      "overrides": {},
+      "required_files": [],
+      "run_dir": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\rfm_official_full\\seed0\\prepro\\train"
+    },
+    {
+      "label": "rna",
+      "experiment": "rna",
+      "group": "torus_real",
+      "seed": 0,
+      "expected_steps": 1000000,
+      "overrides": {},
+      "required_files": [],
+      "run_dir": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\rfm_official_full\\seed0\\rna\\train"
+    }
+  ],
+  "notes": [
+    "Iteration counts are inherited from the original YAML configs.",
+    "Overrides are limited to seed, local datadirs, hydra.run.dir, wandb disabling, and optional wrapped.dim variants.",
+    "Runs are serialized on one GPU to avoid memory contention."
+  ]
+}

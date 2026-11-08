@@ -1,0 +1,11 @@
+#!/bin/bash
+
+python train.py \
+	experiment=volcano \
+	earth_datadir=data/earth_data \
+	optim.num_iterations=2 \
+	optim.batch_size=32 \
+	optim.val_batch_size=64 \
+	val_every=1 \
+	use_wandb=False \
+	hydra.run.dir=../../outputs/rfm_official_smoke/volcano

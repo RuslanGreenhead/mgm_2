@@ -1,0 +1,18 @@
+{
+  "data": "earthquake",
+  "method": "rfm",
+  "seed": 2,
+  "steps": 10000,
+  "train_seconds": 19.817311800001335,
+  "finished_at": "2026-10-23T19:57:21.554772+00:00",
+  "finite_parameters": true,
+  "evaluation_rng_invariance_verified": true,
+  "parameter_change_l2": {
+    "net.net.0.weight": 4.01664924621582,
+    "net.net.0.bias": 0.6346260905265808,
+    "net.net.2.weight": 6.482115268707275,
+    "net.net.2.bias": 0.28491032123565674,
+    "net.net.4.weight": 0.9655976891517639,
+    "net.net.4.bias": 0.019700609147548676
+  }
+}

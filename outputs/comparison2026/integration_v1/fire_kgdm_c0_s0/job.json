@@ -1,0 +1,53 @@
+{
+  "data": "fire",
+  "method": "kgdm",
+  "seed": 0,
+  "steps": 100,
+  "eval_every": 100,
+  "validation_draws": 1,
+  "score_test": false,
+  "output": "outputs/comparison2026/integration_v1/fire_kgdm_c0_s0",
+  "config": {
+    "width": 128,
+    "depth": 3,
+    "latent_dim": 16,
+    "batch_size": 256,
+    "lr": 0.0002
+  },
+  "data_manifest_sha256": "bba8d791e47dd5b4df050dc2bad08d2a212fec4653603f15a309ed755bae2937",
+  "model_parameters": 17411,
+  "gpu": "NVIDIA GeForce RTX 4090",
+  "torch": "2.5.1",
+  "critic_parameters": 0,
+  "resolved_config": {
+    "width": 128,
+    "depth": 3,
+    "latent_dim": 16,
+    "lr": 0.0002,
+    "batch_size": 256,
+    "kernel": "laplace",
+    "temps": [
+      0.02,
+      0.05,
+      0.2
+    ],
+    "bandwidth_scale": 1.0,
+    "dist_norm": true,
+    "drop_T": true,
+    "step_size": 1.0,
+    "max_step": 1.0,
+    "grad_clip": 1.0,
+    "weight_decay": 0.01,
+    "betas": [
+      0.9,
+      0.95
+    ],
+    "warmup_steps": 0,
+    "ema_decay": 0.999,
+    "sample_ema": true,
+    "eps": 1e-08
+  },
+  "provenance": {},
+  "executed_worker_sha256": "e22746a936d5319d9ad8388e2576e326dc091782ce9780373f4158d215abe743",
+  "method_source_sha256": "b47967d454bd35b8bb6dd8ba5451f93c3fb4e5e06d2806f2bf576681ac1b3abf"
+}

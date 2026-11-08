@@ -1,0 +1,18 @@
+{
+  "released_at_utc": "2026-10-23T20:12:47.337102+00:00",
+  "gpu_ownership": "released",
+  "primary_reruns_completed": 54,
+  "primary_reruns_planned": 54,
+  "unchanged_provenance_copies": 18,
+  "sphere_metric_version": "sphere_normalized_float64_atan2_v2",
+  "sphere_primary_rows_corrected": 468,
+  "sphere_calibration_rows_corrected": 24,
+  "long_validation_trials_completed": 2,
+  "long_validation_trials_planned": 2,
+  "all_checks_passed": true,
+  "new_validation_study_test_evaluations": 0,
+  "no_additional_gpu_jobs_queued_by_this_sidecar": true,
+  "scope": "Releases this sidecar's ownership only; does not assert other users' GPU jobs are absent.",
+  "primary_verification_sha256": "104dfd6d404772402639226ed8229f2f2601d0781e05bd276ed8447a9ab04e6e",
+  "long_verification_sha256": "47290b18f1139a5aec9ffaab4ad1601dba669798598b8d39bb10e765226ae966"
+}

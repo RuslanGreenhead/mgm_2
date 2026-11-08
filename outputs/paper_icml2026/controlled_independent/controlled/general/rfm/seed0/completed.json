@@ -1,0 +1,18 @@
+{
+  "data": "general",
+  "method": "rfm",
+  "seed": 0,
+  "steps": 10000,
+  "train_seconds": 12.969398800001727,
+  "finished_at": "2026-10-23T19:48:40.828031+00:00",
+  "finite_parameters": true,
+  "evaluation_rng_invariance_verified": true,
+  "parameter_change_l2": {
+    "net.net.0.weight": 3.6593966484069824,
+    "net.net.0.bias": 1.4933289289474487,
+    "net.net.2.weight": 9.710369110107422,
+    "net.net.2.bias": 0.7912356853485107,
+    "net.net.4.weight": 1.490628719329834,
+    "net.net.4.bias": 0.03479629009962082
+  }
+}

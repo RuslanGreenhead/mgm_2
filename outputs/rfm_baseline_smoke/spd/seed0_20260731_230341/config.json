@@ -1,0 +1,27 @@
+{
+  "config": {
+    "experiment": "spd",
+    "steps": 300,
+    "batch_size": 256,
+    "hidden_dim": 128,
+    "num_layers": 3,
+    "lr": 0.0002,
+    "weight_decay": 0.0,
+    "seed": 0,
+    "log_every": 100,
+    "plot_every": 300,
+    "eval_samples": 1024,
+    "ode_steps": 64,
+    "device": "cuda",
+    "output_dir": "..\\..\\outputs\\rfm_baseline_smoke",
+    "dtype": "float32",
+    "metric_normalize": false,
+    "hyperbolic_base_scale": 0.45
+  },
+  "device": "cuda",
+  "torch": "2.5.1",
+  "cuda": "12.1",
+  "manifold": "SPD",
+  "dim": 3,
+  "baseline": "rfm_euler"
+}

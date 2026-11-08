@@ -1,0 +1,14 @@
+{
+  "step": 30,
+  "training_seconds": 0.19455670000024838,
+  "losses": {
+    "loss": 2.252479314804077,
+    "grad_norm": 0.34809964895248413
+  },
+  "warmup_seconds": 0.0,
+  "seconds_per_iteration_excluding_warmup": 0.006485223333341613,
+  "generator_updates": 30,
+  "critic_updates": 0,
+  "peak_cuda_bytes": null,
+  "checkpoint_sha256": "ef7f98e6c7a994a6b4a0c2bfefcd47feae4aa2c0a1042fb535896f3995879ebf"
+}

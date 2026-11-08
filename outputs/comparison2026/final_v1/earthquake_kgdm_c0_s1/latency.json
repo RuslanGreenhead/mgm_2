@@ -1,0 +1,6 @@
+{
+  "deferred_to_isolated": true,
+  "batch": 1024,
+  "gpu_seconds": [],
+  "concurrent_training_workers": 2
+}

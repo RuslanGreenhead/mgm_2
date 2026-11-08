@@ -1,0 +1,15 @@
+{
+  "mmd2": 0.0028913021087646484,
+  "nn_sample_to_data": 0.05132148787379265,
+  "nn_data_to_sample": 0.03927477076649666,
+  "symmetric_nn": 0.04529812932014465,
+  "coverage_radius": 0.03379172086715698,
+  "coverage_at_radius": 0.5803183317184448,
+  "step": 800,
+  "method": "rmgm",
+  "critic_loss": 1.289327621459961,
+  "generator_loss": -0.0004532300808932632,
+  "target_norm": 2.571415424346924,
+  "sample_norm": 2.5407795906066895,
+  "constraint_error": 0.0
+}

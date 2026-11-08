@@ -1,0 +1,19 @@
+{
+  "name": "glycine",
+  "kind": "torus",
+  "dim": 2,
+  "counts": {
+    "train": 10627,
+    "val": 1328,
+    "test": 1328
+  },
+  "data_seed": 0,
+  "reference": {
+    "bandwidth2": 4.0344656600907705,
+    "coverage_radius": 0.03256859082811841
+  },
+  "source_manifest_sha256": "a6304ad2f74673a9934097ed957bf7efbc37d3a5c5b96b42c8185805af060e91",
+  "source_arrays_sha256": "dcde7aaab001fc8296bd83a24d05dd61731516a39e08bdd3516098956505166c",
+  "arrays_sha256": "a442254e4d297c271cd98b0cf7f5b5806b821048e0e159d49286188d90523498",
+  "split_policy": "Existing historically exposed row split, no source-group transfer claim"
+}

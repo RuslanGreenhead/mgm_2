@@ -1,0 +1,71 @@
+{
+  "data": "earthquake",
+  "method": "kgdm",
+  "seed": 2,
+  "steps": 50000,
+  "eval_every": 5000,
+  "validation_draws": 3,
+  "score_test": true,
+  "output": "outputs/comparison2026/final_v1/earthquake_kgdm_c0_s2",
+  "config": {
+    "width": 128,
+    "depth": 3,
+    "latent_dim": 16,
+    "batch_size": 256,
+    "lr": 0.0002,
+    "kernel": "gauss",
+    "step_size": 1.0
+  },
+  "concurrent_training_workers": 2,
+  "data_manifest_sha256": "e4eba54f21af9f95d8ef2121b0e7f8ae96f340ba169cc6766087308b95f37725",
+  "model_parameters": 17411,
+  "gpu": "NVIDIA GeForce RTX 4090",
+  "torch": "2.5.1",
+  "worker_pid": 2460,
+  "critic_parameters": 0,
+  "resolved_config": {
+    "width": 128,
+    "depth": 3,
+    "latent_dim": 16,
+    "lr": 0.0002,
+    "batch_size": 256,
+    "kernel": "gauss",
+    "temps": [
+      0.02,
+      0.05,
+      0.2
+    ],
+    "bandwidth_scale": 1.0,
+    "dist_norm": true,
+    "drop_T": true,
+    "step_size": 1.0,
+    "max_step": 1.0,
+    "grad_clip": 1.0,
+    "weight_decay": 0.01,
+    "betas": [
+      0.9,
+      0.95
+    ],
+    "warmup_steps": 0,
+    "ema_decay": 0.999,
+    "sample_ema": true,
+    "eps": 1e-08
+  },
+  "provenance": {
+    "paper": "https://arxiv.org/html/2605.10727",
+    "author_url": "https://github.com/jcarrascopollo/kgd_thesis",
+    "commit": "5860d212a1e53b53a499e251f2d087fcf0a5fc00",
+    "field_sha256": "39008dd140a304851dc200216d035c714fe3264c9319ee28bb534caefbf0a5d0",
+    "hash_normalization": "LF",
+    "sphere": "author_field_shared_backbone",
+    "torus": "torus_adaptation_of_author_field"
+  },
+  "author_source": {
+    "AUTHOR_URL": "https://github.com/jcarrascopollo/kgd_thesis",
+    "AUTHOR_COMMIT": "5860d212a1e53b53a499e251f2d087fcf0a5fc00",
+    "AUTHOR_FIELD_SHA256": "39008dd140a304851dc200216d035c714fe3264c9319ee28bb534caefbf0a5d0",
+    "PAPER_URL": "https://arxiv.org/html/2605.10727"
+  },
+  "executed_worker_sha256": "603bd567db5767008e175396493ea016077c3fbed1b3c58ceeae6e61e15719a1",
+  "method_source_sha256": "efe8ab6bc3532498e8894077c1c67ae2e0a3f1db25f690a0f0abd7fdac1e30d5"
+}

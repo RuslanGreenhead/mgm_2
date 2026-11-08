@@ -1,0 +1,10 @@
+{
+  "step": 1500,
+  "rfm_loss": 2771.98583984375,
+  "target_norm": 6952.60498046875,
+  "pred_norm": 1404.802734375,
+  "train_residual": 5543.9716796875,
+  "mmd2": 0.006109058856964111,
+  "constraint_error": 0.0,
+  "ode_steps": 1
+}

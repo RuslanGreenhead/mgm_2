@@ -1,0 +1,27 @@
+{
+  "config": {
+    "experiment": "sphere",
+    "steps": 2500,
+    "batch_size": 512,
+    "hidden_dim": 256,
+    "num_layers": 4,
+    "lr": 0.0002,
+    "weight_decay": 0.0,
+    "seed": 0,
+    "log_every": 250,
+    "plot_every": 625,
+    "eval_samples": 4096,
+    "ode_steps": 1,
+    "device": "cuda",
+    "output_dir": "../../outputs/rfm_baseline_1nfe",
+    "dtype": "float32",
+    "metric_normalize": false,
+    "hyperbolic_base_scale": 0.45
+  },
+  "device": "cuda",
+  "torch": "2.5.1",
+  "cuda": "12.1",
+  "manifold": "Sphere",
+  "dim": 3,
+  "baseline": "rfm_euler"
+}

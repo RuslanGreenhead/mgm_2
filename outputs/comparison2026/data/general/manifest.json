@@ -1,0 +1,19 @@
+{
+  "name": "general",
+  "kind": "torus",
+  "dim": 2,
+  "counts": {
+    "train": 110568,
+    "val": 13820,
+    "test": 13820
+  },
+  "data_seed": 0,
+  "reference": {
+    "bandwidth2": 2.918502215794463,
+    "coverage_radius": 0.02508765199676982
+  },
+  "source_manifest_sha256": "d9fa6a2f55a60435db1e267d610500b22996ab288c3df74fc458708879ceac9f",
+  "source_arrays_sha256": "6b12e49fa45de2a23242c967dc078bd5bedea4de8160de76feed776eab4f0c10",
+  "arrays_sha256": "85b12d4138beaac21e6f15cca9e98b37ac91e369bd2b055669aabbfab9fee00e",
+  "split_policy": "Existing historically exposed row split, no source-group transfer claim"
+}

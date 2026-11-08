@@ -1,0 +1,11 @@
+{
+  "all_streams_unchanged": true,
+  "streams": [
+    "target",
+    "latent",
+    "path",
+    "base",
+    "global_cpu",
+    "global_cuda"
+  ]
+}

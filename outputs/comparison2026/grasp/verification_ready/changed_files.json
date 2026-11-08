@@ -1,0 +1,780 @@
+{
+  "source_files_changed": [
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\paper\\benchmarks2026\\grasp\\__init__.py",
+      "sha256": "e0e313ad77f65f11d8bbef290af1f96be2541155bd614ffe8a00b254e313e2ae"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\paper\\benchmarks2026\\grasp\\audit.py",
+      "sha256": "4dc4ef985b01b999bcef38c5c26cd4fb1b12c2ebacd39445a6a261c5eb8ac428"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\paper\\benchmarks2026\\grasp\\cli.py",
+      "sha256": "4ea734832a665a27eb792dd882713995cb0909a50cdff05cbb6549d702d96098"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\paper\\benchmarks2026\\grasp\\data.py",
+      "sha256": "98e52c06b11e68bf40ceba84d60b1e2fb7b07a6008aadd3bb99a5a0651b4982e"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\paper\\benchmarks2026\\grasp\\pilot.py",
+      "sha256": "7f36a050a1c1695dafb3350ae50104400dfc3bbeb87cc163b0a79edfdb0a9ffd"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\paper\\benchmarks2026\\grasp\\pilot_plan.py",
+      "sha256": "89b9764fc058620e7f41ebdc50f6b5c927ddc064d7e08e6b2dd6fa8f565c70a3"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\paper\\benchmarks2026\\grasp\\README.md",
+      "sha256": "469a2bec504a98e8c160bb907c57fede841b65f7ed1f609882906db9bc3179f9"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\paper\\benchmarks2026\\grasp\\runner.py",
+      "sha256": "a767a0ff932eef09d9eb3e4a13bc81e2ccb461ac33248e465ba27a9bf528a689"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\paper\\benchmarks2026\\grasp\\smoke.py",
+      "sha256": "4dc8c6903fef4c4a4343ad0a75b16ad4b7097e189c7d897fbcefc226719b5dac"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\paper\\benchmarks2026\\grasp\\source_mt.py",
+      "sha256": "462d4d085df33529a236be59e73003681a16402517871e43ae0668af02b3ef8d"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\paper\\benchmarks2026\\grasp\\tests.py",
+      "sha256": "bbe0aa1dafd30651539bf2b46fb828226d3f1a1be23e84d99372d61af2bc48f5"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\paper\\benchmarks2026\\grasp\\visualization.py",
+      "sha256": "ada65c9c703e5fadc2fe5db6412a35d8148376377a8065d7ef67ac5296473965"
+    }
+  ],
+  "generated_files": [
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\pilot_plan_ready.json",
+      "sha256": "eb1c84379a3978aae99d7abe0858990505894314cca16ffd56f5edce6a499deb"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration\\glsd\\eval_val_nfe1\\metrics.json",
+      "sha256": "1767f231905914e4cf1283d913a0560039c5af5811545eaa31c5b909bb765c4a"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration\\glsd\\eval_val_nfe1\\Mug_10f6e09036350e92b3f21f1137c3c347_0.0002682457830986903.npz",
+      "sha256": "41d2d5cdefb64334c6bfee404069d7560a0c1735849b70161e96bda44ee8d4fb"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration\\glsd\\eval_val_nfe1\\Table_99cf659ae2fe4b87b72437fd995483b_0.009700376721042367.npz",
+      "sha256": "eacd4044376ba654fbbd4eabc7655b7a356c4c88207f1c89a447b2725a4d9a8f"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration\\glsd\\resumed\\config.json",
+      "sha256": "472b17bad3f20f2c0429b476c40be5f130e38835c1821a259759fefb0d1173ae"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration\\glsd\\resumed\\last.pt",
+      "sha256": "ef7f98e6c7a994a6b4a0c2bfefcd47feae4aa2c0a1042fb535896f3995879ebf"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration\\glsd\\resumed\\train_status.json",
+      "sha256": "f3bcf985bd9dacfcb6c80a31af30bb02d83768e986eacae56de20521416391e9"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration\\glsd\\uninterrupted\\config.json",
+      "sha256": "3e55034a38cba15ba7c9aedc954b829d4acdca6214183a0fbe151b0a0ea089fb"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration\\glsd\\uninterrupted\\last.pt",
+      "sha256": "857c4fc62f29e58a00916c474184806ddade0cbfd1bf80e711cfe0cf54ba6766"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration\\glsd\\uninterrupted\\train_status.json",
+      "sha256": "7159de53abf68f09f4c9e753109c6ee87fc7487d99e7f7e839ad387f1a7b7c89"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration\\mgm\\eval_val_nfe1\\metrics.json",
+      "sha256": "547e62565c7766e603822caf78e8bb2dfedd09398a3ece429c9f1cccd4d18cff"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration\\mgm\\eval_val_nfe1\\Mug_10f6e09036350e92b3f21f1137c3c347_0.0002682457830986903.npz",
+      "sha256": "3a17a821126872f8e3e27b3c0d5a332d285d71778d73372ae195065e0117a32f"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration\\mgm\\eval_val_nfe1\\Table_99cf659ae2fe4b87b72437fd995483b_0.009700376721042367.npz",
+      "sha256": "0f3f3b228e3399e515c2e33cd3b4d5c45aa73057488162302f273e358a51c3b0"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration\\mgm\\resumed\\config.json",
+      "sha256": "11b1b37ab08751ff45e6a6cccdad547ea06f9537b64c873c71efd37fe0c44797"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration\\mgm\\resumed\\last.pt",
+      "sha256": "f4db2cf1eacf9aaafafa949461f8fe0d51884c3feedb8896f66906694f0d6480"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration\\mgm\\resumed\\train_status.json",
+      "sha256": "426ba6993c40c1ffdb7b8296a9deddc82ac06d00fb2b53e36be90b9ed5d992f8"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration\\mgm\\uninterrupted\\config.json",
+      "sha256": "5637298b66bb619e5a8f38f2b30b83bcd81ad15850a2191c95a8c760a2391a41"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration\\mgm\\uninterrupted\\last.pt",
+      "sha256": "e2e5fd479abfcefb7852d3a4b64bea3816f078092527ddca2f3d06222e1a1edc"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration\\mgm\\uninterrupted\\train_status.json",
+      "sha256": "b901a4a5d25811f1e256ada77cd719464f5d0843afe3b6726a5dc862db1fcdcc"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration\\Mug_10f6e09036350e92b3f21f1137c3c347_0.0002682457830986903_comparison.json",
+      "sha256": "651d133db5d4dd73623deddd7ff7330a5074919f9dac6d1f7509132663e0b3d4"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration\\Mug_10f6e09036350e92b3f21f1137c3c347_0.0002682457830986903_comparison.pdf",
+      "sha256": "a20b84b4e932ccd607eb1331f2ef12c9b8727708509f984c5360d2c0f05179e7"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration\\Mug_10f6e09036350e92b3f21f1137c3c347_0.0002682457830986903_comparison.png",
+      "sha256": "1c863b6810196ead685555417d800c01c3de943b5d95f88a293d087cd082bef8"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration\\rfm\\eval_val_nfe100\\metrics.json",
+      "sha256": "cc55ec23d3b413d8496f5c4bb17852fa4a9a56c1c326b2cf24cbe1180f2d61eb"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration\\rfm\\eval_val_nfe100\\Mug_10f6e09036350e92b3f21f1137c3c347_0.0002682457830986903.npz",
+      "sha256": "db11a86c64b9cbe72eac32ee15ec819fe914f16680492a89c507affb03f9294b"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration\\rfm\\eval_val_nfe100\\Table_99cf659ae2fe4b87b72437fd995483b_0.009700376721042367.npz",
+      "sha256": "0ef5ad5e4e4978df34abd5c84fef334df0245c6527c9b51a2a2069fc6a7d832d"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration\\rfm\\eval_val_nfe50\\metrics.json",
+      "sha256": "50bca1adfced5ba4c4d444c73021f9e45ea4c6afddbaecd19113a3665e45b664"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration\\rfm\\eval_val_nfe50\\Mug_10f6e09036350e92b3f21f1137c3c347_0.0002682457830986903.npz",
+      "sha256": "55a5c1dab7aebcfb86d642bc4df4a2ab664b6e900aeb826222b9a587053cd477"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration\\rfm\\eval_val_nfe50\\Table_99cf659ae2fe4b87b72437fd995483b_0.009700376721042367.npz",
+      "sha256": "066b0bc65f88b888bac26034b97b8c23be13454d83d48252812ac735b0b9813d"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration\\rfm\\resumed\\config.json",
+      "sha256": "5db5e40349649b5c06dfd4d5740f83a3c6005b491728b6f685584dbfe5ac0205"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration\\rfm\\resumed\\last.pt",
+      "sha256": "d3ffc2553fd7a25254b009b3448fcf758dee8010df84e0bb1b44b98fc332d62b"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration\\rfm\\resumed\\train_status.json",
+      "sha256": "8dcf1e64a847cc4b3cfae76d71653cfaeac53a1e278a88fe2bcde89d5b85cfa8"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration\\rfm\\uninterrupted\\config.json",
+      "sha256": "b6b25ab5a1a49038fb7d850b8ed1f6ffe2e47e870596a1c5cb483c3b41da50fe"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration\\rfm\\uninterrupted\\last.pt",
+      "sha256": "5f377a274bbe7752b18a54b6e59da90979f1e28154891b1d524d23c9f609c750"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration\\rfm\\uninterrupted\\train_status.json",
+      "sha256": "97a3c18489adc0805327f61ca7a451c7958e782e91a07cd2e2e17db660bbe964"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration\\rmf_ccadapt\\eval_val_nfe1\\metrics.json",
+      "sha256": "13b44dce613bc638cd9dfe2ab0f78926a4cf6fe92b6f557e798c01fdd6e44e02"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration\\rmf_ccadapt\\eval_val_nfe1\\Mug_10f6e09036350e92b3f21f1137c3c347_0.0002682457830986903.npz",
+      "sha256": "37fd803a962dc5ce9ed20a9617d82faeee80ddde228fadcffa0fb926da7627ce"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration\\rmf_ccadapt\\eval_val_nfe1\\Table_99cf659ae2fe4b87b72437fd995483b_0.009700376721042367.npz",
+      "sha256": "08a02b431ed8467f532dab2185f161400173d55a0192ef320e4b3806ec18b428"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration\\rmf_ccadapt\\resumed\\config.json",
+      "sha256": "4273f6fb8746d6916757f4d0dd301fb2ef039c195a2dd83244207cb94892fa8c"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration\\rmf_ccadapt\\resumed\\last.pt",
+      "sha256": "23e7079c5bcee77590f38db7d30876407d6182e1f7ef53e4edf96cf6dc406ca7"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration\\rmf_ccadapt\\resumed\\train_status.json",
+      "sha256": "49c356144e2b1744efb46c5187dac85de10ac4ba3d716f126efb6a1af15ba922"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration\\rmf_ccadapt\\uninterrupted\\config.json",
+      "sha256": "8a947c7b81c7f9dbe9667cfd4723a76e15132f3f52edf74747e855beb4999516"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration\\rmf_ccadapt\\uninterrupted\\last.pt",
+      "sha256": "a070d102c00649f7dfcd7465658c2be47f2dea0ed63a7c06b5c2d80fc3518a0a"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration\\rmf_ccadapt\\uninterrupted\\train_status.json",
+      "sha256": "5b3aa47183c40eb48d5eaaf312f7a9ddac527d5ebd29936940ec94b746f8413a"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration\\rmf_mt\\eval_val_nfe1\\metrics.json",
+      "sha256": "0a2dc950964cd2ef3d3c1ac28ba83db9fe2f59bb37106f8f347b398c38e9b8e6"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration\\rmf_mt\\eval_val_nfe1\\Mug_10f6e09036350e92b3f21f1137c3c347_0.0002682457830986903.npz",
+      "sha256": "c70c69edc0601995e6c2b4017f0c7f27af3cb1d1a1fcd6c6fde4af4337e70967"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration\\rmf_mt\\eval_val_nfe1\\Table_99cf659ae2fe4b87b72437fd995483b_0.009700376721042367.npz",
+      "sha256": "377636fbedffc07d07193a888aa34a82d04eb5d11de9d8220b1cd4ddfa863009"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration\\rmf_mt\\resumed\\config.json",
+      "sha256": "8f8dc1655bd3e07883ef35add241d122df15bb6058e09b6063470701f1bcb66d"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration\\rmf_mt\\resumed\\last.pt",
+      "sha256": "b7187197a6b85382b52404089e23bd9e0b7626c7cc159ea052fb8b0f60cef5fa"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration\\rmf_mt\\resumed\\train_status.json",
+      "sha256": "68a9aa284633c29469cf0093acd106ccf83a52a50e6077b0d59d18fc28790866"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration\\rmf_mt\\uninterrupted\\config.json",
+      "sha256": "0207487396f76372535cad7aaee1a4ac1779691e1cde281312261dfe0ad0d7a8"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration\\rmf_mt\\uninterrupted\\last.pt",
+      "sha256": "65f29e6b22b6646ca6961a2dff8ccf355294f5da985161248d47a1e79e5b90d3"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration\\rmf_mt\\uninterrupted\\train_status.json",
+      "sha256": "b4dab9348250edd466776afeb01147dde4cc9fd503d266ca45b9e88054b0490c"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration\\summary.json",
+      "sha256": "e64977e12c5877613debbb37b35f41ccc21b6b0686c39d634d6bf4444ae568d0"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration\\Table_99cf659ae2fe4b87b72437fd995483b_0.009700376721042367_comparison.json",
+      "sha256": "4834d277e62dc11060af18e4267cdc43380b787f0223e3c19cdf68a49b762129"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration\\Table_99cf659ae2fe4b87b72437fd995483b_0.009700376721042367_comparison.pdf",
+      "sha256": "aba17b2fbe1225e593e001d0ec8fb89783bdf40d26afc228c42ae09790354463"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration\\Table_99cf659ae2fe4b87b72437fd995483b_0.009700376721042367_comparison.png",
+      "sha256": "a4cce9cb560def0ddcb951b197de00b6941709080cc52a40628f9d27dae811b2"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration_final\\glsd\\eval_val_nfe1\\metrics.json",
+      "sha256": "c4cfe4fa9894981835497c419be728c60fbd9e51a9d99edbd59e1be76c47efe9"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration_final\\glsd\\eval_val_nfe1\\Mug_10f6e09036350e92b3f21f1137c3c347_0.0002682457830986903.npz",
+      "sha256": "41d2d5cdefb64334c6bfee404069d7560a0c1735849b70161e96bda44ee8d4fb"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration_final\\glsd\\eval_val_nfe1\\Table_99cf659ae2fe4b87b72437fd995483b_0.009700376721042367.npz",
+      "sha256": "eacd4044376ba654fbbd4eabc7655b7a356c4c88207f1c89a447b2725a4d9a8f"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration_final\\glsd\\resumed\\config.json",
+      "sha256": "861e2b7d35d2114ee157e15afddebf35a6588bd40e93fe81c95a991de057ff6a"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration_final\\glsd\\resumed\\last.pt",
+      "sha256": "c6207d9dc9f3d24955e5d12474e20448653d56e2ba325b66c590ea65a0d470ec"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration_final\\glsd\\resumed\\train_status.json",
+      "sha256": "9281a8e6b4e74af2a809590ffb553484a5420fdbbb1587a90c3b87caa8e55e78"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration_final\\glsd\\uninterrupted\\config.json",
+      "sha256": "cb2116c3789279148589fe5b19704c3f36cd6acc9918018bc5e5589cc7bb82cb"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration_final\\glsd\\uninterrupted\\last.pt",
+      "sha256": "72c5f48da6046ea51e0135d3e995469e95a2e28c2a028fb17e7452e412a59b9b"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration_final\\glsd\\uninterrupted\\train_status.json",
+      "sha256": "37f67f4d82144e89fe50048322d74dd412af4b31d8149bb15d8f8a3e4c8ae189"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration_final\\mgm\\eval_val_nfe1\\metrics.json",
+      "sha256": "775ce8833f436eed46dbfc7e965035290c6646ee2f806535b137592f8a7415d9"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration_final\\mgm\\eval_val_nfe1\\Mug_10f6e09036350e92b3f21f1137c3c347_0.0002682457830986903.npz",
+      "sha256": "3a17a821126872f8e3e27b3c0d5a332d285d71778d73372ae195065e0117a32f"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration_final\\mgm\\eval_val_nfe1\\Table_99cf659ae2fe4b87b72437fd995483b_0.009700376721042367.npz",
+      "sha256": "0f3f3b228e3399e515c2e33cd3b4d5c45aa73057488162302f273e358a51c3b0"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration_final\\mgm\\resumed\\config.json",
+      "sha256": "242768cd1964bb9f0e287f5b9bfc4955d207f059d5d1c414f4a372a9ebfc8c3f"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration_final\\mgm\\resumed\\last.pt",
+      "sha256": "1fcafd85dc8c95d89f3e319421b62df0d1b9788faeb26864dc876a608fecfee6"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration_final\\mgm\\resumed\\train_status.json",
+      "sha256": "836ebf74bf9f0cde31bdfaeacd98a2d4a52d97bfb93378bf16d7eab284b36573"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration_final\\mgm\\uninterrupted\\config.json",
+      "sha256": "a11171ea000009234d14682cd619fde60d1ac6b1a2769fb2bc05022380903763"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration_final\\mgm\\uninterrupted\\last.pt",
+      "sha256": "6dc92116606003c33391be1ceeb1438d1b8dc723cbf291d8a81a3581a185e0c4"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration_final\\mgm\\uninterrupted\\train_status.json",
+      "sha256": "f323a3d0a7f55826b2572179d27b751c15719205eeac36df5fc0d75c3788462f"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration_final\\Mug_10f6e09036350e92b3f21f1137c3c347_0.0002682457830986903_comparison.json",
+      "sha256": "f7cf5ab51fef168c525cbcd0f9867c506d962239395a68db939aa3f991a99cf2"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration_final\\Mug_10f6e09036350e92b3f21f1137c3c347_0.0002682457830986903_comparison.pdf",
+      "sha256": "20c9365d496eaba0988ea84bf738c810f73235be126406e2c1ac8f0296a56e37"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration_final\\Mug_10f6e09036350e92b3f21f1137c3c347_0.0002682457830986903_comparison.png",
+      "sha256": "eae51aa7205b9074617f658907b1920beef560185b524b52ad9a311eb430ea9a"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration_final\\rfm\\eval_val_nfe100\\metrics.json",
+      "sha256": "9a8d78895493a7911cfb0259ebc158c136755aca4025818f7993e08395cee99d"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration_final\\rfm\\eval_val_nfe100\\Mug_10f6e09036350e92b3f21f1137c3c347_0.0002682457830986903.npz",
+      "sha256": "db11a86c64b9cbe72eac32ee15ec819fe914f16680492a89c507affb03f9294b"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration_final\\rfm\\eval_val_nfe100\\Table_99cf659ae2fe4b87b72437fd995483b_0.009700376721042367.npz",
+      "sha256": "0ef5ad5e4e4978df34abd5c84fef334df0245c6527c9b51a2a2069fc6a7d832d"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration_final\\rfm\\eval_val_nfe50\\metrics.json",
+      "sha256": "46b04249428b89371204b07705f2dd2223c9b8602b99d5c63d4edfd0bc23298b"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration_final\\rfm\\eval_val_nfe50\\Mug_10f6e09036350e92b3f21f1137c3c347_0.0002682457830986903.npz",
+      "sha256": "55a5c1dab7aebcfb86d642bc4df4a2ab664b6e900aeb826222b9a587053cd477"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration_final\\rfm\\eval_val_nfe50\\Table_99cf659ae2fe4b87b72437fd995483b_0.009700376721042367.npz",
+      "sha256": "066b0bc65f88b888bac26034b97b8c23be13454d83d48252812ac735b0b9813d"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration_final\\rfm\\resumed\\config.json",
+      "sha256": "ce97f7f161fa35198859830b2efaaef3cffd39f733d84f89035f4c46d89c02db"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration_final\\rfm\\resumed\\last.pt",
+      "sha256": "79267aadc4aaf8ba8344a8141622f1d736ce475fee029f8736d3133fb6e5f69c"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration_final\\rfm\\resumed\\train_status.json",
+      "sha256": "882ced80c3ca3ef457d3a28c1ec3a3653338b20db13e03eda756ac5d2827a2c5"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration_final\\rfm\\uninterrupted\\config.json",
+      "sha256": "d862983b3c9ccedf2411f707bbf92dc87aea5ce1a8dfc45a75ee44ef0cda6a19"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration_final\\rfm\\uninterrupted\\last.pt",
+      "sha256": "03016f2287c9cb345b0cf6aee777d3eb48d3649beee4da5a75fcf83da56d26fd"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration_final\\rfm\\uninterrupted\\train_status.json",
+      "sha256": "92dc9cbcc5cd0fca986a5a3624f8cf92d3334828f5bbd94a752d7766cd955e36"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration_final\\rmf_ccadapt\\eval_val_nfe1\\metrics.json",
+      "sha256": "62de7ef20089afc79388fc2dc49fb73849df28956108a8d4db0e3d76ff921dff"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration_final\\rmf_ccadapt\\eval_val_nfe1\\Mug_10f6e09036350e92b3f21f1137c3c347_0.0002682457830986903.npz",
+      "sha256": "37fd803a962dc5ce9ed20a9617d82faeee80ddde228fadcffa0fb926da7627ce"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration_final\\rmf_ccadapt\\eval_val_nfe1\\Table_99cf659ae2fe4b87b72437fd995483b_0.009700376721042367.npz",
+      "sha256": "08a02b431ed8467f532dab2185f161400173d55a0192ef320e4b3806ec18b428"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration_final\\rmf_ccadapt\\resumed\\config.json",
+      "sha256": "b5c2143fb1554c8cdd2ffbfefeeefff199d19f680ec8d976e35fccb40de926cc"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration_final\\rmf_ccadapt\\resumed\\last.pt",
+      "sha256": "7d295d015bbc03b791a2757549da5ad5a62d5539ef64188c60f1cbc27e5a36aa"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration_final\\rmf_ccadapt\\resumed\\train_status.json",
+      "sha256": "f845001f1b89dd5aa760a2eda3a3aa0f87034fba28a7bb883b11fa8ff9e2f72b"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration_final\\rmf_ccadapt\\uninterrupted\\config.json",
+      "sha256": "189c2c81d1b649e8696001bfbdb527e8b9c3e155d851a47faf8d177ef5875719"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration_final\\rmf_ccadapt\\uninterrupted\\last.pt",
+      "sha256": "371209391dbad26e068790dd7d175ceb413e2b6ea68d5cb1c0b273e6967a838a"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration_final\\rmf_ccadapt\\uninterrupted\\train_status.json",
+      "sha256": "b04a2e86351d17b25fa0ec4c730961c6a317d91b2a60089ff552d825fe05642c"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration_final\\rmf_mt\\eval_val_nfe1\\metrics.json",
+      "sha256": "44bcadab5752787cc09ae932575764c252f3305d3ad681b8cfca504aabed3e1c"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration_final\\rmf_mt\\eval_val_nfe1\\Mug_10f6e09036350e92b3f21f1137c3c347_0.0002682457830986903.npz",
+      "sha256": "c70c69edc0601995e6c2b4017f0c7f27af3cb1d1a1fcd6c6fde4af4337e70967"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration_final\\rmf_mt\\eval_val_nfe1\\Table_99cf659ae2fe4b87b72437fd995483b_0.009700376721042367.npz",
+      "sha256": "377636fbedffc07d07193a888aa34a82d04eb5d11de9d8220b1cd4ddfa863009"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration_final\\rmf_mt\\resumed\\config.json",
+      "sha256": "417e20ba71df161eb1076895d0aa0f2094111785c6348be7cbaa3ef965b3fd80"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration_final\\rmf_mt\\resumed\\last.pt",
+      "sha256": "d9c90d6558c9d38b447fab22a3d97d6a28f55862924839c3bd9de0209fd1c3c3"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration_final\\rmf_mt\\resumed\\train_status.json",
+      "sha256": "2ecbab4de9a4af372cd9a57c03f3fadb31bbf240c7debf1d359b1058b4de19ee"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration_final\\rmf_mt\\uninterrupted\\config.json",
+      "sha256": "fbf89d9f6e26f854f05895ae99c09870f26be343311fbfccd78b9552fbee806b"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration_final\\rmf_mt\\uninterrupted\\last.pt",
+      "sha256": "cd0c610cead854b9dcaefbb630432301ff61efcdf92556f200a2a95df0cd3ae8"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration_final\\rmf_mt\\uninterrupted\\train_status.json",
+      "sha256": "825f2d95828dc48607364f5a780ab3dbc990d7370e463d0c721fe0b5f5ff0a84"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration_final\\summary.json",
+      "sha256": "e89f803de0f82101c5d0688e2354068b684e229f9beed803d61f728bcce5469b"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration_final\\Table_99cf659ae2fe4b87b72437fd995483b_0.009700376721042367_comparison.json",
+      "sha256": "19045b151fb640289347646f9c01c189952f122c6b9ae3e245bc3a8d8682390c"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration_final\\Table_99cf659ae2fe4b87b72437fd995483b_0.009700376721042367_comparison.pdf",
+      "sha256": "e3c80ca5aa570ced2e6c9dedc75b9475622938f3e3d9f4f562c6f6c9039b9296"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration_final\\Table_99cf659ae2fe4b87b72437fd995483b_0.009700376721042367_comparison.png",
+      "sha256": "52c181693167d81e1cc34446595e71a033cb8015fd74cb01aff97925ddba009d"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration_reference\\glsd\\eval_val_nfe1\\metrics.json",
+      "sha256": "a39fd8cba88ae454ba84259a856315764c3a7a3cbba4b6406cfb21127bed5462"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration_reference\\glsd\\eval_val_nfe1\\Mug_10f6e09036350e92b3f21f1137c3c347_0.0002682457830986903.npz",
+      "sha256": "41d2d5cdefb64334c6bfee404069d7560a0c1735849b70161e96bda44ee8d4fb"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration_reference\\glsd\\eval_val_nfe1\\Table_99cf659ae2fe4b87b72437fd995483b_0.009700376721042367.npz",
+      "sha256": "eacd4044376ba654fbbd4eabc7655b7a356c4c88207f1c89a447b2725a4d9a8f"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration_reference\\glsd\\resumed\\config.json",
+      "sha256": "2c1fc782610ccaf85c95ce203b703c7eb8919e476aba9407d774a68f5446913a"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration_reference\\glsd\\resumed\\last.pt",
+      "sha256": "164d27b5f3e074bc178c855f85d0567381f3664d8c30c98b7bc6bf892d939461"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration_reference\\glsd\\resumed\\train_status.json",
+      "sha256": "d57c49ad652cbef161e59d63040ba5cc357d6784eafc3023a3f9c168c755f496"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration_reference\\glsd\\uninterrupted\\config.json",
+      "sha256": "22b250a73ba238df42ef19529fd41153668840cd94c3ac50cd3a4276bedc4c43"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration_reference\\glsd\\uninterrupted\\last.pt",
+      "sha256": "2d522bf91d30765909870ec43126469f62c9fbdc2b0561127b15cca32b91dec5"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration_reference\\glsd\\uninterrupted\\train_status.json",
+      "sha256": "9ed06d8d9061efec4ae06f79c96b16d72710c30c1ef97d38c3f1eb6b0d899fb1"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration_reference\\mgm\\eval_val_nfe1\\metrics.json",
+      "sha256": "149ca01fb28a8b28b4c3e208c0ff14812da1863bd87f56640dca5f11ec000d68"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration_reference\\mgm\\eval_val_nfe1\\Mug_10f6e09036350e92b3f21f1137c3c347_0.0002682457830986903.npz",
+      "sha256": "3a17a821126872f8e3e27b3c0d5a332d285d71778d73372ae195065e0117a32f"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration_reference\\mgm\\eval_val_nfe1\\Table_99cf659ae2fe4b87b72437fd995483b_0.009700376721042367.npz",
+      "sha256": "0f3f3b228e3399e515c2e33cd3b4d5c45aa73057488162302f273e358a51c3b0"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration_reference\\mgm\\resumed\\config.json",
+      "sha256": "2b2baeedd3bd730cf7245a5a255c86268040a995fefcb3ef4ea0faca93b5105f"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration_reference\\mgm\\resumed\\last.pt",
+      "sha256": "f83a0418dc3deff60614bfd42c135fce505ffe77486e30585b71d3f7f7ff1a43"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration_reference\\mgm\\resumed\\train_status.json",
+      "sha256": "0bdf9b35e0078251a3b406fb37146f57bf0a3bcfde8fb8f4023814b88ae53ba9"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration_reference\\mgm\\uninterrupted\\config.json",
+      "sha256": "7c7803f6466040d7b7e5bc93612a89ad091cecbc89a234d89cfbc1fe57abf896"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration_reference\\mgm\\uninterrupted\\last.pt",
+      "sha256": "3ff5c2091d8dada78b743a51486bec1fa993d344b7e67a8347bdbe6089c428d4"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration_reference\\mgm\\uninterrupted\\train_status.json",
+      "sha256": "6c0001b305ed320cf4e6361b784b53daed1d9fd1312b05c13eee8a4d4c5ec30b"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration_reference\\Mug_10f6e09036350e92b3f21f1137c3c347_0.0002682457830986903_comparison.json",
+      "sha256": "7190282e2eb241ee8a130eff72f52e6b9ddc77a12cabe1de289191c8539ce99e"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration_reference\\Mug_10f6e09036350e92b3f21f1137c3c347_0.0002682457830986903_comparison.pdf",
+      "sha256": "95df9e2def2434aafd653b5dfd163079041188e1000f3a21c05edf71b6487fa8"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration_reference\\Mug_10f6e09036350e92b3f21f1137c3c347_0.0002682457830986903_comparison.png",
+      "sha256": "eae51aa7205b9074617f658907b1920beef560185b524b52ad9a311eb430ea9a"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration_reference\\rfm\\eval_val_nfe100\\metrics.json",
+      "sha256": "096a759b782464044dadc0431e52314988ba75ee9b7a3d5cc7becb4450782acb"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration_reference\\rfm\\eval_val_nfe100\\Mug_10f6e09036350e92b3f21f1137c3c347_0.0002682457830986903.npz",
+      "sha256": "db11a86c64b9cbe72eac32ee15ec819fe914f16680492a89c507affb03f9294b"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration_reference\\rfm\\eval_val_nfe100\\Table_99cf659ae2fe4b87b72437fd995483b_0.009700376721042367.npz",
+      "sha256": "0ef5ad5e4e4978df34abd5c84fef334df0245c6527c9b51a2a2069fc6a7d832d"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration_reference\\rfm\\eval_val_nfe50\\metrics.json",
+      "sha256": "01f5be0661ed84becc484d95d8aa24af9873a4694bc7e28ac91f4d88fceff9a7"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration_reference\\rfm\\eval_val_nfe50\\Mug_10f6e09036350e92b3f21f1137c3c347_0.0002682457830986903.npz",
+      "sha256": "55a5c1dab7aebcfb86d642bc4df4a2ab664b6e900aeb826222b9a587053cd477"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration_reference\\rfm\\eval_val_nfe50\\Table_99cf659ae2fe4b87b72437fd995483b_0.009700376721042367.npz",
+      "sha256": "066b0bc65f88b888bac26034b97b8c23be13454d83d48252812ac735b0b9813d"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration_reference\\rfm\\resumed\\config.json",
+      "sha256": "fec9fb122443c4d2326ee6a173134fbaa84e28dcf21f5685b8e44c0c9e709604"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration_reference\\rfm\\resumed\\last.pt",
+      "sha256": "6ccc68f6387f667fae0522628f745ff26a403fc288784dfa97848aa9db0beaa6"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration_reference\\rfm\\resumed\\train_status.json",
+      "sha256": "c52477a9db9c2ce2177a9ce0040091b7699415589ff1b61c68ee77b7865f8d8c"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration_reference\\rfm\\uninterrupted\\config.json",
+      "sha256": "6578a09542312eb41901733387f1cb466997f52a80c6ad3c5b693e882486cabf"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration_reference\\rfm\\uninterrupted\\last.pt",
+      "sha256": "7a367484131273311811604a933e3db46d92e2e5269ba0b6f9fb42c429d8d15a"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration_reference\\rfm\\uninterrupted\\train_status.json",
+      "sha256": "9650820ffdf1e3e0a5f9651c9adf6e1aa9742dcd36b4bdc553023f1a3a9e4f0e"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration_reference\\rmf_ccadapt\\eval_val_nfe1\\metrics.json",
+      "sha256": "a35806e0023fc7501ed44664d58de0d6bd97824081aed66489a58c95577f5a92"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration_reference\\rmf_ccadapt\\eval_val_nfe1\\Mug_10f6e09036350e92b3f21f1137c3c347_0.0002682457830986903.npz",
+      "sha256": "37fd803a962dc5ce9ed20a9617d82faeee80ddde228fadcffa0fb926da7627ce"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration_reference\\rmf_ccadapt\\eval_val_nfe1\\Table_99cf659ae2fe4b87b72437fd995483b_0.009700376721042367.npz",
+      "sha256": "08a02b431ed8467f532dab2185f161400173d55a0192ef320e4b3806ec18b428"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration_reference\\rmf_ccadapt\\resumed\\config.json",
+      "sha256": "38fb8a57d9efc6fb66f6ccfc76d5456ba010e10895703013f4841c2ec05cc4a1"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration_reference\\rmf_ccadapt\\resumed\\last.pt",
+      "sha256": "bb1063c98bad222d3ab160e23af9cb1848740706c4e00610aba84c2616089243"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration_reference\\rmf_ccadapt\\resumed\\train_status.json",
+      "sha256": "3b6c3804d1efcbaba32bec127efd7ed02a0bd8f90584036c99f9318fef1638d6"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration_reference\\rmf_ccadapt\\uninterrupted\\config.json",
+      "sha256": "3301230b904495ee6ab9b0a67e4d52d1b2147a90278dca22bd79c3968d7b700a"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration_reference\\rmf_ccadapt\\uninterrupted\\last.pt",
+      "sha256": "213c03398c5272951fae078a23b1d1260cf49b33205e3c7ab26eb3fbf63c36fe"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration_reference\\rmf_ccadapt\\uninterrupted\\train_status.json",
+      "sha256": "f5f6defa362057967e52f41c9a2bd0f90b4621bcf49ce3391f1260e05d2158e2"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration_reference\\rmf_mt\\eval_val_nfe1\\metrics.json",
+      "sha256": "aea13367d11f2252687069203a75f29f1d419cb00d534ef8ce8439cb625caf0b"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration_reference\\rmf_mt\\eval_val_nfe1\\Mug_10f6e09036350e92b3f21f1137c3c347_0.0002682457830986903.npz",
+      "sha256": "c70c69edc0601995e6c2b4017f0c7f27af3cb1d1a1fcd6c6fde4af4337e70967"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration_reference\\rmf_mt\\eval_val_nfe1\\Table_99cf659ae2fe4b87b72437fd995483b_0.009700376721042367.npz",
+      "sha256": "377636fbedffc07d07193a888aa34a82d04eb5d11de9d8220b1cd4ddfa863009"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration_reference\\rmf_mt\\resumed\\config.json",
+      "sha256": "15b86b5a6b08bd23dc73dc8ba6bd5723a295d3ed27b6c9c623b2abed79653f14"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration_reference\\rmf_mt\\resumed\\last.pt",
+      "sha256": "3f6e96cba159c9856462e4180fb169d44339bf671ab43c8c68f31b55fae1bbdf"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration_reference\\rmf_mt\\resumed\\train_status.json",
+      "sha256": "966f7d1500d385ceed5540b1fbaceffa37ff27d7f48d9d602ae6d64cf77be9ee"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration_reference\\rmf_mt\\uninterrupted\\config.json",
+      "sha256": "844dcd611b1f49f4a25cd69824abe2f6144acb6e526668df3595e09a733f460e"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration_reference\\rmf_mt\\uninterrupted\\last.pt",
+      "sha256": "eb47c77039397fcaf3e4237d42a12b0893c987a55c1a827334abf294206f6908"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration_reference\\rmf_mt\\uninterrupted\\train_status.json",
+      "sha256": "35b74a8d626b97711106c4ccf4564b5f8ca875bc5f0a81379642fd1ca28a2958"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration_reference\\summary.json",
+      "sha256": "2558b93d481ed95ed58e7fcab205ef1311becae96e693f64ece65cec589f3a2d"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration_reference\\Table_99cf659ae2fe4b87b72437fd995483b_0.009700376721042367_comparison.json",
+      "sha256": "4cf14dcb1fbc2c78ef66ec05d2023fed939882851a6ab5577fb1bf317ac6bfe4"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration_reference\\Table_99cf659ae2fe4b87b72437fd995483b_0.009700376721042367_comparison.pdf",
+      "sha256": "7aa53dde4dae35f3f570dc951918e0cf7fb8ef9931d55052b52bcae4f9d16ffc"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration_reference\\Table_99cf659ae2fe4b87b72437fd995483b_0.009700376721042367_comparison.png",
+      "sha256": "52c181693167d81e1cc34446595e71a033cb8015fd74cb01aff97925ddba009d"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_profile\\mgm\\config.json",
+      "sha256": "cee2b53fbb7b6a4c78d379956e9d8932ff5d9e5f695852ecba6b47bf250625f9"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_profile\\mgm\\last.pt",
+      "sha256": "22691ce0691c3a2bc1b6cf28352322d6816fcc3f4a8129a90f1808db41581339"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_profile\\mgm\\train_status.json",
+      "sha256": "5d04ca330f03c99f086ab24bcb81bd0cdf33baf871b78db28986c676f4e8dfa7"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_profile\\rfm\\config.json",
+      "sha256": "aa4501513abc8a9bc8f107bdc7dfe0e85f0f3c6c6b6d91a7444f8a0b8d477932"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_profile\\rfm\\last.pt",
+      "sha256": "9083f4c44e749d8e337cfdaeb5667754eb2cc50ada0bfd55d20d0833d56acfdb"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_profile\\rfm\\train_status.json",
+      "sha256": "dfe16d66c7d391e2ae5a49435dbb8f8ece5186b4caf3b97bc327427dc0f62c39"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_profile\\rmf_mt\\config.json",
+      "sha256": "858c9e4a5c951822e601c3079f5ce79d251fc4500ea895522987e98fd43c1a7d"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_profile\\rmf_mt\\last.pt",
+      "sha256": "00012d04b032b2ffe5530c410745a9b915066847789f38c2faeeaf92fe980af3"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_profile\\rmf_mt\\train_status.json",
+      "sha256": "7797fda43caa960c764706184445c1ea329531f73d613c66172856e0b8d2a226"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\cpu_profile\\summary.json",
+      "sha256": "a245cb37b67cc7373aff1d658669695989b00bbd125aa4129ed06e4112dc16a2"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\pdf_qa\\mug.png",
+      "sha256": "b777ca3a1dd3746a069eebef5d517a58d391e312cbe472618c7399eb6e4fcdd2"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\pdf_qa\\table.png",
+      "sha256": "a28be2d1a6cb2dd87f0a2b34f0657f00b3fd570541e711b393c867a1f0ec6cee"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\preflight.json",
+      "sha256": "73b6a759e4f4a20c0990bf0dda00d68569d6158376a8fe1d709ee00f4ef168b9"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\ready_summary.json",
+      "sha256": "83ec0fe2b89f6f7fabb655155ab4c2cc885734f97605f532e68146a23be2fe38"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\test_results.json",
+      "sha256": "c1983e35ac3adfeadc2eaf43ff835ba41b4ed579e6d2cddb88cb9841be6d79b4"
+    }
+  ],
+  "inventory_self": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\verification_ready\\changed_files.json",
+  "excluded": "Automatically regenerated __pycache__ bytecode; no baseline or historical-result files edited"
+}

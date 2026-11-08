@@ -1,0 +1,15 @@
+{
+  "data": "volcano",
+  "method": "mgm_gmm",
+  "seed": 1,
+  "steps": 2000,
+  "train_seconds": 33.328737800000454,
+  "finished_at": "2026-10-23T19:52:48.923050+00:00",
+  "finite_parameters": true,
+  "evaluation_rng_invariance_verified": true,
+  "parameter_change_l2": {
+    "centers": 0.27513933181762695,
+    "log_scale": 0.18877096474170685,
+    "component_logits": 0.0
+  }
+}

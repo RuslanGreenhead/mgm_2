@@ -1,0 +1,18 @@
+{
+  "data": "flood",
+  "method": "rfm",
+  "seed": 2,
+  "steps": 10000,
+  "train_seconds": 20.31067399999847,
+  "finished_at": "2026-10-23T19:59:13.398709+00:00",
+  "finite_parameters": true,
+  "evaluation_rng_invariance_verified": true,
+  "parameter_change_l2": {
+    "net.net.0.weight": 3.449113130569458,
+    "net.net.0.bias": 0.5738618969917297,
+    "net.net.2.weight": 5.444572925567627,
+    "net.net.2.bias": 0.33485832810401917,
+    "net.net.4.weight": 0.8155496120452881,
+    "net.net.4.bias": 0.03702738508582115
+  }
+}

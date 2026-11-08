@@ -1,0 +1,22 @@
+{
+  "trial": "raw_random_mlp_c5",
+  "finished_at": "2026-10-23T19:29:02.273768+00:00",
+  "training_seed": 0,
+  "steps": 2000,
+  "critic_updates": 10500,
+  "train_seconds": 19.790317999999388,
+  "total_optimizer_updates": 12500,
+  "test_evaluations": 0,
+  "parameter_change_l2": {
+    "raw.net.0.weight": 0.8161711692810059,
+    "raw.net.0.bias": 0.2415214627981186,
+    "raw.net.2.weight": 2.283928632736206,
+    "raw.net.2.bias": 0.1973423957824707,
+    "raw.net.4.weight": 0.33568865060806274,
+    "raw.net.4.bias": 0.022117307409644127
+  },
+  "initial_validation_mmd2_mean": 0.7503351439821078,
+  "final_validation_mmd2_mean": 0.25637043430879236,
+  "final_validation_mmd2_sd_mc": 0.009507808482055296,
+  "validation_mmd2_change": -0.4939647096733154
+}

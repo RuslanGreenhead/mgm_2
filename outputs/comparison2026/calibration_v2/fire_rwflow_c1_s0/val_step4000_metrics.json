@@ -1,0 +1,21 @@
+[
+  {
+    "kernel_mmd2_v": 0.0013122138060416288,
+    "symmetric_nn": 0.0808954890260986,
+    "minimum_matching_distance": 0.03563441821193388,
+    "radius_coverage": 0.0205078125,
+    "nn_occupancy_coverage": 0.2763671875,
+    "one_nna": 0.85205078125,
+    "constraint_mean": 3.038803808922113e-08,
+    "generated_n": 1024,
+    "target_n": 1024,
+    "data": "fire",
+    "method": "rwflow",
+    "seed": 0,
+    "step": 4000,
+    "split": "val",
+    "draw": 0,
+    "train_seconds": 335.06282950000013,
+    "model_forward_calls": 1
+  }
+]

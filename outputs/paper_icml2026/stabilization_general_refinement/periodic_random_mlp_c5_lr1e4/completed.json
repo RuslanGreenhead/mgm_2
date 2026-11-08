@@ -1,0 +1,22 @@
+{
+  "trial": "periodic_random_mlp_c5_lr1e4",
+  "finished_at": "2026-10-23T19:32:45.762300+00:00",
+  "training_seed": 0,
+  "steps": 2000,
+  "critic_updates": 10500,
+  "train_seconds": 20.746927499998492,
+  "total_optimizer_updates": 12500,
+  "test_evaluations": 0,
+  "parameter_change_l2": {
+    "raw.net.0.weight": 1.3111733198165894,
+    "raw.net.0.bias": 0.3815036118030548,
+    "raw.net.2.weight": 3.4118459224700928,
+    "raw.net.2.bias": 0.289135605096817,
+    "raw.net.4.weight": 0.48736512660980225,
+    "raw.net.4.bias": 0.02348945289850235
+  },
+  "initial_validation_mmd2_mean": 0.7503351439821078,
+  "final_validation_mmd2_mean": 0.04023119869323074,
+  "final_validation_mmd2_sd_mc": 0.0011180728651433202,
+  "validation_mmd2_change": -0.710103945288877
+}

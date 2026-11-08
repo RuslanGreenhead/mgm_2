@@ -1,0 +1,15 @@
+{
+  "data": "glycine",
+  "method": "mgm_gmm",
+  "seed": 1,
+  "steps": 2000,
+  "train_seconds": 6.5328821999992215,
+  "finished_at": "2026-10-23T19:59:47.992352+00:00",
+  "finite_parameters": true,
+  "evaluation_rng_invariance_verified": true,
+  "parameter_change_l2": {
+    "centers": 3.263850450515747,
+    "log_scale": 0.2911914587020874,
+    "component_logits": 0.0
+  }
+}

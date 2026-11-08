@@ -1,0 +1,5002 @@
+[
+  {
+    "step": 100,
+    "attempts": 100,
+    "loss": 2.6658754348754883,
+    "loss1": 2.6203255653381348,
+    "loss2": -0.002953663468360901,
+    "updates": 100,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 200,
+    "attempts": 200,
+    "loss": 2.6938977241516113,
+    "loss1": 2.62992525100708,
+    "loss2": -0.007440227083861828,
+    "updates": 200,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 300,
+    "attempts": 300,
+    "loss": 2.4278440475463867,
+    "loss1": 2.3888092041015625,
+    "loss2": 0.019019268453121185,
+    "updates": 300,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 400,
+    "attempts": 400,
+    "loss": 2.5046401023864746,
+    "loss1": 2.499068021774292,
+    "loss2": 0.004202987067401409,
+    "updates": 400,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 500,
+    "attempts": 500,
+    "loss": 2.760103464126587,
+    "loss1": 2.558851957321167,
+    "loss2": 0.020142924040555954,
+    "updates": 500,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 600,
+    "attempts": 600,
+    "loss": 2.658658266067505,
+    "loss1": 2.55904221534729,
+    "loss2": 0.006506489589810371,
+    "updates": 600,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 700,
+    "attempts": 700,
+    "loss": 2.418262481689453,
+    "loss1": 2.4076483249664307,
+    "loss2": 0.027062583714723587,
+    "updates": 700,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 800,
+    "attempts": 800,
+    "loss": 2.5520639419555664,
+    "loss1": 2.319356918334961,
+    "loss2": -0.012549852021038532,
+    "updates": 800,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 900,
+    "attempts": 900,
+    "loss": 2.5507304668426514,
+    "loss1": 2.4151432514190674,
+    "loss2": 0.011694135144352913,
+    "updates": 900,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 1000,
+    "attempts": 1000,
+    "loss": 2.4743685722351074,
+    "loss1": 2.4902806282043457,
+    "loss2": 0.03153550624847412,
+    "updates": 1000,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 1100,
+    "attempts": 1100,
+    "loss": 2.3741393089294434,
+    "loss1": 2.295884132385254,
+    "loss2": -0.011156638152897358,
+    "updates": 1100,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 1200,
+    "attempts": 1200,
+    "loss": 2.436527967453003,
+    "loss1": 2.3597450256347656,
+    "loss2": -0.01886029727756977,
+    "updates": 1200,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 1300,
+    "attempts": 1300,
+    "loss": 2.3078784942626953,
+    "loss1": 2.1179702281951904,
+    "loss2": -0.013332863338291645,
+    "updates": 1300,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 1400,
+    "attempts": 1400,
+    "loss": 2.68253755569458,
+    "loss1": 2.410762310028076,
+    "loss2": 0.019397592172026634,
+    "updates": 1400,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 1500,
+    "attempts": 1500,
+    "loss": 2.6025495529174805,
+    "loss1": 2.5507607460021973,
+    "loss2": -0.009894227609038353,
+    "updates": 1500,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 1600,
+    "attempts": 1600,
+    "loss": 2.6017160415649414,
+    "loss1": 2.310029983520508,
+    "loss2": -0.007391946390271187,
+    "updates": 1600,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 1700,
+    "attempts": 1700,
+    "loss": 2.595932722091675,
+    "loss1": 2.3428738117218018,
+    "loss2": -0.0025579161010682583,
+    "updates": 1700,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 1800,
+    "attempts": 1800,
+    "loss": 2.356283187866211,
+    "loss1": 2.291898488998413,
+    "loss2": 0.00348373013548553,
+    "updates": 1800,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 1900,
+    "attempts": 1900,
+    "loss": 2.4342522621154785,
+    "loss1": 2.31282377243042,
+    "loss2": 0.007755711209028959,
+    "updates": 1900,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 2000,
+    "attempts": 2000,
+    "loss": 2.4764938354492188,
+    "loss1": 2.2892885208129883,
+    "loss2": 0.0046292869374156,
+    "updates": 2000,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 2100,
+    "attempts": 2100,
+    "loss": 2.6107358932495117,
+    "loss1": 2.388381242752075,
+    "loss2": 0.0016697589308023453,
+    "updates": 2100,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 2200,
+    "attempts": 2200,
+    "loss": 2.3102035522460938,
+    "loss1": 2.1843912601470947,
+    "loss2": 0.005710150580853224,
+    "updates": 2200,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 2300,
+    "attempts": 2300,
+    "loss": 2.5583600997924805,
+    "loss1": 2.5059099197387695,
+    "loss2": -0.021036993712186813,
+    "updates": 2300,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 2400,
+    "attempts": 2400,
+    "loss": 2.478018283843994,
+    "loss1": 2.2658538818359375,
+    "loss2": -0.018511854112148285,
+    "updates": 2400,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 2500,
+    "attempts": 2500,
+    "loss": 2.191622734069824,
+    "loss1": 2.126295328140259,
+    "loss2": -0.0009242454543709755,
+    "updates": 2500,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 2600,
+    "attempts": 2600,
+    "loss": 2.267960786819458,
+    "loss1": 2.247223138809204,
+    "loss2": 0.0030118031427264214,
+    "updates": 2600,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 2700,
+    "attempts": 2700,
+    "loss": 3.0324723720550537,
+    "loss1": 2.778076648712158,
+    "loss2": -0.021892718970775604,
+    "updates": 2700,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 2800,
+    "attempts": 2800,
+    "loss": 2.5036520957946777,
+    "loss1": 2.309339761734009,
+    "loss2": -0.04153134301304817,
+    "updates": 2800,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 2900,
+    "attempts": 2900,
+    "loss": 2.7592458724975586,
+    "loss1": 2.3767142295837402,
+    "loss2": -0.006329383701086044,
+    "updates": 2900,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 3000,
+    "attempts": 3000,
+    "loss": 2.7253828048706055,
+    "loss1": 2.3172800540924072,
+    "loss2": -0.033297717571258545,
+    "updates": 3000,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 3100,
+    "attempts": 3100,
+    "loss": 2.5352725982666016,
+    "loss1": 2.440253257751465,
+    "loss2": -0.02788296714425087,
+    "updates": 3100,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 3200,
+    "attempts": 3200,
+    "loss": 2.1784982681274414,
+    "loss1": 2.061366558074951,
+    "loss2": 0.03460541367530823,
+    "updates": 3200,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 3300,
+    "attempts": 3300,
+    "loss": 2.5633742809295654,
+    "loss1": 2.4091529846191406,
+    "loss2": -0.03191753104329109,
+    "updates": 3300,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 3400,
+    "attempts": 3400,
+    "loss": 2.510848045349121,
+    "loss1": 2.2582411766052246,
+    "loss2": 0.01672636717557907,
+    "updates": 3400,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 3500,
+    "attempts": 3500,
+    "loss": 2.3751821517944336,
+    "loss1": 2.100863456726074,
+    "loss2": -0.022001303732395172,
+    "updates": 3500,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 3600,
+    "attempts": 3600,
+    "loss": 2.525424003601074,
+    "loss1": 2.4635324478149414,
+    "loss2": -0.020127519965171814,
+    "updates": 3600,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 3700,
+    "attempts": 3700,
+    "loss": 2.6189379692077637,
+    "loss1": 2.388920783996582,
+    "loss2": -0.028874419629573822,
+    "updates": 3700,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 3800,
+    "attempts": 3800,
+    "loss": 2.5047569274902344,
+    "loss1": 2.404320240020752,
+    "loss2": -0.021760307252407074,
+    "updates": 3800,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 3900,
+    "attempts": 3900,
+    "loss": 2.1893980503082275,
+    "loss1": 2.0941545963287354,
+    "loss2": 0.009222561493515968,
+    "updates": 3900,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 4000,
+    "attempts": 4000,
+    "loss": 2.5677218437194824,
+    "loss1": 2.297389268875122,
+    "loss2": -0.038629088550806046,
+    "updates": 4000,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 4100,
+    "attempts": 4100,
+    "loss": 2.470659017562866,
+    "loss1": 2.259542942047119,
+    "loss2": -0.03630015626549721,
+    "updates": 4100,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 4200,
+    "attempts": 4200,
+    "loss": 2.5967307090759277,
+    "loss1": 2.4133803844451904,
+    "loss2": 0.014046760275959969,
+    "updates": 4200,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 4300,
+    "attempts": 4300,
+    "loss": 2.6455068588256836,
+    "loss1": 2.214919328689575,
+    "loss2": -0.019448960199952126,
+    "updates": 4300,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 4400,
+    "attempts": 4400,
+    "loss": 2.553950548171997,
+    "loss1": 2.1612582206726074,
+    "loss2": -0.031728215515613556,
+    "updates": 4400,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 4500,
+    "attempts": 4500,
+    "loss": 2.5136382579803467,
+    "loss1": 2.3602490425109863,
+    "loss2": 0.008528877049684525,
+    "updates": 4500,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 4600,
+    "attempts": 4600,
+    "loss": 2.822246789932251,
+    "loss1": 2.4774858951568604,
+    "loss2": -0.02376440167427063,
+    "updates": 4600,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 4700,
+    "attempts": 4700,
+    "loss": 2.595860004425049,
+    "loss1": 2.5269036293029785,
+    "loss2": -0.0491679385304451,
+    "updates": 4700,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 4800,
+    "attempts": 4800,
+    "loss": 2.5184826850891113,
+    "loss1": 2.3834567070007324,
+    "loss2": 0.0018975874409079552,
+    "updates": 4800,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 4900,
+    "attempts": 4900,
+    "loss": 2.2960991859436035,
+    "loss1": 1.9933173656463623,
+    "loss2": -0.0033371015451848507,
+    "updates": 4900,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 5000,
+    "attempts": 5000,
+    "loss": 2.580561399459839,
+    "loss1": 2.2317428588867188,
+    "loss2": -0.012751850299537182,
+    "updates": 5000,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 5100,
+    "attempts": 5100,
+    "loss": 2.655571937561035,
+    "loss1": 2.4254307746887207,
+    "loss2": -0.06520742923021317,
+    "updates": 5100,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 5200,
+    "attempts": 5200,
+    "loss": 2.619839668273926,
+    "loss1": 2.2908620834350586,
+    "loss2": -0.043672844767570496,
+    "updates": 5200,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 5300,
+    "attempts": 5300,
+    "loss": 2.531980037689209,
+    "loss1": 2.2526326179504395,
+    "loss2": -0.009256439283490181,
+    "updates": 5300,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 5400,
+    "attempts": 5400,
+    "loss": 2.387579917907715,
+    "loss1": 2.224102020263672,
+    "loss2": -0.04382278025150299,
+    "updates": 5400,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 5500,
+    "attempts": 5500,
+    "loss": 2.7226855754852295,
+    "loss1": 2.544797897338867,
+    "loss2": -0.01553945243358612,
+    "updates": 5500,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 5600,
+    "attempts": 5600,
+    "loss": 2.3948755264282227,
+    "loss1": 2.2896552085876465,
+    "loss2": 0.0066541461274027824,
+    "updates": 5600,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 5700,
+    "attempts": 5700,
+    "loss": 2.5597105026245117,
+    "loss1": 2.3058955669403076,
+    "loss2": -0.010278919711709023,
+    "updates": 5700,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 5800,
+    "attempts": 5800,
+    "loss": 2.4804728031158447,
+    "loss1": 2.3177413940429688,
+    "loss2": -0.023961637169122696,
+    "updates": 5800,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 5900,
+    "attempts": 5900,
+    "loss": 2.621677875518799,
+    "loss1": 2.3182332515716553,
+    "loss2": -0.039538878947496414,
+    "updates": 5900,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 6000,
+    "attempts": 6000,
+    "loss": 2.3595690727233887,
+    "loss1": 2.285261631011963,
+    "loss2": -0.04588368907570839,
+    "updates": 6000,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 6100,
+    "attempts": 6100,
+    "loss": 2.512768507003784,
+    "loss1": 2.2406880855560303,
+    "loss2": -0.018820617347955704,
+    "updates": 6100,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 6200,
+    "attempts": 6200,
+    "loss": 2.477458953857422,
+    "loss1": 2.4133942127227783,
+    "loss2": -0.02372339367866516,
+    "updates": 6200,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 6300,
+    "attempts": 6300,
+    "loss": 2.1422784328460693,
+    "loss1": 1.9971425533294678,
+    "loss2": 0.022043397650122643,
+    "updates": 6300,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 6400,
+    "attempts": 6400,
+    "loss": 2.309810161590576,
+    "loss1": 2.0591821670532227,
+    "loss2": -0.008097803220152855,
+    "updates": 6400,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 6500,
+    "attempts": 6500,
+    "loss": 2.6146111488342285,
+    "loss1": 2.328787326812744,
+    "loss2": -0.0010409727692604065,
+    "updates": 6500,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 6600,
+    "attempts": 6600,
+    "loss": 2.2471930980682373,
+    "loss1": 2.0543532371520996,
+    "loss2": -0.010609260760247707,
+    "updates": 6600,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 6700,
+    "attempts": 6700,
+    "loss": 2.466491937637329,
+    "loss1": 2.2254881858825684,
+    "loss2": 0.01450748648494482,
+    "updates": 6700,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 6800,
+    "attempts": 6800,
+    "loss": 2.481785774230957,
+    "loss1": 2.387913227081299,
+    "loss2": 0.007328769192099571,
+    "updates": 6800,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 6900,
+    "attempts": 6900,
+    "loss": 3.0607597827911377,
+    "loss1": 2.5895137786865234,
+    "loss2": 0.09265738725662231,
+    "updates": 6900,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 7000,
+    "attempts": 7000,
+    "loss": 2.6958746910095215,
+    "loss1": 2.403834819793701,
+    "loss2": -0.05107106268405914,
+    "updates": 7000,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 7100,
+    "attempts": 7100,
+    "loss": 2.756462574005127,
+    "loss1": 2.5160059928894043,
+    "loss2": -0.04610268026590347,
+    "updates": 7100,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 7200,
+    "attempts": 7200,
+    "loss": 2.4627387523651123,
+    "loss1": 2.347003221511841,
+    "loss2": 0.02802363410592079,
+    "updates": 7200,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 7300,
+    "attempts": 7300,
+    "loss": 2.417804718017578,
+    "loss1": 2.2812371253967285,
+    "loss2": -0.024249937385320663,
+    "updates": 7300,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 7400,
+    "attempts": 7400,
+    "loss": 2.905596971511841,
+    "loss1": 2.44541072845459,
+    "loss2": -0.026371363550424576,
+    "updates": 7400,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 7500,
+    "attempts": 7500,
+    "loss": 2.481078624725342,
+    "loss1": 2.340855598449707,
+    "loss2": -0.026811612769961357,
+    "updates": 7500,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 7600,
+    "attempts": 7600,
+    "loss": 2.300170421600342,
+    "loss1": 2.216442346572876,
+    "loss2": -0.0017277118749916553,
+    "updates": 7600,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 7700,
+    "attempts": 7700,
+    "loss": 2.670698642730713,
+    "loss1": 2.248106002807617,
+    "loss2": 0.012303678318858147,
+    "updates": 7700,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 7800,
+    "attempts": 7800,
+    "loss": 2.8627028465270996,
+    "loss1": 2.7159829139709473,
+    "loss2": -0.03989649936556816,
+    "updates": 7800,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 7900,
+    "attempts": 7900,
+    "loss": 2.726639986038208,
+    "loss1": 2.279766321182251,
+    "loss2": 0.060995399951934814,
+    "updates": 7900,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 8000,
+    "attempts": 8000,
+    "loss": 2.4564688205718994,
+    "loss1": 2.2709388732910156,
+    "loss2": -0.021537911146879196,
+    "updates": 8000,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 8100,
+    "attempts": 8100,
+    "loss": 2.932838201522827,
+    "loss1": 2.434335231781006,
+    "loss2": 0.012317940592765808,
+    "updates": 8100,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 8200,
+    "attempts": 8200,
+    "loss": 2.4959263801574707,
+    "loss1": 2.2715888023376465,
+    "loss2": -0.033980339765548706,
+    "updates": 8200,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 8300,
+    "attempts": 8300,
+    "loss": 2.2974460124969482,
+    "loss1": 2.2478842735290527,
+    "loss2": -0.016238074749708176,
+    "updates": 8300,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 8400,
+    "attempts": 8400,
+    "loss": 2.732733964920044,
+    "loss1": 2.557607650756836,
+    "loss2": 0.03435835987329483,
+    "updates": 8400,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 8500,
+    "attempts": 8500,
+    "loss": 2.2882847785949707,
+    "loss1": 2.186460256576538,
+    "loss2": -7.296912372112274e-05,
+    "updates": 8500,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 8600,
+    "attempts": 8600,
+    "loss": 2.7010390758514404,
+    "loss1": 2.21230411529541,
+    "loss2": -0.007286446169018745,
+    "updates": 8600,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 8700,
+    "attempts": 8700,
+    "loss": 2.924215078353882,
+    "loss1": 2.4831860065460205,
+    "loss2": -0.04182753711938858,
+    "updates": 8700,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 8800,
+    "attempts": 8800,
+    "loss": 2.443991184234619,
+    "loss1": 2.4727814197540283,
+    "loss2": -0.030923739075660706,
+    "updates": 8800,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 8900,
+    "attempts": 8900,
+    "loss": 2.52846097946167,
+    "loss1": 2.322138547897339,
+    "loss2": -0.05048370361328125,
+    "updates": 8900,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 9000,
+    "attempts": 9000,
+    "loss": 2.517611265182495,
+    "loss1": 2.3296754360198975,
+    "loss2": -0.015042386017739773,
+    "updates": 9000,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 9100,
+    "attempts": 9100,
+    "loss": 2.791916847229004,
+    "loss1": 2.556657552719116,
+    "loss2": -0.03929101675748825,
+    "updates": 9100,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 9200,
+    "attempts": 9200,
+    "loss": 2.008727550506592,
+    "loss1": 1.9126741886138916,
+    "loss2": -0.04375533014535904,
+    "updates": 9200,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 9300,
+    "attempts": 9300,
+    "loss": 2.619826078414917,
+    "loss1": 2.3959004878997803,
+    "loss2": -0.020622940734028816,
+    "updates": 9300,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 9400,
+    "attempts": 9400,
+    "loss": 2.241016387939453,
+    "loss1": 2.0255074501037598,
+    "loss2": 0.00675177201628685,
+    "updates": 9400,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 9500,
+    "attempts": 9500,
+    "loss": 2.8566527366638184,
+    "loss1": 2.4293010234832764,
+    "loss2": 0.03298523277044296,
+    "updates": 9500,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 9600,
+    "attempts": 9600,
+    "loss": 2.662121057510376,
+    "loss1": 2.421647310256958,
+    "loss2": 0.04144630953669548,
+    "updates": 9600,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 9700,
+    "attempts": 9700,
+    "loss": 2.666666269302368,
+    "loss1": 2.2630093097686768,
+    "loss2": -0.024435073137283325,
+    "updates": 9700,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 9800,
+    "attempts": 9800,
+    "loss": 2.4707717895507812,
+    "loss1": 2.1887340545654297,
+    "loss2": -0.040159158408641815,
+    "updates": 9800,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 9900,
+    "attempts": 9900,
+    "loss": 2.403118371963501,
+    "loss1": 2.255666732788086,
+    "loss2": -0.02193595841526985,
+    "updates": 9900,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 10000,
+    "attempts": 10000,
+    "loss": 2.6343536376953125,
+    "loss1": 2.234769344329834,
+    "loss2": -0.04629087448120117,
+    "updates": 10000,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 10100,
+    "attempts": 10100,
+    "loss": 2.6469178199768066,
+    "loss1": 2.4634242057800293,
+    "loss2": -0.006753036752343178,
+    "updates": 10100,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 10200,
+    "attempts": 10200,
+    "loss": 2.683126926422119,
+    "loss1": 2.4205002784729004,
+    "loss2": 0.00679454579949379,
+    "updates": 10200,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 10300,
+    "attempts": 10300,
+    "loss": 2.262784719467163,
+    "loss1": 2.123720169067383,
+    "loss2": 0.032828956842422485,
+    "updates": 10300,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 10400,
+    "attempts": 10400,
+    "loss": 2.503063678741455,
+    "loss1": 2.0231847763061523,
+    "loss2": 0.03352421149611473,
+    "updates": 10400,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 10500,
+    "attempts": 10500,
+    "loss": 3.06044340133667,
+    "loss1": 2.750858783721924,
+    "loss2": -0.03253926336765289,
+    "updates": 10500,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 10600,
+    "attempts": 10600,
+    "loss": 2.4959566593170166,
+    "loss1": 2.1651453971862793,
+    "loss2": -0.021404173225164413,
+    "updates": 10600,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 10700,
+    "attempts": 10700,
+    "loss": 2.7168219089508057,
+    "loss1": 2.3688948154449463,
+    "loss2": -0.07480981200933456,
+    "updates": 10700,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 10800,
+    "attempts": 10800,
+    "loss": 3.12136173248291,
+    "loss1": 2.6085195541381836,
+    "loss2": -0.009470280259847641,
+    "updates": 10800,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 10900,
+    "attempts": 10900,
+    "loss": 2.5612857341766357,
+    "loss1": 2.305598258972168,
+    "loss2": 0.011827748268842697,
+    "updates": 10900,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 11000,
+    "attempts": 11000,
+    "loss": 2.7738699913024902,
+    "loss1": 2.3806307315826416,
+    "loss2": -0.05831385403871536,
+    "updates": 11000,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 11100,
+    "attempts": 11100,
+    "loss": 3.0820446014404297,
+    "loss1": 2.6282365322113037,
+    "loss2": 0.02026435360312462,
+    "updates": 11100,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 11200,
+    "attempts": 11200,
+    "loss": 2.8671960830688477,
+    "loss1": 2.335069179534912,
+    "loss2": -0.0969352275133133,
+    "updates": 11200,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 11300,
+    "attempts": 11300,
+    "loss": 2.689408779144287,
+    "loss1": 2.389615535736084,
+    "loss2": 0.006393125280737877,
+    "updates": 11300,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 11400,
+    "attempts": 11400,
+    "loss": 2.3809256553649902,
+    "loss1": 2.1944127082824707,
+    "loss2": -0.06975311040878296,
+    "updates": 11400,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 11500,
+    "attempts": 11500,
+    "loss": 2.5584635734558105,
+    "loss1": 2.2342514991760254,
+    "loss2": -0.010326957330107689,
+    "updates": 11500,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 11600,
+    "attempts": 11600,
+    "loss": 2.3119630813598633,
+    "loss1": 2.2833123207092285,
+    "loss2": -0.04566877707839012,
+    "updates": 11600,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 11700,
+    "attempts": 11700,
+    "loss": 2.298952102661133,
+    "loss1": 2.2661192417144775,
+    "loss2": -0.03031892329454422,
+    "updates": 11700,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 11800,
+    "attempts": 11800,
+    "loss": 2.8035240173339844,
+    "loss1": 2.160017251968384,
+    "loss2": -0.07513090968132019,
+    "updates": 11800,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 11900,
+    "attempts": 11900,
+    "loss": 2.7500195503234863,
+    "loss1": 2.3908228874206543,
+    "loss2": -0.038191042840480804,
+    "updates": 11900,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 12000,
+    "attempts": 12000,
+    "loss": 2.2154226303100586,
+    "loss1": 2.096275806427002,
+    "loss2": -0.014164455235004425,
+    "updates": 12000,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 12100,
+    "attempts": 12100,
+    "loss": 2.2843799591064453,
+    "loss1": 2.1767501831054688,
+    "loss2": -0.07678475975990295,
+    "updates": 12100,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 12200,
+    "attempts": 12200,
+    "loss": 2.9588284492492676,
+    "loss1": 2.317514181137085,
+    "loss2": 0.006211908534169197,
+    "updates": 12200,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 12300,
+    "attempts": 12300,
+    "loss": 3.141540050506592,
+    "loss1": 2.2720727920532227,
+    "loss2": -0.10150791704654694,
+    "updates": 12300,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 12400,
+    "attempts": 12400,
+    "loss": 2.87211537361145,
+    "loss1": 2.376960039138794,
+    "loss2": -0.06204717233777046,
+    "updates": 12400,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 12500,
+    "attempts": 12500,
+    "loss": 2.7333428859710693,
+    "loss1": 2.2484350204467773,
+    "loss2": -0.02825496532022953,
+    "updates": 12500,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 12600,
+    "attempts": 12600,
+    "loss": 2.8035244941711426,
+    "loss1": 2.4581804275512695,
+    "loss2": -0.023485204204916954,
+    "updates": 12600,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 12700,
+    "attempts": 12700,
+    "loss": 2.846634864807129,
+    "loss1": 2.6638705730438232,
+    "loss2": -0.047215357422828674,
+    "updates": 12700,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 12800,
+    "attempts": 12800,
+    "loss": 2.361600399017334,
+    "loss1": 2.1860296726226807,
+    "loss2": 0.009903933852910995,
+    "updates": 12800,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 12900,
+    "attempts": 12900,
+    "loss": 2.8261232376098633,
+    "loss1": 2.089890956878662,
+    "loss2": -0.032355595380067825,
+    "updates": 12900,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 13000,
+    "attempts": 13000,
+    "loss": 2.8522000312805176,
+    "loss1": 2.560518264770508,
+    "loss2": -0.09857314079999924,
+    "updates": 13000,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 13100,
+    "attempts": 13100,
+    "loss": 2.502758026123047,
+    "loss1": 2.241849422454834,
+    "loss2": -0.019889170303940773,
+    "updates": 13100,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 13200,
+    "attempts": 13200,
+    "loss": 2.538970470428467,
+    "loss1": 2.121314287185669,
+    "loss2": 0.05857395380735397,
+    "updates": 13200,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 13300,
+    "attempts": 13300,
+    "loss": 2.23014760017395,
+    "loss1": 2.0793166160583496,
+    "loss2": -0.013863679021596909,
+    "updates": 13300,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 13400,
+    "attempts": 13400,
+    "loss": 2.291484832763672,
+    "loss1": 1.9811046123504639,
+    "loss2": -0.05826433002948761,
+    "updates": 13400,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 13500,
+    "attempts": 13500,
+    "loss": 2.696106195449829,
+    "loss1": 2.3465471267700195,
+    "loss2": -0.09797307103872299,
+    "updates": 13500,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 13600,
+    "attempts": 13600,
+    "loss": 2.5576751232147217,
+    "loss1": 2.198232650756836,
+    "loss2": -0.060659099370241165,
+    "updates": 13600,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 13700,
+    "attempts": 13700,
+    "loss": 2.5837719440460205,
+    "loss1": 2.4268569946289062,
+    "loss2": -0.03660812973976135,
+    "updates": 13700,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 13800,
+    "attempts": 13800,
+    "loss": 2.555260181427002,
+    "loss1": 2.3619437217712402,
+    "loss2": -0.026474548503756523,
+    "updates": 13800,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 13900,
+    "attempts": 13900,
+    "loss": 2.738783359527588,
+    "loss1": 2.3098769187927246,
+    "loss2": 0.05003385990858078,
+    "updates": 13900,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 14000,
+    "attempts": 14000,
+    "loss": 2.820871591567993,
+    "loss1": 2.389455795288086,
+    "loss2": 0.01953321136534214,
+    "updates": 14000,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 14100,
+    "attempts": 14100,
+    "loss": 2.5366902351379395,
+    "loss1": 2.2770071029663086,
+    "loss2": -0.020686935633420944,
+    "updates": 14100,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 14200,
+    "attempts": 14200,
+    "loss": 2.6106247901916504,
+    "loss1": 2.4002084732055664,
+    "loss2": -0.030700383707880974,
+    "updates": 14200,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 14300,
+    "attempts": 14300,
+    "loss": 3.085659980773926,
+    "loss1": 2.374049663543701,
+    "loss2": -0.07970695197582245,
+    "updates": 14300,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 14400,
+    "attempts": 14400,
+    "loss": 2.261406660079956,
+    "loss1": 2.1223464012145996,
+    "loss2": -0.01706337183713913,
+    "updates": 14400,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 14500,
+    "attempts": 14500,
+    "loss": 2.532278537750244,
+    "loss1": 2.311123847961426,
+    "loss2": -0.01836610585451126,
+    "updates": 14500,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 14600,
+    "attempts": 14600,
+    "loss": 2.750731945037842,
+    "loss1": 2.5137953758239746,
+    "loss2": -0.020777195692062378,
+    "updates": 14600,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 14700,
+    "attempts": 14700,
+    "loss": 2.610842227935791,
+    "loss1": 2.3005666732788086,
+    "loss2": -0.06855461746454239,
+    "updates": 14700,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 14800,
+    "attempts": 14800,
+    "loss": 2.5283398628234863,
+    "loss1": 2.291633129119873,
+    "loss2": -0.0472901426255703,
+    "updates": 14800,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 14900,
+    "attempts": 14900,
+    "loss": 2.630425453186035,
+    "loss1": 2.469998836517334,
+    "loss2": -0.023746369406580925,
+    "updates": 14900,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 15000,
+    "attempts": 15000,
+    "loss": 2.035393238067627,
+    "loss1": 1.8470511436462402,
+    "loss2": -0.029074249789118767,
+    "updates": 15000,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 15100,
+    "attempts": 15100,
+    "loss": 2.692892551422119,
+    "loss1": 2.304720640182495,
+    "loss2": -0.03629934787750244,
+    "updates": 15100,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 15200,
+    "attempts": 15200,
+    "loss": 2.9562525749206543,
+    "loss1": 2.2374722957611084,
+    "loss2": -0.08935950696468353,
+    "updates": 15200,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 15300,
+    "attempts": 15300,
+    "loss": 2.4864330291748047,
+    "loss1": 2.2448840141296387,
+    "loss2": -0.0487501285970211,
+    "updates": 15300,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 15400,
+    "attempts": 15400,
+    "loss": 2.445000648498535,
+    "loss1": 2.183795928955078,
+    "loss2": 0.0029992384370416403,
+    "updates": 15400,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 15500,
+    "attempts": 15500,
+    "loss": 2.4902894496917725,
+    "loss1": 2.275938034057617,
+    "loss2": -0.029421431943774223,
+    "updates": 15500,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 15600,
+    "attempts": 15600,
+    "loss": 2.5233843326568604,
+    "loss1": 2.267399549484253,
+    "loss2": 0.029376903548836708,
+    "updates": 15600,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 15700,
+    "attempts": 15700,
+    "loss": 2.5418765544891357,
+    "loss1": 2.474299430847168,
+    "loss2": -0.021424364298582077,
+    "updates": 15700,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 15800,
+    "attempts": 15800,
+    "loss": 2.3126420974731445,
+    "loss1": 2.2301909923553467,
+    "loss2": -0.017687786370515823,
+    "updates": 15800,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 15900,
+    "attempts": 15900,
+    "loss": 2.673999309539795,
+    "loss1": 2.411076545715332,
+    "loss2": -0.001366354525089264,
+    "updates": 15900,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 16000,
+    "attempts": 16000,
+    "loss": 2.5175490379333496,
+    "loss1": 2.092343807220459,
+    "loss2": 0.03602467104792595,
+    "updates": 16000,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 16100,
+    "attempts": 16100,
+    "loss": 2.060086727142334,
+    "loss1": 1.886137843132019,
+    "loss2": -0.021948644891381264,
+    "updates": 16100,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 16200,
+    "attempts": 16200,
+    "loss": 2.5885491371154785,
+    "loss1": 2.515934467315674,
+    "loss2": -0.0051771970465779305,
+    "updates": 16200,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 16300,
+    "attempts": 16300,
+    "loss": 2.6651954650878906,
+    "loss1": 2.3091259002685547,
+    "loss2": -0.03637480363249779,
+    "updates": 16300,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 16400,
+    "attempts": 16400,
+    "loss": 2.312906265258789,
+    "loss1": 2.185797691345215,
+    "loss2": -0.0499526709318161,
+    "updates": 16400,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 16500,
+    "attempts": 16500,
+    "loss": 2.7276968955993652,
+    "loss1": 2.3046317100524902,
+    "loss2": -0.02588733285665512,
+    "updates": 16500,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 16600,
+    "attempts": 16600,
+    "loss": 2.694394588470459,
+    "loss1": 2.3593220710754395,
+    "loss2": -0.010940075851976871,
+    "updates": 16600,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 16700,
+    "attempts": 16700,
+    "loss": 2.624892234802246,
+    "loss1": 2.28363299369812,
+    "loss2": -0.050252098590135574,
+    "updates": 16700,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 16800,
+    "attempts": 16800,
+    "loss": 2.3876919746398926,
+    "loss1": 2.151542901992798,
+    "loss2": 0.010095322504639626,
+    "updates": 16800,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 16900,
+    "attempts": 16900,
+    "loss": 2.5245933532714844,
+    "loss1": 2.3669676780700684,
+    "loss2": -0.06217163801193237,
+    "updates": 16900,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 17000,
+    "attempts": 17000,
+    "loss": 2.50260329246521,
+    "loss1": 2.1734416484832764,
+    "loss2": -0.06412702798843384,
+    "updates": 17000,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 17100,
+    "attempts": 17100,
+    "loss": 2.426875591278076,
+    "loss1": 2.1719255447387695,
+    "loss2": -0.04448468238115311,
+    "updates": 17100,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 17200,
+    "attempts": 17200,
+    "loss": 2.2460148334503174,
+    "loss1": 2.1055166721343994,
+    "loss2": -0.057114459574222565,
+    "updates": 17200,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 17300,
+    "attempts": 17300,
+    "loss": 2.473233699798584,
+    "loss1": 2.254234552383423,
+    "loss2": -0.009958747774362564,
+    "updates": 17300,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 17400,
+    "attempts": 17400,
+    "loss": 2.571234703063965,
+    "loss1": 2.259049892425537,
+    "loss2": -0.008392229676246643,
+    "updates": 17400,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 17500,
+    "attempts": 17500,
+    "loss": 3.1344542503356934,
+    "loss1": 2.4846279621124268,
+    "loss2": -0.03869970887899399,
+    "updates": 17500,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 17600,
+    "attempts": 17600,
+    "loss": 2.653585910797119,
+    "loss1": 2.188267946243286,
+    "loss2": -0.08559081703424454,
+    "updates": 17600,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 17700,
+    "attempts": 17700,
+    "loss": 2.999217987060547,
+    "loss1": 2.405486583709717,
+    "loss2": -0.008793536573648453,
+    "updates": 17700,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 17800,
+    "attempts": 17800,
+    "loss": 2.3304193019866943,
+    "loss1": 2.0973103046417236,
+    "loss2": -0.07109472900629044,
+    "updates": 17800,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 17900,
+    "attempts": 17900,
+    "loss": 2.6922826766967773,
+    "loss1": 2.2440710067749023,
+    "loss2": -0.06931743770837784,
+    "updates": 17900,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 18000,
+    "attempts": 18000,
+    "loss": 2.539539098739624,
+    "loss1": 2.244704246520996,
+    "loss2": -0.04061008244752884,
+    "updates": 18000,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 18100,
+    "attempts": 18100,
+    "loss": 2.3753316402435303,
+    "loss1": 2.3102011680603027,
+    "loss2": -0.03887839615345001,
+    "updates": 18100,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 18200,
+    "attempts": 18200,
+    "loss": 2.549283981323242,
+    "loss1": 2.166598320007324,
+    "loss2": 0.01681690476834774,
+    "updates": 18200,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 18300,
+    "attempts": 18300,
+    "loss": 2.27217960357666,
+    "loss1": 1.9989888668060303,
+    "loss2": -0.05809060111641884,
+    "updates": 18300,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 18400,
+    "attempts": 18400,
+    "loss": 2.5378270149230957,
+    "loss1": 2.3903465270996094,
+    "loss2": 0.035324856638908386,
+    "updates": 18400,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 18500,
+    "attempts": 18500,
+    "loss": 2.8546056747436523,
+    "loss1": 2.2984812259674072,
+    "loss2": 0.05301010236144066,
+    "updates": 18500,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 18600,
+    "attempts": 18600,
+    "loss": 2.4836716651916504,
+    "loss1": 2.258209705352783,
+    "loss2": -0.02292107604444027,
+    "updates": 18600,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 18700,
+    "attempts": 18700,
+    "loss": 2.336121082305908,
+    "loss1": 2.0053679943084717,
+    "loss2": -0.10329827666282654,
+    "updates": 18700,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 18800,
+    "attempts": 18800,
+    "loss": 2.5535616874694824,
+    "loss1": 2.208742141723633,
+    "loss2": -0.014767392538487911,
+    "updates": 18800,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 18900,
+    "attempts": 18900,
+    "loss": 2.440201997756958,
+    "loss1": 2.3241004943847656,
+    "loss2": -0.044379495084285736,
+    "updates": 18900,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 19000,
+    "attempts": 19000,
+    "loss": 2.854682445526123,
+    "loss1": 2.4868783950805664,
+    "loss2": -0.08395171165466309,
+    "updates": 19000,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 19100,
+    "attempts": 19100,
+    "loss": 2.4147043228149414,
+    "loss1": 1.9986181259155273,
+    "loss2": 0.04489259421825409,
+    "updates": 19100,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 19200,
+    "attempts": 19200,
+    "loss": 2.4037327766418457,
+    "loss1": 2.200138807296753,
+    "loss2": 0.03683004900813103,
+    "updates": 19200,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 19300,
+    "attempts": 19300,
+    "loss": 2.6964962482452393,
+    "loss1": 2.331927537918091,
+    "loss2": -0.027712706476449966,
+    "updates": 19300,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 19400,
+    "attempts": 19400,
+    "loss": 2.7314233779907227,
+    "loss1": 2.3345284461975098,
+    "loss2": -0.03698067367076874,
+    "updates": 19400,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 19500,
+    "attempts": 19500,
+    "loss": 2.7760119438171387,
+    "loss1": 2.156703472137451,
+    "loss2": -0.005387423560023308,
+    "updates": 19500,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 19600,
+    "attempts": 19600,
+    "loss": 2.3419079780578613,
+    "loss1": 2.2304844856262207,
+    "loss2": -0.02797625958919525,
+    "updates": 19600,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 19700,
+    "attempts": 19700,
+    "loss": 2.47977352142334,
+    "loss1": 2.214082956314087,
+    "loss2": 0.004654651042073965,
+    "updates": 19700,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 19800,
+    "attempts": 19800,
+    "loss": 2.735182762145996,
+    "loss1": 2.494472026824951,
+    "loss2": -0.07134513556957245,
+    "updates": 19800,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 19900,
+    "attempts": 19900,
+    "loss": 2.7839882373809814,
+    "loss1": 2.399538040161133,
+    "loss2": 0.00583733431994915,
+    "updates": 19900,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 20000,
+    "attempts": 20000,
+    "loss": 2.1220579147338867,
+    "loss1": 2.036290407180786,
+    "loss2": 0.032686926424503326,
+    "updates": 20000,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 20100,
+    "attempts": 20100,
+    "loss": 2.478898525238037,
+    "loss1": 2.129042387008667,
+    "loss2": -0.04071907699108124,
+    "updates": 20100,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 20200,
+    "attempts": 20200,
+    "loss": 2.613710880279541,
+    "loss1": 2.2782211303710938,
+    "loss2": -0.062171194702386856,
+    "updates": 20200,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 20300,
+    "attempts": 20300,
+    "loss": 2.7605628967285156,
+    "loss1": 2.5261611938476562,
+    "loss2": -0.07317342609167099,
+    "updates": 20300,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 20400,
+    "attempts": 20400,
+    "loss": 2.533977508544922,
+    "loss1": 2.2424943447113037,
+    "loss2": 0.012421309016644955,
+    "updates": 20400,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 20500,
+    "attempts": 20500,
+    "loss": 3.052980422973633,
+    "loss1": 2.579718589782715,
+    "loss2": 0.07608979195356369,
+    "updates": 20500,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 20600,
+    "attempts": 20600,
+    "loss": 2.8913161754608154,
+    "loss1": 2.1426172256469727,
+    "loss2": 0.019597189500927925,
+    "updates": 20600,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 20700,
+    "attempts": 20700,
+    "loss": 2.924454689025879,
+    "loss1": 2.432738780975342,
+    "loss2": -0.02304243855178356,
+    "updates": 20700,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 20800,
+    "attempts": 20800,
+    "loss": 2.631354331970215,
+    "loss1": 2.151390552520752,
+    "loss2": -0.026029886677861214,
+    "updates": 20800,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 20900,
+    "attempts": 20900,
+    "loss": 2.7341978549957275,
+    "loss1": 2.1965551376342773,
+    "loss2": -0.006390237249433994,
+    "updates": 20900,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 21000,
+    "attempts": 21000,
+    "loss": 2.6978940963745117,
+    "loss1": 2.2999887466430664,
+    "loss2": -0.022607386112213135,
+    "updates": 21000,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 21100,
+    "attempts": 21100,
+    "loss": 2.3229711055755615,
+    "loss1": 2.13028621673584,
+    "loss2": -0.032932668924331665,
+    "updates": 21100,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 21200,
+    "attempts": 21200,
+    "loss": 2.8111414909362793,
+    "loss1": 2.312309980392456,
+    "loss2": 0.027354605495929718,
+    "updates": 21200,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 21300,
+    "attempts": 21300,
+    "loss": 2.5962026119232178,
+    "loss1": 2.0432634353637695,
+    "loss2": 0.02126467227935791,
+    "updates": 21300,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 21400,
+    "attempts": 21400,
+    "loss": 2.7154183387756348,
+    "loss1": 2.435481309890747,
+    "loss2": 0.024987516924738884,
+    "updates": 21400,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 21500,
+    "attempts": 21500,
+    "loss": 2.3368771076202393,
+    "loss1": 2.2004802227020264,
+    "loss2": -0.013470158912241459,
+    "updates": 21500,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 21600,
+    "attempts": 21600,
+    "loss": 2.571892499923706,
+    "loss1": 2.2244436740875244,
+    "loss2": -0.012067968025803566,
+    "updates": 21600,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 21700,
+    "attempts": 21700,
+    "loss": 2.409954309463501,
+    "loss1": 2.273607015609741,
+    "loss2": -0.05444813147187233,
+    "updates": 21700,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 21800,
+    "attempts": 21800,
+    "loss": 2.577242851257324,
+    "loss1": 2.363236427307129,
+    "loss2": 0.008192962035536766,
+    "updates": 21800,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 21900,
+    "attempts": 21900,
+    "loss": 2.777852773666382,
+    "loss1": 2.334420680999756,
+    "loss2": 0.014241386204957962,
+    "updates": 21900,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 22000,
+    "attempts": 22000,
+    "loss": 2.9656925201416016,
+    "loss1": 2.172077178955078,
+    "loss2": -0.06392455101013184,
+    "updates": 22000,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 22100,
+    "attempts": 22100,
+    "loss": 2.473470687866211,
+    "loss1": 2.3278939723968506,
+    "loss2": -0.0360497422516346,
+    "updates": 22100,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 22200,
+    "attempts": 22200,
+    "loss": 2.6744871139526367,
+    "loss1": 2.2977495193481445,
+    "loss2": 0.009178939275443554,
+    "updates": 22200,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 22300,
+    "attempts": 22300,
+    "loss": 2.424905300140381,
+    "loss1": 2.2092037200927734,
+    "loss2": 0.00586316641420126,
+    "updates": 22300,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 22400,
+    "attempts": 22400,
+    "loss": 2.8159971237182617,
+    "loss1": 2.2896337509155273,
+    "loss2": 0.014719883911311626,
+    "updates": 22400,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 22500,
+    "attempts": 22500,
+    "loss": 3.3326029777526855,
+    "loss1": 2.5462069511413574,
+    "loss2": -0.0008276030421257019,
+    "updates": 22500,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 22600,
+    "attempts": 22600,
+    "loss": 3.108764171600342,
+    "loss1": 2.5670838356018066,
+    "loss2": -0.11079150438308716,
+    "updates": 22600,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 22700,
+    "attempts": 22700,
+    "loss": 2.4075570106506348,
+    "loss1": 2.265712261199951,
+    "loss2": 0.0036861682310700417,
+    "updates": 22700,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 22800,
+    "attempts": 22800,
+    "loss": 2.523466110229492,
+    "loss1": 2.2498326301574707,
+    "loss2": -0.03135548159480095,
+    "updates": 22800,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 22900,
+    "attempts": 22900,
+    "loss": 2.7664220333099365,
+    "loss1": 2.3570587635040283,
+    "loss2": 0.043692123144865036,
+    "updates": 22900,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 23000,
+    "attempts": 23000,
+    "loss": 2.667609691619873,
+    "loss1": 2.1881918907165527,
+    "loss2": 0.004273337312042713,
+    "updates": 23000,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 23100,
+    "attempts": 23100,
+    "loss": 2.289740562438965,
+    "loss1": 2.217390537261963,
+    "loss2": -0.05753319710493088,
+    "updates": 23100,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 23200,
+    "attempts": 23200,
+    "loss": 2.2539448738098145,
+    "loss1": 2.151024103164673,
+    "loss2": -0.004749048501253128,
+    "updates": 23200,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 23300,
+    "attempts": 23300,
+    "loss": 2.3821377754211426,
+    "loss1": 2.147056818008423,
+    "loss2": -0.014436266385018826,
+    "updates": 23300,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 23400,
+    "attempts": 23400,
+    "loss": 2.3965835571289062,
+    "loss1": 2.182774782180786,
+    "loss2": -0.11587153375148773,
+    "updates": 23400,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 23500,
+    "attempts": 23500,
+    "loss": 2.37153959274292,
+    "loss1": 2.1790685653686523,
+    "loss2": -0.011257607489824295,
+    "updates": 23500,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 23600,
+    "attempts": 23600,
+    "loss": 2.1191160678863525,
+    "loss1": 2.0310280323028564,
+    "loss2": -0.06032455712556839,
+    "updates": 23600,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 23700,
+    "attempts": 23700,
+    "loss": 2.6044158935546875,
+    "loss1": 2.3501243591308594,
+    "loss2": 0.009105462580919266,
+    "updates": 23700,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 23800,
+    "attempts": 23800,
+    "loss": 3.0550005435943604,
+    "loss1": 2.2748031616210938,
+    "loss2": 0.0037509724497795105,
+    "updates": 23800,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 23900,
+    "attempts": 23900,
+    "loss": 3.6560959815979004,
+    "loss1": 2.36295747756958,
+    "loss2": 0.051147788763046265,
+    "updates": 23900,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 24000,
+    "attempts": 24000,
+    "loss": 3.1176977157592773,
+    "loss1": 2.648597002029419,
+    "loss2": -0.01397477462887764,
+    "updates": 24000,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 24100,
+    "attempts": 24100,
+    "loss": 2.4392824172973633,
+    "loss1": 2.2496466636657715,
+    "loss2": -0.023942727595567703,
+    "updates": 24100,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 24200,
+    "attempts": 24200,
+    "loss": 2.108931064605713,
+    "loss1": 2.0537054538726807,
+    "loss2": 0.0012493962422013283,
+    "updates": 24200,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 24300,
+    "attempts": 24300,
+    "loss": 2.955571174621582,
+    "loss1": 2.585203170776367,
+    "loss2": -0.02810608595609665,
+    "updates": 24300,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 24400,
+    "attempts": 24400,
+    "loss": 2.7097318172454834,
+    "loss1": 2.47438645362854,
+    "loss2": -0.0616091713309288,
+    "updates": 24400,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 24500,
+    "attempts": 24500,
+    "loss": 2.4755351543426514,
+    "loss1": 2.361341953277588,
+    "loss2": -0.02354538068175316,
+    "updates": 24500,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 24600,
+    "attempts": 24600,
+    "loss": 2.6525120735168457,
+    "loss1": 2.422088623046875,
+    "loss2": -0.06037189066410065,
+    "updates": 24600,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 24700,
+    "attempts": 24700,
+    "loss": 2.4980225563049316,
+    "loss1": 2.2024965286254883,
+    "loss2": 0.03503897786140442,
+    "updates": 24700,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 24800,
+    "attempts": 24800,
+    "loss": 2.9995298385620117,
+    "loss1": 2.592916965484619,
+    "loss2": -0.03905879706144333,
+    "updates": 24800,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 24900,
+    "attempts": 24900,
+    "loss": 2.905747652053833,
+    "loss1": 2.3862361907958984,
+    "loss2": 0.015904884785413742,
+    "updates": 24900,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 25000,
+    "attempts": 25000,
+    "loss": 2.940736770629883,
+    "loss1": 2.4347481727600098,
+    "loss2": -0.041813842952251434,
+    "updates": 25000,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 25100,
+    "attempts": 25100,
+    "loss": 2.43390154838562,
+    "loss1": 2.1992156505584717,
+    "loss2": -0.019827958196401596,
+    "updates": 25100,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 25200,
+    "attempts": 25200,
+    "loss": 2.23691987991333,
+    "loss1": 2.174503803253174,
+    "loss2": 0.0011759615736082196,
+    "updates": 25200,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 25300,
+    "attempts": 25300,
+    "loss": 3.582528591156006,
+    "loss1": 2.5752744674682617,
+    "loss2": -0.05276983231306076,
+    "updates": 25300,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 25400,
+    "attempts": 25400,
+    "loss": 2.667227268218994,
+    "loss1": 2.1170339584350586,
+    "loss2": -0.06337505578994751,
+    "updates": 25400,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 25500,
+    "attempts": 25500,
+    "loss": 2.253924608230591,
+    "loss1": 2.1737165451049805,
+    "loss2": -0.007280358113348484,
+    "updates": 25500,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 25600,
+    "attempts": 25600,
+    "loss": 2.262049436569214,
+    "loss1": 2.176931858062744,
+    "loss2": -0.06748948246240616,
+    "updates": 25600,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 25700,
+    "attempts": 25700,
+    "loss": 2.7687220573425293,
+    "loss1": 2.3780593872070312,
+    "loss2": -0.020264171063899994,
+    "updates": 25700,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 25800,
+    "attempts": 25800,
+    "loss": 2.8536806106567383,
+    "loss1": 2.1401896476745605,
+    "loss2": -0.010011935606598854,
+    "updates": 25800,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 25900,
+    "attempts": 25900,
+    "loss": 3.150218963623047,
+    "loss1": 2.3835830688476562,
+    "loss2": 0.016858497634530067,
+    "updates": 25900,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 26000,
+    "attempts": 26000,
+    "loss": 2.5459156036376953,
+    "loss1": 2.310034990310669,
+    "loss2": -0.009906299412250519,
+    "updates": 26000,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 26100,
+    "attempts": 26100,
+    "loss": 2.451693058013916,
+    "loss1": 2.2704453468322754,
+    "loss2": -0.04317795857787132,
+    "updates": 26100,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 26200,
+    "attempts": 26200,
+    "loss": 2.330873489379883,
+    "loss1": 2.2334139347076416,
+    "loss2": 0.014246275648474693,
+    "updates": 26200,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 26300,
+    "attempts": 26300,
+    "loss": 2.391184091567993,
+    "loss1": 2.155179500579834,
+    "loss2": -0.02100002020597458,
+    "updates": 26300,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 26400,
+    "attempts": 26400,
+    "loss": 2.3836073875427246,
+    "loss1": 2.170067071914673,
+    "loss2": -0.008570106700062752,
+    "updates": 26400,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 26500,
+    "attempts": 26500,
+    "loss": 2.334880828857422,
+    "loss1": 2.176687002182007,
+    "loss2": -0.04010771960020065,
+    "updates": 26500,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 26600,
+    "attempts": 26600,
+    "loss": 2.8084659576416016,
+    "loss1": 2.5256848335266113,
+    "loss2": -0.025022456422448158,
+    "updates": 26600,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 26700,
+    "attempts": 26700,
+    "loss": 2.301741123199463,
+    "loss1": 2.0574185848236084,
+    "loss2": -0.0071209631860256195,
+    "updates": 26700,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 26800,
+    "attempts": 26800,
+    "loss": 2.4191393852233887,
+    "loss1": 2.285057544708252,
+    "loss2": -0.03479691594839096,
+    "updates": 26800,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 26900,
+    "attempts": 26900,
+    "loss": 3.0191099643707275,
+    "loss1": 2.4052398204803467,
+    "loss2": 0.03638726845383644,
+    "updates": 26900,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 27000,
+    "attempts": 27000,
+    "loss": 2.4578845500946045,
+    "loss1": 2.1859142780303955,
+    "loss2": -0.051159098744392395,
+    "updates": 27000,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 27100,
+    "attempts": 27100,
+    "loss": 3.008944034576416,
+    "loss1": 2.4720115661621094,
+    "loss2": -0.11617442965507507,
+    "updates": 27100,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 27200,
+    "attempts": 27200,
+    "loss": 2.445781946182251,
+    "loss1": 2.05600643157959,
+    "loss2": -0.018002014607191086,
+    "updates": 27200,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 27300,
+    "attempts": 27300,
+    "loss": 2.763122797012329,
+    "loss1": 2.385607957839966,
+    "loss2": 0.0012990860268473625,
+    "updates": 27300,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 27400,
+    "attempts": 27400,
+    "loss": 2.431522846221924,
+    "loss1": 2.1746950149536133,
+    "loss2": -0.003443419933319092,
+    "updates": 27400,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 27500,
+    "attempts": 27500,
+    "loss": 2.6516830921173096,
+    "loss1": 2.3942317962646484,
+    "loss2": -0.04559139162302017,
+    "updates": 27500,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 27600,
+    "attempts": 27600,
+    "loss": 2.605465888977051,
+    "loss1": 2.441720485687256,
+    "loss2": -0.05086778849363327,
+    "updates": 27600,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 27700,
+    "attempts": 27700,
+    "loss": 2.789548873901367,
+    "loss1": 2.515589714050293,
+    "loss2": -0.06598568707704544,
+    "updates": 27700,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 27800,
+    "attempts": 27800,
+    "loss": 2.5467333793640137,
+    "loss1": 2.0343852043151855,
+    "loss2": -0.02171214483678341,
+    "updates": 27800,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 27900,
+    "attempts": 27900,
+    "loss": 2.520066738128662,
+    "loss1": 2.416482448577881,
+    "loss2": -0.05803496390581131,
+    "updates": 27900,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 28000,
+    "attempts": 28000,
+    "loss": 2.664200782775879,
+    "loss1": 2.629910945892334,
+    "loss2": 0.021255845203995705,
+    "updates": 28000,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 28100,
+    "attempts": 28100,
+    "loss": 2.7085039615631104,
+    "loss1": 2.0825746059417725,
+    "loss2": -0.046395689249038696,
+    "updates": 28100,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 28200,
+    "attempts": 28200,
+    "loss": 2.494342803955078,
+    "loss1": 2.337787628173828,
+    "loss2": -0.060885239392519,
+    "updates": 28200,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 28300,
+    "attempts": 28300,
+    "loss": 2.7527661323547363,
+    "loss1": 2.2576522827148438,
+    "loss2": -0.07898189127445221,
+    "updates": 28300,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 28400,
+    "attempts": 28400,
+    "loss": 2.8432250022888184,
+    "loss1": 2.4669570922851562,
+    "loss2": 0.01805557683110237,
+    "updates": 28400,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 28500,
+    "attempts": 28500,
+    "loss": 2.1632184982299805,
+    "loss1": 2.017338275909424,
+    "loss2": -0.014412017539143562,
+    "updates": 28500,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 28600,
+    "attempts": 28600,
+    "loss": 2.5717339515686035,
+    "loss1": 2.3895187377929688,
+    "loss2": 0.005993518978357315,
+    "updates": 28600,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 28700,
+    "attempts": 28700,
+    "loss": 2.5242080688476562,
+    "loss1": 2.256134033203125,
+    "loss2": -0.04266421124339104,
+    "updates": 28700,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 28800,
+    "attempts": 28800,
+    "loss": 3.6278462409973145,
+    "loss1": 2.253936290740967,
+    "loss2": -0.0660947635769844,
+    "updates": 28800,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 28900,
+    "attempts": 28900,
+    "loss": 2.250854015350342,
+    "loss1": 2.2329955101013184,
+    "loss2": -0.018298916518688202,
+    "updates": 28900,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 29000,
+    "attempts": 29000,
+    "loss": 2.5322999954223633,
+    "loss1": 2.407836675643921,
+    "loss2": -0.035402506589889526,
+    "updates": 29000,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 29100,
+    "attempts": 29100,
+    "loss": 2.67744779586792,
+    "loss1": 2.3534491062164307,
+    "loss2": -0.038160182535648346,
+    "updates": 29100,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 29200,
+    "attempts": 29200,
+    "loss": 2.1723101139068604,
+    "loss1": 2.1827235221862793,
+    "loss2": -0.052333854138851166,
+    "updates": 29200,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 29300,
+    "attempts": 29300,
+    "loss": 2.575303077697754,
+    "loss1": 2.21049427986145,
+    "loss2": -0.01873338222503662,
+    "updates": 29300,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 29400,
+    "attempts": 29400,
+    "loss": 2.873392105102539,
+    "loss1": 2.316837787628174,
+    "loss2": -0.12051864713430405,
+    "updates": 29400,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 29500,
+    "attempts": 29500,
+    "loss": 2.8312950134277344,
+    "loss1": 2.553877592086792,
+    "loss2": -0.01336810365319252,
+    "updates": 29500,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 29600,
+    "attempts": 29600,
+    "loss": 3.434248208999634,
+    "loss1": 2.533719301223755,
+    "loss2": 0.055635109543800354,
+    "updates": 29600,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 29700,
+    "attempts": 29700,
+    "loss": 2.2722725868225098,
+    "loss1": 2.1523489952087402,
+    "loss2": 0.007755269296467304,
+    "updates": 29700,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 29800,
+    "attempts": 29800,
+    "loss": 2.9864413738250732,
+    "loss1": 2.2647366523742676,
+    "loss2": -0.0716087818145752,
+    "updates": 29800,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 29900,
+    "attempts": 29900,
+    "loss": 2.8377575874328613,
+    "loss1": 2.0993895530700684,
+    "loss2": 0.036753326654434204,
+    "updates": 29900,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 30000,
+    "attempts": 30000,
+    "loss": 2.168053150177002,
+    "loss1": 2.177588939666748,
+    "loss2": -0.016397416591644287,
+    "updates": 30000,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 30100,
+    "attempts": 30100,
+    "loss": 3.2320895195007324,
+    "loss1": 2.437145471572876,
+    "loss2": -0.03222841024398804,
+    "updates": 30100,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 30200,
+    "attempts": 30200,
+    "loss": 2.932210922241211,
+    "loss1": 2.4538938999176025,
+    "loss2": -0.10110347718000412,
+    "updates": 30200,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 30300,
+    "attempts": 30300,
+    "loss": 2.28617525100708,
+    "loss1": 2.2163138389587402,
+    "loss2": -0.04233629256486893,
+    "updates": 30300,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 30400,
+    "attempts": 30400,
+    "loss": 2.5455102920532227,
+    "loss1": 2.1099395751953125,
+    "loss2": -0.07774846255779266,
+    "updates": 30400,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 30500,
+    "attempts": 30500,
+    "loss": 2.6830127239227295,
+    "loss1": 2.4007248878479004,
+    "loss2": 0.003977267537266016,
+    "updates": 30500,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 30600,
+    "attempts": 30600,
+    "loss": 2.473691701889038,
+    "loss1": 2.212214469909668,
+    "loss2": -0.040497660636901855,
+    "updates": 30600,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 30700,
+    "attempts": 30700,
+    "loss": 2.891533136367798,
+    "loss1": 2.4950520992279053,
+    "loss2": -0.027511246502399445,
+    "updates": 30700,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 30800,
+    "attempts": 30800,
+    "loss": 2.3015851974487305,
+    "loss1": 2.2109251022338867,
+    "loss2": -0.04237033426761627,
+    "updates": 30800,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 30900,
+    "attempts": 30900,
+    "loss": 2.3826394081115723,
+    "loss1": 2.1642117500305176,
+    "loss2": -0.007750034332275391,
+    "updates": 30900,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 31000,
+    "attempts": 31000,
+    "loss": 2.7624778747558594,
+    "loss1": 2.1682217121124268,
+    "loss2": -0.05223514512181282,
+    "updates": 31000,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 31100,
+    "attempts": 31100,
+    "loss": 2.600149154663086,
+    "loss1": 2.060356616973877,
+    "loss2": 0.023155055940151215,
+    "updates": 31100,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 31200,
+    "attempts": 31200,
+    "loss": 2.2948994636535645,
+    "loss1": 2.072371006011963,
+    "loss2": -0.06252378970384598,
+    "updates": 31200,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 31300,
+    "attempts": 31300,
+    "loss": 2.682013511657715,
+    "loss1": 2.1967415809631348,
+    "loss2": -0.01186978816986084,
+    "updates": 31300,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 31400,
+    "attempts": 31400,
+    "loss": 2.4826977252960205,
+    "loss1": 2.1933891773223877,
+    "loss2": -0.050921499729156494,
+    "updates": 31400,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 31500,
+    "attempts": 31500,
+    "loss": 2.5371952056884766,
+    "loss1": 2.222562789916992,
+    "loss2": -0.05724351853132248,
+    "updates": 31500,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 31600,
+    "attempts": 31600,
+    "loss": 2.639754056930542,
+    "loss1": 2.151761531829834,
+    "loss2": 0.02969779260456562,
+    "updates": 31600,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 31700,
+    "attempts": 31700,
+    "loss": 2.7074966430664062,
+    "loss1": 2.1984827518463135,
+    "loss2": 0.0641215592622757,
+    "updates": 31700,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 31800,
+    "attempts": 31800,
+    "loss": 2.4851512908935547,
+    "loss1": 2.473548650741577,
+    "loss2": -0.05892180651426315,
+    "updates": 31800,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 31900,
+    "attempts": 31900,
+    "loss": 2.734567165374756,
+    "loss1": 2.3102779388427734,
+    "loss2": -0.02946672961115837,
+    "updates": 31900,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 32000,
+    "attempts": 32000,
+    "loss": 2.3628273010253906,
+    "loss1": 2.0516417026519775,
+    "loss2": -0.06937851011753082,
+    "updates": 32000,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 32100,
+    "attempts": 32100,
+    "loss": 2.9253737926483154,
+    "loss1": 2.3780956268310547,
+    "loss2": -0.028086112812161446,
+    "updates": 32100,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 32200,
+    "attempts": 32200,
+    "loss": 2.599835157394409,
+    "loss1": 2.3312137126922607,
+    "loss2": -0.08969155699014664,
+    "updates": 32200,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 32300,
+    "attempts": 32300,
+    "loss": 2.653310775756836,
+    "loss1": 2.1604113578796387,
+    "loss2": 0.04775439202785492,
+    "updates": 32300,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 32400,
+    "attempts": 32400,
+    "loss": 2.8508365154266357,
+    "loss1": 2.3909237384796143,
+    "loss2": 0.03238078951835632,
+    "updates": 32400,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 32500,
+    "attempts": 32500,
+    "loss": 3.156226634979248,
+    "loss1": 2.381049156188965,
+    "loss2": -0.03294685482978821,
+    "updates": 32500,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 32600,
+    "attempts": 32600,
+    "loss": 2.692066192626953,
+    "loss1": 2.444855213165283,
+    "loss2": -0.07685431092977524,
+    "updates": 32600,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 32700,
+    "attempts": 32700,
+    "loss": 3.018533229827881,
+    "loss1": 2.484994411468506,
+    "loss2": -0.10805287957191467,
+    "updates": 32700,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 32800,
+    "attempts": 32800,
+    "loss": 2.6400508880615234,
+    "loss1": 2.487269878387451,
+    "loss2": -0.0012475717812776566,
+    "updates": 32800,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 32900,
+    "attempts": 32900,
+    "loss": 2.399076461791992,
+    "loss1": 2.1362104415893555,
+    "loss2": -0.05298296734690666,
+    "updates": 32900,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 33000,
+    "attempts": 33000,
+    "loss": 3.0236001014709473,
+    "loss1": 2.4892468452453613,
+    "loss2": -0.02044544368982315,
+    "updates": 33000,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 33100,
+    "attempts": 33100,
+    "loss": 3.044649600982666,
+    "loss1": 2.2155392169952393,
+    "loss2": 0.028638426214456558,
+    "updates": 33100,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 33200,
+    "attempts": 33200,
+    "loss": 2.2890076637268066,
+    "loss1": 2.174098014831543,
+    "loss2": -0.055299244821071625,
+    "updates": 33200,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 33300,
+    "attempts": 33300,
+    "loss": 2.6575675010681152,
+    "loss1": 2.2266685962677,
+    "loss2": -0.029656071215867996,
+    "updates": 33300,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 33400,
+    "attempts": 33400,
+    "loss": 2.3979010581970215,
+    "loss1": 2.1721839904785156,
+    "loss2": -0.044140011072158813,
+    "updates": 33400,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 33500,
+    "attempts": 33500,
+    "loss": 2.191993236541748,
+    "loss1": 2.181706428527832,
+    "loss2": -0.037952713668346405,
+    "updates": 33500,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 33600,
+    "attempts": 33600,
+    "loss": 2.414945125579834,
+    "loss1": 2.078453540802002,
+    "loss2": -0.03051203303039074,
+    "updates": 33600,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 33700,
+    "attempts": 33700,
+    "loss": 2.459359645843506,
+    "loss1": 2.3597826957702637,
+    "loss2": -0.034362100064754486,
+    "updates": 33700,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 33800,
+    "attempts": 33800,
+    "loss": 2.479679584503174,
+    "loss1": 2.2324132919311523,
+    "loss2": -0.04334154725074768,
+    "updates": 33800,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 33900,
+    "attempts": 33900,
+    "loss": 2.433544158935547,
+    "loss1": 2.295907497406006,
+    "loss2": -0.06640283763408661,
+    "updates": 33900,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 34000,
+    "attempts": 34000,
+    "loss": 2.152782917022705,
+    "loss1": 2.079749822616577,
+    "loss2": -0.009418828412890434,
+    "updates": 34000,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 34100,
+    "attempts": 34100,
+    "loss": 2.35612416267395,
+    "loss1": 2.1521048545837402,
+    "loss2": -0.015312137082219124,
+    "updates": 34100,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 34200,
+    "attempts": 34200,
+    "loss": 3.016904354095459,
+    "loss1": 2.510159969329834,
+    "loss2": -0.010676424019038677,
+    "updates": 34200,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 34300,
+    "attempts": 34300,
+    "loss": 2.408902645111084,
+    "loss1": 2.453191041946411,
+    "loss2": -0.018767278641462326,
+    "updates": 34300,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 34400,
+    "attempts": 34400,
+    "loss": 2.390047073364258,
+    "loss1": 2.240473747253418,
+    "loss2": -0.07460691034793854,
+    "updates": 34400,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 34500,
+    "attempts": 34500,
+    "loss": 2.4285075664520264,
+    "loss1": 2.314694404602051,
+    "loss2": -0.031004438176751137,
+    "updates": 34500,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 34600,
+    "attempts": 34600,
+    "loss": 2.9718518257141113,
+    "loss1": 2.5487773418426514,
+    "loss2": -0.01039094664156437,
+    "updates": 34600,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 34700,
+    "attempts": 34700,
+    "loss": 2.5069289207458496,
+    "loss1": 2.0335686206817627,
+    "loss2": -0.05006834864616394,
+    "updates": 34700,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 34800,
+    "attempts": 34800,
+    "loss": 2.1416449546813965,
+    "loss1": 2.023866653442383,
+    "loss2": -0.004189213737845421,
+    "updates": 34800,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 34900,
+    "attempts": 34900,
+    "loss": 2.8400216102600098,
+    "loss1": 2.503499984741211,
+    "loss2": -0.09253351390361786,
+    "updates": 34900,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 35000,
+    "attempts": 35000,
+    "loss": 2.6398613452911377,
+    "loss1": 2.2992897033691406,
+    "loss2": -0.04105336219072342,
+    "updates": 35000,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 35100,
+    "attempts": 35100,
+    "loss": 2.86643648147583,
+    "loss1": 2.60190486907959,
+    "loss2": -0.09145437180995941,
+    "updates": 35100,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 35200,
+    "attempts": 35200,
+    "loss": 2.714932441711426,
+    "loss1": 2.3257782459259033,
+    "loss2": 0.024858253076672554,
+    "updates": 35200,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 35300,
+    "attempts": 35300,
+    "loss": 2.3496665954589844,
+    "loss1": 2.13986873626709,
+    "loss2": -0.05532969534397125,
+    "updates": 35300,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 35400,
+    "attempts": 35400,
+    "loss": 2.36580228805542,
+    "loss1": 2.221466302871704,
+    "loss2": -0.04330497235059738,
+    "updates": 35400,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 35500,
+    "attempts": 35500,
+    "loss": 2.481224298477173,
+    "loss1": 2.024209499359131,
+    "loss2": 0.0077568842098116875,
+    "updates": 35500,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 35600,
+    "attempts": 35600,
+    "loss": 2.47320818901062,
+    "loss1": 2.2827553749084473,
+    "loss2": 0.017307262867689133,
+    "updates": 35600,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 35700,
+    "attempts": 35700,
+    "loss": 3.7516801357269287,
+    "loss1": 2.362664222717285,
+    "loss2": -0.018371833488345146,
+    "updates": 35700,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 35800,
+    "attempts": 35800,
+    "loss": 2.471175193786621,
+    "loss1": 2.1034326553344727,
+    "loss2": -0.12119528651237488,
+    "updates": 35800,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 35900,
+    "attempts": 35900,
+    "loss": 2.454840660095215,
+    "loss1": 2.2558369636535645,
+    "loss2": -0.0014977953396737576,
+    "updates": 35900,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 36000,
+    "attempts": 36000,
+    "loss": 2.900639057159424,
+    "loss1": 2.417501449584961,
+    "loss2": -0.0002008671872317791,
+    "updates": 36000,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 36100,
+    "attempts": 36100,
+    "loss": 2.2173550128936768,
+    "loss1": 2.064378261566162,
+    "loss2": -0.04098358005285263,
+    "updates": 36100,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 36200,
+    "attempts": 36200,
+    "loss": 2.46152925491333,
+    "loss1": 2.0410211086273193,
+    "loss2": -0.04850213974714279,
+    "updates": 36200,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 36300,
+    "attempts": 36300,
+    "loss": 2.731168031692505,
+    "loss1": 2.122110605239868,
+    "loss2": -0.02464861236512661,
+    "updates": 36300,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 36400,
+    "attempts": 36400,
+    "loss": 2.287290096282959,
+    "loss1": 2.177191734313965,
+    "loss2": -0.054195985198020935,
+    "updates": 36400,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 36500,
+    "attempts": 36500,
+    "loss": 2.57820200920105,
+    "loss1": 2.1605772972106934,
+    "loss2": -0.07097597420215607,
+    "updates": 36500,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 36600,
+    "attempts": 36600,
+    "loss": 2.640289068222046,
+    "loss1": 2.2974491119384766,
+    "loss2": 0.007534043863415718,
+    "updates": 36600,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 36700,
+    "attempts": 36700,
+    "loss": 2.3778953552246094,
+    "loss1": 1.9566230773925781,
+    "loss2": -0.04640032351016998,
+    "updates": 36700,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 36800,
+    "attempts": 36800,
+    "loss": 2.5224244594573975,
+    "loss1": 2.4775757789611816,
+    "loss2": -0.005347099155187607,
+    "updates": 36800,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 36900,
+    "attempts": 36900,
+    "loss": 2.676309823989868,
+    "loss1": 2.388347864151001,
+    "loss2": 0.02404959127306938,
+    "updates": 36900,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 37000,
+    "attempts": 37000,
+    "loss": 2.8407301902770996,
+    "loss1": 2.218702793121338,
+    "loss2": -0.025714276358485222,
+    "updates": 37000,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 37100,
+    "attempts": 37100,
+    "loss": 2.4840846061706543,
+    "loss1": 2.229757785797119,
+    "loss2": -0.029551731422543526,
+    "updates": 37100,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 37200,
+    "attempts": 37200,
+    "loss": 2.449702501296997,
+    "loss1": 2.321248769760132,
+    "loss2": -0.07914692163467407,
+    "updates": 37200,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 37300,
+    "attempts": 37300,
+    "loss": 2.7887232303619385,
+    "loss1": 2.1218464374542236,
+    "loss2": 0.018915055319666862,
+    "updates": 37300,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 37400,
+    "attempts": 37400,
+    "loss": 2.4095053672790527,
+    "loss1": 2.1612038612365723,
+    "loss2": -0.0325748547911644,
+    "updates": 37400,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 37500,
+    "attempts": 37500,
+    "loss": 2.717312812805176,
+    "loss1": 2.1816718578338623,
+    "loss2": -0.01913480833172798,
+    "updates": 37500,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 37600,
+    "attempts": 37600,
+    "loss": 2.433312177658081,
+    "loss1": 2.284931182861328,
+    "loss2": -0.05019635707139969,
+    "updates": 37600,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 37700,
+    "attempts": 37700,
+    "loss": 2.6163811683654785,
+    "loss1": 2.369574546813965,
+    "loss2": -0.040893785655498505,
+    "updates": 37700,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 37800,
+    "attempts": 37800,
+    "loss": 2.8317296504974365,
+    "loss1": 2.1251487731933594,
+    "loss2": -0.06733842939138412,
+    "updates": 37800,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 37900,
+    "attempts": 37900,
+    "loss": 2.668090343475342,
+    "loss1": 2.5343003273010254,
+    "loss2": 0.004665970802307129,
+    "updates": 37900,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 38000,
+    "attempts": 38000,
+    "loss": 2.4988410472869873,
+    "loss1": 2.0396206378936768,
+    "loss2": -0.018336474895477295,
+    "updates": 38000,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 38100,
+    "attempts": 38100,
+    "loss": 2.637622833251953,
+    "loss1": 2.1836280822753906,
+    "loss2": -0.041491784155368805,
+    "updates": 38100,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 38200,
+    "attempts": 38200,
+    "loss": 3.8941965103149414,
+    "loss1": 2.4634251594543457,
+    "loss2": -0.002961881458759308,
+    "updates": 38200,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 38300,
+    "attempts": 38300,
+    "loss": 2.6192963123321533,
+    "loss1": 2.4140923023223877,
+    "loss2": -0.050370462238788605,
+    "updates": 38300,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 38400,
+    "attempts": 38400,
+    "loss": 2.6956944465637207,
+    "loss1": 2.297367572784424,
+    "loss2": -0.032771334052085876,
+    "updates": 38400,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 38500,
+    "attempts": 38500,
+    "loss": 2.798102617263794,
+    "loss1": 2.3809032440185547,
+    "loss2": -0.012870154343545437,
+    "updates": 38500,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 38600,
+    "attempts": 38600,
+    "loss": 2.667567253112793,
+    "loss1": 2.309624671936035,
+    "loss2": 0.00930074043571949,
+    "updates": 38600,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 38700,
+    "attempts": 38700,
+    "loss": 2.556108236312866,
+    "loss1": 2.3711788654327393,
+    "loss2": -0.05711805075407028,
+    "updates": 38700,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 38800,
+    "attempts": 38800,
+    "loss": 2.7581064701080322,
+    "loss1": 2.3193283081054688,
+    "loss2": -0.03517267107963562,
+    "updates": 38800,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 38900,
+    "attempts": 38900,
+    "loss": 2.419250726699829,
+    "loss1": 2.231776475906372,
+    "loss2": -0.06613229215145111,
+    "updates": 38900,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 39000,
+    "attempts": 39000,
+    "loss": 3.1358041763305664,
+    "loss1": 2.2762460708618164,
+    "loss2": 0.007020602002739906,
+    "updates": 39000,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 39100,
+    "attempts": 39100,
+    "loss": 2.5586185455322266,
+    "loss1": 2.399837017059326,
+    "loss2": -0.004970514215528965,
+    "updates": 39100,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 39200,
+    "attempts": 39200,
+    "loss": 2.6442456245422363,
+    "loss1": 2.063185691833496,
+    "loss2": -0.0894569605588913,
+    "updates": 39200,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 39300,
+    "attempts": 39300,
+    "loss": 2.2972495555877686,
+    "loss1": 2.2791361808776855,
+    "loss2": -0.03316369652748108,
+    "updates": 39300,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 39400,
+    "attempts": 39400,
+    "loss": 2.4750235080718994,
+    "loss1": 2.1546683311462402,
+    "loss2": -0.04965369403362274,
+    "updates": 39400,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 39500,
+    "attempts": 39500,
+    "loss": 2.4344544410705566,
+    "loss1": 2.1383605003356934,
+    "loss2": -0.013271316885948181,
+    "updates": 39500,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 39600,
+    "attempts": 39600,
+    "loss": 2.4394826889038086,
+    "loss1": 2.098444938659668,
+    "loss2": -0.008484463207423687,
+    "updates": 39600,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 39700,
+    "attempts": 39700,
+    "loss": 2.4528307914733887,
+    "loss1": 2.2310426235198975,
+    "loss2": 0.0003254339098930359,
+    "updates": 39700,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 39800,
+    "attempts": 39800,
+    "loss": 3.1266651153564453,
+    "loss1": 2.3813767433166504,
+    "loss2": 0.04073205962777138,
+    "updates": 39800,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 39900,
+    "attempts": 39900,
+    "loss": 2.318974018096924,
+    "loss1": 2.1132915019989014,
+    "loss2": -0.00818474218249321,
+    "updates": 39900,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 40000,
+    "attempts": 40000,
+    "loss": 2.566187858581543,
+    "loss1": 2.4013354778289795,
+    "loss2": -0.023535024374723434,
+    "updates": 40000,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 40100,
+    "attempts": 40100,
+    "loss": 2.015956401824951,
+    "loss1": 1.8212299346923828,
+    "loss2": -0.02880255877971649,
+    "updates": 40100,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 40200,
+    "attempts": 40200,
+    "loss": 2.8058547973632812,
+    "loss1": 2.4505624771118164,
+    "loss2": -0.029022585600614548,
+    "updates": 40200,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 40300,
+    "attempts": 40300,
+    "loss": 2.683901309967041,
+    "loss1": 2.5059633255004883,
+    "loss2": 0.0018142685294151306,
+    "updates": 40300,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 40400,
+    "attempts": 40400,
+    "loss": 2.7508513927459717,
+    "loss1": 2.1858878135681152,
+    "loss2": 0.021474257111549377,
+    "updates": 40400,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 40500,
+    "attempts": 40500,
+    "loss": 3.188333749771118,
+    "loss1": 2.2971181869506836,
+    "loss2": 0.026133274659514427,
+    "updates": 40500,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 40600,
+    "attempts": 40600,
+    "loss": 2.850395441055298,
+    "loss1": 2.278268337249756,
+    "loss2": -0.018229510635137558,
+    "updates": 40600,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 40700,
+    "attempts": 40700,
+    "loss": 2.5870885848999023,
+    "loss1": 2.375563621520996,
+    "loss2": -0.01693015918135643,
+    "updates": 40700,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 40800,
+    "attempts": 40800,
+    "loss": 2.5370404720306396,
+    "loss1": 2.2988452911376953,
+    "loss2": -0.12959370017051697,
+    "updates": 40800,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 40900,
+    "attempts": 40900,
+    "loss": 2.3354132175445557,
+    "loss1": 2.1930453777313232,
+    "loss2": 0.017020458355545998,
+    "updates": 40900,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 41000,
+    "attempts": 41000,
+    "loss": 2.9055051803588867,
+    "loss1": 2.463442087173462,
+    "loss2": -0.12422694265842438,
+    "updates": 41000,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 41100,
+    "attempts": 41100,
+    "loss": 3.1011204719543457,
+    "loss1": 2.155709743499756,
+    "loss2": -0.03928899019956589,
+    "updates": 41100,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 41200,
+    "attempts": 41200,
+    "loss": 2.6180825233459473,
+    "loss1": 2.2871947288513184,
+    "loss2": -0.06868124008178711,
+    "updates": 41200,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 41300,
+    "attempts": 41300,
+    "loss": 2.7251882553100586,
+    "loss1": 2.2801427841186523,
+    "loss2": -0.0071581886149942875,
+    "updates": 41300,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 41400,
+    "attempts": 41400,
+    "loss": 2.5134530067443848,
+    "loss1": 2.1286778450012207,
+    "loss2": 0.004258641041815281,
+    "updates": 41400,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 41500,
+    "attempts": 41500,
+    "loss": 2.5154623985290527,
+    "loss1": 2.252898693084717,
+    "loss2": 0.026809362694621086,
+    "updates": 41500,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 41600,
+    "attempts": 41600,
+    "loss": 2.8818960189819336,
+    "loss1": 2.4008727073669434,
+    "loss2": -0.04808316007256508,
+    "updates": 41600,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 41700,
+    "attempts": 41700,
+    "loss": 2.721161365509033,
+    "loss1": 2.5241355895996094,
+    "loss2": -0.050318919122219086,
+    "updates": 41700,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 41800,
+    "attempts": 41800,
+    "loss": 2.8064992427825928,
+    "loss1": 2.334610939025879,
+    "loss2": -0.04971998184919357,
+    "updates": 41800,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 41900,
+    "attempts": 41900,
+    "loss": 2.679016590118408,
+    "loss1": 2.2496485710144043,
+    "loss2": -0.07682225108146667,
+    "updates": 41900,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 42000,
+    "attempts": 42000,
+    "loss": 2.6921210289001465,
+    "loss1": 2.21938419342041,
+    "loss2": -0.013983075506985188,
+    "updates": 42000,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 42100,
+    "attempts": 42100,
+    "loss": 2.7671170234680176,
+    "loss1": 2.5178275108337402,
+    "loss2": -0.11521457135677338,
+    "updates": 42100,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 42200,
+    "attempts": 42200,
+    "loss": 2.4872307777404785,
+    "loss1": 2.242499351501465,
+    "loss2": 0.04017142578959465,
+    "updates": 42200,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 42300,
+    "attempts": 42300,
+    "loss": 2.6544582843780518,
+    "loss1": 2.442572593688965,
+    "loss2": 0.018490727990865707,
+    "updates": 42300,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 42400,
+    "attempts": 42400,
+    "loss": 2.409391164779663,
+    "loss1": 2.2402098178863525,
+    "loss2": -0.0014330334961414337,
+    "updates": 42400,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 42500,
+    "attempts": 42500,
+    "loss": 2.4710474014282227,
+    "loss1": 2.2822844982147217,
+    "loss2": -0.034440092742443085,
+    "updates": 42500,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 42600,
+    "attempts": 42600,
+    "loss": 2.351937770843506,
+    "loss1": 2.2875285148620605,
+    "loss2": -0.03322077915072441,
+    "updates": 42600,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 42700,
+    "attempts": 42700,
+    "loss": 2.6380112171173096,
+    "loss1": 2.2307584285736084,
+    "loss2": -0.10638425499200821,
+    "updates": 42700,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 42800,
+    "attempts": 42800,
+    "loss": 2.918548583984375,
+    "loss1": 2.317366123199463,
+    "loss2": -0.02714979648590088,
+    "updates": 42800,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 42900,
+    "attempts": 42900,
+    "loss": 2.7493152618408203,
+    "loss1": 2.1672401428222656,
+    "loss2": -0.012101233005523682,
+    "updates": 42900,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 43000,
+    "attempts": 43000,
+    "loss": 2.207796096801758,
+    "loss1": 2.015226364135742,
+    "loss2": -0.07264037430286407,
+    "updates": 43000,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 43100,
+    "attempts": 43100,
+    "loss": 2.8278861045837402,
+    "loss1": 2.183746099472046,
+    "loss2": -0.13025112450122833,
+    "updates": 43100,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 43200,
+    "attempts": 43200,
+    "loss": 2.3303492069244385,
+    "loss1": 1.9993988275527954,
+    "loss2": 0.000824853777885437,
+    "updates": 43200,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 43300,
+    "attempts": 43300,
+    "loss": 2.9450340270996094,
+    "loss1": 2.540053129196167,
+    "loss2": -0.03411722928285599,
+    "updates": 43300,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 43400,
+    "attempts": 43400,
+    "loss": 2.2539420127868652,
+    "loss1": 2.1914563179016113,
+    "loss2": -0.03207380324602127,
+    "updates": 43400,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 43500,
+    "attempts": 43500,
+    "loss": 3.1672754287719727,
+    "loss1": 2.4511730670928955,
+    "loss2": -0.051077499985694885,
+    "updates": 43500,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 43600,
+    "attempts": 43600,
+    "loss": 2.5386767387390137,
+    "loss1": 2.3235464096069336,
+    "loss2": -0.01586890034377575,
+    "updates": 43600,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 43700,
+    "attempts": 43700,
+    "loss": 2.709852695465088,
+    "loss1": 2.5047073364257812,
+    "loss2": -0.03693939000368118,
+    "updates": 43700,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 43800,
+    "attempts": 43800,
+    "loss": 2.533604860305786,
+    "loss1": 2.2590811252593994,
+    "loss2": -0.041969094425439835,
+    "updates": 43800,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 43900,
+    "attempts": 43900,
+    "loss": 3.4559550285339355,
+    "loss1": 2.1879305839538574,
+    "loss2": -0.019017163664102554,
+    "updates": 43900,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 44000,
+    "attempts": 44000,
+    "loss": 2.880833148956299,
+    "loss1": 2.047140598297119,
+    "loss2": 0.021582230925559998,
+    "updates": 44000,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 44100,
+    "attempts": 44100,
+    "loss": 2.457926034927368,
+    "loss1": 2.1513831615448,
+    "loss2": 0.0022938773036003113,
+    "updates": 44100,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 44200,
+    "attempts": 44200,
+    "loss": 2.8630523681640625,
+    "loss1": 2.423715353012085,
+    "loss2": -0.043901048600673676,
+    "updates": 44200,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 44300,
+    "attempts": 44300,
+    "loss": 2.702023506164551,
+    "loss1": 2.4270215034484863,
+    "loss2": -0.07148577272891998,
+    "updates": 44300,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 44400,
+    "attempts": 44400,
+    "loss": 3.328197956085205,
+    "loss1": 2.5045971870422363,
+    "loss2": 0.0005643852055072784,
+    "updates": 44400,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 44500,
+    "attempts": 44500,
+    "loss": 2.385838747024536,
+    "loss1": 2.228362560272217,
+    "loss2": -0.05702461302280426,
+    "updates": 44500,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 44600,
+    "attempts": 44600,
+    "loss": 2.57960844039917,
+    "loss1": 2.0819780826568604,
+    "loss2": -0.022191166877746582,
+    "updates": 44600,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 44700,
+    "attempts": 44700,
+    "loss": 2.76815128326416,
+    "loss1": 2.4972667694091797,
+    "loss2": -0.03765087574720383,
+    "updates": 44700,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 44800,
+    "attempts": 44800,
+    "loss": 2.845515727996826,
+    "loss1": 2.349681854248047,
+    "loss2": -0.023456966504454613,
+    "updates": 44800,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 44900,
+    "attempts": 44900,
+    "loss": 2.6325736045837402,
+    "loss1": 2.416759490966797,
+    "loss2": 0.009900400415062904,
+    "updates": 44900,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 45000,
+    "attempts": 45000,
+    "loss": 2.210190773010254,
+    "loss1": 2.0781490802764893,
+    "loss2": -0.011093184351921082,
+    "updates": 45000,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 45100,
+    "attempts": 45100,
+    "loss": 2.325883626937866,
+    "loss1": 2.157266616821289,
+    "loss2": -0.0568573921918869,
+    "updates": 45100,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 45200,
+    "attempts": 45200,
+    "loss": 2.655388355255127,
+    "loss1": 2.4077329635620117,
+    "loss2": 0.0020163990557193756,
+    "updates": 45200,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 45300,
+    "attempts": 45300,
+    "loss": 4.032371520996094,
+    "loss1": 2.570314407348633,
+    "loss2": -0.04885859787464142,
+    "updates": 45300,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 45400,
+    "attempts": 45400,
+    "loss": 2.883518934249878,
+    "loss1": 2.402273178100586,
+    "loss2": -0.0778265967965126,
+    "updates": 45400,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 45500,
+    "attempts": 45500,
+    "loss": 2.96425199508667,
+    "loss1": 2.1821048259735107,
+    "loss2": 0.021915558725595474,
+    "updates": 45500,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 45600,
+    "attempts": 45600,
+    "loss": 2.7149739265441895,
+    "loss1": 2.3936383724212646,
+    "loss2": -0.06384027004241943,
+    "updates": 45600,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 45700,
+    "attempts": 45700,
+    "loss": 2.326422691345215,
+    "loss1": 2.2456092834472656,
+    "loss2": -0.011065881699323654,
+    "updates": 45700,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 45800,
+    "attempts": 45800,
+    "loss": 2.5839433670043945,
+    "loss1": 2.269824266433716,
+    "loss2": 0.01436714455485344,
+    "updates": 45800,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 45900,
+    "attempts": 45900,
+    "loss": 2.4583492279052734,
+    "loss1": 2.346576690673828,
+    "loss2": -0.018697965890169144,
+    "updates": 45900,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 46000,
+    "attempts": 46000,
+    "loss": 3.0788235664367676,
+    "loss1": 2.346266746520996,
+    "loss2": -0.04793460667133331,
+    "updates": 46000,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 46100,
+    "attempts": 46100,
+    "loss": 2.376838207244873,
+    "loss1": 2.0909223556518555,
+    "loss2": -0.043482981622219086,
+    "updates": 46100,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 46200,
+    "attempts": 46200,
+    "loss": 2.6272175312042236,
+    "loss1": 2.267354965209961,
+    "loss2": -0.00390414334833622,
+    "updates": 46200,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 46300,
+    "attempts": 46300,
+    "loss": 3.18017840385437,
+    "loss1": 2.2872867584228516,
+    "loss2": -0.08221200108528137,
+    "updates": 46300,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 46400,
+    "attempts": 46400,
+    "loss": 2.7889161109924316,
+    "loss1": 2.4035568237304688,
+    "loss2": -0.05517564341425896,
+    "updates": 46400,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 46500,
+    "attempts": 46500,
+    "loss": 3.179067373275757,
+    "loss1": 2.4095468521118164,
+    "loss2": -0.07233312726020813,
+    "updates": 46500,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 46600,
+    "attempts": 46600,
+    "loss": 3.1457903385162354,
+    "loss1": 2.450044870376587,
+    "loss2": -0.04709988832473755,
+    "updates": 46600,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 46700,
+    "attempts": 46700,
+    "loss": 2.6037755012512207,
+    "loss1": 2.3471455574035645,
+    "loss2": -0.012272162362933159,
+    "updates": 46700,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 46800,
+    "attempts": 46800,
+    "loss": 3.1602325439453125,
+    "loss1": 2.4242241382598877,
+    "loss2": -0.03425602987408638,
+    "updates": 46800,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 46900,
+    "attempts": 46900,
+    "loss": 2.642794132232666,
+    "loss1": 2.266929864883423,
+    "loss2": -0.056836336851119995,
+    "updates": 46900,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 47000,
+    "attempts": 47000,
+    "loss": 2.7602100372314453,
+    "loss1": 2.332242965698242,
+    "loss2": 0.013243049383163452,
+    "updates": 47000,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 47100,
+    "attempts": 47100,
+    "loss": 2.603030204772949,
+    "loss1": 2.2339696884155273,
+    "loss2": -0.06764906644821167,
+    "updates": 47100,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 47200,
+    "attempts": 47200,
+    "loss": 2.433407783508301,
+    "loss1": 2.355448007583618,
+    "loss2": 0.023626426234841347,
+    "updates": 47200,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 47300,
+    "attempts": 47300,
+    "loss": 2.347517490386963,
+    "loss1": 2.0644397735595703,
+    "loss2": -0.0031483061611652374,
+    "updates": 47300,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 47400,
+    "attempts": 47400,
+    "loss": 2.437318801879883,
+    "loss1": 2.2738804817199707,
+    "loss2": -0.02882702462375164,
+    "updates": 47400,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 47500,
+    "attempts": 47500,
+    "loss": 2.9107677936553955,
+    "loss1": 2.184014081954956,
+    "loss2": -0.019836360588669777,
+    "updates": 47500,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 47600,
+    "attempts": 47600,
+    "loss": 2.906980514526367,
+    "loss1": 2.145430088043213,
+    "loss2": -0.05891679972410202,
+    "updates": 47600,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 47700,
+    "attempts": 47700,
+    "loss": 2.430814266204834,
+    "loss1": 2.248234272003174,
+    "loss2": -0.06961564719676971,
+    "updates": 47700,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 47800,
+    "attempts": 47800,
+    "loss": 2.5845863819122314,
+    "loss1": 2.068984270095825,
+    "loss2": -0.041626133024692535,
+    "updates": 47800,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 47900,
+    "attempts": 47900,
+    "loss": 3.019375801086426,
+    "loss1": 2.200015068054199,
+    "loss2": -0.06212639808654785,
+    "updates": 47900,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 48000,
+    "attempts": 48000,
+    "loss": 2.6820483207702637,
+    "loss1": 2.3810789585113525,
+    "loss2": -0.0025480855256319046,
+    "updates": 48000,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 48100,
+    "attempts": 48100,
+    "loss": 2.140378475189209,
+    "loss1": 2.0507898330688477,
+    "loss2": -0.009198443964123726,
+    "updates": 48100,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 48200,
+    "attempts": 48200,
+    "loss": 2.3937878608703613,
+    "loss1": 2.1666479110717773,
+    "loss2": -0.008489133790135384,
+    "updates": 48200,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 48300,
+    "attempts": 48300,
+    "loss": 2.2446494102478027,
+    "loss1": 2.1665525436401367,
+    "loss2": -0.060224324464797974,
+    "updates": 48300,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 48400,
+    "attempts": 48400,
+    "loss": 2.61663556098938,
+    "loss1": 2.2752509117126465,
+    "loss2": -0.08617491275072098,
+    "updates": 48400,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 48500,
+    "attempts": 48500,
+    "loss": 2.4433579444885254,
+    "loss1": 2.1171932220458984,
+    "loss2": 0.02990269660949707,
+    "updates": 48500,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 48600,
+    "attempts": 48600,
+    "loss": 2.5040626525878906,
+    "loss1": 2.3647427558898926,
+    "loss2": 0.015193832106888294,
+    "updates": 48600,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 48700,
+    "attempts": 48700,
+    "loss": 2.1494007110595703,
+    "loss1": 2.106952667236328,
+    "loss2": -0.0696929469704628,
+    "updates": 48700,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 48800,
+    "attempts": 48800,
+    "loss": 2.5619499683380127,
+    "loss1": 2.4392223358154297,
+    "loss2": -0.07913083583116531,
+    "updates": 48800,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 48900,
+    "attempts": 48900,
+    "loss": 2.866302490234375,
+    "loss1": 2.10263729095459,
+    "loss2": 0.0024097710847854614,
+    "updates": 48900,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 49000,
+    "attempts": 49000,
+    "loss": 2.338533401489258,
+    "loss1": 2.0487542152404785,
+    "loss2": -0.05113277584314346,
+    "updates": 49000,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 49100,
+    "attempts": 49100,
+    "loss": 2.957528591156006,
+    "loss1": 2.177274227142334,
+    "loss2": 0.025860460475087166,
+    "updates": 49100,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 49200,
+    "attempts": 49200,
+    "loss": 2.6062874794006348,
+    "loss1": 2.3058459758758545,
+    "loss2": -0.006321704015135765,
+    "updates": 49200,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 49300,
+    "attempts": 49300,
+    "loss": 2.307072639465332,
+    "loss1": 2.0823893547058105,
+    "loss2": -0.03667726367712021,
+    "updates": 49300,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 49400,
+    "attempts": 49400,
+    "loss": 2.456230878829956,
+    "loss1": 2.1092166900634766,
+    "loss2": 0.013456631451845169,
+    "updates": 49400,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 49500,
+    "attempts": 49500,
+    "loss": 3.160837173461914,
+    "loss1": 2.3543763160705566,
+    "loss2": 0.07245238125324249,
+    "updates": 49500,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 49600,
+    "attempts": 49600,
+    "loss": 2.371309518814087,
+    "loss1": 2.0966498851776123,
+    "loss2": -0.012579023838043213,
+    "updates": 49600,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 49700,
+    "attempts": 49700,
+    "loss": 2.5980052947998047,
+    "loss1": 2.1780893802642822,
+    "loss2": -0.05282653868198395,
+    "updates": 49700,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 49800,
+    "attempts": 49800,
+    "loss": 2.1258797645568848,
+    "loss1": 1.9446585178375244,
+    "loss2": -0.046269528567790985,
+    "updates": 49800,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 49900,
+    "attempts": 49900,
+    "loss": 2.5517067909240723,
+    "loss1": 2.2740120887756348,
+    "loss2": 0.057569265365600586,
+    "updates": 49900,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  },
+  {
+    "step": 50000,
+    "attempts": 50000,
+    "loss": 2.0347676277160645,
+    "loss1": 1.9610235691070557,
+    "loss2": -0.010004369542002678,
+    "updates": 50000,
+    "parameter_count": 51721,
+    "equal_time_fraction": 0.75
+  }
+]

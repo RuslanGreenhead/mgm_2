@@ -1,0 +1,15 @@
+{
+  "data": "flood",
+  "method": "mgm_gmm",
+  "seed": 2,
+  "steps": 2000,
+  "train_seconds": 14.46749490000002,
+  "finished_at": "2026-10-23T19:58:51.863496+00:00",
+  "finite_parameters": true,
+  "evaluation_rng_invariance_verified": true,
+  "parameter_change_l2": {
+    "centers": 0.1972217559814453,
+    "log_scale": 0.09968181699514389,
+    "component_logits": 0.0
+  }
+}

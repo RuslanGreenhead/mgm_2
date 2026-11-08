@@ -1,0 +1,12 @@
+{
+  "observation_window_utc": ["2026-10-23 19:54 UTC", "2026-10-23 19:56 UTC"],
+  "exact_onset_unknown": true,
+  "independent_completed_jobs_at_first_observation": 23,
+  "our_python_pid": 19064,
+  "other_python_gpu_pids_observed": [16820, 29672, 23012, 29180, 12600],
+  "gpu_utilization_percent_observed": 94,
+  "total_gpu_memory_mib_observed": 17630,
+  "action": "No unrelated process was stopped or modified. Current metrics/training RNG were unaffected; wall-clock timings are potentially contended.",
+  "timing_interpretation": "Do not treat these wall times as an isolated hardware benchmark or infer method speedup from them. Actual synchronized wall times remain recorded transparently.",
+  "later_observation": "resource_contention.jsonl records zero other Python GPU processes and 2207MiB GPU memory at 19:56:15 UTC"
+}

@@ -1,0 +1,18 @@
+{
+  "run_after_completed_primary_reruns": 54,
+  "sequential_gpu_ownership": "This empirical sidecar until both follow-ons complete; no overlap with primary rerun",
+  "runner": "source_snapshot/paper/experiments/stabilization_long.py",
+  "output": "../stabilization_general_long",
+  "training_seed": 0,
+  "data_seed": 0,
+  "generator_steps": 10000,
+  "critic_steps": 5,
+  "critic_warmup": 500,
+  "batch_size": 512,
+  "lr_g": 0.0002,
+  "lr_c": 0.0002,
+  "periodic_spatial_harmonics": 4,
+  "initializations": ["random_mlp", "random_gmm"],
+  "test_evaluations": 0,
+  "stochastic_torus_path_sweep": "Not owned or launched here; parent may run after explicit GPU release"
+}

@@ -1,0 +1,71 @@
+{
+  "all_completed": true,
+  "jobs": [
+    {
+      "data": "fire",
+      "method": "mgm",
+      "seed": 0,
+      "steps": 4000,
+      "attempts": 4500,
+      "train_seconds": 48.915628099999594,
+      "selected_step": 4000,
+      "selected_validation_mmd2": 0.0029489973851211104,
+      "test_mmd2": null,
+      "test_evaluations": 0,
+      "selection": "Lowest fixed-probe validation MMD; no test tuning"
+    },
+    {
+      "data": "general",
+      "method": "mgm",
+      "seed": 0,
+      "steps": 4000,
+      "attempts": 4500,
+      "train_seconds": 25.505845900000622,
+      "selected_step": 1000,
+      "selected_validation_mmd2": 0.020386365999223055,
+      "test_mmd2": null,
+      "test_evaluations": 0,
+      "selection": "Lowest fixed-probe validation MMD; no test tuning"
+    },
+    {
+      "data": "general",
+      "method": "mgm",
+      "seed": 0,
+      "steps": 4000,
+      "attempts": 4500,
+      "train_seconds": 26.452054000000317,
+      "selected_step": 4000,
+      "selected_validation_mmd2": 0.010071803596222506,
+      "test_mmd2": null,
+      "test_evaluations": 0,
+      "selection": "Lowest fixed-probe validation MMD; no test tuning"
+    },
+    {
+      "data": "rna",
+      "method": "mgm",
+      "seed": 0,
+      "steps": 4000,
+      "attempts": 4500,
+      "train_seconds": 25.53621320000002,
+      "selected_step": 4000,
+      "selected_validation_mmd2": 0.19840912401396754,
+      "test_mmd2": null,
+      "test_evaluations": 0,
+      "selection": "Lowest fixed-probe validation MMD; no test tuning"
+    },
+    {
+      "data": "rna",
+      "method": "mgm",
+      "seed": 0,
+      "steps": 4000,
+      "attempts": 4500,
+      "train_seconds": 26.94920409999986,
+      "selected_step": 4000,
+      "selected_validation_mmd2": 0.20091712922097832,
+      "test_mmd2": null,
+      "test_evaluations": 0,
+      "selection": "Lowest fixed-probe validation MMD; no test tuning"
+    }
+  ],
+  "summed_training_seconds": 153.3589453000004
+}

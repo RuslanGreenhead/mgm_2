@@ -1,0 +1,459 @@
+{
+  "metric_version": "sphere_normalized_float64_atan2_v2",
+  "corrected_at": "2026-10-23T20:03:53.296293+00:00",
+  "corrected_rows": 468,
+  "corrected_files": [
+    {
+      "path": "controlled\\earthquake\\mgm_gmm\\seed0\\evaluation_step0.json",
+      "raw_json_sha256": "acfc70a3f21b20c460492c76b3de052eb0230f26980011ec0c8de97eadba56df",
+      "corrected_json_sha256": "6f3ff35e13d2574d71fdd8b3dd1258f120d9e480783703b1718ebe3278839caf",
+      "archive_member": "controlled/earthquake/mgm_gmm/seed0/evaluation_step0.json"
+    },
+    {
+      "path": "controlled\\earthquake\\mgm_gmm\\seed0\\evaluation_step2000.json",
+      "raw_json_sha256": "4b1757771d8afa585e22b27d531ece2abde53ce780369d69bff299b1698e43f5",
+      "corrected_json_sha256": "eede787fbd28f34b6fe1f7075f9cd995c59cf37ac14a6283126f1162d2183ddf",
+      "archive_member": "controlled/earthquake/mgm_gmm/seed0/evaluation_step2000.json"
+    },
+    {
+      "path": "controlled\\earthquake\\mgm_gmm\\seed1\\evaluation_step0.json",
+      "raw_json_sha256": "1ca03a89e4addf249f6c514c1ce22ca3d428197e622cb845fbe38b840d942a31",
+      "corrected_json_sha256": "b837a7a5a3975d0cb3e4ed8bab06fe3eeac1ff07686f5d15a85bc24d2db6bcc7",
+      "archive_member": "controlled/earthquake/mgm_gmm/seed1/evaluation_step0.json"
+    },
+    {
+      "path": "controlled\\earthquake\\mgm_gmm\\seed1\\evaluation_step2000.json",
+      "raw_json_sha256": "694f554244f8e3c040cfcaef39e83d4f03c46bbaded052c277278f3ce923b2fb",
+      "corrected_json_sha256": "3dbff7f2b024ebf34a9759f97d74e3b7d127b921bf613c23269dcea0e8fe6d17",
+      "archive_member": "controlled/earthquake/mgm_gmm/seed1/evaluation_step2000.json"
+    },
+    {
+      "path": "controlled\\earthquake\\mgm_gmm\\seed2\\evaluation_step0.json",
+      "raw_json_sha256": "15db249f6a8d4e2419149ebe132c1c542d1f8cdb04ab66364976f8ff9350b2cc",
+      "corrected_json_sha256": "71fa1598dd2030244d8d7f65426df91c27941433863e60b9f0751b0f89901fcf",
+      "archive_member": "controlled/earthquake/mgm_gmm/seed2/evaluation_step0.json"
+    },
+    {
+      "path": "controlled\\earthquake\\mgm_gmm\\seed2\\evaluation_step2000.json",
+      "raw_json_sha256": "bcffec62e59a8038e5b714ffd6de87eebb71de6887a41c28b77063bbb9539a7f",
+      "corrected_json_sha256": "d90f6c5d3dffee9723b3715f44d7a1f74fda0dbf56f4abda4a2d145ca76f9d38",
+      "archive_member": "controlled/earthquake/mgm_gmm/seed2/evaluation_step2000.json"
+    },
+    {
+      "path": "controlled\\earthquake\\rfm\\seed0\\evaluation_step10000.json",
+      "raw_json_sha256": "4b577c7f96e6c41569b3ab2ea997a7878d55ef5c2c5ca3ba6efe6f7a4a79a1e1",
+      "corrected_json_sha256": "5b3dfb37e3263a860e9647183dffbd8e41e1782e93f1b21b2552bf312a01cf74",
+      "archive_member": "controlled/earthquake/rfm/seed0/evaluation_step10000.json"
+    },
+    {
+      "path": "controlled\\earthquake\\rfm\\seed0\\evaluation_step2000.json",
+      "raw_json_sha256": "c06576fe5005525fa3cddcdc95ebcf6d87f68c2d896b25cad0d52a5deba3fda0",
+      "corrected_json_sha256": "59c24e123b766678e857c7627f143f3db78348d9302b0b98d7196ee09aaff2b7",
+      "archive_member": "controlled/earthquake/rfm/seed0/evaluation_step2000.json"
+    },
+    {
+      "path": "controlled\\earthquake\\rfm\\seed1\\evaluation_step10000.json",
+      "raw_json_sha256": "c020abf5026287bb13ec7eaf72982703eb240d2dc9e368bfeded6424e28071a5",
+      "corrected_json_sha256": "f303a4bb65fd5e2b8b34c36c7d2dfd37a8af405e18232b2dcaeb656551cacfb4",
+      "archive_member": "controlled/earthquake/rfm/seed1/evaluation_step10000.json"
+    },
+    {
+      "path": "controlled\\earthquake\\rfm\\seed1\\evaluation_step2000.json",
+      "raw_json_sha256": "5829a5d1a1810b5a54d9cf2c6d4976db9707c05a6d149eaa52e87107e1ff672b",
+      "corrected_json_sha256": "57de215b8aaa968a3982513d53f25096c4988b46dc81f235ca90e248e670923c",
+      "archive_member": "controlled/earthquake/rfm/seed1/evaluation_step2000.json"
+    },
+    {
+      "path": "controlled\\earthquake\\rfm\\seed2\\evaluation_step10000.json",
+      "raw_json_sha256": "15495b890c4e6d92fcd6dd17d1e85ec60d5c38ec6eb974e8de89c1c3ce2ddc3e",
+      "corrected_json_sha256": "748c0026d40a4240bb7319bdfd585a37d56e65e5ab190776c522c5fd18aab6b7",
+      "archive_member": "controlled/earthquake/rfm/seed2/evaluation_step10000.json"
+    },
+    {
+      "path": "controlled\\earthquake\\rfm\\seed2\\evaluation_step2000.json",
+      "raw_json_sha256": "16a0c0914dbf89fbf8c1863c5dea64be311b9074b548a14aef140004468b51a5",
+      "corrected_json_sha256": "3472616b3b635dc1a51593bbebfe2cfc006ca84a1389c954472780b3921dd09b",
+      "archive_member": "controlled/earthquake/rfm/seed2/evaluation_step2000.json"
+    },
+    {
+      "path": "controlled\\fire\\mgm_gmm\\seed0\\evaluation_step0.json",
+      "raw_json_sha256": "acff506d42e5b28d5a15448e3e6c219a26aff8ab83d363f67258db7aa4e58ba6",
+      "corrected_json_sha256": "2f7ac0aaab0a368e784c25e40759f79551a7077157e57e5c20b130c16d371dba",
+      "archive_member": "controlled/fire/mgm_gmm/seed0/evaluation_step0.json"
+    },
+    {
+      "path": "controlled\\fire\\mgm_gmm\\seed0\\evaluation_step2000.json",
+      "raw_json_sha256": "1a5c048e991d67d102c94ee94822a72575a1dfcb24481130412d7b0dd08f48e4",
+      "corrected_json_sha256": "4cd86458df791ddb9311648f6e01a3b3fe40fc49a0ada50979a4063d277c82a2",
+      "archive_member": "controlled/fire/mgm_gmm/seed0/evaluation_step2000.json"
+    },
+    {
+      "path": "controlled\\fire\\mgm_gmm\\seed1\\evaluation_step0.json",
+      "raw_json_sha256": "5e61f1c0bd59c13eb26e99425cda04e79f5b6698d45bff0b39cbed057c3b18f5",
+      "corrected_json_sha256": "0f2515f6d0598083dda66563b01b8d3aab3c227e3c631f9685b9774f8fc7ba1a",
+      "archive_member": "controlled/fire/mgm_gmm/seed1/evaluation_step0.json"
+    },
+    {
+      "path": "controlled\\fire\\mgm_gmm\\seed1\\evaluation_step2000.json",
+      "raw_json_sha256": "27da831a092e1569bc1384026345ac1b5ec76f25b389d2533b1b907a3df44d62",
+      "corrected_json_sha256": "c4fea56054405dbd9e0742801a0ab278c7a5cb387841380eab1970db372cbf76",
+      "archive_member": "controlled/fire/mgm_gmm/seed1/evaluation_step2000.json"
+    },
+    {
+      "path": "controlled\\fire\\mgm_gmm\\seed2\\evaluation_step0.json",
+      "raw_json_sha256": "dbbf629d088efcefafc3c0b710f9f96cfe03f3fff7a9ce7fc54fd20356d19e7c",
+      "corrected_json_sha256": "75ad22f7e91bba5573ad4069e4a203290c722bc948add93ddc26760466362c66",
+      "archive_member": "controlled/fire/mgm_gmm/seed2/evaluation_step0.json"
+    },
+    {
+      "path": "controlled\\fire\\mgm_gmm\\seed2\\evaluation_step2000.json",
+      "raw_json_sha256": "c8c4f02bfb9870997f09e90c41f4077e3301ab9dfdd1ff8bef65cf68756ababf",
+      "corrected_json_sha256": "fb503d1443229b4f8729549064bd3cbd3e5c034976b39ad21863b9866074d011",
+      "archive_member": "controlled/fire/mgm_gmm/seed2/evaluation_step2000.json"
+    },
+    {
+      "path": "controlled\\fire\\mgm_mlp\\seed0\\evaluation_step2000.json",
+      "raw_json_sha256": "31c2f59bd1ce2e4f5e8d66402935dcc7e6a1d9ead632fe45f0fc364f82627031",
+      "corrected_json_sha256": "061c62cd87009a83208308b3f76b7cc61813cdcabe14f409e12662e493b3fb19",
+      "archive_member": "controlled/fire/mgm_mlp/seed0/evaluation_step2000.json"
+    },
+    {
+      "path": "controlled\\fire\\mgm_mlp\\seed1\\evaluation_step2000.json",
+      "raw_json_sha256": "f5648eff7dd0fee2c75837d04f6f300e7f1e90177f4866dc73375dec4eeb06d0",
+      "corrected_json_sha256": "928f0edd5f5713801563a2d51279872c817ae4b3b1868c636555ab43d7e39fa0",
+      "archive_member": "controlled/fire/mgm_mlp/seed1/evaluation_step2000.json"
+    },
+    {
+      "path": "controlled\\fire\\mgm_mlp\\seed2\\evaluation_step2000.json",
+      "raw_json_sha256": "e416dcb7b6d5cb5ac4ab5a249722fa0b401ecbb8dd4c746d356dee4494744958",
+      "corrected_json_sha256": "5fb5d771e188ffed4ea33e2e13e7175e26e2d05b9ea8b4c5c9bdcc744dfd39aa",
+      "archive_member": "controlled/fire/mgm_mlp/seed2/evaluation_step2000.json"
+    },
+    {
+      "path": "controlled\\fire\\mmd_mlp\\seed0\\evaluation_step2000.json",
+      "raw_json_sha256": "1acac63bd361d203d266533d07d6dc70acdcdf5731fbf1cabb2ff1e4f40d22bb",
+      "corrected_json_sha256": "b8c44c714b7211f3d80e53ac6459041580710175b4685b554a088c51e3657e09",
+      "archive_member": "controlled/fire/mmd_mlp/seed0/evaluation_step2000.json"
+    },
+    {
+      "path": "controlled\\fire\\mmd_mlp\\seed1\\evaluation_step2000.json",
+      "raw_json_sha256": "07dee46457801c3f23c0f817bb3173a914d88a82bc3af3e3fa9667acfb80d1fd",
+      "corrected_json_sha256": "0ab51a9773f2df7788ca1223c0d2c0a5bfb560a8c8024802a7a730adedc658d6",
+      "archive_member": "controlled/fire/mmd_mlp/seed1/evaluation_step2000.json"
+    },
+    {
+      "path": "controlled\\fire\\mmd_mlp\\seed2\\evaluation_step2000.json",
+      "raw_json_sha256": "e2df1872ccbd61651ad6745abb079122935caeab634b4d4d46ea77147ab8c27d",
+      "corrected_json_sha256": "6902e6f7de6cf4c406d3a57a4bf2bd6b82c38a75a9416c09286d5404d882262f",
+      "archive_member": "controlled/fire/mmd_mlp/seed2/evaluation_step2000.json"
+    },
+    {
+      "path": "controlled\\fire\\rfm\\seed0\\evaluation_step10000.json",
+      "raw_json_sha256": "d7c6ba08c7e2a8668295fc1cdfdc740f688d227cc20bd743d0873e83a80c991a",
+      "corrected_json_sha256": "0b3242f0d77dd9ae82d410f63e162fa57adb60c0746e1eaf4226f77f70179d5d",
+      "archive_member": "controlled/fire/rfm/seed0/evaluation_step10000.json"
+    },
+    {
+      "path": "controlled\\fire\\rfm\\seed0\\evaluation_step2000.json",
+      "raw_json_sha256": "ca60d85d98bf8480a96389428d06159118cfd8ea228c2f0788a261d409bca82b",
+      "corrected_json_sha256": "692e379ebd7189984b3997431e66a2d694c1b0c2e1aa4d1c3627fa23ee67aabd",
+      "archive_member": "controlled/fire/rfm/seed0/evaluation_step2000.json"
+    },
+    {
+      "path": "controlled\\fire\\rfm\\seed1\\evaluation_step10000.json",
+      "raw_json_sha256": "545eff6fee4f384358ab09ae509f02dc12d47bf76d11e6ce4e447de48d9dbfa6",
+      "corrected_json_sha256": "70ed42529abafc5f29ba4281cd5291353a6749e1fa7531b4a1c2fb0b8152d53a",
+      "archive_member": "controlled/fire/rfm/seed1/evaluation_step10000.json"
+    },
+    {
+      "path": "controlled\\fire\\rfm\\seed1\\evaluation_step2000.json",
+      "raw_json_sha256": "7e3b158b3a75d9ebaf01980452a2457e44a1c0a495094bd52501c49bc350c7d1",
+      "corrected_json_sha256": "037c0565de9ca4b0873f2cfbdb9d616854a5981d61a5f70edc549ea5bc5c06e1",
+      "archive_member": "controlled/fire/rfm/seed1/evaluation_step2000.json"
+    },
+    {
+      "path": "controlled\\fire\\rfm\\seed2\\evaluation_step10000.json",
+      "raw_json_sha256": "8bbabbc7c3156ab6f4a39948f04a3b0fa663730d79062378c820791467ee7f09",
+      "corrected_json_sha256": "2556062d03146f314402e62663f290c853fa8a1cfd80daaa3ecd7d09946915c3",
+      "archive_member": "controlled/fire/rfm/seed2/evaluation_step10000.json"
+    },
+    {
+      "path": "controlled\\fire\\rfm\\seed2\\evaluation_step2000.json",
+      "raw_json_sha256": "b177cccfd699b0f1e51072ba0375ad86ae7f67058941fc489379f00e519eec2c",
+      "corrected_json_sha256": "2710d86714423ad4ce6a7e17bdbdbb5e07e8f02d7974a13501a3e711d24585c8",
+      "archive_member": "controlled/fire/rfm/seed2/evaluation_step2000.json"
+    },
+    {
+      "path": "controlled\\flood\\mgm_gmm\\seed0\\evaluation_step0.json",
+      "raw_json_sha256": "2df29bdb870af4fcc6a4362eb5815893e34eedf4e3f041ca3971cb47e6d8ce50",
+      "corrected_json_sha256": "b9658e5a094280077090791146a7d44ba6b2eef0d298c72e5c42df5b4610ad2f",
+      "archive_member": "controlled/flood/mgm_gmm/seed0/evaluation_step0.json"
+    },
+    {
+      "path": "controlled\\flood\\mgm_gmm\\seed0\\evaluation_step2000.json",
+      "raw_json_sha256": "a9d047e297a0f79ad0b59b6fd4a0446a6fa78a1073a583c5eb2d1285109bb3ec",
+      "corrected_json_sha256": "2f3f49b5b029d2eeb800e90e9765cb471cef51b1ffa3818c0df112b3aa07b784",
+      "archive_member": "controlled/flood/mgm_gmm/seed0/evaluation_step2000.json"
+    },
+    {
+      "path": "controlled\\flood\\mgm_gmm\\seed1\\evaluation_step0.json",
+      "raw_json_sha256": "b44d5ed34dbcd34a84a9e5c5f9bb27df7415c62d04e04ca21bfd7c3f027f67f2",
+      "corrected_json_sha256": "5803cf923ae4517c51318b4b6b2abb539f843c6cc3aa95377513185b69f25e29",
+      "archive_member": "controlled/flood/mgm_gmm/seed1/evaluation_step0.json"
+    },
+    {
+      "path": "controlled\\flood\\mgm_gmm\\seed1\\evaluation_step2000.json",
+      "raw_json_sha256": "81abdc333eebfd8dd4414518890dfc1099a5d039a50f24f3f091efebbff814d2",
+      "corrected_json_sha256": "ba4c5b6e5f341e7c3d8c1ec6104ae203d789fe93b4071c93cc2c5d34ef6ae238",
+      "archive_member": "controlled/flood/mgm_gmm/seed1/evaluation_step2000.json"
+    },
+    {
+      "path": "controlled\\flood\\mgm_gmm\\seed2\\evaluation_step0.json",
+      "raw_json_sha256": "c14419d96c5eb1321b75896e2f93f83e1d76a44d05d1b46f79ce1c7261497903",
+      "corrected_json_sha256": "f4e538b57bd8a721138bd5263bdc3768abc86543e52cfb4adb77115dde5ac5ed",
+      "archive_member": "controlled/flood/mgm_gmm/seed2/evaluation_step0.json"
+    },
+    {
+      "path": "controlled\\flood\\mgm_gmm\\seed2\\evaluation_step2000.json",
+      "raw_json_sha256": "1cdfc551696b4636453a498baf05525ee27d752ee07ef0b280f782eb80f04242",
+      "corrected_json_sha256": "9bd870bb5f2c43c67da9012177c33cef042c4655a9d1a332a39738a04ed8182a",
+      "archive_member": "controlled/flood/mgm_gmm/seed2/evaluation_step2000.json"
+    },
+    {
+      "path": "controlled\\flood\\rfm\\seed0\\evaluation_step10000.json",
+      "raw_json_sha256": "de9a9aa4d4770531874a759c6c338b0312790643ca9ce6417d74befa55cee539",
+      "corrected_json_sha256": "00a5e9b6e5e165eabbb96b956b0464143ae9c23fc915ab23addd81a8e2176a29",
+      "archive_member": "controlled/flood/rfm/seed0/evaluation_step10000.json"
+    },
+    {
+      "path": "controlled\\flood\\rfm\\seed0\\evaluation_step2000.json",
+      "raw_json_sha256": "6711201c027333ea68d5dbfcd69aadd9b483f3ea58858b77a18fb1c18fdb7ad7",
+      "corrected_json_sha256": "3cd5ca61632f17229dab01b8465e8bba7443e727cf5cf1f43399f1a7a6b1bf19",
+      "archive_member": "controlled/flood/rfm/seed0/evaluation_step2000.json"
+    },
+    {
+      "path": "controlled\\flood\\rfm\\seed1\\evaluation_step10000.json",
+      "raw_json_sha256": "8d210c541705887fd97a1ce21cecb2424b4191d4a9b1c1dc4a729357b6a422c8",
+      "corrected_json_sha256": "8f256582107557ffe5871a96519d0cad3a635119c30de30233c591c67dd893ae",
+      "archive_member": "controlled/flood/rfm/seed1/evaluation_step10000.json"
+    },
+    {
+      "path": "controlled\\flood\\rfm\\seed1\\evaluation_step2000.json",
+      "raw_json_sha256": "0a4a3f43f65432c9df7a6634a78017b4b1c8c8071ed69f73736358402be08f54",
+      "corrected_json_sha256": "3460def48e7ccd5b5dfdda20826f6170bb16b5c340f581af17f7b8d2d5384844",
+      "archive_member": "controlled/flood/rfm/seed1/evaluation_step2000.json"
+    },
+    {
+      "path": "controlled\\flood\\rfm\\seed2\\evaluation_step10000.json",
+      "raw_json_sha256": "087fae5b2c58b09080da453ca3adf8990c039595c0e2f6ce0eee7e953c67174a",
+      "corrected_json_sha256": "740e4e2c64e34d183db87a8f52cb480a24d429e760d5960a54637cb9047007e0",
+      "archive_member": "controlled/flood/rfm/seed2/evaluation_step10000.json"
+    },
+    {
+      "path": "controlled\\flood\\rfm\\seed2\\evaluation_step2000.json",
+      "raw_json_sha256": "e0546dbff2353096c2e83e71b0d7238bdd5d680c93d156d0d1e03c94235d23d8",
+      "corrected_json_sha256": "affe7a065b3510d58ff89b4708acfb0926dbd1cf35e1b6b40b5ac540a2779ef0",
+      "archive_member": "controlled/flood/rfm/seed2/evaluation_step2000.json"
+    },
+    {
+      "path": "controlled\\volcano\\mgm_gmm\\seed0\\evaluation_step0.json",
+      "raw_json_sha256": "0f5c9ede73664531d45a407622be2e2224006c8685f0de8827a603ca4690f3a4",
+      "corrected_json_sha256": "b481410e6c45c7f0b7acd58e134bf9efce8d43198ddb1e372430ead2a62d24f0",
+      "archive_member": "controlled/volcano/mgm_gmm/seed0/evaluation_step0.json"
+    },
+    {
+      "path": "controlled\\volcano\\mgm_gmm\\seed0\\evaluation_step2000.json",
+      "raw_json_sha256": "fbab821ca3bc99d40ddd9b2ad7ca2e9911b214a260341d8c14a96f0c6095e886",
+      "corrected_json_sha256": "eaf7d2bcfd91d7d94ac846f9035e42fa434fcb1883bb9ac37a189f99125a3cbf",
+      "archive_member": "controlled/volcano/mgm_gmm/seed0/evaluation_step2000.json"
+    },
+    {
+      "path": "controlled\\volcano\\mgm_gmm\\seed1\\evaluation_step0.json",
+      "raw_json_sha256": "c8a128d42a81a933e39f975dadd548cb409b10b275876accd06549ccdf2f53bb",
+      "corrected_json_sha256": "14dc68f6e0f5fd95369b64bea8e2c205fb4e5723b553f08ace7f5f98aecbe552",
+      "archive_member": "controlled/volcano/mgm_gmm/seed1/evaluation_step0.json"
+    },
+    {
+      "path": "controlled\\volcano\\mgm_gmm\\seed1\\evaluation_step2000.json",
+      "raw_json_sha256": "3572201064db411652e704722ef9e36bd2959be7cb99b936960bbea273dbfa68",
+      "corrected_json_sha256": "453866a240d3fc15776233ba56a86f6fb205e87aedf35fe7230e091d140f6e08",
+      "archive_member": "controlled/volcano/mgm_gmm/seed1/evaluation_step2000.json"
+    },
+    {
+      "path": "controlled\\volcano\\mgm_gmm\\seed2\\evaluation_step0.json",
+      "raw_json_sha256": "086b0cecc17772f102fa47f37abbc87315994e244ef855c1ffbe56352123d3c4",
+      "corrected_json_sha256": "47896fd5a36bc1269ff44ab6b03af5c650437b4b66eebbf42403b569cf5aa178",
+      "archive_member": "controlled/volcano/mgm_gmm/seed2/evaluation_step0.json"
+    },
+    {
+      "path": "controlled\\volcano\\mgm_gmm\\seed2\\evaluation_step2000.json",
+      "raw_json_sha256": "d0f8d39d2664507d1d8a1683604ab170196910547bf978180c308c5aa61afcc3",
+      "corrected_json_sha256": "0de9d669c2fc8a1a7a21d08e07d8095023939a75623d081f65e80af08515e02b",
+      "archive_member": "controlled/volcano/mgm_gmm/seed2/evaluation_step2000.json"
+    },
+    {
+      "path": "controlled\\volcano\\rfm\\seed0\\evaluation_step10000.json",
+      "raw_json_sha256": "3a912a1fa61ad7b4b9882ee43b61e34568605c0a1d69be12e90fe6952208594e",
+      "corrected_json_sha256": "988579f943e3fce9a3d11055f9388c2669eb3017e330d97f5cf5f6d3558d0e5c",
+      "archive_member": "controlled/volcano/rfm/seed0/evaluation_step10000.json"
+    },
+    {
+      "path": "controlled\\volcano\\rfm\\seed0\\evaluation_step2000.json",
+      "raw_json_sha256": "1e8cc0f11952bdc4d304578ab38d0d9163f0b95533904792175870bc1d3eb3e5",
+      "corrected_json_sha256": "e73b3e6e0a5391a45f7a5d20a25b47de54135777ff87f30549b26f6db4b88fb3",
+      "archive_member": "controlled/volcano/rfm/seed0/evaluation_step2000.json"
+    },
+    {
+      "path": "controlled\\volcano\\rfm\\seed1\\evaluation_step10000.json",
+      "raw_json_sha256": "4713f22f61b2dc46cfecd06121930a944fe6ebdae7c31a778ed8df0b47e52b79",
+      "corrected_json_sha256": "3c0c216e9a48229024ba51f1ba0cb3213236a326530954c7dbe9d510a4921e88",
+      "archive_member": "controlled/volcano/rfm/seed1/evaluation_step10000.json"
+    },
+    {
+      "path": "controlled\\volcano\\rfm\\seed1\\evaluation_step2000.json",
+      "raw_json_sha256": "91b7086e2b8eaa1bb62e42ef9e3bd6e61fd397aae50404d678ac0e4acfb1bdb6",
+      "corrected_json_sha256": "d64de04a5b5d0bd57ae8b9f951de157d1b04eb17f46e227653ba9da493b32fb6",
+      "archive_member": "controlled/volcano/rfm/seed1/evaluation_step2000.json"
+    },
+    {
+      "path": "controlled\\volcano\\rfm\\seed2\\evaluation_step10000.json",
+      "raw_json_sha256": "d3186f0dbbaa39255492dcfb2a257e53e5f1837756a5e546a20d503859f64a71",
+      "corrected_json_sha256": "50a4ee2989a36bfde14c798b86dd922646dea06f3d36f055705ed415a713f535",
+      "archive_member": "controlled/volcano/rfm/seed2/evaluation_step10000.json"
+    },
+    {
+      "path": "controlled\\volcano\\rfm\\seed2\\evaluation_step2000.json",
+      "raw_json_sha256": "59e4d4443c1441c096995c4195344c042d26087b000c5c8297c7510237adfe40",
+      "corrected_json_sha256": "7701c9bef35476a81f15eeed8f1561414abd30a728ba743fc7c286ac4b893ec8",
+      "archive_member": "controlled/volcano/rfm/seed2/evaluation_step2000.json"
+    }
+  ],
+  "training_radius_changes": {
+    "volcano": {
+      "old_radius": 0.004974818642698389,
+      "corrected_radius": 0.010018575232836861,
+      "distinct_reference_directions": 239,
+      "reference_n": 663
+    },
+    "earthquake": {
+      "old_radius": 0.010082389431105213,
+      "corrected_radius": 0.01047195383970225,
+      "distinct_reference_directions": 985,
+      "reference_n": 1024
+    },
+    "fire": {
+      "old_radius": 0.00537837971848772,
+      "corrected_radius": 0.004831470889220299,
+      "distinct_reference_directions": 1024,
+      "reference_n": 1024
+    },
+    "flood": {
+      "old_radius": 0.014718263940681646,
+      "corrected_radius": 0.01471887870780884,
+      "distinct_reference_directions": 1024,
+      "reference_n": 1024
+    }
+  },
+  "source_npz_sha256": {
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled_independent\\datasets\\volcano\\split_indices_and_targets.npz": "55d140d58db65f58f69ba2fdae3e5fbeeee51abee6b07b5e7844ec896bada4ca",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled_independent\\datasets\\earthquake\\split_indices_and_targets.npz": "0a3945482eb5003d3390b56bb59bc6154e9fbd5c8c22c6223cfd90cd2feea690",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled_independent\\datasets\\fire\\split_indices_and_targets.npz": "9c327fe1ce1a48696df86f66abcb4992b39f034323bb4a79cf67691824a573a0",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled_independent\\datasets\\flood\\split_indices_and_targets.npz": "97f6407e2ffd2c0cae2db906ceefdfa9a3720d707e5f9dce8469822a55c35820",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled_independent\\controlled\\earthquake\\mgm_gmm\\seed0\\samples_step0_nfe1.npz": "4ee930568515447773af7a6200ff5a646e0a9d8e2553f47a0a4d667e577b81b8",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled_independent\\controlled\\earthquake\\mgm_gmm\\seed0\\samples_step2000_nfe1.npz": "e22f42d2a1e87b01c7f24a53c5a16f4164defa3fbfab9f8ccf5d8477c916219c",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled_independent\\controlled\\earthquake\\mgm_gmm\\seed1\\samples_step0_nfe1.npz": "2e831fc743c776f6240071346d8422a61bc61d1788b33b322eab7d0cc3d6a237",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled_independent\\controlled\\earthquake\\mgm_gmm\\seed1\\samples_step2000_nfe1.npz": "253f05c9ac933871886b43e198c1bee76a5d0289f85ca7ca20ab53079d73ca12",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled_independent\\controlled\\earthquake\\mgm_gmm\\seed2\\samples_step0_nfe1.npz": "c327a7a9d08a579990295277749d821d0d416b9f91a8476b6d80dd1a23ccb509",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled_independent\\controlled\\earthquake\\mgm_gmm\\seed2\\samples_step2000_nfe1.npz": "20b978a6bdca270a2336b649fcc84b99556e0a50e56d0fb1f9a94cc89e516b3e",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled_independent\\controlled\\earthquake\\rfm\\seed0\\samples_step10000_nfe128.npz": "54fd3a5ae6a2160029eae7cef6538a9da1e7d35a7abd5b7c69f2153b6277712a",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled_independent\\controlled\\earthquake\\rfm\\seed0\\samples_step10000_nfe1.npz": "a3a3a64f9f359b160aef33350c13e31cee7a9048b907c8877f7bc399daa4ddf6",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled_independent\\controlled\\earthquake\\rfm\\seed0\\samples_step2000_nfe128.npz": "18035a1f5b77bd1599bab28bedf93e18ec4f16e21b37a7a018ff3dbd325d5878",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled_independent\\controlled\\earthquake\\rfm\\seed0\\samples_step2000_nfe1.npz": "c4f091552de80fcbbfa474404c1fe736cfc36b071f50b5b35de761757287f1df",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled_independent\\controlled\\earthquake\\rfm\\seed1\\samples_step10000_nfe128.npz": "1dca71b089aed833c41bc9905fdf525bbcfc1b9bc0bbc95c0e5b953220e5d933",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled_independent\\controlled\\earthquake\\rfm\\seed1\\samples_step10000_nfe1.npz": "548962648de9a515def1f8b4b98ca5694aee816a857f47cb57723f058f880aa8",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled_independent\\controlled\\earthquake\\rfm\\seed1\\samples_step2000_nfe128.npz": "64b87d2ca84d659e347c6368fa12b008f90559c9d1a3710d33767a1100bc147c",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled_independent\\controlled\\earthquake\\rfm\\seed1\\samples_step2000_nfe1.npz": "f10cc46e51db4cdc8cbe3989e6e4ccce8bc567763bed8c6bc6f6be09829582cf",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled_independent\\controlled\\earthquake\\rfm\\seed2\\samples_step10000_nfe128.npz": "938a752b5b25e697585cafd6d8084f8e8409bfa65e54dd3b40648390b777101a",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled_independent\\controlled\\earthquake\\rfm\\seed2\\samples_step10000_nfe1.npz": "707e0d2739ae6e50384652613e415c137a44e7006c63d1e153f5279cff68f0a5",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled_independent\\controlled\\earthquake\\rfm\\seed2\\samples_step2000_nfe128.npz": "038a30887100fc6a2b3bf406686b61b975b3b6e8a7b8b91b27e660f15ca2a45e",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled_independent\\controlled\\earthquake\\rfm\\seed2\\samples_step2000_nfe1.npz": "3e8a686097f0312a55c969bf63a2ca2d2f3c273354d25420f666ce0d4888a6c5",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled_independent\\controlled\\fire\\mgm_gmm\\seed0\\samples_step0_nfe1.npz": "aa737c05482e40ea0734d5ea37b666d9ab718890b64267a01e26e16a6a48b9a3",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled_independent\\controlled\\fire\\mgm_gmm\\seed0\\samples_step2000_nfe1.npz": "9256704531213f029b3cb052e4eb0fbc0f87e2b54cd67a7517f9eaace02fe6eb",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled_independent\\controlled\\fire\\mgm_gmm\\seed1\\samples_step0_nfe1.npz": "03bed272928167c3785ab467564d55c66d33d7af9925c3c42f144a671cd347ad",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled_independent\\controlled\\fire\\mgm_gmm\\seed1\\samples_step2000_nfe1.npz": "6a13dc7485aa85111b4e8a390efe4e2faad5afa51021a462e06d229bb25ab62b",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled_independent\\controlled\\fire\\mgm_gmm\\seed2\\samples_step0_nfe1.npz": "2d6fd6e45ddf74a2d65ff998c15fa461c17179710c8ef3029ef04e4bb0709425",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled_independent\\controlled\\fire\\mgm_gmm\\seed2\\samples_step2000_nfe1.npz": "f115a00f643827cb89ed69ee9605d59c4c0444213c2b3d9488557fd36cc6631d",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled_independent\\controlled\\fire\\mgm_mlp\\seed0\\samples_step2000_nfe1.npz": "a9b990b2cbf79deea68d58f818f5729fba7a909a65569a622359244f751038dc",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled_independent\\controlled\\fire\\mgm_mlp\\seed1\\samples_step2000_nfe1.npz": "21abbd6d15daf691ade4e4ad7485421cf584e6d0da98a5d28a297dbef4a75983",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled_independent\\controlled\\fire\\mgm_mlp\\seed2\\samples_step2000_nfe1.npz": "161694131d035bb3e30f153f9948b81bae9a792c7e9e92f6a8e0ef6e1cf863ca",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled_independent\\controlled\\fire\\mmd_mlp\\seed0\\samples_step2000_nfe1.npz": "3e53bd9659684903055d401117c1d7bd5117ce5e787ce570c2f604e04e44da9c",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled_independent\\controlled\\fire\\mmd_mlp\\seed1\\samples_step2000_nfe1.npz": "f2aa504d37a9d25f4a2ef660e9f8bddfe9f7fa0aeeb02835a0fc9f9fdcbb389a",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled_independent\\controlled\\fire\\mmd_mlp\\seed2\\samples_step2000_nfe1.npz": "8b361e1e7937f319317d6fa63e0d963c2577a0aea5ac353542a9d052d040191d",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled_independent\\controlled\\fire\\rfm\\seed0\\samples_step10000_nfe128.npz": "35c058f36cd78abf91519e5c07a0be72f35b98cb9ca59d72765f8c984f5e0d37",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled_independent\\controlled\\fire\\rfm\\seed0\\samples_step10000_nfe1.npz": "437334c32b2e12b749ad8ef75946ff6b36d86a773dca8207d7ac810696e90348",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled_independent\\controlled\\fire\\rfm\\seed0\\samples_step2000_nfe128.npz": "9dee524efb6f23bae72e84ae8f0cb19e8c44db366dffbf21b69963bc6c5e5a7c",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled_independent\\controlled\\fire\\rfm\\seed0\\samples_step2000_nfe1.npz": "8297d03ecfa1184176540e74668cfe7aa29d52b9aa2ee67da73e41341469bc68",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled_independent\\controlled\\fire\\rfm\\seed1\\samples_step10000_nfe128.npz": "0808d69da77afb92b3a7658ccee7043daa1d31999941e081612728a3ced624ca",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled_independent\\controlled\\fire\\rfm\\seed1\\samples_step10000_nfe1.npz": "c1ebaec96df1a910898f59f7bdc81784d64a3bd92d3c8ef7c8b014657b12a6cb",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled_independent\\controlled\\fire\\rfm\\seed1\\samples_step2000_nfe128.npz": "6cfc232417456495598b28d730f1ce74c595028dfb4c60af000fa6a87675c5ba",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled_independent\\controlled\\fire\\rfm\\seed1\\samples_step2000_nfe1.npz": "825c265ea8f871e6a3b4694300e3f42d927ea2d411819e2cab738180be0e6d7f",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled_independent\\controlled\\fire\\rfm\\seed2\\samples_step10000_nfe128.npz": "8d9093ec22cf7e463d5e2b9cb39577096f08b1d3321ee3cf78d6b4930e4ff833",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled_independent\\controlled\\fire\\rfm\\seed2\\samples_step10000_nfe1.npz": "d312d438753c0437ffe41a43c88184c96e3de9f347cba7a600874c23cd7ff62a",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled_independent\\controlled\\fire\\rfm\\seed2\\samples_step2000_nfe128.npz": "830e5f5c5e5876324f61cabb8718856d349a779cf55bbf8ec5f8171db25dfaf8",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled_independent\\controlled\\fire\\rfm\\seed2\\samples_step2000_nfe1.npz": "8e62e06121ff0dd98200e4709d583f55846d585b482439c8320bbb0f4ec05389",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled_independent\\controlled\\flood\\mgm_gmm\\seed0\\samples_step0_nfe1.npz": "f73f200de0b937f2e3622a864a5540a357db26f968b8ec18a06623dfc4b2efac",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled_independent\\controlled\\flood\\mgm_gmm\\seed0\\samples_step2000_nfe1.npz": "2701b40ca990c9de1533c3086f43fc1fcac406b738c9be6c208750a46a9e8185",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled_independent\\controlled\\flood\\mgm_gmm\\seed1\\samples_step0_nfe1.npz": "9096cb1b4969d5a013a6863c26cde1b2f07813b7be62b38238ae82f238a0a6ee",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled_independent\\controlled\\flood\\mgm_gmm\\seed1\\samples_step2000_nfe1.npz": "b6c9f8b2b12c8b37c6008eac3fe41ceb9f18c1bfcb1193eb66e09a4cc85d00bf",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled_independent\\controlled\\flood\\mgm_gmm\\seed2\\samples_step0_nfe1.npz": "83a22c410a25d85667f753e2a942960cad13576b70c09225bd750b6f326d8e7b",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled_independent\\controlled\\flood\\mgm_gmm\\seed2\\samples_step2000_nfe1.npz": "8f17f80ca74c9f06f9c9f509129b01c3cd47bcb88715b2e1ff032d71923fbf14",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled_independent\\controlled\\flood\\rfm\\seed0\\samples_step10000_nfe128.npz": "80881390eff50c85a819b92543ac8922e280209fac368a8a419c88d4ac9e2c1f",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled_independent\\controlled\\flood\\rfm\\seed0\\samples_step10000_nfe1.npz": "4515c562bc3b5f212d7aed6087f043feeddda4307aa47a560de2d8c61d1271c0",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled_independent\\controlled\\flood\\rfm\\seed0\\samples_step2000_nfe128.npz": "3c99f991a3c4fa1a36f703d70ea60faeff556e0214f0d7000894424c6aa36b4e",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled_independent\\controlled\\flood\\rfm\\seed0\\samples_step2000_nfe1.npz": "30c47722171776ea8d1dda4723df87859a076a94ad84c27bb617116a830a25ec",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled_independent\\controlled\\flood\\rfm\\seed1\\samples_step10000_nfe128.npz": "4d5df4f154c00d25e09b4d15ea3c0b6b2e507887a5589bbe22c589944ee886b8",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled_independent\\controlled\\flood\\rfm\\seed1\\samples_step10000_nfe1.npz": "fe9fbbf64bcc4a0e7ecddcda145f27786cae74abee017a121b80e2e907c0dd6e",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled_independent\\controlled\\flood\\rfm\\seed1\\samples_step2000_nfe128.npz": "b94bfbad7a89ccd0dc81257a37350ff83d9b9a22c6cb58c1f1e55ea8d159f9c2",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled_independent\\controlled\\flood\\rfm\\seed1\\samples_step2000_nfe1.npz": "987554f59f73f42b025772acb1eb5385d0b089470b727408b67d370465bb4092",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled_independent\\controlled\\flood\\rfm\\seed2\\samples_step10000_nfe128.npz": "1de76d2d04e1b886beae892bb407d5b6c6cba1a455623e02d9ae1bcc91019a6f",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled_independent\\controlled\\flood\\rfm\\seed2\\samples_step10000_nfe1.npz": "1068549ffca5d827d6f7f69316416ab71f6155f85b45853e6ebbc7d46226b70d",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled_independent\\controlled\\flood\\rfm\\seed2\\samples_step2000_nfe128.npz": "3551f22b7bddfc23d8fc966fd220d04750b77a3cffd444e2aec9d1c1342d7364",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled_independent\\controlled\\flood\\rfm\\seed2\\samples_step2000_nfe1.npz": "01ffdca27db999cd0f3cab487e9946a032ce1b7255389abad86d45f8bfa10ece",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled_independent\\controlled\\volcano\\mgm_gmm\\seed0\\samples_step0_nfe1.npz": "61ea44633ed9c45ed2b1a99e286296a087270a70344c3afb8c44f212a85fce41",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled_independent\\controlled\\volcano\\mgm_gmm\\seed0\\samples_step2000_nfe1.npz": "6ac97016a8afbeb27b7a7a675ecccc2312593958c650a4f385f26c50f84215db",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled_independent\\controlled\\volcano\\mgm_gmm\\seed1\\samples_step0_nfe1.npz": "0b415b17a3e6f16272b6ed06cb7227813a31a46b5f19b6123c1ad4b9170b7005",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled_independent\\controlled\\volcano\\mgm_gmm\\seed1\\samples_step2000_nfe1.npz": "053e1d1f57a361ca6d0c6bf8a1b8cb4575d48e4c1868aeb8c199817e6ec098a2",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled_independent\\controlled\\volcano\\mgm_gmm\\seed2\\samples_step0_nfe1.npz": "fc382846be6e08e09671ecd14f148fb51e42bd1fd325d169215283edf54bf473",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled_independent\\controlled\\volcano\\mgm_gmm\\seed2\\samples_step2000_nfe1.npz": "61fa61514c1e7ba15ac1b7a490202fc33480519cca687812f2cf786734a2efde",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled_independent\\controlled\\volcano\\rfm\\seed0\\samples_step10000_nfe128.npz": "47b1666d067fec0cdc44921285ba05f93e172935b140859f5b49e71e4f78974d",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled_independent\\controlled\\volcano\\rfm\\seed0\\samples_step10000_nfe1.npz": "64e586b067897226043dbb0389dbb1b58f77b1782f3f2d99592d28294c8ec2de",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled_independent\\controlled\\volcano\\rfm\\seed0\\samples_step2000_nfe128.npz": "b2d5cc31f5a357e8928532a196251aa84cf63820a297679123ab61ad94119bc9",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled_independent\\controlled\\volcano\\rfm\\seed0\\samples_step2000_nfe1.npz": "92b4e98d1387b1147f6af9cd18b28717d05a1af6c1c76b91767dc5c91ed027d3",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled_independent\\controlled\\volcano\\rfm\\seed1\\samples_step10000_nfe128.npz": "ef2795600381e90fce486f9ff3aec74cb7c304a4aa13a7d37855f3ced15cae53",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled_independent\\controlled\\volcano\\rfm\\seed1\\samples_step10000_nfe1.npz": "30a4a4a7dbdbe4b4433a1b29e69e1d756a34d052b2a306c2cdadc33f8cf7c0e3",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled_independent\\controlled\\volcano\\rfm\\seed1\\samples_step2000_nfe128.npz": "56f064bb66baeaaaa772fd578f97fb0ad87fc8cf18f30a1051bd1d9bfb99aa15",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled_independent\\controlled\\volcano\\rfm\\seed1\\samples_step2000_nfe1.npz": "cfdc96b2679b210f745dfec89ee4437dc7dbb7d92557942695c806d79749ba74",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled_independent\\controlled\\volcano\\rfm\\seed2\\samples_step10000_nfe128.npz": "f698b926e0f2237c5e5a139eb1b987d7494a3b4e4fd745b790a8a43c55a61045",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled_independent\\controlled\\volcano\\rfm\\seed2\\samples_step10000_nfe1.npz": "e20680401fd6ce2f79c6fdfa1575e6e3e6f084861f64d4e9d2eec7a6de11c2c6",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled_independent\\controlled\\volcano\\rfm\\seed2\\samples_step2000_nfe128.npz": "468c7c0c6fd9e0d28ce6552770ff7f90854eff948f93d185791c082e75877caa",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled_independent\\controlled\\volcano\\rfm\\seed2\\samples_step2000_nfe1.npz": "7e142fda4c1840aa779a44660786d84eb1b85ef037c2f610137fc6cda1c6f849"
+  },
+  "raw_archive": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled_independent\\sphere_metric_v1_raw.zip",
+  "arrays_unchanged": true,
+  "mmd_unchanged": true,
+  "definition": "Normalize float64 vectors; angle=2 atan2(norm(xhat-yhat),norm(xhat+yhat)); exclude identical normalized directions explicitly for reference NN",
+  "script_sha256": "c7cb0387e6f3504be4856b5897036e474fd0fecc7833a426a4403c847e20e04e",
+  "training_rerun_required": false,
+  "metric_source_sha256": {
+    "correct_sphere_metrics.py": "c7cb0387e6f3504be4856b5897036e474fd0fecc7833a426a4403c847e20e04e",
+    "controlled_suite.py": "be2b09e388354466664e1d82212d8b6d1bd00c2f8887512bc2a93b7567e6441c",
+    "test_controlled_suite.py": "1033a88cd21b7a3beeb3dd72e7c5a5b3d06b80e44ada1f31aa499a4d2e4b09a0",
+    "correct_sphere_metrics_archive_repair.py": "c36601a04f48087cd62e55e7795ce26244297caec31e1aef4ff9c41415405124"
+  },
+  "archive_metadata_repair": {
+    "at": "2026-10-23T20:05:08.488884+00:00",
+    "normalized_members": 54,
+    "note": "ZIP members use forward slashes; repair changes metadata only, not metric JSON or arrays",
+    "script_sha256": "c36601a04f48087cd62e55e7795ce26244297caec31e1aef4ff9c41415405124"
+  }
+}

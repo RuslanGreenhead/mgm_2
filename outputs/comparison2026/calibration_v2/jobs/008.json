@@ -1,0 +1,20 @@
+{
+  "data": "fire",
+  "method": "rwflow",
+  "seed": 0,
+  "steps": 4000,
+  "eval_every": 1000,
+  "validation_draws": 1,
+  "score_test": false,
+  "output": "outputs/comparison2026/calibration_v2/fire_rwflow_c3_s0",
+  "config": {
+    "width": 128,
+    "depth": 3,
+    "latent_dim": 16,
+    "batch_size": 256,
+    "lr": 0.0002,
+    "epsilon": 1.0,
+    "flow_step": 0.2,
+    "sinkhorn_iters": 128
+  }
+}

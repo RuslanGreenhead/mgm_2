@@ -1,0 +1,7 @@
+{
+  "seed": 1010,
+  "steps": 500,
+  "training_seconds": 9.849343100000624,
+  "weights_sha256": "4d5efb3d93c332e13cf19ade1f4f94912acf5fc3980d781cb378d1fddd1fc555",
+  "peak_allocated_bytes": 21008384
+}

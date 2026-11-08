@@ -1,0 +1,128 @@
+[
+  {
+    "module": "__main__",
+    "path": "paper\\experiments\\independent_suite.py",
+    "sha256": "a51e7cc493a31f8c6f19915d7e2713c0fe3c52ec0e12e380ff075216e0a47810",
+    "verified": true
+  },
+  {
+    "module": "__mp_main__",
+    "path": "paper\\experiments\\independent_suite.py",
+    "sha256": "a51e7cc493a31f8c6f19915d7e2713c0fe3c52ec0e12e380ff075216e0a47810",
+    "verified": true
+  },
+  {
+    "module": "controlled_suite",
+    "path": "paper\\experiments\\controlled_suite.py",
+    "sha256": "5ec61db04e55d7868451470e0979ea8192dec984c11bc1b78a9a4282d789935a",
+    "verified": true
+  },
+  {
+    "module": "manifm.datasets",
+    "path": "external\\riemannian-fm\\manifm\\datasets.py",
+    "sha256": "7cfbbd6b76c2b35981bb799053b85aeb0b965d49cd401ba1563025cfe4f97c5e",
+    "verified": true
+  },
+  {
+    "module": "manifm.manifolds",
+    "path": "external\\riemannian-fm\\manifm\\manifolds\\__init__.py",
+    "sha256": "adb163aaadc19b0f4e47cb38d61a63238bd600ee9550f81724920cead867a6e5",
+    "verified": true
+  },
+  {
+    "module": "manifm.manifolds.hyperbolic",
+    "path": "external\\riemannian-fm\\manifm\\manifolds\\hyperbolic.py",
+    "sha256": "718a0177f58ae019ab3ab27bbec850a0f13f55dd74ba4cd6875e645cd6552663",
+    "verified": true
+  },
+  {
+    "module": "manifm.manifolds.mesh",
+    "path": "external\\riemannian-fm\\manifm\\manifolds\\mesh.py",
+    "sha256": "5935df0689f1509d9abc74e0caa8e532adbbf780eab9e685a1e1e799ff0e768b",
+    "verified": true
+  },
+  {
+    "module": "manifm.manifolds.spd",
+    "path": "external\\riemannian-fm\\manifm\\manifolds\\spd.py",
+    "sha256": "41c3129c25dfee40088a031db7eb68289f0b16c7eaef402c3ec73610bed35083",
+    "verified": true
+  },
+  {
+    "module": "manifm.manifolds.sphere",
+    "path": "external\\riemannian-fm\\manifm\\manifolds\\sphere.py",
+    "sha256": "7f7de0d7120609856d9f186aaa49cc8477a5565666bed23febf5e459eb7713a1",
+    "verified": true
+  },
+  {
+    "module": "manifm.manifolds.torus",
+    "path": "external\\riemannian-fm\\manifm\\manifolds\\torus.py",
+    "sha256": "7dd77b28fe1e268a03c30f54ba7d948f54ce93fb17789f774a909da9aba83e4d",
+    "verified": true
+  },
+  {
+    "module": "manifm.manifolds.utils",
+    "path": "external\\riemannian-fm\\manifm\\manifolds\\utils.py",
+    "sha256": "99d6c77837315225a425bf67507318da048ee3f7ef3ccf9cbe77c6b3659db1cf",
+    "verified": true
+  },
+  {
+    "module": "manifm.rmgm",
+    "path": "external\\riemannian-fm\\manifm\\rmgm\\__init__.py",
+    "sha256": "75be35720f8c84dd405d837ecd3d40972d80deae0d41a2633157189bf9d0daba",
+    "verified": true
+  },
+  {
+    "module": "manifm.rmgm.critics",
+    "path": "external\\riemannian-fm\\manifm\\rmgm\\critics.py",
+    "sha256": "e70b9a26f9b08f93d1e2b69060687c7aca50d14aaf500718d086be743e5a801a",
+    "verified": true
+  },
+  {
+    "module": "manifm.rmgm.generators",
+    "path": "external\\riemannian-fm\\manifm\\rmgm\\generators.py",
+    "sha256": "1d280dd2100d53eb8c57686e8dbbb8becb65e18a05fbe17a51ca8314b737a9fe",
+    "verified": true
+  },
+  {
+    "module": "manifm.rmgm.geometry",
+    "path": "external\\riemannian-fm\\manifm\\rmgm\\geometry.py",
+    "sha256": "d3d7886b0c90fcbf89ace17e279ace67a7dec8f7b7888096d54822302ebceb97",
+    "verified": true
+  },
+  {
+    "module": "manifm.rmgm.losses",
+    "path": "external\\riemannian-fm\\manifm\\rmgm\\losses.py",
+    "sha256": "5c8f3d923906546d9ce3f9e3f1872e98cce041666610ed50f2be1d1518e5d1d4",
+    "verified": true
+  },
+  {
+    "module": "manifm.solvers",
+    "path": "external\\riemannian-fm\\manifm\\solvers.py",
+    "sha256": "09f5418fc5305f3c3558f7e24a8ffc6f90c8d3c131d583d4c001de5aff570977",
+    "verified": true
+  },
+  {
+    "module": "manifm.utils",
+    "path": "external\\riemannian-fm\\manifm\\utils.py",
+    "sha256": "d44436a1231db6c1c75c0d873a46765402e5f06c568233295d172e8a10005e0a",
+    "verified": true
+  },
+  {
+    "module": "rfm_baseline_train",
+    "path": "external\\riemannian-fm\\rfm_baseline_train.py",
+    "sha256": "2b75cb370ea2df8dd2a194939cb408137269b6d604d3dd89746e59b3fdb3002f",
+    "verified": true
+  },
+  {
+    "module": "rmgm_train",
+    "path": "external\\riemannian-fm\\rmgm_train.py",
+    "sha256": "ba44c5885fe30e17ddded7b494528c4b38afab2d152e376378e481571478cb2f",
+    "verified": true
+  },
+  {
+    "module": "rmgm_train_real",
+    "path": "external\\riemannian-fm\\rmgm_train_real.py",
+    "sha256": "c036d873b2b4192cacc88508cebc055eb73d3f58bacffdb9d18582804a5fbe7c",
+    "verified": true
+  }
+]

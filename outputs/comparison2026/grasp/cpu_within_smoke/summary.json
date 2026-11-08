@@ -1,0 +1,102 @@
+{
+  "stage": "Real ACRONYM two-object CPU integration; NOT a training comparison or physical success study",
+  "protocol": "within_object_heldout_pose",
+  "integration_eval_split": "val",
+  "primary_test_quality_peeked": false,
+  "gpu_used": false,
+  "physical_success_rate": null,
+  "runs": {
+    "mgm": {
+      "exact_resume_model_and_critic": true,
+      "cpu_seconds": 1.5598093999997218,
+      "iterations": 30,
+      "batch": 64,
+      "width": 64,
+      "cpu_threads": 2,
+      "parameter_count": 23622,
+      "critic_parameter_count": 23494,
+      "seconds_per_iteration_including_warmup": 0.051993646666657393,
+      "linear_10k_cpu_estimate_seconds_same_smoke_config": 519.9364666665739,
+      "metrics_path": "outputs\\comparison2026\\grasp\\cpu_within_smoke\\mgm\\eval_val_nfe1\\metrics.json",
+      "final_losses": {
+        "critic_loss": 2.2658531665802,
+        "critic_grad_norm": 0.26327142119407654,
+        "loss": 0.05794033408164978,
+        "grad_norm": 0.08159422129392624
+      }
+    },
+    "rfm": {
+      "exact_resume_model_and_critic": true,
+      "cpu_seconds": 0.08225199999924371,
+      "iterations": 30,
+      "batch": 64,
+      "width": 64,
+      "cpu_threads": 2,
+      "parameter_count": 23494,
+      "critic_parameter_count": 0,
+      "seconds_per_iteration_including_warmup": 0.0027417333333081234,
+      "linear_10k_cpu_estimate_seconds_same_smoke_config": 27.417333333081235,
+      "metrics_path": "outputs\\comparison2026\\grasp\\cpu_within_smoke\\rfm\\eval_val_nfe1\\metrics.json",
+      "final_losses": {
+        "loss": 2.2524514198303223,
+        "grad_norm": 0.348432719707489
+      }
+    },
+    "rmf_ccadapt": {
+      "exact_resume_model_and_critic": true,
+      "cpu_seconds": 0.22330849999980273,
+      "iterations": 30,
+      "batch": 64,
+      "width": 64,
+      "cpu_threads": 2,
+      "parameter_count": 23494,
+      "critic_parameter_count": 0,
+      "seconds_per_iteration_including_warmup": 0.007443616666660091,
+      "linear_10k_cpu_estimate_seconds_same_smoke_config": 74.43616666660091,
+      "metrics_path": "outputs\\comparison2026\\grasp\\cpu_within_smoke\\rmf_ccadapt\\eval_val_nfe1\\metrics.json",
+      "final_losses": {
+        "loss": 2.236523389816284,
+        "grad_norm": 0.18482205271720886
+      }
+    },
+    "glsd": {
+      "exact_resume_model_and_critic": true,
+      "cpu_seconds": 0.19173810000029334,
+      "iterations": 30,
+      "batch": 64,
+      "width": 64,
+      "cpu_threads": 2,
+      "parameter_count": 23494,
+      "critic_parameter_count": 0,
+      "seconds_per_iteration_including_warmup": 0.006391270000009778,
+      "linear_10k_cpu_estimate_seconds_same_smoke_config": 63.91270000009778,
+      "metrics_path": "outputs\\comparison2026\\grasp\\cpu_within_smoke\\glsd\\eval_val_nfe1\\metrics.json",
+      "final_losses": {
+        "loss": 2.252479314804077,
+        "grad_norm": 0.34809964895248413
+      }
+    },
+    "rmf_mt": {
+      "exact_resume_model_and_critic": true,
+      "cpu_seconds": 0.17484239999976126,
+      "iterations": 30,
+      "batch": 64,
+      "width": 64,
+      "cpu_threads": 2,
+      "parameter_count": 23494,
+      "critic_parameter_count": 0,
+      "seconds_per_iteration_including_warmup": 0.005828079999992042,
+      "linear_10k_cpu_estimate_seconds_same_smoke_config": 58.28079999992042,
+      "metrics_path": "outputs\\comparison2026\\grasp\\cpu_within_smoke\\rmf_mt\\eval_val_nfe1\\metrics.json",
+      "final_losses": {
+        "native_loss_1": 13.521615028381348,
+        "native_loss_2": -0.001245906576514244,
+        "loss": 13.520369529724121,
+        "grad_norm": 1.0532816648483276
+      }
+    }
+  },
+  "figure": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\cpu_within_smoke\\grasp_comparison.png",
+  "gpu_timing": "Not measured; parent queue release required",
+  "performance_limitations": "CPU timings use width64, batch64 and two MGM critic updates; do not extrapolate to the width128/batch256/five-critic GPU schedule."
+}

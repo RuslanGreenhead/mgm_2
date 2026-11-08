@@ -1,0 +1,19 @@
+{
+  "name": "rna",
+  "kind": "torus",
+  "dim": 7,
+  "counts": {
+    "train": 7579,
+    "val": 947,
+    "test": 947
+  },
+  "data_seed": 0,
+  "reference": {
+    "bandwidth2": 2.10567488900952,
+    "coverage_radius": 0.11873836231777561
+  },
+  "source_manifest_sha256": "ae96f7e4db44e8e046550022668ee2f4a8f9f7d269c2e049c10127bc43e74bae",
+  "source_arrays_sha256": "d472f23ee6e38ee02597cf994fa2e9a9f4afbd27c2f04fe4f9e34c74418fefbf",
+  "arrays_sha256": "ce3569d5ebe0d5b2a11bf7a2cff9be4071bd26cda527a46121c600f21f38aaa8",
+  "split_policy": "Existing historically exposed row split, no source-group transfer claim"
+}

@@ -1,0 +1,4 @@
+data,method,split,n_seeds,seeds,all_three_seeds,kernel_mmd2_v_mean,kernel_mmd2_v_sd,symmetric_nn_mean,symmetric_nn_sd,minimum_matching_distance_mean,minimum_matching_distance_sd,radius_coverage_mean,radius_coverage_sd,nn_occupancy_coverage_mean,nn_occupancy_coverage_sd,one_nna_mean,one_nna_sd,constraint_mean_mean,constraint_mean_sd,train_seconds_mean,train_seconds_sd
+rna,kgdm,val,1,0,False,0.4565870847855106,,2.3275180821482517,,1.6246207588729273,,0.0,,0.1805702217529039,,0.9683210137275606,,0.0,,0.31372570000030464,
+rna,meanflow,val,1,0,False,0.43302215978467185,,1.8758320493523195,,1.1054985046805423,,0.0,,0.21541710665258712,,0.9345300950369588,,0.0,,0.9189233000001877,
+rna,rwflow,val,1,0,False,0.448946639359331,,2.1161392477496226,,1.411761300111906,,0.0,,0.19746568109820486,,0.9535374868004224,,0.0,,1.6808851999999206,

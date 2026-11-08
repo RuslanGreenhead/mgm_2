@@ -1,0 +1,194 @@
+\section{Proofs and Scope of the Guarantees}
+\label{app:proofs}
+\subsection{Measure-Theoretic Setup}
+Let $AC^2([0,1];\M)$ denote absolutely continuous curves with square-integrable metric speed. The kernel in \cref{ass:paths} is measurable on continuous curves with their Borel sigma algebra and concentrated on $AC^2$. Let $\eta_{\mu,\nu}$ be its mixture under $\mu\otimes\nu$. We use a measurable version of the almost-everywhere tangent derivative under $\eta_{\mu,\nu}\otimes\dd s$; changing it on a product-null set does not change the discrepancy. Conditional tangent expectations can be constructed in measurable local orthonormal frames. Orthogonal changes of frame commute with conditional expectation, yielding an intrinsic field. Finite expected action gives square integrability under the folded time-observation law by Tonelli's theorem.
+
+Write $R\gamma(s)=\gamma(1-s)$. Reversibility means $K_{y,x}=R_\#K_{x,y}$; its tangent version satisfies $(R\gamma)'(s)=-\dot\gamma(1-s)$ almost everywhere. Equality in law suffices. No globally smooth, unique logarithm is assumed.
+
+\subsection{Proof of Theorem~\ref{thm:divergence}}
+\begin{proof}
+\emph{Finiteness and upper bound.} The normalized time density and equal-probability flip give
+\begin{align}
+\E_{t,B,\eta}\norm{g_{\gamma_s}}{\dot\gamma_s}^2
+&=\int_0^{1/2}\E_\eta\big[\norm{g_{\gamma_t}}{\dot\gamma_t}^2
++\norm{g_{\gamma_{1-t}}}{\dot\gamma_{1-t}}^2\big]\dd t\notag\\
+&=\E_\eta\int_0^1\norm{g_{\gamma_s}}{\dot\gamma_s}^2\dd s
+=\mathcal A_\Gamma(\mu,\nu).
+\end{align}
+Conditional Jensen in each tangent fiber yields $0\leq\D_\Gamma^g\leq\mathcal A_\Gamma$.
+
+\emph{Symmetry.} Swapping endpoints replaces the path law by its reversal. The transformation $(\gamma,B)\mapsto(R\gamma,1-B)$ preserves the selected point and negates its forward tangent velocity. Thus the observation law under $(\nu,\mu)$ is the same as under $(\mu,\nu)$, with conditional field $-m_t$. Its squared norm has the same expectation.
+
+\emph{Zero on the diagonal.} If $\mu=\nu$, independent endpoints are exchangeable. The preceding transformation preserves the joint law of time and observation while negating $A_t$. Pairing against any bounded measurable tangent test field gives $\E g(h,A_t)=-\E g(h,A_t)=0$. Therefore $m_t=0$ almost everywhere and $\D_\Gamma^g(\mu,\mu)=0$.
+
+\emph{Transport lower bound.} Take a smooth $\varphi$ with $\|\grad\varphi\|_g\leq1$. The chain rule along an absolutely continuous curve gives
+\begin{equation}
+\varphi(X_1)-\varphi(X_0)=\int_0^1g_{\gamma_s}(\grad\varphi(\gamma_s),\dot\gamma_s)\dd s.
+\end{equation}
+Finite action implies absolute integrability by Cauchy--Schwarz, justifying Fubini. Folding the interval and conditioning gives \cref{eq:fundamental}. Applying Cauchy--Schwarz under the resulting probability law yields
+\begin{align}
+\left|\E_\nu\varphi-\E_\mu\varphi\right|
+&\leq\big(\E_t\E_{\bar\rho_t}\|\grad\varphi\|_g^2\big)^{1/2}
+\sqrt{\D_\Gamma^g}\notag\\
+&\leq\sqrt{\D_\Gamma^g}.
+\end{align}
+For a general $1$-Lipschitz potential, smooth Lipschitz approximation on a separable Riemannian manifold gives a uniform $\epsilon$-approximation with Lipschitz constant at most $1+\epsilon$ \citep{azagra2007smooth}. Apply the preceding estimate and let $\epsilon\downarrow0$. Finite first moments ensure finite endpoint expectations after subtracting a constant. Kantorovich--Rubinstein duality yields $W_1\leq\sqrt{\D_\Gamma^g}$. Since $W_1$ separates finite-first-moment measures, a zero discrepancy implies equal laws. For a constant-speed minimizing geodesic, its pathwise action is $d_g(X_0,X_1)^2$, proving the specialization.
+\end{proof}
+
+The lower and upper bounds do not require reversal symmetry. Reversibility supplies symmetry and the zero value on equal laws. Two Dirac endpoints joined by a constant-speed minimizing geodesic attain both bounds, so their constants are sharp. No probability density or global subtraction of endpoints appears in the proof.
+
+\subsection{Continuity-Equation Interpretation}
+For any smooth compactly supported vector field $h$, define the tangent current by $J_s(h)=\E_\eta g_{\gamma_s}(h(\gamma_s),\dot\gamma_s)$. Specializing to $h=\grad\varphi$ for smooth compactly supported scalar tests gives the weak equation $\partial_s\rho_s+\operatorname{div}_gJ_s=0$, where $\rho_s=\Law(\gamma_s)$. The folded observation satisfies
+\begin{equation}
+\bar\rho_t=(\rho_t+\rho_{1-t})/2,\qquad
+\bar\rho_t m_t=(J_t+J_{1-t})/2.
+\end{equation}
+Hence $\partial_t(\rho_t-\rho_{1-t})=-2\operatorname{div}_g(\bar\rho_tm_t)$. If $m_t=0$, this difference is constant. It is zero at $t=1/2$ and equals $\mu-\nu$ at $t=0$, recovering definiteness. The current transporting $\bar\rho_t$ itself is $(J_t-J_{1-t})/2$; the discrepancy field and that transport velocity must not be conflated.
+
+\subsection{Proof of Proposition~\ref{prop:variational}}
+\begin{proof}
+Conditioning on $(t,\widetilde X_t=x)$ replaces $A_t$ by $m_t(x)$ in the cross term. The identity $2g_x(f,m)-\|f\|_{g_x}^2=\|m\|_{g_x}^2-\|f-m\|_{g_x}^2$ proves the result. Finite action ensures integrability. Taking $f=m$ attains the supremum; a parameterized critic attains it only if it represents that conditional field up to observation-null sets.
+\end{proof}
+
+\subsection{Why the Guarantee Is Not a Wasserstein-2 Bound}
+For linear paths on an interval $[0,L]$, let
+\begin{equation}
+\mu_a=\tfrac{1+a}{2}\delta_0+\tfrac{1-a}{2}\delta_L,\quad
+\nu_a=\tfrac{1-a}{2}\delta_0+\tfrac{1+a}{2}\delta_L,
+\end{equation}
+where $a\in(0,1)$. Direct conditioning at the two moving observations gives
+\begin{equation}
+\D_\Gamma^g=\frac{2a^2L^2}{1+a^2},\qquad
+W_1^2=a^2L^2,\qquad W_2^2=aL^2.
+\end{equation}
+Thus no universal $W_2^2\leq C\D_\Gamma^g$ holds, even on a bounded interval, as illustrated in \cref{fig:bounds}. This Euclidean example specifies the theorem's strength rather than a generation benchmark. On a domain of diameter $R$, $W_2^2\leq R W_1$ instead gives $W_2^2\leq R\sqrt{\D_\Gamma^g}$.
+
+\subsection{Reversible Completion of Directed Paths}
+\begin{proposition}
+\label[proposition]{prop:symmetrize}
+For a measurable finite-energy directed path law $K_{x,y}$ from $x$ to $y$, the kernel
+\begin{equation}
+\widehat K_{x,y}=\tfrac12K_{x,y}+\tfrac12R_\#K_{y,x}
+\end{equation}
+is reversible, preserves endpoints, and has action equal to the average of the two directed actions.
+\end{proposition}
+\begin{proof}
+Use the involution $R_\#R_\#K=K$ to obtain $\widehat K_{y,x}=R_\#\widehat K_{x,y}$. Reversal preserves integrated squared speed and swaps endpoints, proving the other assertions.
+\end{proof}
+A corresponding implementation would sample another hidden orientation bit and use either a forward directed path or the reverse of a backward directed path, with the corresponding derivative sign. This is a construction recipe, not an evaluated branch of the present implementation. It retains the numerical solver's cost and does not supply gradients through a detached solver. A discretization additionally needs endpoint and reversal checks.
+
+\subsection{Time Coverage, Boundaries, and Noise}
+A single midpoint need not identify distributions for general reversible paths. On a short arc of $S^1$, connect angles $0$ and $a\in(0,\pi)$ by $\gamma_s=\exp(ia h(s))$, where $h(s)=1/2+4(s-1/2)^3$. This finite-energy path satisfies $h(1-s)=1-h(s)$ but has zero midpoint velocity. Distinct Dirac endpoints therefore have zero midpoint-only discrepancy. This example uses nonconstant speed and does not refute a theorem restricted to constant-speed geodesics.
+
+Endpoint times themselves have zero sampling probability, but the full interval matters: restricting $t$ to $[\epsilon,1/2]$ identifies at most the interior laws $\rho_\epsilon$ and $\rho_{1-\epsilon}$. It does not justify equality of the original endpoints.
+
+For a manifold with boundary, the path proof applies when curves remain inside, are absolutely continuous with finite action, and smooth Lipschitz approximation is valid for the intrinsic length metric. A current proof must hold for tests up to the boundary with no unaccounted source or sink. Interior-only continuity equations or final-output projection do not establish these conditions.
+
+Random differentiable paths are already covered. A noisy interpolant must retain endpoints, reversal symmetry, finite action, and its \emph{full} time derivative. Perturbing a clean point and transporting only its clean velocity can retain cancellation while omitting noise-amplitude and exponential-map derivatives. Thus the deterministic theorem does not establish that noisy surrogate. For numerical targets, define
+\begin{equation}
+\epsilon^2=\E_{t\sim\mathcal U(0,1/2),B,\eta}\norm{g_{\widetilde X_t}}{\widehat A_t-A_t}^2,
+\qquad \widehat m_t(x)=\E[\widehat A_t\mid t,\widetilde X_t=x],
+\end{equation}
+and $\widehat\D=\E_t\E_{\bar\rho_t}\|\widehat m_t\|_g^2$ under the same normalized law. Conditional Jensen gives $\|\widehat m-m\|_{L^2}\leq\epsilon$, and the triangle inequality implies $W_1\leq\sqrt{\widehat\D}+\epsilon$ for these same admissible observation paths.
+
+\subsection{A Simulation-Free Randomized Torus Path}
+\label{app:noisy-torus}
+The following construction illustrates a noisy path whose actual derivative is available. On a flat $d$-torus, fix the shortest periodic displacement $\delta$ with a reversal-consistent tie rule. For $\xi\sim\mathcal N(0,I_d)$ independent of endpoints and fixed along the curve, set
+\begin{align}
+\gamma_s&=(x_0+s\delta+\varepsilon\sin(\pi s)\xi)\bmod2\pi,\notag\\
+\dot\gamma_s&=\delta+\varepsilon\pi\cos(\pi s)\xi.
+\label{eq:noisy-torus}
+\end{align}
+Both endpoints are exact. Using the same $\xi$ when reversing endpoints proves pathwise reversal symmetry, since $\sin(\pi(1-s))=\sin(\pi s)$ and the cosine derivative changes sign. Averaging the action over the independent Gaussian removes the cross term and yields
+\begin{equation}
+\mathcal A_\Gamma(\mu,\nu)=\E\|\delta\|_2^2+\frac{\varepsilon^2\pi^2d}{2}.
+\end{equation}
+This finite-energy randomized construction falls directly under \cref{thm:divergence}. It uses a differentiable random curve rather than a Brownian trajectory and needs no time-step simulation. Keeping only the clean displacement as target would be a different objective outside this particular proof. A mathematical construction alone does not establish that adding noise improves finite-network training.
+
+\section{Geometric and Numerical Details}
+\label{app:geometry}
+For unit-sphere endpoints with $\alpha=\arccos(x^\top y)\in(0,\pi)$,
+\begin{align}
+\Log_x(y)&=\frac{\alpha}{\sin\alpha}(y-\cos\alpha\,x),\\
+\Exp_x(v)&=x\cos\|v\|_2+v\frac{\sin\|v\|_2}{\|v\|_2}.
+\end{align}
+Small-angle limits avoid division by zero. Antipodes require a selected reversible great circle. Clipping an unstable logarithm is a numerical approximation, not a uniqueness result. The periodic displacement tie at $\pi$ on a torus has the same branch issue. Exact ties have probability zero for continuous endpoint laws, but near ties can still degrade numerical accuracy.
+
+The SPD implementation uses the affine-invariant metric in \cref{eq:spd}, with matrix powers and logarithms from symmetric eigendecompositions. Cholesky diagonals are positive and a small jitter raises the spectrum; this fixed floor restricts the family. Log-Euclidean coordinates instead give a globally Euclidean geometry and do not test the affine-invariant metric tensor.
+
+On the curvature-$-1$ Poincar\'e ball, $g_x(u,v)=\lambda_x^2u^\top v$ with $\lambda_x=2/(1-\|x\|_2^2)$. A radial map $0.995\tanh(\|h\|_2)h/\|h\|_2$ stays inside the numerical boundary. The legacy path code uses a central finite difference of radius $10^{-3}$, clamped at endpoint times, for its target velocity. These runs approximate the exact-path construction.
+
+\section{Experimental Protocol and Result Provenance}
+\label{app:protocol}
+\input{generated/protocol_details.tex}
+\section{Validation-Only Optimization Diagnostics}
+\label{app:stability}
+\input{generated/stabilization_results.tex}
+\input{generated/noisy_torus_results.tex}
+\clearpage
+\section{Additional Quantitative and Qualitative Results}
+\label{app:additional}
+\begin{figure}[t]
+\centering
+\includegraphics[width=\textwidth]{figures/mesh_selected.pdf}
+\caption{\textbf{Exploratory surface generation.} Fixed final checkpoints on Bunny $k=50$ and Spot $k=50$, with identical cameras and 1,024 points in each panel. Columns show target samples and three constrained-generator variants. All use the local projected-chord surrogate; the soft sphere map is not a certified bijection. Qualitative resemblance and output validity do not establish agreement of intrinsic densities.}
+\label{fig:mesh}
+\end{figure}
+\input{generated/additional_results.tex}
+
+\clearpage
+\section{Scope Compared with the RFM Benchmark}
+\label{app:inventory}
+The evaluation includes the Earth event and protein/RNA angle tasks associated with the RFM code. They are distribution-learning tasks, not hazard prediction or molecular simulation. The closed-surface targets are positive-eigenfunction distributions on Bunny and Spot with target indices $10,50,100$. This target index differs from the number of spectral eigenfunctions used to construct an RFM path. A projection surrogate does not use spectral paths merely because its target data were generated from eigenfunctions.
+
+Original real-data RFM configurations allow one million updates for Earth and protein/RNA. The existing original-code queue did not complete such runs; its presence is not evidence of completion. Controlled RFM rows use their own recorded architecture and budget. Small synthetic SPD cases are distinct from real EEG covariances: the $6\times6$, $25\times25$, and $59\times59$ EEG experiments are not reproduced here. Sample MMD is never substituted into a likelihood table.
+
+Table~\ref{tab:benchmark-scope} records the distinction between shared data and a faithful reproduction of a published experiment.
+\begin{table}[t]
+\caption{Coverage of RFM experiment families. Using a reference target dataset does not imply matching its original model, geometry implementation, training budget, or likelihood evaluation.}
+\label{tab:benchmark-scope}
+\centering\small
+\begin{tabular}{@{}p{.25\textwidth}p{.24\textwidth}p{.44\textwidth}@{}}
+\toprule
+Reference family & Present evidence & Important difference \\
+\midrule
+Earth data on $\mathbb S^2$ & Four controlled tasks, three seeds & Smaller RFM, 2k/10k updates; sample metrics, not author-budget NLL \\
+Protein torsions on $\mathbb T^2$ & Four controlled tasks, three seeds & Row split; raw-angle primary fields; initialization and objective controls \\
+RNA on $\mathbb T^7$ & Controlled task, three seeds & Local preprocessing count; same limited flow budget \\
+Bunny and Spot surfaces & Six targets, three generator variants & One historical seed; projected-path surrogate; ambient sample metrics \\
+Manifold with boundary / maze & Historical target-only pilot & Adapted source law and local projection; not the original transport task \\
+High-dimensional scaling & Historical tori in dimensions 5, 10, 20 & Partial sweep, one seed, legacy estimator \\
+Hyperbolic / additional geometries & Historical pilot and geometry checks & Target-only adaptation; approximate path velocity \\
+Real EEG SPD covariances & Not completed & Synthetic small SPD pilots do not reproduce EEG results \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\section{Comparison of the Learning Constructions}
+\label{app:comparisons}
+Table~\ref{tab:constructions} contrasts the learned objects and training signals.
+\begin{table}[t]
+\caption{Relationship between geometric generative constructions. One-step inference alone is shared by several prior approaches.}
+\label{tab:constructions}
+\centering\small
+\begin{tabular}{@{}p{.19\textwidth}p{.23\textwidth}p{.27\textwidth}p{.22\textwidth}@{}}
+\toprule
+Construction & Learned object & Defining training signal & Inference \\
+\midrule
+RFM \citep{chen2024general} & Time-dependent tangent field & Conditional geometric path-velocity regression & Integrate a learned field \\
+Riemannian consistency / flow maps \citep{cheng2025rcm,davis2026gfm,woo2026rmf,zhong2026rmf} & Direct or two-time geometric map & Consistency, average-velocity, or flow-map identities & One or a few map evaluations \\
+Intrinsic drifting / Wasserstein methods \citep{estebancasadevall2026kgdm,nurgulan2026rwflow,li2026rwgf} & Amortized generator & Kernel- or energy-induced distributional fields & One generator evaluation \\
+R-MGM (ours) & Generator and tangent regression critic & Hidden-flip conditional moments at intermediate points & One generator evaluation \\
+\bottomrule
+\end{tabular}
+\end{table}
+This taxonomy specifies constructions rather than an empirical ranking. Some consistency methods admit both distillation and from-scratch training; one-step inference and the absence of a teacher alone do not distinguish our proposal. Population identifiability, energy dissipation, finite-horizon particle approximation, and convergence of finite neural training are different claims. They must be checked against the corresponding assumptions of each paper.
+
+In particular, the midpoint critic is evaluated at a symmetrized intermediate location. Updating the generator requires derivatives through the path and its velocity, rather than simply applying the critic as a drift at the generated endpoint. A kernel-based particle update with a stop-gradient regression target implements a different optimization rule. A Wasserstein interpretation of any specific rule would require a first variation and a continuity-equation argument for its training-time dynamics. Our interpolation-current identity proves a distribution-discrepancy bound; it does not establish such an optimization-dynamics equivalence.
+
+\section{Reproducibility and Computational Resources}
+\label{app:reproduce}
+The accompanying scripts generate tables from recorded machine-readable results and figures from sample arrays. The generated protocol lists commands, seeds, split identifiers, package versions, durations, and checkpoints. New GPU work uses one NVIDIA GeForce RTX 4090. Repeated Monte Carlo evaluations of one checkpoint are distinguished from independent training seeds. The PowerShell build script calls installed MiKTeX PDFLaTeX and BibTeX; unmodified ICML style files accompany the sources.
+
+\paragraph{AI assistance.}
+Generative AI tools assisted manuscript drafting, implementation, and internal error checking. They are not components of the evaluated generative models. The internal reviews are automated checks, not independent human peer review. Scientific validation and responsibility remain with the human authors.

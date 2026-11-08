@@ -1,0 +1,19 @@
+{
+  "trial": "periodic_random_gmm_c5",
+  "finished_at": "2026-10-23T19:29:48.252522+00:00",
+  "training_seed": 0,
+  "steps": 2000,
+  "critic_updates": 10500,
+  "train_seconds": 20.819345899997643,
+  "total_optimizer_updates": 12500,
+  "test_evaluations": 0,
+  "parameter_change_l2": {
+    "centers": 0.14562739431858063,
+    "log_scale": 0.09691378474235535,
+    "component_logits": 0.0
+  },
+  "initial_validation_mmd2_mean": 0.20386137313350405,
+  "final_validation_mmd2_mean": 0.19985160850990688,
+  "final_validation_mmd2_sd_mc": 0.014925351767106455,
+  "validation_mmd2_change": -0.004009764623597173
+}

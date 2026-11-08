@@ -1,0 +1,15 @@
+{
+  "data": "earthquake",
+  "method": "mgm_gmm",
+  "seed": 0,
+  "steps": 2000,
+  "train_seconds": 29.70250749999832,
+  "finished_at": "2026-10-23T19:55:26.910458+00:00",
+  "finite_parameters": true,
+  "evaluation_rng_invariance_verified": true,
+  "parameter_change_l2": {
+    "centers": 0.18461456894874573,
+    "log_scale": 0.12185437977313995,
+    "component_logits": 0.0
+  }
+}

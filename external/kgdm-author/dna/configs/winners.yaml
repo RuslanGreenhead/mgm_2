@@ -1,0 +1,47 @@
+# Per-formulation tuned hyperparameters. The static geometry of
+# each cell (sphere/simplex/spectral/grad_form) lives in the FORMULATIONS_BY_KEY
+# registry in src/main.py; this file holds only the per-cell SCALARS. Every cell
+# additionally uses the config.yaml defaults (200 epochs, batch 128, warmup 2000,
+# ema 0.999, sei_batch_tau 0.1, score_kmer_floor 0.83). Reported numbers are
+# test (chr8/9) @ the best-k-mer checkpoint, 3 seeds, mean +- std.
+
+# ---- six geometry cells: ambient | simplex | sphere  x  no-grad | grad ----
+# All share lr 1e-4 and the multi-temperature list 0.02,0.05,0.2.
+
+ambient-nograd:
+  lr: 1.0e-4
+  t_list: "0.02,0.05,0.2"
+  best_kmer_min_epoch: 50      # ambient's best k-mer is a pre-ep10 transient;
+                               # report the settled (post-50) checkpoint.
+
+ambient-grad:
+  lr: 1.0e-4
+  t_list: "0.02,0.05,0.2"
+  best_kmer_min_epoch: 50
+
+simplex-nograd:
+  lr: 1.0e-4
+  t_list: "0.02,0.05,0.2"
+
+simplex-grad:
+  lr: 1.0e-4
+  t_list: "0.02,0.05,0.2"
+
+sphere-nograd:
+  lr: 1.0e-4
+  t_list: "0.02,0.05,0.2"
+
+# headline winner: sphere + kernel-gradient drift. Tuned lr + low-min-t list.
+sphere-grad:
+  lr: 1.17e-4
+  t_list: "0.01,0.04,0.15"
+
+# ---- spectral Matern kernel score on (S^3_+)^L ----
+# Sweep winner: needs HIGH Matern smoothness (nu) -- nu <= 2.5 diverges -- and
+# MID harmonic scales; the sharpest kappa list collapses even at nu 5.
+spectral:
+  lr: 1.1e-4
+  kappa_list: "8,24,60"
+  nu: 10.0
+  lmax: 200
+  eta: 1.0

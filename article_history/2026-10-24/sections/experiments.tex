@@ -1,0 +1,34 @@
+\section{Experiments}
+\label{sec:experiments}
+We ask whether the construction learns valid one-step distributions, whether gains can be attributed to midpoint training rather than initialization, and how sample quality trades against a flow's inference budget. We distinguish newly controlled real-data experiments from historical exploratory runs. \Cref{app:protocol,app:additional,app:inventory} give the full protocol, additional metrics, and coverage of the reference benchmark.
+
+\subsection{Data, Baselines, and Evaluation}
+We use four sphere datasets (Volcano, Earthquake, Flood, Fire), four 2D protein torsion datasets (General, Glycine, Proline, Pre-Pro), and 7D RNA angles, prepared using the RFM data pipeline. Models share one fixed 80/10/10 row split. This tests held-out rows, not transfer to unseen proteins or molecules. The local RNA preprocessing yields 9,473 rows. These data have been inspected in earlier exploratory work; the new protocol fixes all checkpoints and settings before its evaluations, but is not a pristine external test benchmark.
+
+All new primary runs use model seeds $0,1,2$, batch size 256, AdamW with learning rate $2\times10^{-4}$ and no weight decay. The critic and controlled RFM field have two width-128 hidden layers with SiLU and eight Fourier time frequencies. \RMGM\ uses 2,000 outer iterations, each with one critic and one generator update. The flow is evaluated after 2,000 and 10,000 updates. The first comparison matches iterations and batch size, not optimizer updates, FLOPs, or wall time. This smaller controlled RFM is not the original million-update author configuration; training and sampling times are measured separately.
+
+We evaluate a train-initialized local Gaussian-mixture generator both before and after midpoint training, and compare randomly initialized constrained MLP generators with midpoint and direct MMD objectives on three representative tasks. Mixture centers and scales are optimized; component weights are fitted at initialization and remain fixed because the hard selection operator has no pathwise gradient for its boundaries. This is an explicit restricted model class, not a fully optimized mixture distribution. The matched MMD control tests objective choice; it does not reproduce KGDM or a Wasserstein-flow method.
+
+Our primary metric is the biased squared MMD V-statistic with $k(x,y)=\exp(-\|e(x)-e(y)\|_2^2/h^2)$, where $e(x)=x$ on the sphere and $e(x)=(\cos x,\sin x)$ on a torus. The bandwidth is fixed from training data only. Up to 1,024 test points are selected without replacement and shared by every model; the generated batch has the same size. We also report symmetric nearest-neighbor distance, coverage at a training-calibrated radius, and validity. Three generated draws are averaged within each training seed before computing the mean and sample standard deviation over seeds. No run or checkpoint is selected by validation or test performance. Exact NLL is unavailable for these implicit generators and is not estimated from their sample MMD.
+
+\subsection{Sample Quality and Initialization}
+\input{generated/main_results.tex}
+\input{generated/result_observations.tex}
+
+A post hoc validation-only study on General examines periodic spatial features, critic warmup, and multiple critic updates per generator step (\cref{app:stability}). It preserves the primary runs and reports all completed trials. A well-fitted initialization can be retained with a smaller generator step, while a stronger periodic flow control fits substantially better than the raw-angle flow. These single-seed diagnostics reinforce the need to distinguish a population discrepancy theorem from a robust finite-network optimizer.
+
+\begin{figure*}[t]
+\centering
+\includegraphics[width=\textwidth]{figures/controlled_samples.pdf}
+\caption{\textbf{Fixed-seed sample comparisons.} The same fixed test target and training seed 0 are used throughout. Fire uses a spherical KDE in geographic coordinates; General and RNA use periodic KDEs, with only the first two RNA coordinates displayed. These are sample visualizations, not model likelihoods. Each row has one logarithmic color scale; values below $10^{-3}$ of its maximum are clipped. Longitude and angle domains span $[-180,180]$ degrees. Full-dimensional metrics, controls, and large figures appear in the supplement.}
+\label{fig:controlled}
+\end{figure*}
+
+\subsection{Sampling Cost and Geometric Validity}
+\input{generated/latency_results.tex}
+The flow sampler makes one field call per projected/exponential Euler step. Its midpoint \emph{time} evaluation is not a two-call Runge--Kutta midpoint scheme. We verify call counts with a forward hook and report both 1-NFE and 128-NFE samples. GPU timings synchronize CUDA, exclude warmup and metric computation, and include random sampling and output constraints. CPU timings use one PyTorch thread. The matched MLP comparison helps separate integration cost from the small parameter count of a structured mixture.
+
+Numerical geometry audits use 64 endpoint pairs per geometry in float64. They check point and velocity reversal and compare the assigned velocity with a numerical path derivative. \Cref{app:additional} reports the residuals for sphere, torus, SPD, and the approximate hyperbolic branch. These checks support the implementation conventions; they do not replace population proofs or certify every floating-point trajectory.
+
+\subsection{Exploratory General-Surface Study}
+For Bunny and Spot, we evaluate all target indices $10,50,100$ using final, fixed step-800 checkpoints with one historical training seed. We compare a projected local mixture, a soft sphere-map MLP, and a sphere-map mixture. Supplemental \cref{fig:mesh} illustrates two targets; all six appear in \cref{app:additional}. The targets use the original eigenfunction-data recipe, but the loss uses \cref{eq:mesh-surrogate}. Surface validity is assessed separately from target coverage. Repeated draws measure sampling variation, not variability across independently trained models. These results neither reproduce the RFM mesh likelihood table nor establish an intrinsic general-mesh training theorem for the surrogate.

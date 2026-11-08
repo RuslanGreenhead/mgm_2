@@ -1,0 +1,71 @@
+[
+  {
+    "trial": "noise0_random_mlp_c5",
+    "finished_at": "2026-10-24T07:41:27.090321+00:00",
+    "training_seed": 0,
+    "steps": 10000,
+    "critic_updates": 50500,
+    "train_seconds": 159.9451767,
+    "total_optimizer_updates": 60500,
+    "test_evaluations": 0,
+    "parameter_change_l2": {
+      "raw.net.0.weight": 4.35948371887207,
+      "raw.net.0.bias": 3.7535502910614014,
+      "raw.net.2.weight": 19.021678924560547,
+      "raw.net.2.bias": 2.6002657413482666,
+      "raw.net.4.weight": 3.6528642177581787,
+      "raw.net.4.bias": 0.27987390756607056
+    },
+    "initial_validation_mmd2_mean": 0.7503351439821078,
+    "final_validation_mmd2_mean": 0.060701003300809554,
+    "final_validation_mmd2_sd_mc": 0.0038623318308994305,
+    "validation_mmd2_change": -0.6896341406812982,
+    "noise_amplitude": 0.0
+  },
+  {
+    "trial": "noise0.3_random_mlp_c5",
+    "finished_at": "2026-10-24T07:44:05.656660+00:00",
+    "training_seed": 0,
+    "steps": 10000,
+    "critic_updates": 50500,
+    "train_seconds": 156.03106260000004,
+    "total_optimizer_updates": 60500,
+    "test_evaluations": 0,
+    "parameter_change_l2": {
+      "raw.net.0.weight": 2.513329029083252,
+      "raw.net.0.bias": 1.0221441984176636,
+      "raw.net.2.weight": 7.346648693084717,
+      "raw.net.2.bias": 0.7990866303443909,
+      "raw.net.4.weight": 0.9386596083641052,
+      "raw.net.4.bias": 0.059815578162670135
+    },
+    "initial_validation_mmd2_mean": 0.7503351439821078,
+    "final_validation_mmd2_mean": 0.03653099532670027,
+    "final_validation_mmd2_sd_mc": 0.0018540906104972746,
+    "validation_mmd2_change": -0.7138041486554075,
+    "noise_amplitude": 0.3
+  },
+  {
+    "trial": "noise0.7_random_mlp_c5",
+    "finished_at": "2026-10-24T07:46:38.463997+00:00",
+    "training_seed": 0,
+    "steps": 10000,
+    "critic_updates": 50500,
+    "train_seconds": 150.20542710000012,
+    "total_optimizer_updates": 60500,
+    "test_evaluations": 0,
+    "parameter_change_l2": {
+      "raw.net.0.weight": 2.1495325565338135,
+      "raw.net.0.bias": 0.6586289405822754,
+      "raw.net.2.weight": 6.011609077453613,
+      "raw.net.2.bias": 0.5508208870887756,
+      "raw.net.4.weight": 0.704658031463623,
+      "raw.net.4.bias": 0.04202382266521454
+    },
+    "initial_validation_mmd2_mean": 0.7503351439821078,
+    "final_validation_mmd2_mean": 0.03167882167773709,
+    "final_validation_mmd2_sd_mc": 0.0007135034261761953,
+    "validation_mmd2_change": -0.7186563223043707,
+    "noise_amplitude": 0.7
+  }
+]

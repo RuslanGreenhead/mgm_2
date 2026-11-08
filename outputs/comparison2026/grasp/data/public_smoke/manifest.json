@@ -1,0 +1,80 @@
+{
+  "schema": 1,
+  "seed": 2026,
+  "smoke_only": true,
+  "benchmark_ready": false,
+  "source": "Actual ACRONYM HDF5 grasps and matched object meshes; no synthetic targets",
+  "license_record": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\external\\acronym-data\\public\\download_manifest.json",
+  "license_record_sha256": "b0681ca8803e99481d2768d333ceb9d47b6078ade3c34f5bcb63a679cfa80cc1",
+  "normalization": "mesh bbox center and half max extent, per-object; no grasp/test-label statistics. H5 grasp translations already in meters, scale applied ONLY to mesh.",
+  "training_filter": "Only original object_in_gripper == 1 poses; labels retained for source provenance, never inferred for generated poses.",
+  "split_rule": "Seeded SHA256 ordering of unscaled mesh identity; all scales of one mesh stay together.",
+  "split_groups": {
+    "train": [
+      "99cf659ae2fe4b87b72437fd995483b"
+    ],
+    "val": [],
+    "test": [
+      "10f6e09036350e92b3f21f1137c3c347"
+    ]
+  },
+  "missing_asset_count": 0,
+  "objects": [
+    {
+      "object_id": "Mug_10f6e09036350e92b3f21f1137c3c347_0.0002682457830986903",
+      "mesh_identity": "10f6e09036350e92b3f21f1137c3c347",
+      "category": "Mug",
+      "h5_path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\external\\acronym-data\\public\\data\\examples\\grasps\\Mug_10f6e09036350e92b3f21f1137c3c347_0.0002682457830986903.h5",
+      "h5_sha256": "a18b524c37f0ac40de980ed87b9b334390b7675a9f734e10a3e9a15435235cb0",
+      "mesh_path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\external\\acronym-data\\public\\data\\examples\\meshes\\Mug\\10f6e09036350e92b3f21f1137c3c347.obj",
+      "mesh_sha256": "5d7aa38e4bb19efd34201ab7399983842dd0d750ad144c7daacd5821f506d350",
+      "mesh_scale": 0.0002682458,
+      "center_m": [
+        -2.2039009368323564e-05,
+        -0.012493402560275042,
+        0.1019612304254364
+      ],
+      "radius_m": 0.050531735796343014,
+      "cache": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\data\\public_smoke\\objects\\Mug_10f6e09036350e92b3f21f1137c3c347_0.0002682457830986903.npz",
+      "cache_sha256": "eb5b37f33fc135d4c17adb8c2778552615ae72e1a367ffe432eb64f42479b6a7",
+      "n_source": 2000,
+      "n_positive": 1290,
+      "mesh_watertight": true,
+      "mesh_faces": 2334,
+      "source_se3_validation": {
+        "orthogonality_max": 1.6146417536333502e-10,
+        "determinant_error_max": 1.5646151041437406e-10,
+        "bottom_row_error_max": 0.0
+      },
+      "split": "test"
+    },
+    {
+      "object_id": "Table_99cf659ae2fe4b87b72437fd995483b_0.009700376721042367",
+      "mesh_identity": "99cf659ae2fe4b87b72437fd995483b",
+      "category": "Table",
+      "h5_path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\external\\acronym-data\\public\\data\\examples\\grasps\\Table_99cf659ae2fe4b87b72437fd995483b_0.009700376721042367.h5",
+      "h5_sha256": "c7e2c589120011ccbd48d7fd47626e939523968fc696e4b801109549ed347d88",
+      "mesh_path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\external\\acronym-data\\public\\data\\examples\\meshes\\Table\\99cf659ae2fe4b87b72437fd995483b.obj",
+      "mesh_sha256": "8a8fb9db0d83f25284593690affc310a6de3861e6bd31a9a7cb0f975047394fc",
+      "mesh_scale": 0.0097003767,
+      "center_m": [
+        2.7555051758489078,
+        1.2043241597296261,
+        0.0973966364358796
+      ],
+      "radius_m": 0.099371121041941,
+      "cache": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\data\\public_smoke\\objects\\Table_99cf659ae2fe4b87b72437fd995483b_0.009700376721042367.npz",
+      "cache_sha256": "d274369d6bbef9a2ec5df84ff45797f43279c3d9d2422637b8b0e61c80f8aa31",
+      "n_source": 2000,
+      "n_positive": 1559,
+      "mesh_watertight": true,
+      "mesh_faces": 1236,
+      "source_se3_validation": {
+        "orthogonality_max": 1.5529522112700533e-10,
+        "determinant_error_max": 1.6043877337779122e-10,
+        "bottom_row_error_max": 0.0
+      },
+      "split": "train"
+    }
+  ]
+}

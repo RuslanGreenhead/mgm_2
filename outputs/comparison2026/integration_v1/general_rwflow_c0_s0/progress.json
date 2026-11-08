@@ -1,0 +1,8 @@
+{
+  "step": 100,
+  "planned": 100,
+  "train_seconds": 1.695372000000134,
+  "validation_mmd2": 0.08545863960056788,
+  "best_val": 0.08545863960056788,
+  "best_step": 100
+}

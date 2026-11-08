@@ -1,0 +1,15 @@
+{
+  "data": "general",
+  "method": "mgm_gmm",
+  "seed": 2,
+  "steps": 2000,
+  "train_seconds": 6.720424799999819,
+  "finished_at": "2026-10-23T19:49:17.526015+00:00",
+  "finite_parameters": true,
+  "evaluation_rng_invariance_verified": true,
+  "parameter_change_l2": {
+    "centers": 3.000753402709961,
+    "log_scale": 0.27481114864349365,
+    "component_logits": 0.0
+  }
+}

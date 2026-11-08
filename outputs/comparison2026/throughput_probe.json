@@ -1,0 +1,46 @@
+{
+  "no_test_access": true,
+  "model_recipe": "MGM 128x3 G, 256x3 C, 10 critic steps",
+  "wall_seconds": {
+    "serial": 24.212994000000435,
+    "parallel": 11.432416999999987
+  },
+  "speedup": 2.1179243199404345,
+  "bitwise_equal_models_and_critics": true,
+  "recommended_concurrency": 2,
+  "runs": {
+    "serial": [
+      {
+        "seed": 1010,
+        "steps": 500,
+        "training_seconds": 9.849343100000624,
+        "weights_sha256": "4d5efb3d93c332e13cf19ade1f4f94912acf5fc3980d781cb378d1fddd1fc555",
+        "peak_allocated_bytes": 21008384
+      },
+      {
+        "seed": 1011,
+        "steps": 500,
+        "training_seconds": 9.890863600000557,
+        "weights_sha256": "eba25c9e0bee2e552f17436baaece1fe5d94e1b0a8b8b5681cb933db9b3c36dd",
+        "peak_allocated_bytes": 21008384
+      }
+    ],
+    "parallel": [
+      {
+        "seed": 1010,
+        "steps": 500,
+        "training_seconds": 9.049231799999689,
+        "weights_sha256": "4d5efb3d93c332e13cf19ade1f4f94912acf5fc3980d781cb378d1fddd1fc555",
+        "peak_allocated_bytes": 21008384
+      },
+      {
+        "seed": 1011,
+        "steps": 500,
+        "training_seconds": 9.044287000000622,
+        "weights_sha256": "eba25c9e0bee2e552f17436baaece1fe5d94e1b0a8b8b5681cb933db9b3c36dd",
+        "peak_allocated_bytes": 21008384
+      }
+    ]
+  },
+  "policy": "If concurrent training is selected, report contended training wall time and measure inference separately after all workers exit."
+}

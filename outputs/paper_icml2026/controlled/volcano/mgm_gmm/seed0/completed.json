@@ -1,0 +1,13 @@
+{
+  "finished_at": "2026-10-23T19:12:32.088949+00:00",
+  "steps": 2000,
+  "train_seconds": 30.817005799999606,
+  "setup_seconds_including_data_and_initialization": 0.1873818999993091,
+  "evaluation_rows": 12,
+  "finite_parameters": true,
+  "parameter_change_l2": {
+    "centers": 0.16415530443191528,
+    "log_scale": 0.09757108986377716,
+    "component_logits": 0.0
+  }
+}

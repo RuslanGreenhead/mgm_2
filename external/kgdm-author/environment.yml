@@ -1,0 +1,21 @@
+name: kgd
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.10
+  - numpy
+  - scipy
+  - pandas
+  - matplotlib
+  - scikit-learn
+  - pyyaml
+  - tqdm
+  - pip
+  - pip:
+      - torch==2.6.0
+      - wandb==0.25.0
+      - selene-sdk
+      - pybigtools==0.2.5
+      - pyfaidx==0.9.0.3

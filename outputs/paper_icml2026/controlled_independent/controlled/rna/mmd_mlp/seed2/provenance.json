@@ -1,0 +1,19 @@
+{
+  "data": "rna",
+  "method": "mmd_mlp",
+  "training_seed": 2,
+  "origin": "copied_unchanged",
+  "source_directory": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled\\rna\\mmd_mlp\\seed2",
+  "new_training_seconds": 0.0,
+  "copied_sha256": {
+    "completed.json": "a6eaa67a69bffb610dc07867e41ec81ad545bcd54dd6ec17d055169ea4fe0e3f",
+    "config.json": "1b28febc7f466da9cc3807b03ae386386a2847a6319054f7c6ebd0185be76c7f",
+    "evaluation_step2000.json": "dce17a77983e73b4fec9d50f5c74165e169b2c702259a18deacaedf2f4d7b94e",
+    "learning_curve.json": "0f5a465706592b7950c0cafc597bba90be48efcfa404df242d2f0156bd957b47",
+    "samples_step2000_nfe1.npz": "d2291fec721057b15d4566ad05be1877f8077fb14058df0f51332961d2a33dc4",
+    "step2000.pt": "7954f6f38f23235844ec1e64328a8e54f886e8b9e9a3cb3cc6b94a5a86972601"
+  },
+  "reason": "No pre-final training evaluation; original initialization/target/latent/path streams unaffected by the CPU timing reset",
+  "saved_private_rng_states": false,
+  "source_provenance": "Original source_snapshot and mmd_protocol.json remain untouched"
+}

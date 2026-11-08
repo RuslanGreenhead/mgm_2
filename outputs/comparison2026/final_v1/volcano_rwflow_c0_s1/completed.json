@@ -1,0 +1,14 @@
+{
+  "data": "volcano",
+  "method": "rwflow",
+  "seed": 1,
+  "steps": 50000,
+  "attempts": 50000,
+  "train_seconds": 410.85622819999844,
+  "selected_step": 50000,
+  "selected_validation_mmd2": 0.01288381287471918,
+  "test_mmd2": 0.012631959655788672,
+  "critic_updates": 0,
+  "test_evaluations": 3,
+  "selection": "Lowest fixed-probe validation MMD; no test tuning"
+}

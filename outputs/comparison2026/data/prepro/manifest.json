@@ -1,0 +1,19 @@
+{
+  "name": "prepro",
+  "kind": "torus",
+  "dim": 2,
+  "counts": {
+    "train": 5528,
+    "val": 691,
+    "test": 691
+  },
+  "data_seed": 0,
+  "reference": {
+    "bandwidth2": 1.0946851573507086,
+    "coverage_radius": 0.02477884802909548
+  },
+  "source_manifest_sha256": "d4643c2d7f05c7246a80450654e64bba3c99d6038b8f259e806b0786d86d85ae",
+  "source_arrays_sha256": "bd33c6e619679d91adf1f661ec3dec6a9be3ddae7659d5fe73b29039f93d464b",
+  "arrays_sha256": "32521fff273d465bd943979ba66187459d95981a40157f56a4735356cc6125b2",
+  "split_policy": "Existing historically exposed row split, no source-group transfer claim"
+}

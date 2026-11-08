@@ -1,0 +1,44 @@
+[
+  {
+    "event": "completed",
+    "label": "bunny10_sphere_map_gmm",
+    "returncode": 0,
+    "elapsed_sec": 45.1,
+    "log": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\rmgm_mesh_bunny_spot_pilot\\logs\\bunny10_sphere_map_gmm.log"
+  },
+  {
+    "event": "completed",
+    "label": "bunny50_sphere_map_gmm",
+    "returncode": 0,
+    "elapsed_sec": 27.3,
+    "log": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\rmgm_mesh_bunny_spot_pilot\\logs\\bunny50_sphere_map_gmm.log"
+  },
+  {
+    "event": "completed",
+    "label": "bunny100_sphere_map_gmm",
+    "returncode": 0,
+    "elapsed_sec": 27.6,
+    "log": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\rmgm_mesh_bunny_spot_pilot\\logs\\bunny100_sphere_map_gmm.log"
+  },
+  {
+    "event": "completed",
+    "label": "spot10_sphere_map_gmm",
+    "returncode": 0,
+    "elapsed_sec": 29.0,
+    "log": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\rmgm_mesh_bunny_spot_pilot\\logs\\spot10_sphere_map_gmm.log"
+  },
+  {
+    "event": "completed",
+    "label": "spot50_sphere_map_gmm",
+    "returncode": 0,
+    "elapsed_sec": 28.3,
+    "log": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\rmgm_mesh_bunny_spot_pilot\\logs\\spot50_sphere_map_gmm.log"
+  },
+  {
+    "event": "completed",
+    "label": "spot100_sphere_map_gmm",
+    "returncode": 0,
+    "elapsed_sec": 31.4,
+    "log": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\rmgm_mesh_bunny_spot_pilot\\logs\\spot100_sphere_map_gmm.log"
+  }
+]

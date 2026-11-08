@@ -1,0 +1,80 @@
+{
+  "stage": "Real ACRONYM two-object CPU integration; NOT a training comparison or physical success study",
+  "gpu_used": false,
+  "physical_success_rate": null,
+  "runs": {
+    "mgm": {
+      "exact_resume_model_and_critic": true,
+      "cpu_seconds": 0.3492081999997936,
+      "iterations": 30,
+      "batch": 64,
+      "width": 64,
+      "cpu_threads": 2,
+      "parameter_count": 23622,
+      "critic_parameter_count": 23494,
+      "seconds_per_iteration_including_warmup": 0.011640273333326453,
+      "linear_10k_cpu_estimate_seconds_same_smoke_config": 116.40273333326452,
+      "metrics_path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\cpu_smoke\\mgm\\eval_test_nfe1\\metrics.json",
+      "final_losses": {
+        "critic_loss": 1.9970065355300903,
+        "critic_grad_norm": 0.09402401745319366,
+        "loss": 0.006461929529905319,
+        "grad_norm": 0.029563037678599358
+      }
+    },
+    "rfm": {
+      "exact_resume_model_and_critic": true,
+      "cpu_seconds": 0.09918210000023464,
+      "iterations": 30,
+      "batch": 64,
+      "width": 64,
+      "cpu_threads": 2,
+      "parameter_count": 23494,
+      "critic_parameter_count": 0,
+      "seconds_per_iteration_including_warmup": 0.0033060700000078214,
+      "linear_10k_cpu_estimate_seconds_same_smoke_config": 33.060700000078214,
+      "metrics_path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\cpu_smoke\\rfm\\eval_test_nfe1\\metrics.json",
+      "final_losses": {
+        "loss": 2.1655025482177734,
+        "grad_norm": 0.14774487912654877
+      }
+    },
+    "rmf": {
+      "exact_resume_model_and_critic": true,
+      "cpu_seconds": 0.22350189999997383,
+      "iterations": 30,
+      "batch": 64,
+      "width": 64,
+      "cpu_threads": 2,
+      "parameter_count": 23494,
+      "critic_parameter_count": 0,
+      "seconds_per_iteration_including_warmup": 0.007450063333332461,
+      "linear_10k_cpu_estimate_seconds_same_smoke_config": 74.50063333332461,
+      "metrics_path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\cpu_smoke\\rmf\\eval_test_nfe1\\metrics.json",
+      "final_losses": {
+        "loss": 2.033968687057495,
+        "grad_norm": 0.2615675926208496
+      }
+    },
+    "glsd": {
+      "exact_resume_model_and_critic": true,
+      "cpu_seconds": 0.1920825000001969,
+      "iterations": 30,
+      "batch": 64,
+      "width": 64,
+      "cpu_threads": 2,
+      "parameter_count": 23494,
+      "critic_parameter_count": 0,
+      "seconds_per_iteration_including_warmup": 0.006402750000006563,
+      "linear_10k_cpu_estimate_seconds_same_smoke_config": 64.02750000006563,
+      "metrics_path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\cpu_smoke\\glsd\\eval_test_nfe1\\metrics.json",
+      "final_losses": {
+        "loss": 2.165508270263672,
+        "grad_norm": 0.14790448546409607
+      }
+    }
+  },
+  "figure": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\cpu_smoke\\grasp_comparison.png",
+  "gpu_timing": "Not measured; parent queue release required",
+  "performance_limitations": "CPU timings use width64, batch64 and two MGM critic updates; do not extrapolate to the width128/batch256/five-critic GPU schedule."
+}

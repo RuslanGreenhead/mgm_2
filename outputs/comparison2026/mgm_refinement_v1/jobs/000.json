@@ -1,0 +1,23 @@
+{
+  "data": "fire",
+  "method": "mgm",
+  "seed": 0,
+  "steps": 4000,
+  "eval_every": 1000,
+  "validation_draws": 1,
+  "score_test": false,
+  "config": {
+    "width": 128,
+    "depth": 3,
+    "batch_size": 256,
+    "latent_dim": 16,
+    "lr": 0.0002,
+    "lr_c": 0.0008,
+    "critic_steps": 5,
+    "critic_warmup": 500,
+    "harmonics": 4,
+    "noise": 0.0,
+    "critic_width": 256
+  },
+  "output": "outputs/comparison2026/mgm_refinement_v1/fire_c0_s0"
+}

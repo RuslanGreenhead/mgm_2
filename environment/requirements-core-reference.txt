@@ -1,0 +1,18 @@
+# Observed direct dependencies, not a universal lockfile.
+# Install the platform-appropriate torch==2.5.1 separately; see README.
+numpy==2.2.5
+scipy==1.15.3
+matplotlib==3.10.9
+pandas==2.3.3
+scikit-learn==1.7.2
+geoopt==0.5.1
+torchdiffeq==0.2.5
+trimesh==4.12.2
+libigl==2.6.1
+hydra-core==1.2.0
+pytorch-lightning==1.8.5.post0
+torchmetrics==1.9.0
+biopython==1.87
+tqdm==4.68.2
+click==8.4.2
+omegaconf==2.3.1

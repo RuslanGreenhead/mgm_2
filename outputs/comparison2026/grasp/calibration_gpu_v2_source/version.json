@@ -1,0 +1,25 @@
+{
+  "version": 2,
+  "plan": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\pilot_plan_gpu_v2.json",
+  "plan_sha256": "a5637882d4fd552a5277d35ce1757e4442a1286f1fcd56edaaf7e715f78d649d",
+  "source_sha256": {
+    "audit.py": "4dc4ef985b01b999bcef38c5c26cd4fb1b12c2ebacd39445a6a261c5eb8ac428",
+    "cli.py": "4ea734832a665a27eb792dd882713995cb0909a50cdff05cbb6549d702d96098",
+    "data.py": "98e52c06b11e68bf40ceba84d60b1e2fb7b07a6008aadd3bb99a5a0651b4982e",
+    "evaluation.py": "c79968080e5992cb6189bb96ede8d07d3206fbdeee1f75313bdca422670ccf07",
+    "geometry.py": "5f735ff24caa9b5c716128046e0db1ed28ae253a69e350889bb4157a533ecdd6",
+    "models.py": "b43099d477e3a076625bbd86a7a574e1a305fc7c2ff4eb6a34fe85238840f6d2",
+    "pilot.py": "b7eb6692b125d375496b2a6d9903f67b26c46d6a0d668087aeabbcf055b9bdd3",
+    "pilot_plan.py": "89b9764fc058620e7f41ebdc50f6b5c927ddc064d7e08e6b2dd6fa8f565c70a3",
+    "runner.py": "098d677fe1c493343a58824c2fdabbaef416d0a39913cca157b7548b3efdd3ef",
+    "smoke.py": "4dc8c6903fef4c4a4343ad0a75b16ad4b7097e189c7d897fbcefc226719b5dac",
+    "source_mt.py": "462d4d085df33529a236be59e73003681a16402517871e43ae0668af02b3ef8d",
+    "tests.py": "2b75051eea4306e5dfe83e6d8bf6952bd1d75ba23ce27aa69d5d1ef762c3e2db",
+    "visualization.py": "ada65c9c703e5fadc2fe5db6412a35d8148376377a8065d7ef67ac5296473965",
+    "__init__.py": "e0e313ad77f65f11d8bbef290af1f96be2541155bd614ffe8a00b254e313e2ae"
+  },
+  "previous_plan": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\pilot_plan_ready.json",
+  "previous_plan_sha256": "eb1c84379a3978aae99d7abe0858990505894314cca16ffd56f5edce6a499deb",
+  "preserved_failed_log": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\calibration_gpu_v1.log",
+  "changes": "WDDM-aware foreign-Python guard plus strict restored-state verification; calibration 100+100 updates. Loss, data, geometry and model unchanged. No quality evaluation or primary 10k training authorized."
+}

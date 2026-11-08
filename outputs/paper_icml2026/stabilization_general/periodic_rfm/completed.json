@@ -1,0 +1,22 @@
+{
+  "trial": "periodic_rfm",
+  "finished_at": "2026-10-23T19:31:21.792171+00:00",
+  "training_seed": 0,
+  "steps": 22500,
+  "critic_updates": 0,
+  "train_seconds": 30.369137499998033,
+  "total_optimizer_updates": 22500,
+  "test_evaluations": 0,
+  "parameter_change_l2": {
+    "net.net.0.weight": 5.844304084777832,
+    "net.net.0.bias": 0.6587228178977966,
+    "net.net.2.weight": 10.791625022888184,
+    "net.net.2.bias": 0.3757303059101105,
+    "net.net.4.weight": 1.7154256105422974,
+    "net.net.4.bias": 0.03370672091841698
+  },
+  "initial_validation_mmd2_mean": 0.19540164656447787,
+  "final_validation_mmd2_mean": 0.001909495374807113,
+  "final_validation_mmd2_sd_mc": 0.0011071088667831957,
+  "validation_mmd2_change": -0.19349215118967075
+}

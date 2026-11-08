@@ -1,0 +1,21 @@
+[
+  {
+    "kernel_mmd2_v": 0.26618487159200144,
+    "symmetric_nn": 1.1118672609015783,
+    "minimum_matching_distance": 0.6695926234614327,
+    "radius_coverage": 0.0,
+    "nn_occupancy_coverage": 0.30095036958817317,
+    "one_nna": 0.9192185850052799,
+    "constraint_mean": 0.0,
+    "generated_n": 947,
+    "target_n": 947,
+    "data": "rna",
+    "method": "meanflow",
+    "seed": 0,
+    "step": 3000,
+    "split": "val",
+    "draw": 0,
+    "train_seconds": 20.61982259999968,
+    "model_forward_calls": 1
+  }
+]

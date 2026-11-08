@@ -1,0 +1,128 @@
+\section{Geometric Midpoint Learning}
+\label{sec:method}
+\subsection{Paths, Observations, and Tangent Targets}
+Let $(\M,g)$ be a complete, connected, finite-dimensional smooth Riemannian manifold without boundary, with distance $d_g$ and tangent spaces $T_x\M$. Let $\mu,\nu$ have finite first moments. We write $\norm{g_x}{u}^2=g_x(u,u)$. The target is $\nu$ and the generated law is $\mu_\theta=(G_\theta)_\#p_Z$, where $p_Z$ is a fixed latent distribution and $G_\theta(z)\in\M$. The loss endpoint is the generator output, not its latent input.
+
+\begin{assumption}[Admissible reversible paths]
+\label[assumption]{ass:paths}
+A measurable path kernel assigns to each pair $(x,y)$ a law on absolutely continuous curves $\gamma:[0,1]\to\M$ with endpoints $x,y$. Endpoint exchange sends this law to its time reversal. For independent $X_0\sim\mu$, $X_1\sim\nu$, the resulting path has finite expected action:
+\begin{equation}
+\mathcal A_\Gamma(\mu,\nu)=\E\int_0^1\norm{g_{\gamma_s}}{\dot\gamma_s}^2\dd s<\infty.
+\label{eq:action}
+\end{equation}
+\end{assumption}
+
+Deterministic reversible paths are a special case. A selected constant-speed minimizing geodesic is
+\begin{equation}
+\gamma_s=\Exp_{X_0}\big(s\Log_{X_0}(X_1)\big),
+\label{eq:geodesic}
+\end{equation}
+with action $\E d_g(X_0,X_1)^2$. Finite second endpoint moments suffice for this action to be finite. Nonunique geodesics require a measurable reversal-consistent choice; independently selected branches for the two endpoint orders need not meet \cref{ass:paths}.
+
+Draw $t\sim\mathcal U(0,1/2)$ and $B\sim\mathrm{Bernoulli}(1/2)$ independently of endpoints and path randomness. Set
+\begin{equation}
+s=t+B(1-2t),\quad \widetilde X_t=\gamma_s,\quad A_t=\dot\gamma_s.
+\label{eq:flip}
+\end{equation}
+Here $A_t$ is the derivative in \emph{path time} $s$, not the derivative of $\gamma_{s(t)}$ in $t$. The flip is hidden from the critic. With $\bar\rho_t=\Law(\widetilde X_t)$, define
+\begin{equation}
+m_t(x)=\E[A_t\mid \widetilde X_t=x,t]\in T_x\M.
+\label{eq:conditional}
+\end{equation}
+This conditional expectation is fiberwise: after conditioning on $x$, every target belongs to the same inner-product space $T_x\M$. No identification of different tangent spaces is needed.
+
+\subsection{A Definite Intrinsic Discrepancy}
+\begin{definition}[Geometric midpoint discrepancy]
+\label[definition]{def:divergence}
+Using the normalized uniform time law, define
+\begin{equation}
+\D_\Gamma^g(\mu,\nu)
+=\E_{t\sim\mathcal U(0,1/2)}\E_{\bar\rho_t}\norm{g_x}{m_t(x)}^2.
+\label{eq:divergence}
+\end{equation}
+This equals twice the integral over $[0,1/2]$.
+\end{definition}
+
+\begin{theorem}[Definiteness and transport control]
+\label{thm:divergence}
+Under \cref{ass:paths}, $\D_\Gamma^g$ is symmetric and nonnegative, and
+\begin{equation}
+W_1(\mu,\nu)^2\leq\D_\Gamma^g(\mu,\nu)\leq\mathcal A_\Gamma(\mu,\nu).
+\label{eq:bounds}
+\end{equation}
+Moreover, $\D_\Gamma^g(\mu,\nu)=0$ if and only if $\mu=\nu$. Here $W_1$ uses $d_g$. For constant-speed minimizing geodesics the upper bound is $\E_{\mu\otimes\nu}d_g(X_0,X_1)^2$.
+\end{theorem}
+
+\paragraph{Proof idea.}
+When $\mu=\nu$, endpoint exchange and path reversal preserve $\widetilde X_t$ and negate $A_t$ (\cref{fig:symmetry}); thus $m_t=0$. For a smooth $1$-Lipschitz function $\varphi$, the chain rule and folding time give
+\begin{align}
+\E_\nu\varphi-\E_\mu\varphi
+&=\E\int_0^1 g_{\gamma_s}(\grad\varphi,\dot\gamma_s)\dd s\notag\\
+&=\E_t\E_{\bar\rho_t}g_x(\grad\varphi(x),m_t(x)).
+\label{eq:fundamental}
+\end{align}
+Cauchy--Schwarz bounds its absolute value by $\sqrt{\D_\Gamma^g}$. Kantorovich--Rubinstein duality gives the lower bound; conditional Jensen gives the upper bound. The complete density-free proof is in \cref{app:proofs}. Time integration and the \emph{actual} path derivative are essential. Cancellation at a single midpoint does not establish \cref{eq:fundamental}.
+
+\subsection{Variational Objective and Generator Updates}
+Let $f_t(x)\in T_x\M$ be square-integrable under the time-observation law. Completing the square in each fiber gives the following representation.
+\begin{proposition}[Tangent variational representation]
+\label[proposition]{prop:variational}
+For every such $f$,
+\begin{align}
+\Lcal(\mu,\nu;f)
+&=\E\big[2g_{\widetilde X_t}(f_t(\widetilde X_t),A_t)
+-\norm{g_{\widetilde X_t}}{f_t(\widetilde X_t)}^2\big]\notag\\
+&=\D_\Gamma^g(\mu,\nu)
+-\E\norm{g_{\widetilde X_t}}{f_t(\widetilde X_t)-m_t(\widetilde X_t)}^2.
+\label{eq:variational}
+\end{align}
+Consequently $\sup_f\Lcal=\D_\Gamma^g$, attained at $f=m$.
+\end{proposition}
+
+Riemannian MGM (\RMGM, ours) parameterizes a manifold-valued generator $G_\theta$ and tangent critic $f_\psi$ in
+\begin{equation}
+\min_\theta\max_\psi\;\Lcal(\mu_\theta,\nu;f_\psi).
+\label{eq:saddle}
+\end{equation}
+The critic equivalently minimizes tangent regression,
+\begin{equation}
+\Lcal_C=\E\norm{g_{\widetilde X_t}}{f_\psi(t,\widetilde X_t)-A_t}^2,
+\label{eq:critic}
+\end{equation}
+since $\E\norm{g_{\widetilde X_t}}{A_t}^2$ is constant in $\psi$. This term is \emph{not} constant in $\theta$: minimizing critic regression over the generator would change the objective. The generator freezes critic parameters and differentiates both terms in \cref{eq:variational}, including the observation, velocity, and position-dependent metric. \Cref{alg:rmgm} states the procedure.
+
+\begin{algorithm}[t]
+\caption{Riemannian Midpoint Generative Models (ours)}
+\label{alg:rmgm}
+\begin{algorithmic}[1]
+\REQUIRE $G_\theta:\mathcal Z\to\M$, tangent critic $f_\psi$, path kernel $\Gamma$, data sampler $\nu$
+\FOR{each outer training iteration}
+\STATE Draw $z\sim p_Z$, $x_1\sim\nu$, $t\sim\mathcal U(0,1/2)$, $B\sim\mathrm{Bernoulli}(1/2)$.
+\STATE $x_0\gets G_\theta(z)$; $s\gets t+B(1-2t)$.
+\STATE Sample path; evaluate $\widetilde x=\gamma_s$ and $a=\partial_s\gamma_s$.
+\STATE Detach generator outputs; descend \cref{eq:critic} in $\psi$.
+\STATE Draw a fresh batch and recompute $(\widetilde x,a)$.
+\STATE Freeze $\psi$; descend \cref{eq:variational} in $\theta$ through all geometry-dependent terms.
+\ENDFOR
+\STATE \textbf{Return} $G_\theta$; sample with $z\sim p_Z$, $x=G_\theta(z)$.
+\end{algorithmic}
+\end{algorithm}
+
+The proposition concerns an unrestricted population critic. A neural critic gives a lower bound with an approximation gap; its empirical value can be negative and is not a certified upper bound on $W_1$. Existence of a zero population optimum also does not imply convergence of alternating neural optimization. We therefore evaluate independent sample discrepancies rather than treating a small training loss as a certificate.
+
+The implementation divides both training losses by the coordinate representation width $q$ (for example, $q=3$ on $\mathbb S^2$). This positive scaling preserves the population optimizer but changes gradient magnitudes. The theorem uses the unscaled discrepancy; for $\D_{\mathrm{impl}}=\D_\Gamma^g/q$ its bound is $W_1^2\leq q\D_{\mathrm{impl}}$.
+
+\paragraph{Gradient contract.}
+The path theorem requires only measurability in the endpoints and absolute continuity in path time. Pathwise generator differentiation in \cref{alg:rmgm} requires more: a reparameterization $\gamma_s=F_s(G_\theta(z),X_1,\xi)$ with parameter-independent base noise, endpoint derivatives for the observation and velocity, and conditions permitting differentiation under expectation. Local smoothness with an integrable domination of the corresponding difference quotients is one sufficient condition. Endpoint-dependent discrete path choices instead require their missing score-function terms or another justified gradient estimator. Branchwise automatic differentiation alone does not establish unbiased gradients of the population objective across changing cut-locus or projection branches. The executed losses use such branchwise derivatives, without a general unbiased-gradient claim for these global branch changes. The discrepancy theorem is unaffected by this optimization qualification.
+
+\subsection{Computation and the Two Meanings of Flow}
+\label{sec:wgf}
+On closed-form geometries, the path and velocity can be evaluated at a sampled time, analytically or with a Jacobian-vector product. The deterministic construction requires no ODE, divergence estimate, or diffusion trajectory. At inference the critic and interpolant are discarded. One neural evaluation still has a geometric cost: projections or factorizations belong in sampling latency.
+
+Interpolation time $s$ defines a loss between two fixed laws; it differs from generator optimization time. A Wasserstein gradient flow decreases an energy $\mathcal E$ through a measure-valued trajectory, formally satisfying
+\begin{equation}
+\partial_\tau\mu_\tau
+=\operatorname{div}_g\left(\mu_\tau\grad_g\frac{\delta\mathcal E}{\delta\mu}(\mu_\tau)\right)
+\label{eq:wgf}
+\end{equation}
+when the first variation and transport chain rule exist. One may investigate $\mathcal E(\mu)=\D_\Gamma^g(\mu,\nu)$ in this framework. Our finite-parameter minimax algorithm establishes neither that first-variation formula nor convergence to \cref{eq:wgf}. Its distinction from kernel and Sinkhorn methods is its specified discrepancy and training construction, not an incompatibility with Wasserstein dynamics. The critic $m_t$ is also not the transport velocity of $\bar\rho_t$: the latter uses the signed target $(1-2B)A_t$.

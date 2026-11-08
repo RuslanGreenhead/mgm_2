@@ -1,0 +1,15 @@
+{
+  "data": "prepro",
+  "method": "mgm_gmm",
+  "seed": 2,
+  "steps": 2000,
+  "train_seconds": 11.71208839999963,
+  "finished_at": "2026-10-23T20:02:59.337751+00:00",
+  "finite_parameters": true,
+  "evaluation_rng_invariance_verified": true,
+  "parameter_change_l2": {
+    "centers": 0.6360507607460022,
+    "log_scale": 0.16303664445877075,
+    "component_logits": 0.0
+  }
+}

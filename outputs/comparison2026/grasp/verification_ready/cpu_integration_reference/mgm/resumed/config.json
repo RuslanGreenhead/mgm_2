@@ -1,0 +1,95 @@
+{
+  "command": "train",
+  "manifest": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\data\\public_within_object\\manifest.json",
+  "method": "mgm",
+  "seed": 0,
+  "device": "cpu",
+  "gpu_release": false,
+  "cpu_threads": 2,
+  "allow_smoke_data": true,
+  "iterations": 30,
+  "batch": 64,
+  "width": 64,
+  "lr": 0.0002,
+  "translation_weight": 1.0,
+  "critic_steps": 2,
+  "warmup": 5,
+  "save_every": 30,
+  "resume": true,
+  "out": "outputs\\comparison2026\\grasp\\verification_ready\\cpu_integration_reference\\mgm\\resumed",
+  "manifest_sha256": "d48d21ea264b8aa41dcd656c75125f0b715664e3885832b77fedb53104b8f58f",
+  "source_sha256": {
+    "audit.py": "4dc4ef985b01b999bcef38c5c26cd4fb1b12c2ebacd39445a6a261c5eb8ac428",
+    "cli.py": "4ea734832a665a27eb792dd882713995cb0909a50cdff05cbb6549d702d96098",
+    "data.py": "98e52c06b11e68bf40ceba84d60b1e2fb7b07a6008aadd3bb99a5a0651b4982e",
+    "evaluation.py": "c79968080e5992cb6189bb96ede8d07d3206fbdeee1f75313bdca422670ccf07",
+    "geometry.py": "5f735ff24caa9b5c716128046e0db1ed28ae253a69e350889bb4157a533ecdd6",
+    "models.py": "b43099d477e3a076625bbd86a7a574e1a305fc7c2ff4eb6a34fe85238840f6d2",
+    "pilot.py": "7f36a050a1c1695dafb3350ae50104400dfc3bbeb87cc163b0a79edfdb0a9ffd",
+    "pilot_plan.py": "89b9764fc058620e7f41ebdc50f6b5c927ddc064d7e08e6b2dd6fa8f565c70a3",
+    "runner.py": "a767a0ff932eef09d9eb3e4a13bc81e2ccb461ac33248e465ba27a9bf528a689",
+    "smoke.py": "4dc8c6903fef4c4a4343ad0a75b16ad4b7097e189c7d897fbcefc226719b5dac",
+    "source_mt.py": "462d4d085df33529a236be59e73003681a16402517871e43ae0668af02b3ef8d",
+    "tests.py": "0a4c3a6a8b9a3880ca0ffcde86faff1a7cd5e24703e410b5b708c58709fce126",
+    "visualization.py": "ada65c9c703e5fadc2fe5db6412a35d8148376377a8065d7ef67ac5296473965",
+    "__init__.py": "e0e313ad77f65f11d8bbef290af1f96be2541155bd614ffe8a00b254e313e2ae"
+  },
+  "dependency_versions": {
+    "torch": "2.5.1",
+    "numpy": "2.2.5",
+    "scipy": "1.15.3",
+    "roma": "1.8.0",
+    "h5py": "3.16.0",
+    "trimesh": "4.12.2",
+    "python-fcl": "0.7.0.11",
+    "rtree": "1.4.1",
+    "matplotlib": "3.10.9"
+  },
+  "gpu_guard": {
+    "device": "cpu",
+    "gpu_inspected": false
+  },
+  "source_verification": [
+    {
+      "object_id": "Mug_10f6e09036350e92b3f21f1137c3c347_0.0002682457830986903",
+      "raw_mesh_h5_cache_verified": true,
+      "h5_mesh_reference": "meshes/Mug/10f6e09036350e92b3f21f1137c3c347.obj",
+      "mesh_scale": 0.0002682458,
+      "center_m": [
+        -2.2039009368323564e-05,
+        -0.012493402560275042,
+        0.1019612304254364
+      ],
+      "radius_m": 0.050531735796343014,
+      "source_rows": 2000,
+      "positive_rows": 1290,
+      "translation_scale_applied": false,
+      "conditioning_reconstructed_exactly": true
+    },
+    {
+      "object_id": "Table_99cf659ae2fe4b87b72437fd995483b_0.009700376721042367",
+      "raw_mesh_h5_cache_verified": true,
+      "h5_mesh_reference": "meshes/Table/99cf659ae2fe4b87b72437fd995483b.obj",
+      "mesh_scale": 0.0097003767,
+      "center_m": [
+        2.7555051758489078,
+        1.2043241597296261,
+        0.0973966364358796
+      ],
+      "radius_m": 0.099371121041941,
+      "source_rows": 2000,
+      "positive_rows": 1559,
+      "translation_scale_applied": false,
+      "conditioning_reconstructed_exactly": true
+    }
+  ],
+  "local_implementation": true,
+  "author_architecture_reproduction": false,
+  "geometry": "SO3 x R3 product metric; body angular and object-frame translation velocities",
+  "method_note": "MGM hidden-fold tangent minimax; RFM reverse geodesic regression; RMF-MT pinned two-loss/PCGrad adaptation distinct from RMF-CC; G-LSD endpoint JVP + FM regularizer",
+  "data_status": "within-object held-out-pose pilot, NOT unseen-object ACRONYM",
+  "physical_success_evaluation": false,
+  "method_label": "MGM",
+  "model_parameter_count": 23622,
+  "critic_parameter_count": 23494
+}

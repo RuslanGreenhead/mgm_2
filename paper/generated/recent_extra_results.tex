@@ -1,0 +1,17 @@
+\begin{table}[H]
+\centering\small
+\caption{Additional completed-test metrics. NN is intrinsic symmetric nearest-neighbor distance in radians (lower is better); coverage uses the fixed training-reference radius (higher is better); 1-NNA has an ideal reference near 0.5. Norm error is mean absolute sphere-unit-norm error. Different metrics need not induce the same ranking.}
+\label{tab:recent-extra}
+\begin{tabular}{@{}llrrrr@{}}
+\toprule
+Data & Method & NN & Coverage (\%) & 1-NNA & Norm error \\
+\midrule
+Volcano & R-MGM (ours) & $0.175\,\pm\,0.021$ & $0.81\,\pm\,0.70$ & $0.728\,\pm\,0.029$ & $3.16e-08$ \\
+Volcano & RW-Flow-C & $0.141\,\pm\,0.006$ & $1.90\,\pm\,0.47$ & $0.725\,\pm\,0.010$ & $3.24e-08$ \\
+Volcano & KGDM & $0.111\,\pm\,0.008$ & $3.39\,\pm\,0.85$ & $0.674\,\pm\,0.012$ & $3.23e-08$ \\
+Volcano & RMF-MT & $0.153\,\pm\,0.014$ & $1.49\,\pm\,1.92$ & $0.762\,\pm\,0.014$ & $3.28e-08$ \\
+Earthquake & KGDM & $0.049\,\pm\,0.001$ & $15.43\,\pm\,1.77$ & $0.686\,\pm\,0.005$ & $3.23e-08$ \\
+Earthquake & RMF-MT & $0.072\,\pm\,0.004$ & $9.48\,\pm\,2.41$ & $0.769\,\pm\,0.015$ & $3.18e-08$ \\
+\bottomrule
+\end{tabular}
+\end{table}

@@ -1,0 +1,42 @@
+\section{Experiments}
+\label{sec:experiments}
+We distinguish three evidence blocks: a completed nine-task initialization/objective study, a paused comparison with recent one-step methods, and a completed two-object grasp pilot. None is an original-author-budget RFM reproduction. All numerical claims below use completed runs; interrupted checkpoints appear only in validation diagnostics.
+
+\subsection{Data and Metrics}
+Four Earth-event datasets lie on $\mathbb S^2$ (Volcano, Earthquake, Flood, Fire); four protein-angle datasets lie on $\mathbb T^2$ (General, Glycine, Proline, Pre-Pro); RNA uses $\mathbb T^7$. Data follow the RFM pipeline and share a fixed 80/10/10 row split. The local RNA preprocessing has 9,473 rows. These historically inspected splits do not test unseen proteins, temporal forecasting, or independent source groups.
+
+For these nine tasks the primary score is the biased squared MMD V-statistic with $k(x,y)=\exp(-\|e(x)-e(y)\|_2^2/h^2)$, using the identity sphere embedding or circular torus embedding. The bandwidth is fixed from training data. Up to 1,024 held-out points are shared across models; generated batches have the same size. We average three draws within each training seed and report mean and sample SD over seeds 0, 1, 2. The finite-sample biased score need not vanish under the correct law. Intrinsic nearest-neighbor, coverage, 1-NNA, and constraint metrics complement MMD. Exact NLL is unavailable for these implicit generators; sample scores do not reproduce published likelihood tables.
+
+\subsection{Initialization and Objective Controls}
+The earlier controlled study uses batch 256, width-128 networks, and AdamW learning rate $2\times10^{-4}$ with no weight decay. Midpoint models take 2,000 outer iterations, each with one critic and one generator update. The smaller controlled RFM runs for 2,000 or 10,000 updates and samples with 128 field calls. These are iteration comparisons, not matched optimizer work or FLOPs. No validation/test checkpoint selection is used in this block.
+
+\input{generated/main_results.tex}
+\input{generated/result_observations.tex}
+
+The mixture starts from train-fitted centers, scales, and weights; only centers and scales receive pathwise midpoint gradients. Hard component boundaries leave weights fixed. Matched random-MLP midpoint and direct-MMD controls isolate objective choice on three tasks. The direct-MMD control is not KGDM or RW-Flow. These results expose substantial optimization failures rather than a general efficacy claim. Post hoc, single-seed validation diagnostics examine periodic features, critic warmup, extra critic steps, and a true-velocity randomized torus path (\cref{app:stability}); they do not alter this table.
+
+\subsection{Recent One-Step Comparisons: Completed Cells}
+\label{sec:recent}
+We implement RW-Flow-C \citep{nurgulan2026rwflow}, KGDM \citep{estebancasadevall2026kgdm}, and the RMF-MT variant of \citet{zhong2026rmf}. This is the latter MeanFlow construction, not the distinct method of \citet{woo2026rmf}. Midpoint, RW-Flow-C, and KGDM share an unfitted, uniform-prior point generator with width 128, three affine layers, and 16 latent dimensions. RMF retains its source-derived two-time network, with a different parameter count. Every sampler uses one neural evaluation. Method-source fidelity and adaptations are detailed in \cref{app:recent-protocol}.
+
+Configurations are selected on representative validation tasks and frozen before final tests. Completed jobs use 50,000 generator/field updates, batch 256, and validation-selected checkpoints, including initialization. MGM additionally uses 500 critic warmup updates and five or ten critic updates per generator update. Critic refinement, tuning grids, model parameters, and compute are not matched.
+
+\input{generated/recent_one_step_results.tex}
+\Cref{tab:recent} reports the completed cells of the nine-task, four-method, three-seed plan: 18 of 108 jobs at this snapshot. Only Volcano supports a completed four-method comparison. Its smallest observed mean is RMF-MT's; MGM does not outperform it, and no significance claim is made. Earthquake has only KGDM and RMF-MT completed across all seeds; its two interrupted MGM runs have no test results. Remaining tasks are unavailable, not negative scores. \Cref{fig:recent-volcano} shows fixed seed-0 samples; recorded validation curves appear in \cref{fig:recent-curves}. A 50,000-update cap does not certify convergence. Training shared one GPU between at most two workers; isolated latency profiling was not run, so this block supplies no inference-speed or training-efficiency ranking.
+
+\begin{figure*}[t]
+\centering
+\includegraphics[width=.94\textwidth]{figures/recent_volcano.pdf}
+\caption{\textbf{Completed one-step comparison on Volcano.} Fixed test target and training seed 0, generated draw 0; $n=82$ per panel. Checkpoints are validation-selected after each run completed 50,000 updates. All panels use the same spherical KDE and logarithmic density scale. These are sample densities, not likelihoods or additional independent training seeds. Quantitative means use all three seeds in \cref{tab:recent}.}
+\label{fig:recent-volcano}
+\end{figure*}
+
+\subsection{SE(3) Grasp Proposals}
+\label{sec:grasp}
+We use the two public, matched Mug/Table HDF5 and mesh examples from ACRONYM \citep{eppner2021acronym}. Positive source poses are split 80/10/10 within each known object; this is not full ACRONYM or unseen-object transfer. The product $SO(3)\times\R^3$ geometry constrains rotations and normalizes translation from mesh bounds. Each of MGM, local RFM, and a source-loss RMF-MT adaptation completes 10,000 generator/field updates for three seeds. No validation/test tuning or checkpoint selection is used; MGM adds 100 warmup and 50,000 critic updates per seed. RFM uses 50 or 100 inference evaluations, while MGM and RMF-MT use one. Architecture and path adaptations preclude an original-author grasp reproduction.
+
+\input{generated/grasp_results.tex}
+\Cref{tab:grasp} averages the two object scores within each seed before computing seed SD. Pose MMD is an unbiased chordal-product-kernel statistic and is not numerically comparable with the sphere/torus score. Static geometric checks use 100 unfiltered draws per object; distribution metrics use 512 generated poses. MGM has lower pose MMD and higher thin-gripper static-proxy fraction than this one-step RMF-MT adaptation, but multi-step RFM is more accurate in pose MMD. MGM's $71.00\%$ mean full-Franka collision rate remains unresolved. Lower collision alone can also reward proposals that miss the object. No finger closure, friction, lifting, scene collision, or reachability is simulated; physical success is unmeasured. \Cref{fig:grasp-current,app:grasp-protocol} give the fixed-sample visualization and protocol.
+
+\subsection{Other Geometries and Numerical Checks}
+Float64 endpoint, reversal, and numerical derivative checks on sphere, torus, SPD, and an approximate hyperbolic branch verify implementation conventions, not every floating-point trajectory. Earlier sampling-cost measurements apply only to their recorded architectures and are retained in \cref{app:additional}. On Bunny/Spot targets $k=10,50,100$, historical one-seed, fixed-step-800 runs compare projected mixtures and sphere-map parameterizations. They use the local projected-chord surrogate of \cref{eq:mesh-surrogate}, outside the exact-path theorem; they do not reproduce intrinsic mesh likelihoods. Full figures, controls, and benchmark-coverage limits remain in \cref{app:additional,app:inventory}.

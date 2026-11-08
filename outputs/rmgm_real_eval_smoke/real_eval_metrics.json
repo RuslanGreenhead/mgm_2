@@ -1,0 +1,24 @@
+[
+  {
+    "method": "rmgm",
+    "checkpoint_step": 1,
+    "num_samples": 64,
+    "mmd2": 0.1477031707763672,
+    "coverage_nn_mean": 0.23625338077545166,
+    "coverage_nn_median": 0.18618923425674438,
+    "coverage_nn_q90": 0.5391895174980164,
+    "coverage_frac_within_train_scale": 0.015625,
+    "precision_nn_mean": 0.18986093997955322,
+    "precision_nn_median": 0.18130247294902802,
+    "precision_nn_q90": 0.3690911531448364,
+    "precision_frac_within_train_scale": 0.015625,
+    "data_pairwise_energy": 2.3347392082214355,
+    "sample_pairwise_energy": 3.0217697620391846,
+    "energy_ratio_sample_over_data": 1.294264316558838,
+    "knn_two_sample_acc_k1": 0.75,
+    "knn_two_sample_acc_k5": 0.7734375,
+    "constraint_error_mean": 0.0,
+    "constraint_error_max": 0.0,
+    "samples_plot": "..\\..\\outputs\\rmgm_real_eval_smoke\\volcano-rmgm-samples.png"
+  }
+]

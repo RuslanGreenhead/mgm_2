@@ -1,0 +1,15 @@
+{
+  "data": "rna",
+  "method": "mgm_gmm",
+  "seed": 2,
+  "steps": 2000,
+  "train_seconds": 6.474331800000073,
+  "finished_at": "2026-10-23T19:50:33.247137+00:00",
+  "finite_parameters": true,
+  "evaluation_rng_invariance_verified": true,
+  "parameter_change_l2": {
+    "centers": 1.4162261486053467,
+    "log_scale": 1.0424271821975708,
+    "component_logits": 0.0
+  }
+}

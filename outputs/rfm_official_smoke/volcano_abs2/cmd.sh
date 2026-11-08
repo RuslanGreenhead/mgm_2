@@ -1,0 +1,14 @@
+#!/bin/bash
+
+python train.py \
+	experiment=volcano \
+	earth_datadir=E:\Codex Projects\Riemmanian Midpoint Generative Models\external\riemannian-fm\data\earth_data \
+	top500_datadir=E:\Codex Projects\Riemmanian Midpoint Generative Models\external\riemannian-fm\data\top500 \
+	rna_datadir=E:\Codex Projects\Riemmanian Midpoint Generative Models\external\riemannian-fm\data\rna \
+	mesh_datadir=E:\Codex Projects\Riemmanian Midpoint Generative Models\external\riemannian-fm\data\mesh \
+	optim.num_iterations=2 \
+	optim.batch_size=32 \
+	optim.val_batch_size=64 \
+	val_every=1 \
+	use_wandb=False \
+	hydra.run.dir=../../outputs/rfm_official_smoke/volcano_abs2

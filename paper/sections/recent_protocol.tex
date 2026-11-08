@@ -1,0 +1,227 @@
+\section{Recent One-Step Comparison: Protocol and Evidence Limits}
+\label{app:recent-protocol}
+
+\paragraph{Frozen scope and observed completion.}
+The recent comparison is a separate small-network adaptation study, not a
+replacement for the earlier controlled suite or a reproduction of the original
+papers' full experimental budgets. The frozen \texttt{final\_v1} plan contains
+nine datasets, four methods (MGM, KGDM, RW-Flow-C, and RMF-MT), and training
+seeds $0,1,2$: $108$ jobs, each allocated $50{,}000$ generator or field updates.
+The datasets are Volcano, Earthquake, Flood, and Fire on $\mathbb S^2$;
+General, Glycine, Proline, and Pre-Pro on $\mathbb T^2$; and RNA on
+$\mathbb T^7$. At the experimental snapshot of October 26, 2026,
+\textbf{18/108 jobs were complete, two were interrupted, and 88 had not
+started}. Table~\ref{tab:recent-completion} records availability rather than
+scores. Only Volcano supports a complete four-method, three-seed comparison;
+Earthquake supports three-seed KGDM and RMF-MT results only.
+
+\begin{table}[t]
+\caption{Completion at the October 26 pause. C3 denotes three completed
+training seeds; I2/N1 denotes two interrupted seeds and one unstarted seed;
+N3 denotes three unstarted seeds. Unavailable cells are not performance estimates.}
+\label{tab:recent-completion}
+\centering\small
+\begin{tabular}{@{}p{.39\linewidth}cccc@{}}
+\toprule
+Dataset & MGM & KGDM & RW-Flow-C & RMF-MT \\
+\midrule
+Volcano & C3 & C3 & C3 & C3 \\
+Earthquake & I2/N1 & C3 & N3 & C3 \\
+Flood, Fire, General, Glycine, Proline, Pre-Pro, RNA
+ & N3 & N3 & N3 & N3 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Earthquake MGM seeds 0 and 1 have durable progress at $40{,}000$ and $20{,}000$
+of $50{,}000$ planned updates, respectively; their validation-selected
+checkpoints are at $30{,}000$ and $20{,}000$. These are saved progress counts,
+not an assertion about the last in-flight update before termination.
+\emph{No interrupted-run test results are reported.} Their saved validation
+curves and previews remain optimization diagnostics, not completed-test
+comparisons. Missing methods or seeds are neither imputed nor treated as
+failures. Even on Volcano, MGM does not have the lowest observed mean; the
+82-point test set and three training seeds do not establish statistical
+significance. No convergence or state-of-the-art claim follows from this pause.
+
+\paragraph{Selection and unequal resources.}
+The recipes in \texttt{selected\_config\_v1.json} were selected by fixed-probe
+validation kernel MMD on representative Fire, General, and RNA tasks and
+transferred within each geometry family. Test scoring was disabled during
+calibration and refinement. In final jobs, validation averages three fixed
+draws at initialization and every $5{,}000$ updates; the minimum selects the
+checkpoint, \emph{including initialization}. A completed job reaches the full
+update cap even if its selected checkpoint is earlier. Three test draws are
+then evaluated from that checkpoint, without advancing training random-number
+streams. This selection protocol does not make the historically exposed row
+splits newly blinded or source-group-held-out data.
+
+MGM, KGDM, and RW-Flow-C share a width-128, depth-3 point generator with latent
+dimension 16, batch size 256, and generator learning rate $2\times10^{-4}$.
+RMF-MT retains a native two-time field network at the same nominal width/depth,
+not the common generator. On the sphere these networks have $17{,}411$ and
+$51{,}721$ trainable parameters, respectively; the corresponding periodic-torus
+counts are $17{,}410$ versus $51{,}718$ in two dimensions and $19{,}335$ versus
+$53{,}653$ in seven dimensions. MGM adds a separate critic: ten critic updates
+per generator update on the sphere and two-torus, five on the seven-torus,
+and 500 critic warmup updates per job. Thus a completed MGM job entails
+$500{,}500$ or $250{,}500$ critic updates in addition to generator updates.
+The sphere/two-torus refinement uses a width-256 critic without changing the
+point generator. Search grids, MGM-specific refinement, optimizer work, and
+per-update costs differ across methods. Equal generator/field update caps
+therefore do not imply equal tuning effort, model size, or compute.
+
+\Cref{tab:recent-fidelity} summarizes retained constructions and adaptations.
+\begin{table}[t]
+\caption{Implementation fidelity of the recent comparison. Source-level or
+equation-level checks concern implementation, not empirical convergence or
+reproduction of published scores.}
+\label{tab:recent-fidelity}
+\centering\small
+\begin{tabular}{@{}p{.12\linewidth}p{.38\linewidth}p{.44\linewidth}@{}}
+\toprule
+Method & Retained construction & Adaptation or limitation \\
+\midrule
+MGM & Hidden-flip critic objective with differentiation through observation
+and path velocity & Common point generator; extra critic optimization and
+validation refinement are separately counted. \\
+KGDM & Checksum-pinned released author spherical field
+\citep{estebancasadevall2026kgdm} & Common generator and geometry wrapper;
+wrapped-log torus extension is an adaptation, not an author torus result. \\
+RW-Flow-C & Equation-tested chordal-cost field with independent generated
+self banks \citep{nurgulan2026rwflow} & Paper reimplementation, not verified
+author code; finite Sinkhorn solves and shared-generator regression. \\
+RMF-MT & Zhong et al.'s source-derived loss, two-time network, stopped JVP
+target, and PCGrad \citep{zhong2026rmf} & Reduced network/budget and periodic
+torus features; distinct from the separate Woo et al. method. \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\paragraph{Method-specific fidelity.}
+KGDM executes the unchanged spherical field from author release revision
+\texttt{5860d212}; its source hash is checked before loading. This verified
+author release is not asserted to be the original anonymous submission
+snapshot. The selected recipe uses its native Gaussian field and step
+multiplier 1; the checkpoint's EMA generator supplies the single sampling
+evaluation. The torus extension uses wrapped angular logarithms and does not
+inherit an unverified convergence or characteristic-kernel guarantee.
+RW-Flow-C uses detached transport fields and exponential-map regression
+targets, not differentiation through a scalar MMD objective. Its frozen
+entropy parameter is $0.3$, flow step $0.2$, and finite Sinkhorn counts are
+128/256/1024 for sphere/two-torus/seven-torus. Numerical solver checks do not
+turn these finite solves into exact population optimal transport.
+RMF-MT is derived from Zhong et al.'s pinned revision \texttt{45d96bcd}, with
+native loss/network/JVP/PCGrad equivalence checked against unchanged source
+definitions away from geometric singularities. It retains the source's ambient
+spherical derivative convention; it is not a new covariant-derivative method.
+These controls establish bounded implementation fidelity, not full-original
+architecture, schedule, or budget reproduction for any baseline.
+
+\paragraph{Metric and audit boundary.}
+The primary sphere/torus score is biased Gaussian embedded-kernel
+$\mathrm{MMD}^2$, including within-sample diagonals, with a fixed train-derived
+median bandwidth. It is not the minimum matching distance also abbreviated
+MMD in some generative-model evaluations. Three draws are averaged within a
+training seed before the mean and sample SD across seeds are formed; the SD
+does not quantify alternative-split uncertainty. Saved-artifact CPU checks
+verify the 18 completed jobs' frozen source/data hashes, update and critic
+counts, checkpoint-selection arithmetic, three distinct draws, one sampling
+forward, manifold constraints, and an independent NumPy MMD recomputation.
+This is a partial-artifact audit, not the full 108-job audit. Training wall
+times came from a two-worker contended schedule and are not isolated
+per-method speed measurements. The deferred isolated GPU sampling/profile
+phase was \emph{not run}; NFE counts are not latency measurements.
+\Cref{tab:current-cost} accounts for recorded training in the current
+comparison and grasp pilot, separately from the earlier controlled suite.
+\input{generated/current_resources.tex}
+The evidence ledger is \texttt{final\_v1/protocol.json} and the
+\texttt{paused\_2026\_10\_26} report, \texttt{job\_status.csv}, and
+\texttt{partial\_audit\_manifest.json}, under the comparison artifact root.
+
+\section{Two-Object SE(3) Held-Out-Pose Pilot}
+\label{app:grasp-protocol}
+
+\paragraph{Actual data and split provenance.}
+The separate completed pilot uses the two public, licensed ACRONYM example
+objects Mug and Table, with actual matched meshes and HDF5 grasp poses
+\citep{eppner2021acronym}. The assets are pinned to the official release
+revision \texttt{d02f58fb}; dataset terms are CC BY-NC 4.0 (repository code is
+MIT). No synthetic poses, substitute meshes, or unlicensed additional objects
+are included. Each object has 2,000 source poses; 1,290 Mug and 1,559 Table
+poses carry positive historical FleX labels. A seed-2026 permutation of these
+positive HDF5 source indices gives disjoint within-object 80/10/10 partitions:
+Mug has 1,032/129/129 train/validation/test poses, and Table has
+1,247/155/157. Exact source indices and asset/cache/split hashes are retained.
+Both object geometries are intentionally known in all partitions: this is
+\emph{held-out-pose evaluation on two known objects}, not unseen-object
+generalization or a full ACRONYM benchmark. Mesh bounds alone define center
+and radius normalization; held-out grasp statistics are not used. HDF5
+translations are already in meters, so object scale is applied only to meshes.
+
+\paragraph{Training and baseline interpretation.}
+All nine jobs (three methods, seeds $0,1,2$) completed exactly $10{,}000$
+generator/field updates, followed by 24 validation/test evaluations. Training
+samples the two objects uniformly and uses only their training poses. Models
+use width 128, batch 256, and Adam learning rate $2\times10^{-4}$. The primary
+checkpoint is always the final one: no validation/test early stopping,
+hyperparameter, checkpoint, or NFE selection is performed. MGM and RMF-MT
+sample in one network evaluation; the same trained RFM field
+\citep{chen2024general} is evaluated by exponential Euler at both 50 and 100
+evaluations. MGM additionally performs 100 critic warmup updates and five
+critic updates per generator update, or $50{,}100$ critic updates per seed.
+Consequently the pilot is not optimizer-work- or compute-matched.
+
+The pose geometry is the $\mathrm{SO}(3)\times\mathbb R^3$ product
+representation of SE(3), with mesh-normalized translations. RFM is a local
+common-architecture geodesic-matching implementation. The pilot's RMF-MT
+executes the pinned author's decomposed source loss and PCGrad, but uses a
+common PointNet/six-vector architecture, RoMa geodesics, zero endpoint noise,
+and declared optimizer/path adaptations. Its data-at-zero, noise-at-one path
+is paired with backward sampling; no forced diagonal-time fraction is added.
+It is a \emph{source-loss architecture adaptation}, not reproduction of the
+author's native SDF-network grasp experiment \citep{zhong2026rmf}.
+
+\paragraph{Distinct distribution metric and aggregation.}
+Each method/seed produces 512 poses per object, evaluated against that object's
+held-out source poses. With $p$ in mesh-normalized coordinates, the fixed
+product kernel is
+\begin{equation}
+k((R,p),(R',p'))=\frac14\sum_{h\in\{0.5,1,2,4\}}
+\exp\!\left[-\frac{\|R-R'\|_F^2/2+\|p-p'\|_2^2}{2h^2}\right].
+\end{equation}
+Pose MMD uses the unbiased two-sample estimator, excluding within-sample
+diagonals; it can be negative. It is numerically distinct from the biased,
+train-bandwidth sphere/torus score in Section~\ref{app:recent-protocol}.
+For each seed, metrics are first averaged equally over Mug and Table; the
+reported mean and sample SD then use the three seed-level means. The six
+object/seed pairs are not six independent training replicates, and these
+errors do not estimate uncertainty over unseen objects. The completed audit
+checks source-row identities, transforms, float64 MMD recomputation, and
+unfiltered static-proxy bookkeeping against saved outputs.
+
+\paragraph{Static geometry is not physical success.}
+The thin-open-gripper proxy requires no gripper/object intersection and
+intersection of the object with a between-finger box. Pose fractions use 100
+unfiltered draws per object; the coarse object-any-at-20 statistic uses the
+first 20, without resampling for success. Official full-Franka mesh collision
+is checked separately on those 100 draws, with the same checks applied to
+fixed held-out reference poses. Historical positive FleX labels do not label
+newly generated poses. No finger closure, friction, lift, dynamics,
+reachability, or robot/scene collision experiment was conducted; physical
+success remains unmeasured. In particular, MGM's object-balanced test
+full-gripper collision fraction is \textbf{71\%}, an unresolved limitation.
+Better pose MMD than the one-step RMF adaptation does not imply deployability;
+50/100-step RFM is more accurate in pose MMD in this pilot.
+
+\paragraph{Visual evidence and limits.}
+The manuscript panels display the first 12 unfiltered poses using actual object
+meshes and thin open-gripper centerlines, common cameras, and bounds containing
+every displayed gripper. They neither select successful poses nor depict all
+512 draws' tails; separate full-range views use the actual Franka collision
+mesh and preserve that context. No pose is excluded from
+metrics based on appearance. The grasp \texttt{report.md},
+\texttt{final\_summary.json}, and \texttt{final\_audit.json} retain per-object,
+per-seed evidence and its provenance. Completion of this narrow pilot does
+not complete the paused nine-dataset comparison, establish neural-training
+convergence, or support a state-of-the-art grasping claim.

@@ -1,0 +1,43 @@
+\subsection{Fixed Primary Protocol}
+Model seeds are 0, 1, 2 and the fixed data-split seed is 0. MLPs have two hidden layers of width 128 (three affine layers), SiLU activations, and a 16-dimensional standard-normal latent. Critics and flow fields use eight Fourier time frequencies and raw wrapped spatial angles on tori. The kernel embedding used for evaluation is a separate circular embedding; it is not the critic input.
+All runs use batch 256, float32, AdamW learning rate $2\times10^{-4}$ and weight decay zero. There is one critic update and one generator update per midpoint iteration. No neural-flow teacher is used. The mixture initialization is a train-fitted statistical starting model, not a pretrained flow. Torus mixtures use 64 components for General and 32 for other torsion datasets; sphere mixtures use 12 for Volcano and 24 otherwise. K-means initialization uses at most 8,192 training samples. Hard component selection leaves mixture-weight logits fixed during pathwise training; only centers and scales receive gradients.
+The MMD control has the same constrained MLP output map and architecture as the MLP midpoint model and optimizes the biased batch MMD with the fixed training-reference kernel. It is an objective control, not an implementation of a kernel drifting algorithm. Every primary model is evaluated at prespecified steps; validation and test metrics are both saved but neither selects checkpoints or settings. Earlier test exposure is disclosed, so new metrics describe a locked evaluation on an already explored benchmark.
+\subsection{Data Counts and Evaluation Size}
+Table~\ref{tab:counts} records the local data counts and fixed evaluation size.
+\begin{table}[t]\caption{Local preprocessing counts and fixed split sizes. The RNA count is 9,473; it is not asserted to equal every published preprocessing release.}\label{tab:counts}\centering\small\begin{tabular}{@{}lrrrrr@{}}\toprule
+Data & Total & Train & Validation & Test & Evaluated $n$ \\
+\midrule
+Volcano & 827 & 663 & 82 & 82 & 82 \\
+Earthquake & 6120 & 4896 & 612 & 612 & 612 \\
+Flood & 4875 & 3901 & 487 & 487 & 487 \\
+Fire & 12809 & 10249 & 1280 & 1280 & 1024 \\
+General & 138208 & 110568 & 13820 & 13820 & 1024 \\
+Glycine & 13283 & 10627 & 1328 & 1328 & 1024 \\
+Proline & 7634 & 6108 & 763 & 763 & 763 \\
+Pre-Pro & 6910 & 5528 & 691 & 691 & 691 \\
+RNA (7D) & 9473 & 7579 & 947 & 947 & 947 \\
+\bottomrule\end{tabular}\end{table}
+All splits are by row. Molecular-source identifiers are not used for group splitting, and geographical rows can be dependent or duplicated. The conclusions concern the specified density-learning protocol, not unseen proteins, independent events, or temporal forecasting.
+\subsection{Metrics}
+For matched-size samples $x_{1:n}$ and $y_{1:n}$, the reported statistic is
+\begin{equation}\widehat{\mathrm{MMD}}_V^2=\frac{1}{n^2}\sum_{i,j=1}^n\big[k(x_i,x_j)+k(y_i,y_j)-2k(x_i,y_j)\big].\end{equation}
+The kernel denominator $h^2$ is the median strictly positive squared embedded distance among a fixed random training reference of at most 1,024 points. It is not fitted to generated or test samples. The diagonal terms are included, making this a biased V-statistic with a finite-sample floor; it is not an unbiased estimate. Test and validation targets are sampled without replacement using fixed independent target-selection seeds and reused across models and training seeds.
+Nearest-neighbor distances use spherical angles and wrapped Euclidean angle distance on a flat torus. Spherical vectors are normalized in float64 and their angle is computed as $2\operatorname{atan2}(\|\hat x-\hat y\|_2,\|\hat x+\hat y\|_2)$, avoiding false positive distances between identical float32 directions. Symmetric NN is one half the sum of the two directed mean nearest distances. Coverage is the fraction of fixed target points within radius $r$ of a generated point; $r$ is the median positive leave-one-out nearest distance on the fixed training reference. Identical normalized directions are explicitly excluded from the sphere reference calibration. Mesh distances below are ambient Euclidean, not intrinsic geodesic distances.
+Three generated draws are averaged within each training seed, followed by mean and sample standard deviation across the three independent training seeds. Draws are Monte Carlo replicates, not extra training seeds. Sphere validity is mean absolute unit-norm error. Torus validity is the fraction outside the half-open angle interval $[0,2\pi)$.
+\subsection{Sampling and Compute}
+The controlled RFM uses projected/exponential Euler with midpoint-in-time evaluation and one actual vector-field call per step. Both 1- and 128-NFE cases are saved at each prespecified checkpoint. Forward hooks verify counts. CUDA is synchronized around timing; GPU warmups and metric calculations are excluded. Single-thread CPU timing uses three repeated batches. Data preparation and mixture initialization are separately recorded, and training duration excludes evaluation pauses. This is not a claim of identical training FLOPs or total wall-clock cost across algorithms.
+The final controlled bundle contains 72 completed training jobs, with 17.03 minutes of summed synchronized training time. This sum excludes evaluation, setup, discarded preliminary reruns, exploratory historical jobs, and incomplete attempts; it is not total project GPU time. Hardware: one NVIDIA GeForce RTX 4090, PyTorch 2.5.1 with CUDA 12.1. Other GPU processes were observed during part of this bundle; synchronized durations are actual wall times, not isolated hardware costs or proof of a speedup. Individual runs record their own durations.
+\subsection{Randomness and Metric Audit}
+A timing-helper audit exposed evaluation-induced resetting of a global CUDA stream in the preliminary GMM/RFM runs. The final bundle replaces all 54 affected runs using frozen sources and separate target, latent, time/flip, and flow-base RNG streams derived from model seed. It copies the 18 unaffected MLP objective-control jobs with file hashes. Evaluation is asserted to preserve all training streams at every checkpoint. Rerun checkpoints save optimizer and CPU/CUDA/private RNG states; the copied earlier MLP checkpoints are suitable for reevaluation but lack full continuation state. GPU reductions are not guaranteed bitwise identical across devices.
+A separate analysis-only correction recomputes sphere angles and coverage from saved arrays with the normalized float64 metric above. Raw metric JSONs are archived with correction hashes, and training sources and generated arrays are unchanged. The final-table marker requires the corrected metric version. Both audits precede the final aggregation; neither selects models by their test scores.
+\subsection{Reproduction Commands}
+From the repository root with the provided conda environment, the following commands check and render the final recorded bundle. The experiment README gives the ordered training, immutable-snapshot rerun, metric-correction, and validation-only commands for a clean reconstruction.
+\begingroup\small\begin{verbatim}
+python paper/experiments/verify_independent.py
+python paper/check_geometry.py
+python paper/make_illustrations.py
+python paper/update_results.py --run-root controlled_independent --require-complete
+powershell -File paper/build.ps1
+\end{verbatim}\endgroup
+Data/split hashes and executed-code hashes accompany the final result ledger. Natural Earth public-domain land outlines are used only as geographic context in maps; density color fields are computed from saved samples.
+Display KDEs are separate from the evaluation MMD kernel. Spherical plots use a normalized von Mises--Fisher kernel with concentration 45 (density per steradian); torus plots smooth a 120-by-120 periodic histogram using Gaussian sigma 2.4 bins and divide by angular bin area (density per squared radian). Comparisons use one logarithmic color scale and clip values below $10^{-3}$ of the maximum within that comparison. Horizontal geographic and angle domains span $[-180,180]$ degrees; only the first two RNA angles are displayed.

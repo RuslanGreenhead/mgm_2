@@ -1,0 +1,98 @@
+[
+  {
+    "run_dir": "..\\..\\outputs\\rmgm_refine\\hyperbolic\\seed0_20260731_225248",
+    "experiment": "hyperbolic",
+    "family": "rmgm_refine",
+    "best_step": 750,
+    "best_mmd2": 0.0025826692581176758,
+    "best_constraint_error": 0.0,
+    "final_step": 1200,
+    "final_mmd2": 0.0057086944580078125,
+    "final_constraint_error": 0.0,
+    "best_fig": "..\\..\\outputs\\rmgm_refine\\hyperbolic\\seed0_20260731_225248\\figs\\samples-000600.png"
+  },
+  {
+    "run_dir": "..\\..\\outputs\\rmgm_runs\\hyperbolic\\seed0_20260731_225152",
+    "experiment": "hyperbolic",
+    "family": "rmgm_runs",
+    "best_step": 300,
+    "best_mmd2": 0.005126059055328369,
+    "best_constraint_error": 0.0,
+    "final_step": 1500,
+    "final_mmd2": 0.014941692352294922,
+    "final_constraint_error": 0.0,
+    "best_fig": "..\\..\\outputs\\rmgm_runs\\hyperbolic\\seed0_20260731_225152\\figs\\samples-000300.png"
+  },
+  {
+    "run_dir": "..\\..\\outputs\\rmgm_refine\\spd\\seed0_20260731_225136",
+    "experiment": "spd",
+    "family": "rmgm_refine",
+    "best_step": 1000,
+    "best_mmd2": 0.0034909844398498535,
+    "best_constraint_error": 0.0,
+    "final_step": 1500,
+    "final_mmd2": 0.006049215793609619,
+    "final_constraint_error": 0.0,
+    "best_fig": "..\\..\\outputs\\rmgm_refine\\spd\\seed0_20260731_225136\\figs\\samples-001000.png"
+  },
+  {
+    "run_dir": "..\\..\\outputs\\rmgm_runs\\spd\\seed0_20260731_224926",
+    "experiment": "spd",
+    "family": "rmgm_runs",
+    "best_step": 400,
+    "best_mmd2": 0.3186078667640686,
+    "best_constraint_error": 0.0,
+    "final_step": 2000,
+    "final_mmd2": 0.5963889360427856,
+    "final_constraint_error": 0.0,
+    "best_fig": "..\\..\\outputs\\rmgm_runs\\spd\\seed0_20260731_224926\\figs\\samples-000500.png"
+  },
+  {
+    "run_dir": "..\\..\\outputs\\rmgm_runs\\sphere\\seed0_20260731_224925",
+    "experiment": "sphere",
+    "family": "rmgm_runs",
+    "best_step": 2000,
+    "best_mmd2": 0.003391563892364502,
+    "best_constraint_error": 2.10711732506752e-08,
+    "final_step": 2500,
+    "final_mmd2": 0.004715025424957275,
+    "final_constraint_error": 2.2773747332394123e-08,
+    "best_fig": "..\\..\\outputs\\rmgm_runs\\sphere\\seed0_20260731_224925\\figs\\samples-001875.png"
+  },
+  {
+    "run_dir": "..\\..\\outputs\\rmgm_refine\\torus2d\\seed0_20260731_225018",
+    "experiment": "torus2d",
+    "family": "rmgm_refine",
+    "best_step": 1200,
+    "best_mmd2": 0.02492469549179077,
+    "best_constraint_error": 0.0,
+    "final_step": 1500,
+    "final_mmd2": 0.03963303565979004,
+    "final_constraint_error": 0.0,
+    "best_fig": "..\\..\\outputs\\rmgm_refine\\torus2d\\seed0_20260731_225018\\figs\\samples-001200.png"
+  },
+  {
+    "run_dir": "..\\..\\outputs\\rmgm_refine_mod\\torus2d\\seed0_20260731_225248",
+    "experiment": "torus2d",
+    "family": "rmgm_refine_mod",
+    "best_step": 2200,
+    "best_mmd2": 0.03086310625076294,
+    "best_constraint_error": 0.0,
+    "final_step": 2500,
+    "final_mmd2": 0.03616321086883545,
+    "final_constraint_error": 0.0,
+    "best_fig": "..\\..\\outputs\\rmgm_refine_mod\\torus2d\\seed0_20260731_225248\\figs\\samples-002250.png"
+  },
+  {
+    "run_dir": "..\\..\\outputs\\rmgm_runs\\torus2d\\seed0_20260731_224858",
+    "experiment": "torus2d",
+    "family": "rmgm_runs",
+    "best_step": 250,
+    "best_mmd2": 0.09670287370681763,
+    "best_constraint_error": 0.0,
+    "final_step": 3000,
+    "final_mmd2": 0.29048192501068115,
+    "final_constraint_error": 0.0,
+    "best_fig": "..\\..\\outputs\\rmgm_runs\\torus2d\\seed0_20260731_224858\\figs\\samples-000001.png"
+  }
+]

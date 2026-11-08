@@ -1,0 +1,1225 @@
+{
+  "created_utc": "2026-10-26T18:51:02.016025+00:00",
+  "phase": "final_v1",
+  "status": "paused_by_user",
+  "counts": {
+    "completed": 18,
+    "interrupted": 2,
+    "not_started": 88
+  },
+  "planned": 108,
+  "saved_generator_updates": 960000,
+  "planned_generator_updates": 5400000,
+  "cpu_artifact_audit_passed": true,
+  "completed_test_jobs_verified": 18,
+  "max_independent_mmd_error": 3.3306690738754696e-16,
+  "gpu_profiling": "not_run_gpu_released",
+  "protocol_sha256": "b4eb0b6ff63096b5efad68eef7741e4562d748603271defa53b6d6b332374074",
+  "script_sha256": "4fcca04db055f2a25481fc3bb938632868dbc7dd551f3d82ffb527b5363d897d",
+  "job_status": [
+    {
+      "data": "volcano",
+      "method": "kgdm",
+      "seed": 0,
+      "output": "outputs/comparison2026/final_v1/volcano_kgdm_c0_s0",
+      "planned_steps": 50000,
+      "saved_step": 50000,
+      "status": "completed",
+      "selected_step": 50000
+    },
+    {
+      "data": "volcano",
+      "method": "kgdm",
+      "seed": 1,
+      "output": "outputs/comparison2026/final_v1/volcano_kgdm_c0_s1",
+      "planned_steps": 50000,
+      "saved_step": 50000,
+      "status": "completed",
+      "selected_step": 50000
+    },
+    {
+      "data": "volcano",
+      "method": "kgdm",
+      "seed": 2,
+      "output": "outputs/comparison2026/final_v1/volcano_kgdm_c0_s2",
+      "planned_steps": 50000,
+      "saved_step": 50000,
+      "status": "completed",
+      "selected_step": 45000
+    },
+    {
+      "data": "volcano",
+      "method": "meanflow",
+      "seed": 0,
+      "output": "outputs/comparison2026/final_v1/volcano_meanflow_c0_s0",
+      "planned_steps": 50000,
+      "saved_step": 50000,
+      "status": "completed",
+      "selected_step": 50000
+    },
+    {
+      "data": "volcano",
+      "method": "meanflow",
+      "seed": 1,
+      "output": "outputs/comparison2026/final_v1/volcano_meanflow_c0_s1",
+      "planned_steps": 50000,
+      "saved_step": 50000,
+      "status": "completed",
+      "selected_step": 10000
+    },
+    {
+      "data": "volcano",
+      "method": "meanflow",
+      "seed": 2,
+      "output": "outputs/comparison2026/final_v1/volcano_meanflow_c0_s2",
+      "planned_steps": 50000,
+      "saved_step": 50000,
+      "status": "completed",
+      "selected_step": 50000
+    },
+    {
+      "data": "volcano",
+      "method": "mgm",
+      "seed": 0,
+      "output": "outputs/comparison2026/final_v1/volcano_mgm_c0_s0",
+      "planned_steps": 50000,
+      "saved_step": 50000,
+      "status": "completed",
+      "selected_step": 5000
+    },
+    {
+      "data": "volcano",
+      "method": "mgm",
+      "seed": 1,
+      "output": "outputs/comparison2026/final_v1/volcano_mgm_c0_s1",
+      "planned_steps": 50000,
+      "saved_step": 50000,
+      "status": "completed",
+      "selected_step": 5000
+    },
+    {
+      "data": "volcano",
+      "method": "mgm",
+      "seed": 2,
+      "output": "outputs/comparison2026/final_v1/volcano_mgm_c0_s2",
+      "planned_steps": 50000,
+      "saved_step": 50000,
+      "status": "completed",
+      "selected_step": 50000
+    },
+    {
+      "data": "volcano",
+      "method": "rwflow",
+      "seed": 0,
+      "output": "outputs/comparison2026/final_v1/volcano_rwflow_c0_s0",
+      "planned_steps": 50000,
+      "saved_step": 50000,
+      "status": "completed",
+      "selected_step": 35000
+    },
+    {
+      "data": "volcano",
+      "method": "rwflow",
+      "seed": 1,
+      "output": "outputs/comparison2026/final_v1/volcano_rwflow_c0_s1",
+      "planned_steps": 50000,
+      "saved_step": 50000,
+      "status": "completed",
+      "selected_step": 50000
+    },
+    {
+      "data": "volcano",
+      "method": "rwflow",
+      "seed": 2,
+      "output": "outputs/comparison2026/final_v1/volcano_rwflow_c0_s2",
+      "planned_steps": 50000,
+      "saved_step": 50000,
+      "status": "completed",
+      "selected_step": 35000
+    },
+    {
+      "data": "earthquake",
+      "method": "kgdm",
+      "seed": 0,
+      "output": "outputs/comparison2026/final_v1/earthquake_kgdm_c0_s0",
+      "planned_steps": 50000,
+      "saved_step": 50000,
+      "status": "completed",
+      "selected_step": 45000
+    },
+    {
+      "data": "earthquake",
+      "method": "kgdm",
+      "seed": 1,
+      "output": "outputs/comparison2026/final_v1/earthquake_kgdm_c0_s1",
+      "planned_steps": 50000,
+      "saved_step": 50000,
+      "status": "completed",
+      "selected_step": 50000
+    },
+    {
+      "data": "earthquake",
+      "method": "kgdm",
+      "seed": 2,
+      "output": "outputs/comparison2026/final_v1/earthquake_kgdm_c0_s2",
+      "planned_steps": 50000,
+      "saved_step": 50000,
+      "status": "completed",
+      "selected_step": 50000
+    },
+    {
+      "data": "earthquake",
+      "method": "meanflow",
+      "seed": 0,
+      "output": "outputs/comparison2026/final_v1/earthquake_meanflow_c0_s0",
+      "planned_steps": 50000,
+      "saved_step": 50000,
+      "status": "completed",
+      "selected_step": 35000
+    },
+    {
+      "data": "earthquake",
+      "method": "meanflow",
+      "seed": 1,
+      "output": "outputs/comparison2026/final_v1/earthquake_meanflow_c0_s1",
+      "planned_steps": 50000,
+      "saved_step": 50000,
+      "status": "completed",
+      "selected_step": 45000
+    },
+    {
+      "data": "earthquake",
+      "method": "meanflow",
+      "seed": 2,
+      "output": "outputs/comparison2026/final_v1/earthquake_meanflow_c0_s2",
+      "planned_steps": 50000,
+      "saved_step": 50000,
+      "status": "completed",
+      "selected_step": 30000
+    },
+    {
+      "data": "earthquake",
+      "method": "mgm",
+      "seed": 0,
+      "output": "outputs/comparison2026/final_v1/earthquake_mgm_c0_s0",
+      "planned_steps": 50000,
+      "saved_step": 40000,
+      "status": "interrupted",
+      "selected_step": 30000
+    },
+    {
+      "data": "earthquake",
+      "method": "mgm",
+      "seed": 1,
+      "output": "outputs/comparison2026/final_v1/earthquake_mgm_c0_s1",
+      "planned_steps": 50000,
+      "saved_step": 20000,
+      "status": "interrupted",
+      "selected_step": 20000
+    },
+    {
+      "data": "earthquake",
+      "method": "mgm",
+      "seed": 2,
+      "output": "outputs/comparison2026/final_v1/earthquake_mgm_c0_s2",
+      "planned_steps": 50000,
+      "saved_step": 0,
+      "status": "not_started",
+      "selected_step": null
+    },
+    {
+      "data": "earthquake",
+      "method": "rwflow",
+      "seed": 0,
+      "output": "outputs/comparison2026/final_v1/earthquake_rwflow_c0_s0",
+      "planned_steps": 50000,
+      "saved_step": 0,
+      "status": "not_started",
+      "selected_step": null
+    },
+    {
+      "data": "earthquake",
+      "method": "rwflow",
+      "seed": 1,
+      "output": "outputs/comparison2026/final_v1/earthquake_rwflow_c0_s1",
+      "planned_steps": 50000,
+      "saved_step": 0,
+      "status": "not_started",
+      "selected_step": null
+    },
+    {
+      "data": "earthquake",
+      "method": "rwflow",
+      "seed": 2,
+      "output": "outputs/comparison2026/final_v1/earthquake_rwflow_c0_s2",
+      "planned_steps": 50000,
+      "saved_step": 0,
+      "status": "not_started",
+      "selected_step": null
+    },
+    {
+      "data": "flood",
+      "method": "kgdm",
+      "seed": 0,
+      "output": "outputs/comparison2026/final_v1/flood_kgdm_c0_s0",
+      "planned_steps": 50000,
+      "saved_step": 0,
+      "status": "not_started",
+      "selected_step": null
+    },
+    {
+      "data": "flood",
+      "method": "kgdm",
+      "seed": 1,
+      "output": "outputs/comparison2026/final_v1/flood_kgdm_c0_s1",
+      "planned_steps": 50000,
+      "saved_step": 0,
+      "status": "not_started",
+      "selected_step": null
+    },
+    {
+      "data": "flood",
+      "method": "kgdm",
+      "seed": 2,
+      "output": "outputs/comparison2026/final_v1/flood_kgdm_c0_s2",
+      "planned_steps": 50000,
+      "saved_step": 0,
+      "status": "not_started",
+      "selected_step": null
+    },
+    {
+      "data": "flood",
+      "method": "meanflow",
+      "seed": 0,
+      "output": "outputs/comparison2026/final_v1/flood_meanflow_c0_s0",
+      "planned_steps": 50000,
+      "saved_step": 0,
+      "status": "not_started",
+      "selected_step": null
+    },
+    {
+      "data": "flood",
+      "method": "meanflow",
+      "seed": 1,
+      "output": "outputs/comparison2026/final_v1/flood_meanflow_c0_s1",
+      "planned_steps": 50000,
+      "saved_step": 0,
+      "status": "not_started",
+      "selected_step": null
+    },
+    {
+      "data": "flood",
+      "method": "meanflow",
+      "seed": 2,
+      "output": "outputs/comparison2026/final_v1/flood_meanflow_c0_s2",
+      "planned_steps": 50000,
+      "saved_step": 0,
+      "status": "not_started",
+      "selected_step": null
+    },
+    {
+      "data": "flood",
+      "method": "mgm",
+      "seed": 0,
+      "output": "outputs/comparison2026/final_v1/flood_mgm_c0_s0",
+      "planned_steps": 50000,
+      "saved_step": 0,
+      "status": "not_started",
+      "selected_step": null
+    },
+    {
+      "data": "flood",
+      "method": "mgm",
+      "seed": 1,
+      "output": "outputs/comparison2026/final_v1/flood_mgm_c0_s1",
+      "planned_steps": 50000,
+      "saved_step": 0,
+      "status": "not_started",
+      "selected_step": null
+    },
+    {
+      "data": "flood",
+      "method": "mgm",
+      "seed": 2,
+      "output": "outputs/comparison2026/final_v1/flood_mgm_c0_s2",
+      "planned_steps": 50000,
+      "saved_step": 0,
+      "status": "not_started",
+      "selected_step": null
+    },
+    {
+      "data": "flood",
+      "method": "rwflow",
+      "seed": 0,
+      "output": "outputs/comparison2026/final_v1/flood_rwflow_c0_s0",
+      "planned_steps": 50000,
+      "saved_step": 0,
+      "status": "not_started",
+      "selected_step": null
+    },
+    {
+      "data": "flood",
+      "method": "rwflow",
+      "seed": 1,
+      "output": "outputs/comparison2026/final_v1/flood_rwflow_c0_s1",
+      "planned_steps": 50000,
+      "saved_step": 0,
+      "status": "not_started",
+      "selected_step": null
+    },
+    {
+      "data": "flood",
+      "method": "rwflow",
+      "seed": 2,
+      "output": "outputs/comparison2026/final_v1/flood_rwflow_c0_s2",
+      "planned_steps": 50000,
+      "saved_step": 0,
+      "status": "not_started",
+      "selected_step": null
+    },
+    {
+      "data": "fire",
+      "method": "kgdm",
+      "seed": 0,
+      "output": "outputs/comparison2026/final_v1/fire_kgdm_c0_s0",
+      "planned_steps": 50000,
+      "saved_step": 0,
+      "status": "not_started",
+      "selected_step": null
+    },
+    {
+      "data": "fire",
+      "method": "kgdm",
+      "seed": 1,
+      "output": "outputs/comparison2026/final_v1/fire_kgdm_c0_s1",
+      "planned_steps": 50000,
+      "saved_step": 0,
+      "status": "not_started",
+      "selected_step": null
+    },
+    {
+      "data": "fire",
+      "method": "kgdm",
+      "seed": 2,
+      "output": "outputs/comparison2026/final_v1/fire_kgdm_c0_s2",
+      "planned_steps": 50000,
+      "saved_step": 0,
+      "status": "not_started",
+      "selected_step": null
+    },
+    {
+      "data": "fire",
+      "method": "meanflow",
+      "seed": 0,
+      "output": "outputs/comparison2026/final_v1/fire_meanflow_c0_s0",
+      "planned_steps": 50000,
+      "saved_step": 0,
+      "status": "not_started",
+      "selected_step": null
+    },
+    {
+      "data": "fire",
+      "method": "meanflow",
+      "seed": 1,
+      "output": "outputs/comparison2026/final_v1/fire_meanflow_c0_s1",
+      "planned_steps": 50000,
+      "saved_step": 0,
+      "status": "not_started",
+      "selected_step": null
+    },
+    {
+      "data": "fire",
+      "method": "meanflow",
+      "seed": 2,
+      "output": "outputs/comparison2026/final_v1/fire_meanflow_c0_s2",
+      "planned_steps": 50000,
+      "saved_step": 0,
+      "status": "not_started",
+      "selected_step": null
+    },
+    {
+      "data": "fire",
+      "method": "mgm",
+      "seed": 0,
+      "output": "outputs/comparison2026/final_v1/fire_mgm_c0_s0",
+      "planned_steps": 50000,
+      "saved_step": 0,
+      "status": "not_started",
+      "selected_step": null
+    },
+    {
+      "data": "fire",
+      "method": "mgm",
+      "seed": 1,
+      "output": "outputs/comparison2026/final_v1/fire_mgm_c0_s1",
+      "planned_steps": 50000,
+      "saved_step": 0,
+      "status": "not_started",
+      "selected_step": null
+    },
+    {
+      "data": "fire",
+      "method": "mgm",
+      "seed": 2,
+      "output": "outputs/comparison2026/final_v1/fire_mgm_c0_s2",
+      "planned_steps": 50000,
+      "saved_step": 0,
+      "status": "not_started",
+      "selected_step": null
+    },
+    {
+      "data": "fire",
+      "method": "rwflow",
+      "seed": 0,
+      "output": "outputs/comparison2026/final_v1/fire_rwflow_c0_s0",
+      "planned_steps": 50000,
+      "saved_step": 0,
+      "status": "not_started",
+      "selected_step": null
+    },
+    {
+      "data": "fire",
+      "method": "rwflow",
+      "seed": 1,
+      "output": "outputs/comparison2026/final_v1/fire_rwflow_c0_s1",
+      "planned_steps": 50000,
+      "saved_step": 0,
+      "status": "not_started",
+      "selected_step": null
+    },
+    {
+      "data": "fire",
+      "method": "rwflow",
+      "seed": 2,
+      "output": "outputs/comparison2026/final_v1/fire_rwflow_c0_s2",
+      "planned_steps": 50000,
+      "saved_step": 0,
+      "status": "not_started",
+      "selected_step": null
+    },
+    {
+      "data": "general",
+      "method": "kgdm",
+      "seed": 0,
+      "output": "outputs/comparison2026/final_v1/general_kgdm_c0_s0",
+      "planned_steps": 50000,
+      "saved_step": 0,
+      "status": "not_started",
+      "selected_step": null
+    },
+    {
+      "data": "general",
+      "method": "kgdm",
+      "seed": 1,
+      "output": "outputs/comparison2026/final_v1/general_kgdm_c0_s1",
+      "planned_steps": 50000,
+      "saved_step": 0,
+      "status": "not_started",
+      "selected_step": null
+    },
+    {
+      "data": "general",
+      "method": "kgdm",
+      "seed": 2,
+      "output": "outputs/comparison2026/final_v1/general_kgdm_c0_s2",
+      "planned_steps": 50000,
+      "saved_step": 0,
+      "status": "not_started",
+      "selected_step": null
+    },
+    {
+      "data": "general",
+      "method": "meanflow",
+      "seed": 0,
+      "output": "outputs/comparison2026/final_v1/general_meanflow_c0_s0",
+      "planned_steps": 50000,
+      "saved_step": 0,
+      "status": "not_started",
+      "selected_step": null
+    },
+    {
+      "data": "general",
+      "method": "meanflow",
+      "seed": 1,
+      "output": "outputs/comparison2026/final_v1/general_meanflow_c0_s1",
+      "planned_steps": 50000,
+      "saved_step": 0,
+      "status": "not_started",
+      "selected_step": null
+    },
+    {
+      "data": "general",
+      "method": "meanflow",
+      "seed": 2,
+      "output": "outputs/comparison2026/final_v1/general_meanflow_c0_s2",
+      "planned_steps": 50000,
+      "saved_step": 0,
+      "status": "not_started",
+      "selected_step": null
+    },
+    {
+      "data": "general",
+      "method": "mgm",
+      "seed": 0,
+      "output": "outputs/comparison2026/final_v1/general_mgm_c0_s0",
+      "planned_steps": 50000,
+      "saved_step": 0,
+      "status": "not_started",
+      "selected_step": null
+    },
+    {
+      "data": "general",
+      "method": "mgm",
+      "seed": 1,
+      "output": "outputs/comparison2026/final_v1/general_mgm_c0_s1",
+      "planned_steps": 50000,
+      "saved_step": 0,
+      "status": "not_started",
+      "selected_step": null
+    },
+    {
+      "data": "general",
+      "method": "mgm",
+      "seed": 2,
+      "output": "outputs/comparison2026/final_v1/general_mgm_c0_s2",
+      "planned_steps": 50000,
+      "saved_step": 0,
+      "status": "not_started",
+      "selected_step": null
+    },
+    {
+      "data": "general",
+      "method": "rwflow",
+      "seed": 0,
+      "output": "outputs/comparison2026/final_v1/general_rwflow_c0_s0",
+      "planned_steps": 50000,
+      "saved_step": 0,
+      "status": "not_started",
+      "selected_step": null
+    },
+    {
+      "data": "general",
+      "method": "rwflow",
+      "seed": 1,
+      "output": "outputs/comparison2026/final_v1/general_rwflow_c0_s1",
+      "planned_steps": 50000,
+      "saved_step": 0,
+      "status": "not_started",
+      "selected_step": null
+    },
+    {
+      "data": "general",
+      "method": "rwflow",
+      "seed": 2,
+      "output": "outputs/comparison2026/final_v1/general_rwflow_c0_s2",
+      "planned_steps": 50000,
+      "saved_step": 0,
+      "status": "not_started",
+      "selected_step": null
+    },
+    {
+      "data": "glycine",
+      "method": "kgdm",
+      "seed": 0,
+      "output": "outputs/comparison2026/final_v1/glycine_kgdm_c0_s0",
+      "planned_steps": 50000,
+      "saved_step": 0,
+      "status": "not_started",
+      "selected_step": null
+    },
+    {
+      "data": "glycine",
+      "method": "kgdm",
+      "seed": 1,
+      "output": "outputs/comparison2026/final_v1/glycine_kgdm_c0_s1",
+      "planned_steps": 50000,
+      "saved_step": 0,
+      "status": "not_started",
+      "selected_step": null
+    },
+    {
+      "data": "glycine",
+      "method": "kgdm",
+      "seed": 2,
+      "output": "outputs/comparison2026/final_v1/glycine_kgdm_c0_s2",
+      "planned_steps": 50000,
+      "saved_step": 0,
+      "status": "not_started",
+      "selected_step": null
+    },
+    {
+      "data": "glycine",
+      "method": "meanflow",
+      "seed": 0,
+      "output": "outputs/comparison2026/final_v1/glycine_meanflow_c0_s0",
+      "planned_steps": 50000,
+      "saved_step": 0,
+      "status": "not_started",
+      "selected_step": null
+    },
+    {
+      "data": "glycine",
+      "method": "meanflow",
+      "seed": 1,
+      "output": "outputs/comparison2026/final_v1/glycine_meanflow_c0_s1",
+      "planned_steps": 50000,
+      "saved_step": 0,
+      "status": "not_started",
+      "selected_step": null
+    },
+    {
+      "data": "glycine",
+      "method": "meanflow",
+      "seed": 2,
+      "output": "outputs/comparison2026/final_v1/glycine_meanflow_c0_s2",
+      "planned_steps": 50000,
+      "saved_step": 0,
+      "status": "not_started",
+      "selected_step": null
+    },
+    {
+      "data": "glycine",
+      "method": "mgm",
+      "seed": 0,
+      "output": "outputs/comparison2026/final_v1/glycine_mgm_c0_s0",
+      "planned_steps": 50000,
+      "saved_step": 0,
+      "status": "not_started",
+      "selected_step": null
+    },
+    {
+      "data": "glycine",
+      "method": "mgm",
+      "seed": 1,
+      "output": "outputs/comparison2026/final_v1/glycine_mgm_c0_s1",
+      "planned_steps": 50000,
+      "saved_step": 0,
+      "status": "not_started",
+      "selected_step": null
+    },
+    {
+      "data": "glycine",
+      "method": "mgm",
+      "seed": 2,
+      "output": "outputs/comparison2026/final_v1/glycine_mgm_c0_s2",
+      "planned_steps": 50000,
+      "saved_step": 0,
+      "status": "not_started",
+      "selected_step": null
+    },
+    {
+      "data": "glycine",
+      "method": "rwflow",
+      "seed": 0,
+      "output": "outputs/comparison2026/final_v1/glycine_rwflow_c0_s0",
+      "planned_steps": 50000,
+      "saved_step": 0,
+      "status": "not_started",
+      "selected_step": null
+    },
+    {
+      "data": "glycine",
+      "method": "rwflow",
+      "seed": 1,
+      "output": "outputs/comparison2026/final_v1/glycine_rwflow_c0_s1",
+      "planned_steps": 50000,
+      "saved_step": 0,
+      "status": "not_started",
+      "selected_step": null
+    },
+    {
+      "data": "glycine",
+      "method": "rwflow",
+      "seed": 2,
+      "output": "outputs/comparison2026/final_v1/glycine_rwflow_c0_s2",
+      "planned_steps": 50000,
+      "saved_step": 0,
+      "status": "not_started",
+      "selected_step": null
+    },
+    {
+      "data": "proline",
+      "method": "kgdm",
+      "seed": 0,
+      "output": "outputs/comparison2026/final_v1/proline_kgdm_c0_s0",
+      "planned_steps": 50000,
+      "saved_step": 0,
+      "status": "not_started",
+      "selected_step": null
+    },
+    {
+      "data": "proline",
+      "method": "kgdm",
+      "seed": 1,
+      "output": "outputs/comparison2026/final_v1/proline_kgdm_c0_s1",
+      "planned_steps": 50000,
+      "saved_step": 0,
+      "status": "not_started",
+      "selected_step": null
+    },
+    {
+      "data": "proline",
+      "method": "kgdm",
+      "seed": 2,
+      "output": "outputs/comparison2026/final_v1/proline_kgdm_c0_s2",
+      "planned_steps": 50000,
+      "saved_step": 0,
+      "status": "not_started",
+      "selected_step": null
+    },
+    {
+      "data": "proline",
+      "method": "meanflow",
+      "seed": 0,
+      "output": "outputs/comparison2026/final_v1/proline_meanflow_c0_s0",
+      "planned_steps": 50000,
+      "saved_step": 0,
+      "status": "not_started",
+      "selected_step": null
+    },
+    {
+      "data": "proline",
+      "method": "meanflow",
+      "seed": 1,
+      "output": "outputs/comparison2026/final_v1/proline_meanflow_c0_s1",
+      "planned_steps": 50000,
+      "saved_step": 0,
+      "status": "not_started",
+      "selected_step": null
+    },
+    {
+      "data": "proline",
+      "method": "meanflow",
+      "seed": 2,
+      "output": "outputs/comparison2026/final_v1/proline_meanflow_c0_s2",
+      "planned_steps": 50000,
+      "saved_step": 0,
+      "status": "not_started",
+      "selected_step": null
+    },
+    {
+      "data": "proline",
+      "method": "mgm",
+      "seed": 0,
+      "output": "outputs/comparison2026/final_v1/proline_mgm_c0_s0",
+      "planned_steps": 50000,
+      "saved_step": 0,
+      "status": "not_started",
+      "selected_step": null
+    },
+    {
+      "data": "proline",
+      "method": "mgm",
+      "seed": 1,
+      "output": "outputs/comparison2026/final_v1/proline_mgm_c0_s1",
+      "planned_steps": 50000,
+      "saved_step": 0,
+      "status": "not_started",
+      "selected_step": null
+    },
+    {
+      "data": "proline",
+      "method": "mgm",
+      "seed": 2,
+      "output": "outputs/comparison2026/final_v1/proline_mgm_c0_s2",
+      "planned_steps": 50000,
+      "saved_step": 0,
+      "status": "not_started",
+      "selected_step": null
+    },
+    {
+      "data": "proline",
+      "method": "rwflow",
+      "seed": 0,
+      "output": "outputs/comparison2026/final_v1/proline_rwflow_c0_s0",
+      "planned_steps": 50000,
+      "saved_step": 0,
+      "status": "not_started",
+      "selected_step": null
+    },
+    {
+      "data": "proline",
+      "method": "rwflow",
+      "seed": 1,
+      "output": "outputs/comparison2026/final_v1/proline_rwflow_c0_s1",
+      "planned_steps": 50000,
+      "saved_step": 0,
+      "status": "not_started",
+      "selected_step": null
+    },
+    {
+      "data": "proline",
+      "method": "rwflow",
+      "seed": 2,
+      "output": "outputs/comparison2026/final_v1/proline_rwflow_c0_s2",
+      "planned_steps": 50000,
+      "saved_step": 0,
+      "status": "not_started",
+      "selected_step": null
+    },
+    {
+      "data": "prepro",
+      "method": "kgdm",
+      "seed": 0,
+      "output": "outputs/comparison2026/final_v1/prepro_kgdm_c0_s0",
+      "planned_steps": 50000,
+      "saved_step": 0,
+      "status": "not_started",
+      "selected_step": null
+    },
+    {
+      "data": "prepro",
+      "method": "kgdm",
+      "seed": 1,
+      "output": "outputs/comparison2026/final_v1/prepro_kgdm_c0_s1",
+      "planned_steps": 50000,
+      "saved_step": 0,
+      "status": "not_started",
+      "selected_step": null
+    },
+    {
+      "data": "prepro",
+      "method": "kgdm",
+      "seed": 2,
+      "output": "outputs/comparison2026/final_v1/prepro_kgdm_c0_s2",
+      "planned_steps": 50000,
+      "saved_step": 0,
+      "status": "not_started",
+      "selected_step": null
+    },
+    {
+      "data": "prepro",
+      "method": "meanflow",
+      "seed": 0,
+      "output": "outputs/comparison2026/final_v1/prepro_meanflow_c0_s0",
+      "planned_steps": 50000,
+      "saved_step": 0,
+      "status": "not_started",
+      "selected_step": null
+    },
+    {
+      "data": "prepro",
+      "method": "meanflow",
+      "seed": 1,
+      "output": "outputs/comparison2026/final_v1/prepro_meanflow_c0_s1",
+      "planned_steps": 50000,
+      "saved_step": 0,
+      "status": "not_started",
+      "selected_step": null
+    },
+    {
+      "data": "prepro",
+      "method": "meanflow",
+      "seed": 2,
+      "output": "outputs/comparison2026/final_v1/prepro_meanflow_c0_s2",
+      "planned_steps": 50000,
+      "saved_step": 0,
+      "status": "not_started",
+      "selected_step": null
+    },
+    {
+      "data": "prepro",
+      "method": "mgm",
+      "seed": 0,
+      "output": "outputs/comparison2026/final_v1/prepro_mgm_c0_s0",
+      "planned_steps": 50000,
+      "saved_step": 0,
+      "status": "not_started",
+      "selected_step": null
+    },
+    {
+      "data": "prepro",
+      "method": "mgm",
+      "seed": 1,
+      "output": "outputs/comparison2026/final_v1/prepro_mgm_c0_s1",
+      "planned_steps": 50000,
+      "saved_step": 0,
+      "status": "not_started",
+      "selected_step": null
+    },
+    {
+      "data": "prepro",
+      "method": "mgm",
+      "seed": 2,
+      "output": "outputs/comparison2026/final_v1/prepro_mgm_c0_s2",
+      "planned_steps": 50000,
+      "saved_step": 0,
+      "status": "not_started",
+      "selected_step": null
+    },
+    {
+      "data": "prepro",
+      "method": "rwflow",
+      "seed": 0,
+      "output": "outputs/comparison2026/final_v1/prepro_rwflow_c0_s0",
+      "planned_steps": 50000,
+      "saved_step": 0,
+      "status": "not_started",
+      "selected_step": null
+    },
+    {
+      "data": "prepro",
+      "method": "rwflow",
+      "seed": 1,
+      "output": "outputs/comparison2026/final_v1/prepro_rwflow_c0_s1",
+      "planned_steps": 50000,
+      "saved_step": 0,
+      "status": "not_started",
+      "selected_step": null
+    },
+    {
+      "data": "prepro",
+      "method": "rwflow",
+      "seed": 2,
+      "output": "outputs/comparison2026/final_v1/prepro_rwflow_c0_s2",
+      "planned_steps": 50000,
+      "saved_step": 0,
+      "status": "not_started",
+      "selected_step": null
+    },
+    {
+      "data": "rna",
+      "method": "kgdm",
+      "seed": 0,
+      "output": "outputs/comparison2026/final_v1/rna_kgdm_c0_s0",
+      "planned_steps": 50000,
+      "saved_step": 0,
+      "status": "not_started",
+      "selected_step": null
+    },
+    {
+      "data": "rna",
+      "method": "kgdm",
+      "seed": 1,
+      "output": "outputs/comparison2026/final_v1/rna_kgdm_c0_s1",
+      "planned_steps": 50000,
+      "saved_step": 0,
+      "status": "not_started",
+      "selected_step": null
+    },
+    {
+      "data": "rna",
+      "method": "kgdm",
+      "seed": 2,
+      "output": "outputs/comparison2026/final_v1/rna_kgdm_c0_s2",
+      "planned_steps": 50000,
+      "saved_step": 0,
+      "status": "not_started",
+      "selected_step": null
+    },
+    {
+      "data": "rna",
+      "method": "meanflow",
+      "seed": 0,
+      "output": "outputs/comparison2026/final_v1/rna_meanflow_c0_s0",
+      "planned_steps": 50000,
+      "saved_step": 0,
+      "status": "not_started",
+      "selected_step": null
+    },
+    {
+      "data": "rna",
+      "method": "meanflow",
+      "seed": 1,
+      "output": "outputs/comparison2026/final_v1/rna_meanflow_c0_s1",
+      "planned_steps": 50000,
+      "saved_step": 0,
+      "status": "not_started",
+      "selected_step": null
+    },
+    {
+      "data": "rna",
+      "method": "meanflow",
+      "seed": 2,
+      "output": "outputs/comparison2026/final_v1/rna_meanflow_c0_s2",
+      "planned_steps": 50000,
+      "saved_step": 0,
+      "status": "not_started",
+      "selected_step": null
+    },
+    {
+      "data": "rna",
+      "method": "mgm",
+      "seed": 0,
+      "output": "outputs/comparison2026/final_v1/rna_mgm_c0_s0",
+      "planned_steps": 50000,
+      "saved_step": 0,
+      "status": "not_started",
+      "selected_step": null
+    },
+    {
+      "data": "rna",
+      "method": "mgm",
+      "seed": 1,
+      "output": "outputs/comparison2026/final_v1/rna_mgm_c0_s1",
+      "planned_steps": 50000,
+      "saved_step": 0,
+      "status": "not_started",
+      "selected_step": null
+    },
+    {
+      "data": "rna",
+      "method": "mgm",
+      "seed": 2,
+      "output": "outputs/comparison2026/final_v1/rna_mgm_c0_s2",
+      "planned_steps": 50000,
+      "saved_step": 0,
+      "status": "not_started",
+      "selected_step": null
+    },
+    {
+      "data": "rna",
+      "method": "rwflow",
+      "seed": 0,
+      "output": "outputs/comparison2026/final_v1/rna_rwflow_c0_s0",
+      "planned_steps": 50000,
+      "saved_step": 0,
+      "status": "not_started",
+      "selected_step": null
+    },
+    {
+      "data": "rna",
+      "method": "rwflow",
+      "seed": 1,
+      "output": "outputs/comparison2026/final_v1/rna_rwflow_c0_s1",
+      "planned_steps": 50000,
+      "saved_step": 0,
+      "status": "not_started",
+      "selected_step": null
+    },
+    {
+      "data": "rna",
+      "method": "rwflow",
+      "seed": 2,
+      "output": "outputs/comparison2026/final_v1/rna_rwflow_c0_s2",
+      "planned_steps": 50000,
+      "saved_step": 0,
+      "status": "not_started",
+      "selected_step": null
+    }
+  ],
+  "summary": [
+    {
+      "data": "volcano",
+      "method": "kgdm",
+      "seeds": [
+        0,
+        1,
+        2
+      ],
+      "complete_three_seed": true,
+      "kernel_mmd2_v_mean": 0.013900191202306802,
+      "kernel_mmd2_v_seed_sd": 0.0016943471104967683,
+      "symmetric_nn_mean": 0.11102029242174903,
+      "symmetric_nn_seed_sd": 0.008190410357907092,
+      "radius_coverage_mean": 0.03387533875338753,
+      "radius_coverage_seed_sd": 0.008462056908398914,
+      "one_nna_mean": 0.674119241192412,
+      "one_nna_seed_sd": 0.012418904322373556,
+      "constraint_mean_mean": 3.2335320020476116e-08,
+      "constraint_mean_seed_sd": 1.5423363314859301e-09
+    },
+    {
+      "data": "volcano",
+      "method": "meanflow",
+      "seeds": [
+        0,
+        1,
+        2
+      ],
+      "complete_three_seed": true,
+      "kernel_mmd2_v_mean": 0.011957397707139031,
+      "kernel_mmd2_v_seed_sd": 0.0002751906086772258,
+      "symmetric_nn_mean": 0.15296213395339725,
+      "symmetric_nn_seed_sd": 0.014495074193441239,
+      "radius_coverage_mean": 0.014905149051490514,
+      "radius_coverage_seed_sd": 0.019210632627043124,
+      "one_nna_mean": 0.7615176151761518,
+      "one_nna_seed_sd": 0.013533187232681668,
+      "constraint_mean_mean": 3.2792633112267474e-08,
+      "constraint_mean_seed_sd": 1.4939869970075616e-09
+    },
+    {
+      "data": "volcano",
+      "method": "mgm",
+      "seeds": [
+        0,
+        1,
+        2
+      ],
+      "complete_three_seed": true,
+      "kernel_mmd2_v_mean": 0.013135220196549285,
+      "kernel_mmd2_v_seed_sd": 0.001555377215304437,
+      "symmetric_nn_mean": 0.1753686785264302,
+      "symmetric_nn_seed_sd": 0.02052407064614078,
+      "radius_coverage_mean": 0.008130081300813007,
+      "radius_coverage_seed_sd": 0.007040856941336898,
+      "one_nna_mean": 0.728319783197832,
+      "one_nna_seed_sd": 0.028911366251154272,
+      "constraint_mean_mean": 3.1561691789442084e-08,
+      "constraint_mean_seed_sd": 1.0935641310486343e-09
+    },
+    {
+      "data": "volcano",
+      "method": "rwflow",
+      "seeds": [
+        0,
+        1,
+        2
+      ],
+      "complete_three_seed": true,
+      "kernel_mmd2_v_mean": 0.012536645306285251,
+      "kernel_mmd2_v_seed_sd": 0.00027709577687745374,
+      "symmetric_nn_mean": 0.1412060798446614,
+      "symmetric_nn_seed_sd": 0.00589431154825769,
+      "radius_coverage_mean": 0.01897018970189702,
+      "radius_coverage_seed_sd": 0.004693904627557931,
+      "one_nna_mean": 0.7249322493224932,
+      "one_nna_seed_sd": 0.010430084226518073,
+      "constraint_mean_mean": 3.235358544141939e-08,
+      "constraint_mean_seed_sd": 1.950461240127669e-09
+    },
+    {
+      "data": "earthquake",
+      "method": "kgdm",
+      "seeds": [
+        0,
+        1,
+        2
+      ],
+      "complete_three_seed": true,
+      "kernel_mmd2_v_mean": 0.002132467508594391,
+      "kernel_mmd2_v_seed_sd": 0.00011536929385200478,
+      "symmetric_nn_mean": 0.04940931211473764,
+      "symmetric_nn_seed_sd": 0.0010473324789797215,
+      "radius_coverage_mean": 0.15432098765432098,
+      "radius_coverage_seed_sd": 0.017710600433198536,
+      "one_nna_mean": 0.6858206245461148,
+      "one_nna_seed_sd": 0.004672152952962129,
+      "constraint_mean_mean": 3.226593330397002e-08,
+      "constraint_mean_seed_sd": 2.7223927088583014e-10
+    },
+    {
+      "data": "earthquake",
+      "method": "meanflow",
+      "seeds": [
+        0,
+        1,
+        2
+      ],
+      "complete_three_seed": true,
+      "kernel_mmd2_v_mean": 0.00281372811329355,
+      "kernel_mmd2_v_seed_sd": 0.0006935989973459667,
+      "symmetric_nn_mean": 0.07201622893240671,
+      "symmetric_nn_seed_sd": 0.004239832161645548,
+      "radius_coverage_mean": 0.09477124183006536,
+      "radius_coverage_seed_sd": 0.02405780264200194,
+      "one_nna_mean": 0.7691539578794481,
+      "one_nna_seed_sd": 0.015139097663237153,
+      "constraint_mean_mean": 3.182616694691545e-08,
+      "constraint_mean_seed_sd": 5.1221008585718e-10
+    }
+  ],
+  "report_sha256": "f4b9cd32e32dc38a390733750a5bf1651ddf7b31f7f94303ddb2ef96e7c19daa",
+  "figure_manifest_sha256": "871c411f0f870868f44d7ae61005b77df9989a9a2c2d2858b387c63dbf004e00"
+}

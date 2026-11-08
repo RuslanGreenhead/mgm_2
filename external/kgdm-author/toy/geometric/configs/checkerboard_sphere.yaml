@@ -1,0 +1,26 @@
+# Checkerboard target on S^2.
+# Used for both Euclidean-* and Manifold-* drift modes (selected via --geometry).
+
+# Drift hyperparameters
+temperature: 0.5    # kernel bandwidth (Laplace: k(d) = exp(-d/T))
+eta: 1.0            # step-size multiplier on V before the (Exp-)map
+max_step: 5.0       # cap on ||V|| per step
+
+# Backbone
+hidden: 256
+depth: 5
+
+# Training
+steps: 2000
+batch_size: 2048
+lr: 1.0e-3
+grad_clip: 1.0
+log_every: 100
+capture_steps: "0,50,200,1000,2000"  # snapshots saved as samples_step*.npy
+
+# Data / eval
+n_points: 10000
+n_eval_samples: 4096
+sliced_w2_n_proj: 128
+
+device: auto

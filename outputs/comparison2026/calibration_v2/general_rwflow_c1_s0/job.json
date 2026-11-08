@@ -1,0 +1,51 @@
+{
+  "data": "general",
+  "method": "rwflow",
+  "seed": 0,
+  "steps": 4000,
+  "eval_every": 1000,
+  "validation_draws": 1,
+  "score_test": false,
+  "output": "outputs/comparison2026/calibration_v2/general_rwflow_c1_s0",
+  "config": {
+    "width": 128,
+    "depth": 3,
+    "latent_dim": 16,
+    "batch_size": 256,
+    "lr": 0.0002,
+    "epsilon": 0.3,
+    "flow_step": 0.2,
+    "sinkhorn_iters": 128
+  },
+  "data_manifest_sha256": "b312f7dfbb28802ad63d803830349838a581c075b18b945e90799aeecc85aaa3",
+  "model_parameters": 17410,
+  "gpu": "NVIDIA GeForce RTX 4090",
+  "torch": "2.5.1",
+  "critic_parameters": 0,
+  "resolved_config": {
+    "width": 128,
+    "depth": 3,
+    "latent_dim": 16,
+    "lr": 0.0002,
+    "batch_size": 256,
+    "cost": "chordal",
+    "cost_scale": 1.0,
+    "epsilon": 0.3,
+    "flow_step": 0.2,
+    "sinkhorn_iters": 128,
+    "self_batch_size": null,
+    "source_batch_size": null,
+    "weight_decay": 0.01,
+    "grad_clip": 1.0
+  },
+  "provenance": {
+    "classification": "equation-faithful paper reimplementation; shared-generator adaptation",
+    "paper": "https://arxiv.org/html/2609.39271v2",
+    "author_code_url": null,
+    "author_code_commit": null,
+    "cost": "full squared chordal distance in sphere XYZ / product-circle embedding",
+    "teacher": "none"
+  },
+  "executed_worker_sha256": "e22746a936d5319d9ad8388e2576e326dc091782ce9780373f4158d215abe743",
+  "method_source_sha256": "0decfdcfb8af50e9aabde0eb235069fd43592e17a81479011a6d13d4415b587c"
+}

@@ -1,0 +1,18 @@
+{
+  "data": "rna",
+  "method": "rfm",
+  "seed": 1,
+  "steps": 10000,
+  "train_seconds": 13.063206500000888,
+  "finished_at": "2026-10-23T19:50:24.116584+00:00",
+  "finite_parameters": true,
+  "evaluation_rng_invariance_verified": true,
+  "parameter_change_l2": {
+    "net.net.0.weight": 5.63039493560791,
+    "net.net.0.bias": 1.6082050800323486,
+    "net.net.2.weight": 14.944538116455078,
+    "net.net.2.bias": 1.352365493774414,
+    "net.net.4.weight": 3.1771514415740967,
+    "net.net.4.bias": 0.11992849409580231
+  }
+}

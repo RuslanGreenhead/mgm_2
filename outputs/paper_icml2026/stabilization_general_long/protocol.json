@@ -1,0 +1,51 @@
+{
+  "created_at": "2026-10-23T20:04:26.930392+00:00",
+  "config": {
+    "dataset": "general",
+    "training_seed": 0,
+    "data_seed": 0,
+    "batch_size": 512,
+    "hidden_dim": 128,
+    "num_layers": 3,
+    "spatial_harmonics": 4,
+    "time_fourier_features": 8,
+    "generator_steps": 10000,
+    "critic_warmup": 500,
+    "lr_g": 0.0002,
+    "lr_c": 0.0002,
+    "lr_rfm": 0.0002,
+    "gmm_components": 64,
+    "evaluation_generator_steps": [
+      0,
+      100,
+      500,
+      1000,
+      2000,
+      5000,
+      10000
+    ],
+    "evaluation_draws": 3,
+    "selection": "Lowest mean validation MMD2 at fixed final G-step 2000 among periodic random-initialized MGM candidates; no test evaluation in this study.",
+    "trials": [
+      {
+        "id": "periodic_random_mlp_c5_lr2e4_g10000",
+        "method": "mgm",
+        "initialization": "random_mlp",
+        "periodic": true,
+        "critic_steps": 5,
+        "candidate": true
+      },
+      {
+        "id": "periodic_random_gmm_c5_lr2e4_g10000",
+        "method": "mgm",
+        "initialization": "random_gmm",
+        "periodic": true,
+        "critic_steps": 5,
+        "candidate": true
+      }
+    ]
+  },
+  "source_sha256": "7f8725f6f80a9eb85660ca28e897f68fa7f8c71e117ec542e8cb7d928107063e",
+  "base_source_sha256": "1a5233e9b9148f5c44716ddeb0965904161a20e5079683e67cd09ffa80c9812b",
+  "test_policy": "Exactly two validation-only seed-0 follow-ons; no test evaluation or stochastic-path sweep"
+}

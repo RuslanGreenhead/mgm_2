@@ -1,0 +1,39 @@
+{
+  "metric_version": "sphere_normalized_float64_atan2_v2",
+  "corrected_at": "2026-10-23T19:53:16.944963+00:00",
+  "training_radii": {
+    "volcano": {
+      "corrected_radius": 0.010018575232836861,
+      "distinct_reference_directions": 239
+    },
+    "earthquake": {
+      "corrected_radius": 0.01047195383970225,
+      "distinct_reference_directions": 985
+    },
+    "fire": {
+      "corrected_radius": 0.004831470889220299,
+      "distinct_reference_directions": 1024
+    },
+    "flood": {
+      "corrected_radius": 0.01471887870780884,
+      "distinct_reference_directions": 1024
+    }
+  },
+  "raw_archive": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\sphere_metric_v1_calibration.zip",
+  "raw_results_sha256": "a373081be49e54e2ae115a1af025387de3c055d1bdaa010556b40f1841cc80da",
+  "corrected_results_sha256": "3fb67f294f1b3d74c897fdb3da7b04b4664d6d2c553f69ccede448514c697ccd",
+  "source_npz_sha256": {
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\datasets\\volcano\\split_indices_and_targets.npz": "55d140d58db65f58f69ba2fdae3e5fbeeee51abee6b07b5e7844ec896bada4ca",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\calibration\\volcano\\samples.npz": "34da657bd380161db9ff64ca005e9b74200e4994e50b0321691ed1551939e491",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\datasets\\earthquake\\split_indices_and_targets.npz": "0a3945482eb5003d3390b56bb59bc6154e9fbd5c8c22c6223cfd90cd2feea690",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\calibration\\earthquake\\samples.npz": "709af3b7f8655aa3a4cddd8b3e256d548f73f9fc9942169be67a435e652c2677",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\datasets\\fire\\split_indices_and_targets.npz": "9c327fe1ce1a48696df86f66abcb4992b39f034323bb4a79cf67691824a573a0",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\calibration\\fire\\samples.npz": "ea55d35e3ab4102df5370453019d54aec17bf2c842b7ea6d351ccb17b780f25e",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\datasets\\flood\\split_indices_and_targets.npz": "97f6407e2ffd2c0cae2db906ceefdfa9a3720d707e5f9dce8469822a55c35820",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\calibration\\flood\\samples.npz": "ad8773538a033d6037c271cd497af4b30a015a1a86bec2e2031215768950d389"
+  },
+  "arrays_unchanged": true,
+  "mmd_unchanged": true,
+  "script_sha256": "c7cb0387e6f3504be4856b5897036e474fd0fecc7833a426a4403c847e20e04e",
+  "metric_helper_sha256": "be2b09e388354466664e1d82212d8b6d1bd00c2f8887512bc2a93b7567e6441c"
+}

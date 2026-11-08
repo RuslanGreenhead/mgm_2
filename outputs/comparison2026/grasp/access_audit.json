@@ -1,0 +1,47 @@
+{
+  "utc": "2026-10-24T08:32:58.649078+00:00",
+  "probes": {
+    "shapenet_mesh_archive": {
+      "url": "https://huggingface.co/datasets/ShapeNet/ShapeNetSem-archive/resolve/main/ShapeNetSem.zip",
+      "error": "HTTPSConnectionPool(host='huggingface.co', port=443): Max retries exceeded with url: /datasets/ShapeNet/ShapeNetSem-archive/resolve/main/ShapeNetSem.zip (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1017)')))"
+    },
+    "official_grasp_repository": {
+      "url": "https://api.github.com/repos/NVlabs/acronym/git/trees/d02f58fb3a556c3b719976e206cce0dce0103199?recursive=1",
+      "status": 206,
+      "error_code": null,
+      "content_type": "application/json; charset=utf-8",
+      "content_length": "1024"
+    },
+    "official_full_grasp_archive": {
+      "url": "https://drive.usercontent.google.com/download?id=1OjykLD9YmnFdfYpH2qO8yBo-I-22vKwu&export=download&confirm=t",
+      "status": 206,
+      "error_code": null,
+      "content_type": "application/octet-stream",
+      "content_length": "1024"
+    }
+  },
+  "author_commit_inspected": "45d96bcd09a271ea3a770b2014865dabbac9eeeb",
+  "author_files": {
+    "README.md": "5341c0776ed1482ef7e8a873aec0b4e69f69299c03c60b4c9ada057f7e7b6d05",
+    "grasp/src/core/visualize.py": "4e9440341469cdacccb3c6c7ef2c035e6d4fc912c7a2ffca5e64e61ed4a5808a",
+    "grasp/src/models/lightning.py": "bd14b702da8bf97a62bb9960147811b30c303ec21dbe8584fc9e31ce45106eea",
+    "grasp/src/models/flow.py": "50b3c6cc3318ae0aa133121ffa4073e67844f22c872b24d05aad63c518674db9",
+    "grasp/src/data/dataset.py": "4449e9d9f8a3a403e6cc7253c514d9402e64809ceaa2fec1ba2c5d4d1de87f69",
+    "grasp/src/data/data_manager.py": "fe86bef55f8a169eeb53221514bfd18b89e858f9d0fb684d262c5508536f2137",
+    "rmf/rmf/models/flowmap_module.py": "68544813d0b030754c966d993812cb8d107a4f876f2f1414d62fd026cd4dfb59"
+  },
+  "paper": "https://arxiv.org/html/2603.10718v3#S5.SS2",
+  "author_metric": {
+    "physical_simulator": false,
+    "pose_rule": "No intersection with thin gripper mesh AND intersection with between-finger box, using FCL triangle meshes.",
+    "aggregation": "Fraction of objects with at least one passing pose among 20 draws (configured sample count).",
+    "evidence": [
+      "grasp/src/core/visualize.py:174-318",
+      "grasp/src/models/lightning.py:688-754"
+    ],
+    "limitations": "No finger closing, contact force/friction, lifting, dynamics, scene/table collision or robot reachability."
+  },
+  "data_label": "grasps/qualities/flex/object_in_gripper is an existing FleX simulation label, not an evaluator for generated poses.",
+  "physical_evaluation_status": "Unavailable in released author evaluator; NVIDIA FleX generation pipeline is not included in the ACRONYM tools.",
+  "full_benchmark_status": "Blocked until at least three licensed distinct matched mesh/H5 objects are supplied; two public examples are smoke-only."
+}

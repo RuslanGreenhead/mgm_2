@@ -1,0 +1,23 @@
+[
+  {
+    "kernel_mmd2_v": 0.013457945124171422,
+    "symmetric_nn": 0.1300635641216229,
+    "minimum_matching_distance": 0.05540017100944697,
+    "radius_coverage": 0.388671875,
+    "nn_occupancy_coverage": 0.392578125,
+    "one_nna": 0.67236328125,
+    "constraint_mean": 0.0,
+    "generated_n": 1024,
+    "target_n": 1024,
+    "data": "general",
+    "method": "mgm",
+    "variant": null,
+    "recipe_id": "general_c1_s0",
+    "seed": 0,
+    "step": 2000,
+    "split": "val",
+    "draw": 0,
+    "train_seconds": 23.840055600000596,
+    "model_forward_calls": 1
+  }
+]

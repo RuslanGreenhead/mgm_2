@@ -1,0 +1,19 @@
+{
+  "data": "fire",
+  "method": "mmd_mlp",
+  "training_seed": 2,
+  "origin": "copied_unchanged",
+  "source_directory": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled\\fire\\mmd_mlp\\seed2",
+  "new_training_seconds": 0.0,
+  "copied_sha256": {
+    "completed.json": "fb64672fa8d584947dec3488bea732f6a56e4b7bf7e2e769ca8c8353ca828f20",
+    "config.json": "b6f5aeb22ceda855222f5153124ebebbb7e655718e97f4ca1cb78fca394dbd4c",
+    "evaluation_step2000.json": "e2df1872ccbd61651ad6745abb079122935caeab634b4d4d46ea77147ab8c27d",
+    "learning_curve.json": "932dd50c6502bf38a7602979df91ebc63771a7969fc41492f0bf0a5f370e2c92",
+    "samples_step2000_nfe1.npz": "8b361e1e7937f319317d6fa63e0d963c2577a0aea5ac353542a9d052d040191d",
+    "step2000.pt": "87a6d81ddef9113059042e1f2fed163bd22178da7a1fd99a6ada4f2c1ae2dc16"
+  },
+  "reason": "No pre-final training evaluation; original initialization/target/latent/path streams unaffected by the CPU timing reset",
+  "saved_private_rng_states": false,
+  "source_provenance": "Original source_snapshot and mmd_protocol.json remain untouched"
+}

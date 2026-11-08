@@ -1,0 +1,16 @@
+{
+  "finished_at": "2026-10-23T19:06:13.800982+00:00",
+  "steps": 10000,
+  "train_seconds": 23.447336400000495,
+  "setup_seconds_including_data_and_initialization": 0.044592399999601184,
+  "evaluation_rows": 24,
+  "finite_parameters": true,
+  "parameter_change_l2": {
+    "net.net.0.weight": 4.101253509521484,
+    "net.net.0.bias": 0.8026845455169678,
+    "net.net.2.weight": 7.261668682098389,
+    "net.net.2.bias": 0.32194826006889343,
+    "net.net.4.weight": 1.028934121131897,
+    "net.net.4.bias": 0.023939887061715126
+  }
+}

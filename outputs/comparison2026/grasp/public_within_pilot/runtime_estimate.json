@@ -1,0 +1,21 @@
+{
+  "method_estimates": {
+    "mgm": {
+      "measured_updates": 10000,
+      "seconds_per_update": 0.03545094749000009,
+      "linear_10k_training_seconds": 355.19082670000085
+    },
+    "rmf_mt": {
+      "measured_updates": 10000,
+      "seconds_per_update": 0.009334376979999979,
+      "linear_10k_training_seconds": 93.34376979999979
+    },
+    "rfm": {
+      "measured_updates": 10000,
+      "seconds_per_update": 0.004820237850000012,
+      "linear_10k_training_seconds": 48.20237850000012
+    }
+  },
+  "three_seed_training_seconds": 1490.2109250000024,
+  "limitation": "Linear measured CUDA training estimate only, excludes evaluation, FCL and rendering; no quality tuning"
+}

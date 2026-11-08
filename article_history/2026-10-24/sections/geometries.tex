@@ -1,0 +1,44 @@
+\section{Geometries and Output Constraints}
+\label{sec:geometries}
+The loss requires an admissible path and tangent critic; the generator separately enforces output validity. \Cref{tab:geometries} summarizes the main cases. An admissible path family transfers \cref{thm:divergence} independently of the architecture used to realize the endpoint law.
+
+\begin{table*}[t]
+\caption{\textbf{Geometric realizations of \RMGM\ (ours).} Closed-form entries allow simulation-free deterministic interpolation. Numerical floors restrict or approximate the ideal domain. General mesh paths may need numerical solution; the mesh experiments use a separate surrogate.}
+\label{tab:geometries}
+\centering
+\small
+\begin{tabular}{@{}llll@{}}
+\toprule
+Domain & Generator constraint & Path and critic metric & Numerical issue \\
+\midrule
+Sphere $\mathbb S^{d-1}$ & Normalize nonzero output & Great-circle arc; tangent dot product & Near-antipodal pairs \\
+Flat torus $\mathbb T^d$ & Angles modulo $2\pi$ & Shortest periodic displacement; flat metric & Ties at angle $\pi$ \\
+Hyperbolic ball & Radial map inside the ball & Hyperbolic geodesic; conformal metric & Boundary conditioning \\
+SPD matrices & Cholesky factor $LL^\top+\varepsilon I$ & Affine-invariant geodesic and metric & Spectral derivatives \\
+Triangular surface & Projection or chart map & Admissible surface path required & Continuity and coverage \\
+\bottomrule
+\end{tabular}
+\end{table*}
+
+\paragraph{Spheres and flat tori.}
+For the unit sphere, $G_\theta(z)=h_\theta(z)/\|h_\theta(z)\|_2$ and $f_\psi(t,x)=(I-xx^\top)h_\psi(t,x)$. The loss uses the great-circle path away from antipodes. On a flat torus, write $\delta=\operatorname{wrap}_{(-\pi,\pi]}(x_1-x_0)$. Then $\gamma_s=(x_0+s\delta)\bmod 2\pi$ and $A_s=\delta$, with a reversal-consistent tie convention. The current critic and controlled flow consume wrapped angle coordinates rather than circular spatial features, so finite-network seam effects remain a shared implementation limitation.
+
+\paragraph{Hyperbolic space and SPD matrices.}
+On the Poincar\'e ball, the metric is conformally Euclidean; the local factor must enter the loss and generator gradient. For $X\in\mathbb S_{++}^n$, affine-invariant choices are
+\begin{align}
+g_X(U,V)&=\Tr(X^{-1}UX^{-1}V),\notag\\
+\gamma_s&=X_0^{1/2}(X_0^{-1/2}X_1X_0^{-1/2})^sX_0^{1/2}.
+\label{eq:spd}
+\end{align}
+The critic is symmetric, with the metric computed through whitened tangent matrices. A log-Euclidean alternative \citep{arsigny2006log} reduces to Euclidean MGM in matrix-logarithm coordinates; it changes the metric and is not equivalent to the affine-invariant experiment. \Cref{app:geometry} gives numerical qualifications.
+
+\paragraph{Directed paths and surfaces.}
+An RFM premetric path need not be reversible. Mixing a directed kernel $K_{x,y}$ with the reversed kernel $K_{y,x}$, with equal weights, creates a reversible kernel (\cref{prop:symmetrize}). This provides a general-geometry construction but retains numerical integration and differentiation costs.
+
+Our exploratory mesh implementation instead uses
+\begin{equation}
+\widetilde x=\Pi_\M((1-s)x_0+sx_1),\qquad
+a=\Pi_{T_{\widetilde x}\M}(x_1-x_0).
+\label{eq:mesh-surrogate}
+\end{equation}
+In a region projecting to a fixed face interior, this is a useful local construction. Across nearest-face switches the path can jump, and its assigned tangent need not represent the full current. Thus \cref{thm:divergence} is not applied to these runs. Similarly, a radial sphere-to-mesh map produces surface points but need not be bijective or cover concave patches. Topological equivalence to a sphere does not justify that particular map. These are empirical parameterization studies, not an exact spectral-path implementation.

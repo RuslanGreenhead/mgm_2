@@ -1,0 +1,21 @@
+# Checkerboard target on H^2 (hyperboloid model in R^3).
+
+temperature: 0.5
+eta: 1.0
+max_step: 5.0
+
+hidden: 256
+depth: 5
+
+steps: 2000
+batch_size: 2048
+lr: 1.0e-3
+grad_clip: 1.0
+log_every: 100
+capture_steps: "0,50,200,1000,2000"
+
+n_points: 10000
+n_eval_samples: 4096
+sliced_w2_n_proj: 128
+
+device: auto

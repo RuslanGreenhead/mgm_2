@@ -1,0 +1,9 @@
+{
+  "n": 1024,
+  "mean_l2": 0.0564856119453907,
+  "q90_l2": 0.14484238624572754,
+  "max_l2": 0.4619247615337372,
+  "bbox_diagonal": 2.588089942932129,
+  "fraction_error_gt_1pct_bbox_diagonal": 0.5068359375,
+  "meaning": "Diagnostic of the trained soft-radius map, not a bijection certificate"
+}

@@ -1,0 +1,128 @@
+[
+  {
+    "trial": "raw_random_mlp_c5",
+    "finished_at": "2026-10-23T19:29:02.273768+00:00",
+    "training_seed": 0,
+    "steps": 2000,
+    "critic_updates": 10500,
+    "train_seconds": 19.790317999999388,
+    "total_optimizer_updates": 12500,
+    "test_evaluations": 0,
+    "parameter_change_l2": {
+      "raw.net.0.weight": 0.8161711692810059,
+      "raw.net.0.bias": 0.2415214627981186,
+      "raw.net.2.weight": 2.283928632736206,
+      "raw.net.2.bias": 0.1973423957824707,
+      "raw.net.4.weight": 0.33568865060806274,
+      "raw.net.4.bias": 0.022117307409644127
+    },
+    "initial_validation_mmd2_mean": 0.7503351439821078,
+    "final_validation_mmd2_mean": 0.25637043430879236,
+    "final_validation_mmd2_sd_mc": 0.009507808482055296,
+    "validation_mmd2_change": -0.4939647096733154
+  },
+  {
+    "trial": "periodic_random_mlp_c5",
+    "finished_at": "2026-10-23T19:29:25.140870+00:00",
+    "training_seed": 0,
+    "steps": 2000,
+    "critic_updates": 10500,
+    "train_seconds": 20.568011400002433,
+    "total_optimizer_updates": 12500,
+    "test_evaluations": 0,
+    "parameter_change_l2": {
+      "raw.net.0.weight": 0.7648303508758545,
+      "raw.net.0.bias": 0.24086664617061615,
+      "raw.net.2.weight": 2.186457872390747,
+      "raw.net.2.bias": 0.19912351667881012,
+      "raw.net.4.weight": 0.326434463262558,
+      "raw.net.4.bias": 0.022737985476851463
+    },
+    "initial_validation_mmd2_mean": 0.7503351439821078,
+    "final_validation_mmd2_mean": 0.2923664053914051,
+    "final_validation_mmd2_sd_mc": 0.008221165669983035,
+    "validation_mmd2_change": -0.45796873859070264
+  },
+  {
+    "trial": "periodic_random_gmm_c5",
+    "finished_at": "2026-10-23T19:29:48.252522+00:00",
+    "training_seed": 0,
+    "steps": 2000,
+    "critic_updates": 10500,
+    "train_seconds": 20.819345899997643,
+    "total_optimizer_updates": 12500,
+    "test_evaluations": 0,
+    "parameter_change_l2": {
+      "centers": 0.14562739431858063,
+      "log_scale": 0.09691378474235535,
+      "component_logits": 0.0
+    },
+    "initial_validation_mmd2_mean": 0.20386137313350405,
+    "final_validation_mmd2_mean": 0.19985160850990688,
+    "final_validation_mmd2_sd_mc": 0.014925351767106455,
+    "validation_mmd2_change": -0.004009764623597173
+  },
+  {
+    "trial": "periodic_kmeans_gmm_c5",
+    "finished_at": "2026-10-23T19:30:11.614958+00:00",
+    "training_seed": 0,
+    "steps": 2000,
+    "critic_updates": 10500,
+    "train_seconds": 20.688186499995936,
+    "total_optimizer_updates": 12500,
+    "test_evaluations": 0,
+    "parameter_change_l2": {
+      "centers": 0.07666754722595215,
+      "log_scale": 0.043298959732055664,
+      "component_logits": 0.0
+    },
+    "initial_validation_mmd2_mean": 0.000817399596440301,
+    "final_validation_mmd2_mean": 0.0008279129188593822,
+    "final_validation_mmd2_sd_mc": 0.0004690652722936418,
+    "validation_mmd2_change": 1.0513322419081206e-05
+  },
+  {
+    "trial": "periodic_random_mlp_c10",
+    "finished_at": "2026-10-23T19:30:48.744162+00:00",
+    "training_seed": 0,
+    "steps": 2000,
+    "critic_updates": 20500,
+    "train_seconds": 34.917269799996575,
+    "total_optimizer_updates": 22500,
+    "test_evaluations": 0,
+    "parameter_change_l2": {
+      "raw.net.0.weight": 0.7552590370178223,
+      "raw.net.0.bias": 0.240590900182724,
+      "raw.net.2.weight": 2.16768217086792,
+      "raw.net.2.bias": 0.1988012194633484,
+      "raw.net.4.weight": 0.3241330087184906,
+      "raw.net.4.bias": 0.02277243137359619
+    },
+    "initial_validation_mmd2_mean": 0.7503351439821078,
+    "final_validation_mmd2_mean": 0.29839149951936134,
+    "final_validation_mmd2_sd_mc": 0.008010903478451242,
+    "validation_mmd2_change": -0.45194364446274643
+  },
+  {
+    "trial": "periodic_rfm",
+    "finished_at": "2026-10-23T19:31:21.792171+00:00",
+    "training_seed": 0,
+    "steps": 22500,
+    "critic_updates": 0,
+    "train_seconds": 30.369137499998033,
+    "total_optimizer_updates": 22500,
+    "test_evaluations": 0,
+    "parameter_change_l2": {
+      "net.net.0.weight": 5.844304084777832,
+      "net.net.0.bias": 0.6587228178977966,
+      "net.net.2.weight": 10.791625022888184,
+      "net.net.2.bias": 0.3757303059101105,
+      "net.net.4.weight": 1.7154256105422974,
+      "net.net.4.bias": 0.03370672091841698
+    },
+    "initial_validation_mmd2_mean": 0.19540164656447787,
+    "final_validation_mmd2_mean": 0.001909495374807113,
+    "final_validation_mmd2_sd_mc": 0.0011071088667831957,
+    "validation_mmd2_change": -0.19349215118967075
+  }
+]

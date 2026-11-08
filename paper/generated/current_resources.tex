@@ -1,0 +1,14 @@
+\begin{table}[H]
+\centering\small
+\caption{Recorded training on one RTX 4090 (24 GB), PyTorch 2.5.1/CUDA 12.1. Minutes sum per-job training wall times, including critic warmup but excluding validation/evaluation; two concurrent workers cause overlapping wall time, so this is not device occupancy or an efficiency ranking. Partial rows stop at durable checkpoints and omit discarded in-flight updates. These rows exclude calibration/refinement, solver/throughput probes, failed preliminary attempts, and older studies; they are not total project GPU cost. The earlier 72-job controlled bundle separately records 17.03 training minutes.}
+\label{tab:current-cost}
+\begin{tabular}{@{}lrrrrr@{}}
+\toprule
+Evidence block & Jobs & G/field updates & Critic updates & Minutes & Max workers \\
+\midrule
+Recent completed jobs & 18 & 900,000 & 1,501,500 & 163.24 & 2 \\
+Recent saved partial jobs & 2 & 60,000 & 601,000 & 18.88 & 2 \\
+Completed grasp jobs & 9 & 90,000 & 150,300 & 22.06 & 1 \\
+\bottomrule
+\end{tabular}
+\end{table}

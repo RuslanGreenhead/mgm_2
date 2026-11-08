@@ -1,0 +1,830 @@
+[
+  {
+    "data": "fire",
+    "method": "mgm_mlp",
+    "training_seed": 0,
+    "origin": "copied_unchanged",
+    "source_directory": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled\\fire\\mgm_mlp\\seed0",
+    "new_training_seconds": 0.0,
+    "copied_sha256": {
+      "completed.json": "f82438bea4107ad0392a3354a20d6665d36edf399e541602acdac7dd21d33820",
+      "config.json": "d308d70817b84050884a9606030c74db54ec6987dbd729f8c7d852fa53bef17b",
+      "evaluation_step2000.json": "31c2f59bd1ce2e4f5e8d66402935dcc7e6a1d9ead632fe45f0fc364f82627031",
+      "learning_curve.json": "17f6e70afd8ebf4bfbca26dabf8fdf9abdc229e21702bbe5fbb4cba7110d988e",
+      "samples_step2000_nfe1.npz": "a9b990b2cbf79deea68d58f818f5729fba7a909a65569a622359244f751038dc",
+      "step2000.pt": "d2d9832cb4eb4a15679719ebfa666ac7b5e5b0057b82940da7a8fd7d18190273"
+    },
+    "reason": "No pre-final training evaluation; original initialization/target/latent/path streams unaffected by the CPU timing reset",
+    "saved_private_rng_states": false,
+    "source_provenance": "Original source_snapshot and mmd_protocol.json remain untouched"
+  },
+  {
+    "data": "fire",
+    "method": "mgm_mlp",
+    "training_seed": 1,
+    "origin": "copied_unchanged",
+    "source_directory": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled\\fire\\mgm_mlp\\seed1",
+    "new_training_seconds": 0.0,
+    "copied_sha256": {
+      "completed.json": "5e1ea0d16ed85e56e97258ec5ba80f1f03aab457b50f2b4b165ba88b61ec2974",
+      "config.json": "2e5970bb37617d46b3e7a9172631371574d60d34dac657d5a32ed1727bb6adc4",
+      "evaluation_step2000.json": "f5648eff7dd0fee2c75837d04f6f300e7f1e90177f4866dc73375dec4eeb06d0",
+      "learning_curve.json": "b67e3306284de129d09db518147693d32fe31a7d6eea45178710d62f8c5e59fb",
+      "samples_step2000_nfe1.npz": "21abbd6d15daf691ade4e4ad7485421cf584e6d0da98a5d28a297dbef4a75983",
+      "step2000.pt": "31ef1b31d0701aeb12a461cc6e2e6737e4fceb26aaaedcfba4f4d50d2efc4f59"
+    },
+    "reason": "No pre-final training evaluation; original initialization/target/latent/path streams unaffected by the CPU timing reset",
+    "saved_private_rng_states": false,
+    "source_provenance": "Original source_snapshot and mmd_protocol.json remain untouched"
+  },
+  {
+    "data": "fire",
+    "method": "mgm_mlp",
+    "training_seed": 2,
+    "origin": "copied_unchanged",
+    "source_directory": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled\\fire\\mgm_mlp\\seed2",
+    "new_training_seconds": 0.0,
+    "copied_sha256": {
+      "completed.json": "82692cb9f2fb1948e455333d6fe34c5955d3195b0ae1c6e9531af8e4d93a1e75",
+      "config.json": "d0f330131cf4118142eb6d3aa02df6b13536ded76db7136edd30fd7ba5a29f7f",
+      "evaluation_step2000.json": "e416dcb7b6d5cb5ac4ab5a249722fa0b401ecbb8dd4c746d356dee4494744958",
+      "learning_curve.json": "31e5a20746c0ceec69cebdc4b6735ab61fbad64351dc23071a0aa028b565f9e8",
+      "samples_step2000_nfe1.npz": "161694131d035bb3e30f153f9948b81bae9a792c7e9e92f6a8e0ef6e1cf863ca",
+      "step2000.pt": "add681e69fe4165482cf725818b61b657597d4295f77124139afc8d31ce156ec"
+    },
+    "reason": "No pre-final training evaluation; original initialization/target/latent/path streams unaffected by the CPU timing reset",
+    "saved_private_rng_states": false,
+    "source_provenance": "Original source_snapshot and mmd_protocol.json remain untouched"
+  },
+  {
+    "data": "fire",
+    "method": "mmd_mlp",
+    "training_seed": 0,
+    "origin": "copied_unchanged",
+    "source_directory": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled\\fire\\mmd_mlp\\seed0",
+    "new_training_seconds": 0.0,
+    "copied_sha256": {
+      "completed.json": "b9e378d583d9f37248b1fd669120190b0338a7ce19f16c69786c846fc3dd0030",
+      "config.json": "ab95eed7f144ebe2b0d86459392d6ff4379aa9f6e93ad6689295607e2b22c120",
+      "evaluation_step2000.json": "1acac63bd361d203d266533d07d6dc70acdcdf5731fbf1cabb2ff1e4f40d22bb",
+      "learning_curve.json": "4c53340735b06a19c85f149b5ec3c88c2cb63cafa20fca483b9114e1fb16a2c7",
+      "samples_step2000_nfe1.npz": "3e53bd9659684903055d401117c1d7bd5117ce5e787ce570c2f604e04e44da9c",
+      "step2000.pt": "47df19b81687b8833a73af5114be5011c46c81277a4046797aaed54220b8631c"
+    },
+    "reason": "No pre-final training evaluation; original initialization/target/latent/path streams unaffected by the CPU timing reset",
+    "saved_private_rng_states": false,
+    "source_provenance": "Original source_snapshot and mmd_protocol.json remain untouched"
+  },
+  {
+    "data": "fire",
+    "method": "mmd_mlp",
+    "training_seed": 1,
+    "origin": "copied_unchanged",
+    "source_directory": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled\\fire\\mmd_mlp\\seed1",
+    "new_training_seconds": 0.0,
+    "copied_sha256": {
+      "completed.json": "7377e58df2c0e7d06acd7593f16dea7bf34e2ffc8bce68ed665d68509ec58740",
+      "config.json": "55b87b8404b5529c8776f048b92e3c8407525790515503bdb4241e12adc879af",
+      "evaluation_step2000.json": "07dee46457801c3f23c0f817bb3173a914d88a82bc3af3e3fa9667acfb80d1fd",
+      "learning_curve.json": "be8e2a73cc9485d0d9704d3a06c640f99288879cee05d9bc046d323b122b8f98",
+      "samples_step2000_nfe1.npz": "f2aa504d37a9d25f4a2ef660e9f8bddfe9f7fa0aeeb02835a0fc9f9fdcbb389a",
+      "step2000.pt": "606bcdb1d77a403519761182655d4fe4f4383503a94bad2bfb8727746396b7f4"
+    },
+    "reason": "No pre-final training evaluation; original initialization/target/latent/path streams unaffected by the CPU timing reset",
+    "saved_private_rng_states": false,
+    "source_provenance": "Original source_snapshot and mmd_protocol.json remain untouched"
+  },
+  {
+    "data": "fire",
+    "method": "mmd_mlp",
+    "training_seed": 2,
+    "origin": "copied_unchanged",
+    "source_directory": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled\\fire\\mmd_mlp\\seed2",
+    "new_training_seconds": 0.0,
+    "copied_sha256": {
+      "completed.json": "fb64672fa8d584947dec3488bea732f6a56e4b7bf7e2e769ca8c8353ca828f20",
+      "config.json": "b6f5aeb22ceda855222f5153124ebebbb7e655718e97f4ca1cb78fca394dbd4c",
+      "evaluation_step2000.json": "e2df1872ccbd61651ad6745abb079122935caeab634b4d4d46ea77147ab8c27d",
+      "learning_curve.json": "932dd50c6502bf38a7602979df91ebc63771a7969fc41492f0bf0a5f370e2c92",
+      "samples_step2000_nfe1.npz": "8b361e1e7937f319317d6fa63e0d963c2577a0aea5ac353542a9d052d040191d",
+      "step2000.pt": "87a6d81ddef9113059042e1f2fed163bd22178da7a1fd99a6ada4f2c1ae2dc16"
+    },
+    "reason": "No pre-final training evaluation; original initialization/target/latent/path streams unaffected by the CPU timing reset",
+    "saved_private_rng_states": false,
+    "source_provenance": "Original source_snapshot and mmd_protocol.json remain untouched"
+  },
+  {
+    "data": "general",
+    "method": "mgm_mlp",
+    "training_seed": 0,
+    "origin": "copied_unchanged",
+    "source_directory": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled\\general\\mgm_mlp\\seed0",
+    "new_training_seconds": 0.0,
+    "copied_sha256": {
+      "completed.json": "bd2977dc23fae23f1e5e22b788e98cb5fbe4dc908f26c0f344d9caf501136e61",
+      "config.json": "ab27efae1ea1b661d4b195292571ccb591a95f816fc9921d0679fe05920f8848",
+      "evaluation_step2000.json": "97eeb4d6a717832af9754b2f896952cc9508c2214c2adf4bd851ba31f61875ee",
+      "learning_curve.json": "ee978ca1e4c6fef9ad3704864515c771a67a7688c351267cb47f7b8b9e9e5dc9",
+      "samples_step2000_nfe1.npz": "459f5541decf788fde84c3c55d845cc067005eca949d29e946180dc0d93cebc0",
+      "step2000.pt": "56f6fa5de4fecc3449e8619420f3c8266ce8f05f6b0ff5787aee2dc3c4fd4531"
+    },
+    "reason": "No pre-final training evaluation; original initialization/target/latent/path streams unaffected by the CPU timing reset",
+    "saved_private_rng_states": false,
+    "source_provenance": "Original source_snapshot and mmd_protocol.json remain untouched"
+  },
+  {
+    "data": "general",
+    "method": "mgm_mlp",
+    "training_seed": 1,
+    "origin": "copied_unchanged",
+    "source_directory": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled\\general\\mgm_mlp\\seed1",
+    "new_training_seconds": 0.0,
+    "copied_sha256": {
+      "completed.json": "539ec3650110b22fbdd6c9039a19f8f7b7dd4efee47bc19ce7e202b23a0b300f",
+      "config.json": "da943c0e56e2ce8f86df93a5957979cc3f7bead7ed38530fb9a7fca1cfd08cc4",
+      "evaluation_step2000.json": "e3473ace0b3f443823d4d1922f88c4d2a78372c2d3bcdc9631cc0fc09e51e4e7",
+      "learning_curve.json": "5dfa07984324482b6b3d5c94534ead82fe87cbc7ab3e86335b85377ffbb432dc",
+      "samples_step2000_nfe1.npz": "d41bbd09735dd2ba820b739ea7db9b2b594de20845444a845e5bf9b63bbd591d",
+      "step2000.pt": "fbd0f01c0b846181d16d94a44a2767a89dfbcc1ad5579bc8f1361df11d8d3efc"
+    },
+    "reason": "No pre-final training evaluation; original initialization/target/latent/path streams unaffected by the CPU timing reset",
+    "saved_private_rng_states": false,
+    "source_provenance": "Original source_snapshot and mmd_protocol.json remain untouched"
+  },
+  {
+    "data": "general",
+    "method": "mgm_mlp",
+    "training_seed": 2,
+    "origin": "copied_unchanged",
+    "source_directory": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled\\general\\mgm_mlp\\seed2",
+    "new_training_seconds": 0.0,
+    "copied_sha256": {
+      "completed.json": "599ab4a7a6c5d8b9c4502a10153960917d08d2728a4330e6df0a74708d5a590a",
+      "config.json": "6262bf04341f927fe3e4042ee647612cf96d3e1a9e7a6d7e1c0f1ae4fca8c652",
+      "evaluation_step2000.json": "a27877ca34e44404fd0c506bfe3f8911ccbec6e4537073e96759c4778282349b",
+      "learning_curve.json": "f06a20bd763ea7555f3c7acf031e5c154460f22f4b011baebb5683fc9f0f6548",
+      "samples_step2000_nfe1.npz": "41998d57212d4a0e27ce8c865b5673f975ee0b0275df3ff4ddf44420378fa5dc",
+      "step2000.pt": "a32114154f86581ddd486ae2efc8ad63764b4aa1dd34a7cf1916f396d6956754"
+    },
+    "reason": "No pre-final training evaluation; original initialization/target/latent/path streams unaffected by the CPU timing reset",
+    "saved_private_rng_states": false,
+    "source_provenance": "Original source_snapshot and mmd_protocol.json remain untouched"
+  },
+  {
+    "data": "general",
+    "method": "mmd_mlp",
+    "training_seed": 0,
+    "origin": "copied_unchanged",
+    "source_directory": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled\\general\\mmd_mlp\\seed0",
+    "new_training_seconds": 0.0,
+    "copied_sha256": {
+      "completed.json": "862c8caedf377a9f21d296eda7eab2717bef16758c8ca5646aa6e7424f26f806",
+      "config.json": "87acc524ea98735359ccf829ec326d46d578cf43bae0bb6008e8e9252293e341",
+      "evaluation_step2000.json": "0ffcf89af9aeeb5a5af1b6ccfba7d0c3a8f66fce5f84ff24f223a975b054b7cb",
+      "learning_curve.json": "3c9a76b38bde81025c7f1a7888e8f5a96618406f6130dd2ec9231b2333c6e060",
+      "samples_step2000_nfe1.npz": "b1b8a6ebe7331510664f3613bf645237ff534f89a7f39df87d085c49a5e8d352",
+      "step2000.pt": "e88f704be81ad9ef216c1f93a42abab7832e5a87a83f0af902d57c9ddf7d0c45"
+    },
+    "reason": "No pre-final training evaluation; original initialization/target/latent/path streams unaffected by the CPU timing reset",
+    "saved_private_rng_states": false,
+    "source_provenance": "Original source_snapshot and mmd_protocol.json remain untouched"
+  },
+  {
+    "data": "general",
+    "method": "mmd_mlp",
+    "training_seed": 1,
+    "origin": "copied_unchanged",
+    "source_directory": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled\\general\\mmd_mlp\\seed1",
+    "new_training_seconds": 0.0,
+    "copied_sha256": {
+      "completed.json": "fff4813ec092fd4673cdb73e28f9770be56e5e7f447a975783fad5018a4425dd",
+      "config.json": "0456affe23be2a66835fd69936b8ae30d2cfe668fd9bbabae2d46fe7a80d5b6f",
+      "evaluation_step2000.json": "023c152e67b563ce26929c29bedc1f8f89dc9afca82e5fff7206c3d32ec5ff73",
+      "learning_curve.json": "cb8a2937a2a1c49d1960c13b4b2b0d66bc8498ea9822aa1d15322e6ea3c0eb04",
+      "samples_step2000_nfe1.npz": "b028e36fde16c26500019b416ce509a7a6f6dda8a63816d141bcf8a8f693fdfb",
+      "step2000.pt": "839ddb0215fafa1e5ed76a22772a5eedd18740482e648998045807896cc9362b"
+    },
+    "reason": "No pre-final training evaluation; original initialization/target/latent/path streams unaffected by the CPU timing reset",
+    "saved_private_rng_states": false,
+    "source_provenance": "Original source_snapshot and mmd_protocol.json remain untouched"
+  },
+  {
+    "data": "general",
+    "method": "mmd_mlp",
+    "training_seed": 2,
+    "origin": "copied_unchanged",
+    "source_directory": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled\\general\\mmd_mlp\\seed2",
+    "new_training_seconds": 0.0,
+    "copied_sha256": {
+      "completed.json": "8862cd9bb32e6c77c9f5e3e1073e535dc9672a9050cabaf6e98c4b494b4276d8",
+      "config.json": "5e3cd8e563eeb4d020e7c615bafb7acd1206ffe2d4b1fbbc73d9a7c3423b3179",
+      "evaluation_step2000.json": "4eea5e4acb3778a2fe9a5a675c6402136e1ab367d11ede1a391a32ed45b6e27f",
+      "learning_curve.json": "e42c17ce0818583388997af294d05619f6c021289eac4344fac8378b96cb7b8e",
+      "samples_step2000_nfe1.npz": "7fe77d229e6a541b75348f9ce0a1c8acf8b64a710a2e8ba1c6e4368650c69eda",
+      "step2000.pt": "378afbd752f90d52ffb789f7f19655090b24fac8ef1764c20325dd48530852d0"
+    },
+    "reason": "No pre-final training evaluation; original initialization/target/latent/path streams unaffected by the CPU timing reset",
+    "saved_private_rng_states": false,
+    "source_provenance": "Original source_snapshot and mmd_protocol.json remain untouched"
+  },
+  {
+    "data": "rna",
+    "method": "mgm_mlp",
+    "training_seed": 0,
+    "origin": "copied_unchanged",
+    "source_directory": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled\\rna\\mgm_mlp\\seed0",
+    "new_training_seconds": 0.0,
+    "copied_sha256": {
+      "completed.json": "801b15fcea004638582775ef005c9a3ab74deffc587b3109a84b2cb506359e21",
+      "config.json": "ea8eefd9c16f215c64efe6ce1e58010920d00edac80f8a2cbff741f25a1945c1",
+      "evaluation_step2000.json": "49a8544ac3e7d975aa8ddfa24fe9394db1c25c94e17315b2b9e137f8be917e91",
+      "learning_curve.json": "639e55edb11c25f93e28b159a0778ef6c6824d0bfe8bb2b79b40bda6c986d39d",
+      "samples_step2000_nfe1.npz": "c39a8278e8bb1b75d840400a1da2d618c1e989c61ddbe84fd9335b098d54b0de",
+      "step2000.pt": "7643ecc393e5cac708c5763a39874ff541948aa3f39811e5d5e5117af0ca0d76"
+    },
+    "reason": "No pre-final training evaluation; original initialization/target/latent/path streams unaffected by the CPU timing reset",
+    "saved_private_rng_states": false,
+    "source_provenance": "Original source_snapshot and mmd_protocol.json remain untouched"
+  },
+  {
+    "data": "rna",
+    "method": "mgm_mlp",
+    "training_seed": 1,
+    "origin": "copied_unchanged",
+    "source_directory": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled\\rna\\mgm_mlp\\seed1",
+    "new_training_seconds": 0.0,
+    "copied_sha256": {
+      "completed.json": "a5d3465be18df5e0c3aef6e6f156e75f21670879dc04e20db6716d813ea89c0a",
+      "config.json": "ba236cf4cc985444685101cdf0d5c1ae323a9849e5bd3835f6b1c7bb30e18a76",
+      "evaluation_step2000.json": "06f24f3902dc0eb2852173844fb59fd6767e450ac4c388c4cf443bbf20892482",
+      "learning_curve.json": "958cabdf47190d85a67eb2237a4cd31cd9dfa642d2dc511c80ba071c8554a801",
+      "samples_step2000_nfe1.npz": "3a371670c4b75508b1e601b74f62cc6f718a0365bccb738fd4fd860bf7949d3d",
+      "step2000.pt": "1409d577435d3c6c184885f13e0b18c127c5fe6246a6179fe9084015c5c513a2"
+    },
+    "reason": "No pre-final training evaluation; original initialization/target/latent/path streams unaffected by the CPU timing reset",
+    "saved_private_rng_states": false,
+    "source_provenance": "Original source_snapshot and mmd_protocol.json remain untouched"
+  },
+  {
+    "data": "rna",
+    "method": "mgm_mlp",
+    "training_seed": 2,
+    "origin": "copied_unchanged",
+    "source_directory": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled\\rna\\mgm_mlp\\seed2",
+    "new_training_seconds": 0.0,
+    "copied_sha256": {
+      "completed.json": "ec408f70535a68c8faff2191e23d1cce45411637fd537d916d7977de1b8ecf28",
+      "config.json": "a3d6fac1040889e8475f01e6a21cd304632e3e79525fce8378e63765c9e16396",
+      "evaluation_step2000.json": "24df86792d1ba4b2b78c7edd89fec49051e3c3ca378beb2ffd1cbab5d8478fdc",
+      "learning_curve.json": "f9be712e17452863124ec3d38b39289b53148bfd80500f379c0fbb63afb60813",
+      "samples_step2000_nfe1.npz": "28eaf3b954e53b2ee5abb585b66c5eb5a998ae59bea3dd06d4b0c8c6ffe708a4",
+      "step2000.pt": "654a6903cb398bafbdaf4f2670da084f9335aee2210d9adfa25ef17c8160aff6"
+    },
+    "reason": "No pre-final training evaluation; original initialization/target/latent/path streams unaffected by the CPU timing reset",
+    "saved_private_rng_states": false,
+    "source_provenance": "Original source_snapshot and mmd_protocol.json remain untouched"
+  },
+  {
+    "data": "rna",
+    "method": "mmd_mlp",
+    "training_seed": 0,
+    "origin": "copied_unchanged",
+    "source_directory": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled\\rna\\mmd_mlp\\seed0",
+    "new_training_seconds": 0.0,
+    "copied_sha256": {
+      "completed.json": "2d7d7921f72d2c923bebd115012f23f767e487bc4c5e848edf91b9d17100a9d1",
+      "config.json": "7e4c11c0458b104cfad42f339948ddd7b2cd8318af6dff3b286b6f203af27fb1",
+      "evaluation_step2000.json": "8e25a233332bbcffcd951eaa372a1d5106b1f4b86cbcde8564d4831117442f7b",
+      "learning_curve.json": "e43e9cada20a33c40cd4ea4896e2989ec8dc8655b56fdbab299d87cc4e564fd9",
+      "samples_step2000_nfe1.npz": "c30b02e6b67a15bec7c7632ae9f29c8490aafdb7a43c282160cda013a46d51cd",
+      "step2000.pt": "35ffd2981e86a64e1338150ee881fb3963928ad91a01315e537202f4e93744ed"
+    },
+    "reason": "No pre-final training evaluation; original initialization/target/latent/path streams unaffected by the CPU timing reset",
+    "saved_private_rng_states": false,
+    "source_provenance": "Original source_snapshot and mmd_protocol.json remain untouched"
+  },
+  {
+    "data": "rna",
+    "method": "mmd_mlp",
+    "training_seed": 1,
+    "origin": "copied_unchanged",
+    "source_directory": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled\\rna\\mmd_mlp\\seed1",
+    "new_training_seconds": 0.0,
+    "copied_sha256": {
+      "completed.json": "86691d252696d622ac1de1a113ccf2f53e3c765684706e7b9c128070d0905f02",
+      "config.json": "69f910317a73023b46bf9946a6a536b677e7d58daec9028f434003d2a42c9f15",
+      "evaluation_step2000.json": "1e8c474647e9dc59acb42dca14ca5b2861ecaf3920c776fa64975d4cc1ff5c91",
+      "learning_curve.json": "ad351b18782119837044335f6da4dd1942d4f328f51e2e3869028c39303af8da",
+      "samples_step2000_nfe1.npz": "c1d324a63275c6732d5e74403240f5fc0f1605de8ffc00483ec98670b5ce82fe",
+      "step2000.pt": "596f07708e34896bf50f0c2af75d2d762fafdbe0f8a36de2210f08120c7b1d4c"
+    },
+    "reason": "No pre-final training evaluation; original initialization/target/latent/path streams unaffected by the CPU timing reset",
+    "saved_private_rng_states": false,
+    "source_provenance": "Original source_snapshot and mmd_protocol.json remain untouched"
+  },
+  {
+    "data": "rna",
+    "method": "mmd_mlp",
+    "training_seed": 2,
+    "origin": "copied_unchanged",
+    "source_directory": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled\\rna\\mmd_mlp\\seed2",
+    "new_training_seconds": 0.0,
+    "copied_sha256": {
+      "completed.json": "a6eaa67a69bffb610dc07867e41ec81ad545bcd54dd6ec17d055169ea4fe0e3f",
+      "config.json": "1b28febc7f466da9cc3807b03ae386386a2847a6319054f7c6ebd0185be76c7f",
+      "evaluation_step2000.json": "dce17a77983e73b4fec9d50f5c74165e169b2c702259a18deacaedf2f4d7b94e",
+      "learning_curve.json": "0f5a465706592b7950c0cafc597bba90be48efcfa404df242d2f0156bd957b47",
+      "samples_step2000_nfe1.npz": "d2291fec721057b15d4566ad05be1877f8077fb14058df0f51332961d2a33dc4",
+      "step2000.pt": "7954f6f38f23235844ec1e64328a8e54f886e8b9e9a3cb3cc6b94a5a86972601"
+    },
+    "reason": "No pre-final training evaluation; original initialization/target/latent/path streams unaffected by the CPU timing reset",
+    "saved_private_rng_states": false,
+    "source_provenance": "Original source_snapshot and mmd_protocol.json remain untouched"
+  },
+  {
+    "data": "fire",
+    "method": "mgm_gmm",
+    "training_seed": 0,
+    "origin": "rerun_with_independent_saved_rng_streams",
+    "old_directory": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled\\fire\\mgm_gmm\\seed0",
+    "new_directory": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled_independent\\controlled\\fire\\mgm_gmm\\seed0",
+    "fixed_hyperparameters_equal_original": true
+  },
+  {
+    "data": "fire",
+    "method": "rfm",
+    "training_seed": 0,
+    "origin": "rerun_with_independent_saved_rng_streams",
+    "old_directory": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled\\fire\\rfm\\seed0",
+    "new_directory": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled_independent\\controlled\\fire\\rfm\\seed0",
+    "fixed_hyperparameters_equal_original": true
+  },
+  {
+    "data": "fire",
+    "method": "mgm_gmm",
+    "training_seed": 1,
+    "origin": "rerun_with_independent_saved_rng_streams",
+    "old_directory": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled\\fire\\mgm_gmm\\seed1",
+    "new_directory": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled_independent\\controlled\\fire\\mgm_gmm\\seed1",
+    "fixed_hyperparameters_equal_original": true
+  },
+  {
+    "data": "fire",
+    "method": "rfm",
+    "training_seed": 1,
+    "origin": "rerun_with_independent_saved_rng_streams",
+    "old_directory": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled\\fire\\rfm\\seed1",
+    "new_directory": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled_independent\\controlled\\fire\\rfm\\seed1",
+    "fixed_hyperparameters_equal_original": true
+  },
+  {
+    "data": "fire",
+    "method": "mgm_gmm",
+    "training_seed": 2,
+    "origin": "rerun_with_independent_saved_rng_streams",
+    "old_directory": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled\\fire\\mgm_gmm\\seed2",
+    "new_directory": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled_independent\\controlled\\fire\\mgm_gmm\\seed2",
+    "fixed_hyperparameters_equal_original": true
+  },
+  {
+    "data": "fire",
+    "method": "rfm",
+    "training_seed": 2,
+    "origin": "rerun_with_independent_saved_rng_streams",
+    "old_directory": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled\\fire\\rfm\\seed2",
+    "new_directory": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled_independent\\controlled\\fire\\rfm\\seed2",
+    "fixed_hyperparameters_equal_original": true
+  },
+  {
+    "data": "general",
+    "method": "mgm_gmm",
+    "training_seed": 0,
+    "origin": "rerun_with_independent_saved_rng_streams",
+    "old_directory": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled\\general\\mgm_gmm\\seed0",
+    "new_directory": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled_independent\\controlled\\general\\mgm_gmm\\seed0",
+    "fixed_hyperparameters_equal_original": true
+  },
+  {
+    "data": "general",
+    "method": "rfm",
+    "training_seed": 0,
+    "origin": "rerun_with_independent_saved_rng_streams",
+    "old_directory": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled\\general\\rfm\\seed0",
+    "new_directory": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled_independent\\controlled\\general\\rfm\\seed0",
+    "fixed_hyperparameters_equal_original": true
+  },
+  {
+    "data": "general",
+    "method": "mgm_gmm",
+    "training_seed": 1,
+    "origin": "rerun_with_independent_saved_rng_streams",
+    "old_directory": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled\\general\\mgm_gmm\\seed1",
+    "new_directory": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled_independent\\controlled\\general\\mgm_gmm\\seed1",
+    "fixed_hyperparameters_equal_original": true
+  },
+  {
+    "data": "general",
+    "method": "rfm",
+    "training_seed": 1,
+    "origin": "rerun_with_independent_saved_rng_streams",
+    "old_directory": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled\\general\\rfm\\seed1",
+    "new_directory": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled_independent\\controlled\\general\\rfm\\seed1",
+    "fixed_hyperparameters_equal_original": true
+  },
+  {
+    "data": "general",
+    "method": "mgm_gmm",
+    "training_seed": 2,
+    "origin": "rerun_with_independent_saved_rng_streams",
+    "old_directory": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled\\general\\mgm_gmm\\seed2",
+    "new_directory": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled_independent\\controlled\\general\\mgm_gmm\\seed2",
+    "fixed_hyperparameters_equal_original": true
+  },
+  {
+    "data": "general",
+    "method": "rfm",
+    "training_seed": 2,
+    "origin": "rerun_with_independent_saved_rng_streams",
+    "old_directory": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled\\general\\rfm\\seed2",
+    "new_directory": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled_independent\\controlled\\general\\rfm\\seed2",
+    "fixed_hyperparameters_equal_original": true
+  },
+  {
+    "data": "rna",
+    "method": "mgm_gmm",
+    "training_seed": 0,
+    "origin": "rerun_with_independent_saved_rng_streams",
+    "old_directory": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled\\rna\\mgm_gmm\\seed0",
+    "new_directory": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled_independent\\controlled\\rna\\mgm_gmm\\seed0",
+    "fixed_hyperparameters_equal_original": true
+  },
+  {
+    "data": "rna",
+    "method": "rfm",
+    "training_seed": 0,
+    "origin": "rerun_with_independent_saved_rng_streams",
+    "old_directory": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled\\rna\\rfm\\seed0",
+    "new_directory": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled_independent\\controlled\\rna\\rfm\\seed0",
+    "fixed_hyperparameters_equal_original": true
+  },
+  {
+    "data": "rna",
+    "method": "mgm_gmm",
+    "training_seed": 1,
+    "origin": "rerun_with_independent_saved_rng_streams",
+    "old_directory": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled\\rna\\mgm_gmm\\seed1",
+    "new_directory": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled_independent\\controlled\\rna\\mgm_gmm\\seed1",
+    "fixed_hyperparameters_equal_original": true
+  },
+  {
+    "data": "rna",
+    "method": "rfm",
+    "training_seed": 1,
+    "origin": "rerun_with_independent_saved_rng_streams",
+    "old_directory": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled\\rna\\rfm\\seed1",
+    "new_directory": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled_independent\\controlled\\rna\\rfm\\seed1",
+    "fixed_hyperparameters_equal_original": true
+  },
+  {
+    "data": "rna",
+    "method": "mgm_gmm",
+    "training_seed": 2,
+    "origin": "rerun_with_independent_saved_rng_streams",
+    "old_directory": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled\\rna\\mgm_gmm\\seed2",
+    "new_directory": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled_independent\\controlled\\rna\\mgm_gmm\\seed2",
+    "fixed_hyperparameters_equal_original": true
+  },
+  {
+    "data": "rna",
+    "method": "rfm",
+    "training_seed": 2,
+    "origin": "rerun_with_independent_saved_rng_streams",
+    "old_directory": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled\\rna\\rfm\\seed2",
+    "new_directory": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled_independent\\controlled\\rna\\rfm\\seed2",
+    "fixed_hyperparameters_equal_original": true
+  },
+  {
+    "data": "volcano",
+    "method": "mgm_gmm",
+    "training_seed": 0,
+    "origin": "rerun_with_independent_saved_rng_streams",
+    "old_directory": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled\\volcano\\mgm_gmm\\seed0",
+    "new_directory": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled_independent\\controlled\\volcano\\mgm_gmm\\seed0",
+    "fixed_hyperparameters_equal_original": true
+  },
+  {
+    "data": "volcano",
+    "method": "rfm",
+    "training_seed": 0,
+    "origin": "rerun_with_independent_saved_rng_streams",
+    "old_directory": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled\\volcano\\rfm\\seed0",
+    "new_directory": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled_independent\\controlled\\volcano\\rfm\\seed0",
+    "fixed_hyperparameters_equal_original": true
+  },
+  {
+    "data": "volcano",
+    "method": "mgm_gmm",
+    "training_seed": 1,
+    "origin": "rerun_with_independent_saved_rng_streams",
+    "old_directory": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled\\volcano\\mgm_gmm\\seed1",
+    "new_directory": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled_independent\\controlled\\volcano\\mgm_gmm\\seed1",
+    "fixed_hyperparameters_equal_original": true
+  },
+  {
+    "data": "volcano",
+    "method": "rfm",
+    "training_seed": 1,
+    "origin": "rerun_with_independent_saved_rng_streams",
+    "old_directory": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled\\volcano\\rfm\\seed1",
+    "new_directory": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled_independent\\controlled\\volcano\\rfm\\seed1",
+    "fixed_hyperparameters_equal_original": true
+  },
+  {
+    "data": "volcano",
+    "method": "mgm_gmm",
+    "training_seed": 2,
+    "origin": "rerun_with_independent_saved_rng_streams",
+    "old_directory": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled\\volcano\\mgm_gmm\\seed2",
+    "new_directory": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled_independent\\controlled\\volcano\\mgm_gmm\\seed2",
+    "fixed_hyperparameters_equal_original": true
+  },
+  {
+    "data": "volcano",
+    "method": "rfm",
+    "training_seed": 2,
+    "origin": "rerun_with_independent_saved_rng_streams",
+    "old_directory": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled\\volcano\\rfm\\seed2",
+    "new_directory": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled_independent\\controlled\\volcano\\rfm\\seed2",
+    "fixed_hyperparameters_equal_original": true
+  },
+  {
+    "data": "earthquake",
+    "method": "mgm_gmm",
+    "training_seed": 0,
+    "origin": "rerun_with_independent_saved_rng_streams",
+    "old_directory": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled\\earthquake\\mgm_gmm\\seed0",
+    "new_directory": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled_independent\\controlled\\earthquake\\mgm_gmm\\seed0",
+    "fixed_hyperparameters_equal_original": true
+  },
+  {
+    "data": "earthquake",
+    "method": "rfm",
+    "training_seed": 0,
+    "origin": "rerun_with_independent_saved_rng_streams",
+    "old_directory": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled\\earthquake\\rfm\\seed0",
+    "new_directory": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled_independent\\controlled\\earthquake\\rfm\\seed0",
+    "fixed_hyperparameters_equal_original": true
+  },
+  {
+    "data": "earthquake",
+    "method": "mgm_gmm",
+    "training_seed": 1,
+    "origin": "rerun_with_independent_saved_rng_streams",
+    "old_directory": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled\\earthquake\\mgm_gmm\\seed1",
+    "new_directory": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled_independent\\controlled\\earthquake\\mgm_gmm\\seed1",
+    "fixed_hyperparameters_equal_original": true
+  },
+  {
+    "data": "earthquake",
+    "method": "rfm",
+    "training_seed": 1,
+    "origin": "rerun_with_independent_saved_rng_streams",
+    "old_directory": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled\\earthquake\\rfm\\seed1",
+    "new_directory": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled_independent\\controlled\\earthquake\\rfm\\seed1",
+    "fixed_hyperparameters_equal_original": true
+  },
+  {
+    "data": "earthquake",
+    "method": "mgm_gmm",
+    "training_seed": 2,
+    "origin": "rerun_with_independent_saved_rng_streams",
+    "old_directory": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled\\earthquake\\mgm_gmm\\seed2",
+    "new_directory": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled_independent\\controlled\\earthquake\\mgm_gmm\\seed2",
+    "fixed_hyperparameters_equal_original": true
+  },
+  {
+    "data": "earthquake",
+    "method": "rfm",
+    "training_seed": 2,
+    "origin": "rerun_with_independent_saved_rng_streams",
+    "old_directory": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled\\earthquake\\rfm\\seed2",
+    "new_directory": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled_independent\\controlled\\earthquake\\rfm\\seed2",
+    "fixed_hyperparameters_equal_original": true
+  },
+  {
+    "data": "flood",
+    "method": "mgm_gmm",
+    "training_seed": 0,
+    "origin": "rerun_with_independent_saved_rng_streams",
+    "old_directory": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled\\flood\\mgm_gmm\\seed0",
+    "new_directory": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled_independent\\controlled\\flood\\mgm_gmm\\seed0",
+    "fixed_hyperparameters_equal_original": true
+  },
+  {
+    "data": "flood",
+    "method": "rfm",
+    "training_seed": 0,
+    "origin": "rerun_with_independent_saved_rng_streams",
+    "old_directory": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled\\flood\\rfm\\seed0",
+    "new_directory": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled_independent\\controlled\\flood\\rfm\\seed0",
+    "fixed_hyperparameters_equal_original": true
+  },
+  {
+    "data": "flood",
+    "method": "mgm_gmm",
+    "training_seed": 1,
+    "origin": "rerun_with_independent_saved_rng_streams",
+    "old_directory": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled\\flood\\mgm_gmm\\seed1",
+    "new_directory": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled_independent\\controlled\\flood\\mgm_gmm\\seed1",
+    "fixed_hyperparameters_equal_original": true
+  },
+  {
+    "data": "flood",
+    "method": "rfm",
+    "training_seed": 1,
+    "origin": "rerun_with_independent_saved_rng_streams",
+    "old_directory": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled\\flood\\rfm\\seed1",
+    "new_directory": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled_independent\\controlled\\flood\\rfm\\seed1",
+    "fixed_hyperparameters_equal_original": true
+  },
+  {
+    "data": "flood",
+    "method": "mgm_gmm",
+    "training_seed": 2,
+    "origin": "rerun_with_independent_saved_rng_streams",
+    "old_directory": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled\\flood\\mgm_gmm\\seed2",
+    "new_directory": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled_independent\\controlled\\flood\\mgm_gmm\\seed2",
+    "fixed_hyperparameters_equal_original": true
+  },
+  {
+    "data": "flood",
+    "method": "rfm",
+    "training_seed": 2,
+    "origin": "rerun_with_independent_saved_rng_streams",
+    "old_directory": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled\\flood\\rfm\\seed2",
+    "new_directory": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled_independent\\controlled\\flood\\rfm\\seed2",
+    "fixed_hyperparameters_equal_original": true
+  },
+  {
+    "data": "glycine",
+    "method": "mgm_gmm",
+    "training_seed": 0,
+    "origin": "rerun_with_independent_saved_rng_streams",
+    "old_directory": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled\\glycine\\mgm_gmm\\seed0",
+    "new_directory": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled_independent\\controlled\\glycine\\mgm_gmm\\seed0",
+    "fixed_hyperparameters_equal_original": true
+  },
+  {
+    "data": "glycine",
+    "method": "rfm",
+    "training_seed": 0,
+    "origin": "rerun_with_independent_saved_rng_streams",
+    "old_directory": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled\\glycine\\rfm\\seed0",
+    "new_directory": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled_independent\\controlled\\glycine\\rfm\\seed0",
+    "fixed_hyperparameters_equal_original": true
+  },
+  {
+    "data": "glycine",
+    "method": "mgm_gmm",
+    "training_seed": 1,
+    "origin": "rerun_with_independent_saved_rng_streams",
+    "old_directory": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled\\glycine\\mgm_gmm\\seed1",
+    "new_directory": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled_independent\\controlled\\glycine\\mgm_gmm\\seed1",
+    "fixed_hyperparameters_equal_original": true
+  },
+  {
+    "data": "glycine",
+    "method": "rfm",
+    "training_seed": 1,
+    "origin": "rerun_with_independent_saved_rng_streams",
+    "old_directory": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled\\glycine\\rfm\\seed1",
+    "new_directory": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled_independent\\controlled\\glycine\\rfm\\seed1",
+    "fixed_hyperparameters_equal_original": true
+  },
+  {
+    "data": "glycine",
+    "method": "mgm_gmm",
+    "training_seed": 2,
+    "origin": "rerun_with_independent_saved_rng_streams",
+    "old_directory": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled\\glycine\\mgm_gmm\\seed2",
+    "new_directory": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled_independent\\controlled\\glycine\\mgm_gmm\\seed2",
+    "fixed_hyperparameters_equal_original": true
+  },
+  {
+    "data": "glycine",
+    "method": "rfm",
+    "training_seed": 2,
+    "origin": "rerun_with_independent_saved_rng_streams",
+    "old_directory": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled\\glycine\\rfm\\seed2",
+    "new_directory": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled_independent\\controlled\\glycine\\rfm\\seed2",
+    "fixed_hyperparameters_equal_original": true
+  },
+  {
+    "data": "proline",
+    "method": "mgm_gmm",
+    "training_seed": 0,
+    "origin": "rerun_with_independent_saved_rng_streams",
+    "old_directory": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled\\proline\\mgm_gmm\\seed0",
+    "new_directory": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled_independent\\controlled\\proline\\mgm_gmm\\seed0",
+    "fixed_hyperparameters_equal_original": true
+  },
+  {
+    "data": "proline",
+    "method": "rfm",
+    "training_seed": 0,
+    "origin": "rerun_with_independent_saved_rng_streams",
+    "old_directory": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled\\proline\\rfm\\seed0",
+    "new_directory": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled_independent\\controlled\\proline\\rfm\\seed0",
+    "fixed_hyperparameters_equal_original": true
+  },
+  {
+    "data": "proline",
+    "method": "mgm_gmm",
+    "training_seed": 1,
+    "origin": "rerun_with_independent_saved_rng_streams",
+    "old_directory": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled\\proline\\mgm_gmm\\seed1",
+    "new_directory": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled_independent\\controlled\\proline\\mgm_gmm\\seed1",
+    "fixed_hyperparameters_equal_original": true
+  },
+  {
+    "data": "proline",
+    "method": "rfm",
+    "training_seed": 1,
+    "origin": "rerun_with_independent_saved_rng_streams",
+    "old_directory": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled\\proline\\rfm\\seed1",
+    "new_directory": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled_independent\\controlled\\proline\\rfm\\seed1",
+    "fixed_hyperparameters_equal_original": true
+  },
+  {
+    "data": "proline",
+    "method": "mgm_gmm",
+    "training_seed": 2,
+    "origin": "rerun_with_independent_saved_rng_streams",
+    "old_directory": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled\\proline\\mgm_gmm\\seed2",
+    "new_directory": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled_independent\\controlled\\proline\\mgm_gmm\\seed2",
+    "fixed_hyperparameters_equal_original": true
+  },
+  {
+    "data": "proline",
+    "method": "rfm",
+    "training_seed": 2,
+    "origin": "rerun_with_independent_saved_rng_streams",
+    "old_directory": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled\\proline\\rfm\\seed2",
+    "new_directory": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled_independent\\controlled\\proline\\rfm\\seed2",
+    "fixed_hyperparameters_equal_original": true
+  },
+  {
+    "data": "prepro",
+    "method": "mgm_gmm",
+    "training_seed": 0,
+    "origin": "rerun_with_independent_saved_rng_streams",
+    "old_directory": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled\\prepro\\mgm_gmm\\seed0",
+    "new_directory": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled_independent\\controlled\\prepro\\mgm_gmm\\seed0",
+    "fixed_hyperparameters_equal_original": true
+  },
+  {
+    "data": "prepro",
+    "method": "rfm",
+    "training_seed": 0,
+    "origin": "rerun_with_independent_saved_rng_streams",
+    "old_directory": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled\\prepro\\rfm\\seed0",
+    "new_directory": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled_independent\\controlled\\prepro\\rfm\\seed0",
+    "fixed_hyperparameters_equal_original": true
+  },
+  {
+    "data": "prepro",
+    "method": "mgm_gmm",
+    "training_seed": 1,
+    "origin": "rerun_with_independent_saved_rng_streams",
+    "old_directory": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled\\prepro\\mgm_gmm\\seed1",
+    "new_directory": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled_independent\\controlled\\prepro\\mgm_gmm\\seed1",
+    "fixed_hyperparameters_equal_original": true
+  },
+  {
+    "data": "prepro",
+    "method": "rfm",
+    "training_seed": 1,
+    "origin": "rerun_with_independent_saved_rng_streams",
+    "old_directory": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled\\prepro\\rfm\\seed1",
+    "new_directory": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled_independent\\controlled\\prepro\\rfm\\seed1",
+    "fixed_hyperparameters_equal_original": true
+  },
+  {
+    "data": "prepro",
+    "method": "mgm_gmm",
+    "training_seed": 2,
+    "origin": "rerun_with_independent_saved_rng_streams",
+    "old_directory": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled\\prepro\\mgm_gmm\\seed2",
+    "new_directory": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled_independent\\controlled\\prepro\\mgm_gmm\\seed2",
+    "fixed_hyperparameters_equal_original": true
+  },
+  {
+    "data": "prepro",
+    "method": "rfm",
+    "training_seed": 2,
+    "origin": "rerun_with_independent_saved_rng_streams",
+    "old_directory": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled\\prepro\\rfm\\seed2",
+    "new_directory": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\paper_icml2026\\controlled_independent\\controlled\\prepro\\rfm\\seed2",
+    "fixed_hyperparameters_equal_original": true
+  }
+]

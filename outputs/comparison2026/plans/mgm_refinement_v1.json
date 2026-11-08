@@ -1,0 +1,144 @@
+{
+  "phase": "mgm_refinement_v1",
+  "jobs": [
+    {
+      "data": "fire",
+      "method": "mgm",
+      "seed": 0,
+      "steps": 4000,
+      "eval_every": 1000,
+      "validation_draws": 1,
+      "score_test": false,
+      "config": {
+        "width": 128,
+        "depth": 3,
+        "batch_size": 256,
+        "latent_dim": 16,
+        "lr": 0.0002,
+        "lr_c": 0.0008,
+        "critic_steps": 5,
+        "critic_warmup": 500,
+        "harmonics": 4,
+        "noise": 0.0,
+        "critic_width": 256
+      },
+      "output": "outputs/comparison2026/mgm_refinement_v1/fire_c0_s0"
+    },
+    {
+      "data": "fire",
+      "method": "mgm",
+      "seed": 0,
+      "steps": 4000,
+      "eval_every": 1000,
+      "validation_draws": 1,
+      "score_test": false,
+      "config": {
+        "width": 128,
+        "depth": 3,
+        "batch_size": 256,
+        "latent_dim": 16,
+        "lr": 0.0002,
+        "lr_c": 0.0004,
+        "critic_steps": 10,
+        "critic_warmup": 500,
+        "harmonics": 4,
+        "noise": 0.0,
+        "critic_width": 256
+      },
+      "output": "outputs/comparison2026/mgm_refinement_v1/fire_c1_s0"
+    },
+    {
+      "data": "general",
+      "method": "mgm",
+      "seed": 0,
+      "steps": 4000,
+      "eval_every": 1000,
+      "validation_draws": 1,
+      "score_test": false,
+      "config": {
+        "width": 128,
+        "depth": 3,
+        "batch_size": 256,
+        "latent_dim": 16,
+        "lr": 0.0002,
+        "lr_c": 0.0008,
+        "critic_steps": 5,
+        "critic_warmup": 500,
+        "harmonics": 4,
+        "noise": 0.7,
+        "critic_width": 256
+      },
+      "output": "outputs/comparison2026/mgm_refinement_v1/general_c0_s0"
+    },
+    {
+      "data": "general",
+      "method": "mgm",
+      "seed": 0,
+      "steps": 4000,
+      "eval_every": 1000,
+      "validation_draws": 1,
+      "score_test": false,
+      "config": {
+        "width": 128,
+        "depth": 3,
+        "batch_size": 256,
+        "latent_dim": 16,
+        "lr": 0.0002,
+        "lr_c": 0.0004,
+        "critic_steps": 10,
+        "critic_warmup": 500,
+        "harmonics": 4,
+        "noise": 0.7,
+        "critic_width": 256
+      },
+      "output": "outputs/comparison2026/mgm_refinement_v1/general_c1_s0"
+    },
+    {
+      "data": "rna",
+      "method": "mgm",
+      "seed": 0,
+      "steps": 4000,
+      "eval_every": 1000,
+      "validation_draws": 1,
+      "score_test": false,
+      "config": {
+        "width": 128,
+        "depth": 3,
+        "batch_size": 256,
+        "latent_dim": 16,
+        "lr": 0.0002,
+        "lr_c": 0.0008,
+        "critic_steps": 5,
+        "critic_warmup": 500,
+        "harmonics": 4,
+        "noise": 0.0,
+        "critic_width": 256
+      },
+      "output": "outputs/comparison2026/mgm_refinement_v1/rna_c0_s0"
+    },
+    {
+      "data": "rna",
+      "method": "mgm",
+      "seed": 0,
+      "steps": 4000,
+      "eval_every": 1000,
+      "validation_draws": 1,
+      "score_test": false,
+      "config": {
+        "width": 128,
+        "depth": 3,
+        "batch_size": 256,
+        "latent_dim": 16,
+        "lr": 0.0002,
+        "lr_c": 0.0004,
+        "critic_steps": 10,
+        "critic_warmup": 500,
+        "harmonics": 4,
+        "noise": 0.0,
+        "critic_width": 256
+      },
+      "output": "outputs/comparison2026/mgm_refinement_v1/rna_c1_s0"
+    }
+  ],
+  "rule": "Before final tests: two declared stronger-critic/timescale settings per geometry; preserve common point generator, inherit validation-selected noisy path only. No target-test scoring or inspection."
+}

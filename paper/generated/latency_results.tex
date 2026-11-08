@@ -1,0 +1,16 @@
+\begin{table}[t]
+\caption{\textbf{Sampling latency on Fire.} Milliseconds per batch of 1,024, mean $\pm$ SD over training-seed means; CUDA-synchronized GPU and single-thread CPU measurements exclude warmup. Calls count a generator or a field evaluation; the mixture map is not a neural network. RNG and constraints are included.}
+\label{tab:latency}
+\centering\small
+\begin{tabular}{@{}lrrr@{}}
+\toprule
+Method & Calls & GPU ms & CPU ms \\
+\midrule
+R-MGM GMM & 1 & $2.12\,\pm\,2.54$ & $0.31\,\pm\,0.00$ \\
+R-MGM MLP & 1 & $0.80\,\pm\,0.04$ & $0.83\,\pm\,0.03$ \\
+MMD MLP & 1 & $0.47\,\pm\,0.05$ & $0.57\,\pm\,0.01$ \\
+RFM (1) & 1 & $2.10\,\pm\,0.69$ & $0.87\,\pm\,0.04$ \\
+RFM (128) & 128 & $37.83\,\pm\,1.51$ & $83.92\,\pm\,0.42$ \\
+\bottomrule
+\end{tabular}
+\end{table}

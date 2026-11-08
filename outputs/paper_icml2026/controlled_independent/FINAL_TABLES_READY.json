@@ -1,0 +1,8 @@
+{
+  "all_primary_jobs_completed": true,
+  "rng_correction_verified": true,
+  "sphere_metric_version": "sphere_normalized_float64_atan2_v2",
+  "metric_provenance_verified": true,
+  "historical_controlled_bundle_untouched": true,
+  "sample_arrays_unchanged_by_metric_correction": true
+}

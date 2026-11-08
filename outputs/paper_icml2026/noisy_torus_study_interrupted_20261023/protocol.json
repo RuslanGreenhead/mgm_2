@@ -1,0 +1,68 @@
+{
+  "created_at": "2026-10-23T20:12:20.241540+00:00",
+  "config": {
+    "dataset": "general",
+    "training_seed": 0,
+    "data_seed": 0,
+    "batch_size": 512,
+    "hidden_dim": 128,
+    "num_layers": 3,
+    "spatial_harmonics": 4,
+    "time_fourier_features": 8,
+    "generator_steps": 10000,
+    "critic_warmup": 500,
+    "lr_g": 0.0002,
+    "lr_c": 0.0002,
+    "lr_rfm": 0.0002,
+    "gmm_components": 64,
+    "evaluation_generator_steps": [
+      0,
+      1000,
+      2000,
+      5000,
+      10000
+    ],
+    "evaluation_draws": 3,
+    "selection": "Final validation mean only; exploratory seed0 diagnostic; no new test evaluation",
+    "trials": [
+      {
+        "id": "noise0_random_mlp_c5",
+        "method": "mgm",
+        "initialization": "random_mlp",
+        "periodic": true,
+        "critic_steps": 5,
+        "candidate": true,
+        "noise_amplitude": 0.0
+      },
+      {
+        "id": "noise0.3_random_mlp_c5",
+        "method": "mgm",
+        "initialization": "random_mlp",
+        "periodic": true,
+        "critic_steps": 5,
+        "candidate": true,
+        "noise_amplitude": 0.3
+      },
+      {
+        "id": "noise0.7_random_mlp_c5",
+        "method": "mgm",
+        "initialization": "random_mlp",
+        "periodic": true,
+        "critic_steps": 5,
+        "candidate": true,
+        "noise_amplitude": 0.7
+      }
+    ]
+  },
+  "cpu_checks": {
+    "velocity_jvp": 8.881784197001252e-16,
+    "point_reversal": 8.881784197001252e-16,
+    "velocity_reversal": 1.3322676295501878e-15
+  },
+  "source_sha256": {
+    "paper\\noisy_torus_study.py": "bc29b974af301b686b4d736f6459fcf3fe6fc7412bce96bcf799d21ccd1a52a2",
+    "paper\\experiments\\stabilization.py": "1a5233e9b9148f5c44716ddeb0965904161a20e5079683e67cd09ffa80c9812b",
+    "paper\\experiments\\controlled_suite.py": "be2b09e388354466664e1d82212d8b6d1bd00c2f8887512bc2a93b7567e6441c"
+  },
+  "test_policy": "Validation only; historical benchmark exposure disclosed; no efficacy ranking"
+}

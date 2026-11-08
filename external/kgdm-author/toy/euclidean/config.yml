@@ -1,0 +1,36 @@
+seed: 0
+device: cpu
+
+# Single source of truth for Fig. 4 (C2ST vs Matérn ν, Euclidean swiss-roll).
+# run_sweep.py only varies update_type, nu, and seed on top of this; everything
+# else below is what the paper plot was trained with.
+
+task:
+  name: swissroll
+  n_eval_samples: 4096
+
+backbone:
+  hidden_sizes: [16, 16]
+  activation: silu
+
+drift:
+  dim_noise: 3
+  temp: 0.2 # kernel bandwidth (sigma)
+  max_step: 1.0 # cap on ||V|| per step
+  ignore_self_neg: true
+  eps: 1.0e-8
+  update_type: grad # base | grad ; overridden per-cell by run_sweep.py
+  nu: 1.5 # matern smoothness; overridden per-cell by run_sweep.py
+
+training:
+  n_steps: 3000
+  batch_size: 256
+  lr: 1.0e-3
+  log_every: 250
+
+eval:
+  c2st_folds: 5
+  c2st_max_iter: 500
+  n_track_samples: 2048
+
+results_dir: results

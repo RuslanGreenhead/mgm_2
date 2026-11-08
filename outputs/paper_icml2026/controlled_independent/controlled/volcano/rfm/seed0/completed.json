@@ -1,0 +1,18 @@
+{
+  "data": "volcano",
+  "method": "rfm",
+  "seed": 0,
+  "steps": 10000,
+  "train_seconds": 47.14854120000018,
+  "finished_at": "2026-10-23T19:52:14.337701+00:00",
+  "finite_parameters": true,
+  "evaluation_rng_invariance_verified": true,
+  "parameter_change_l2": {
+    "net.net.0.weight": 3.6255602836608887,
+    "net.net.0.bias": 0.39979979395866394,
+    "net.net.2.weight": 5.659507751464844,
+    "net.net.2.bias": 0.20142120122909546,
+    "net.net.4.weight": 0.8266595005989075,
+    "net.net.4.bias": 0.02591663785278797
+  }
+}

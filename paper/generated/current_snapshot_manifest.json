@@ -1,0 +1,119 @@
+{
+  "cpu_only": true,
+  "cuda_initialized": false,
+  "script_sha256": "a646d898fddd8493b455f3d78fcaba89bc6457d2cf96d7a32963e6feafb3f281",
+  "inputs": {
+    "outputs\\comparison2026\\paused_2026_10_26\\partial_audit_manifest.json": "02c2ad17494501cd146ee9e3a9e8a3a3f69d95f6d1145d45732bcc1ce9d247d8",
+    "outputs\\comparison2026\\grasp\\final_summary.json": "bc50cb8e2b5e4e4b2c39e5e113391d21527ab77785e7f728bf0913d905af179a",
+    "outputs\\comparison2026\\grasp\\final_audit.json": "559a921950493bb903ae7d668386ef51165bffe5f1f77ffa6f03d918a663c23a"
+  },
+  "outputs": {
+    "paper\\generated\\recent_extra_results.tex": "23e0ccbf645fbe178f65c2b0d795c46704fdada1aae524c4879caf59b40bd381",
+    "paper\\generated\\recent_one_step_results.tex": "a02aa81abdf97a7a54f3e28e8a8f98d54bfcd929f2a8f471952b67c13d09f237",
+    "paper\\generated\\grasp_per_object.tex": "efe62a529a90f05318ce4f9ab30cd0cf81fb2efd3859ee13a84cd4a9f0add8c7",
+    "paper\\generated\\grasp_results.tex": "1734b6aef8ffc1992c36f465cf8b27bae3572f6916ff053a8cc713a404959db0",
+    "paper\\generated\\current_resources.tex": "a9dd1862e9120f092f786a17da5c86f941f85a0b836c99cc965c659e023f5c91",
+    "paper\\figures\\recent_volcano.pdf": "cd33ab685c4276995be3b3e2d8269cb3858d7183b71865cfa3a927e9232c5881",
+    "paper\\figures\\recent_volcano.png": "95c0c8aae0c45e2bff2dd740ca1bd3e070206f78a223ba866e6919ed95adfa57",
+    "paper\\figures\\grasp_current.pdf": "701228efd4a6de2029ca42fa7f7035c34d3db72b27cdddb147c47fb9121eaf3a",
+    "paper\\figures\\grasp_current.png": "11c73abaedc92f9efa4fe42d4700a37d589e75cf3c57f7c7bdd11efe4800a888",
+    "paper\\figures\\recent_validation.pdf": "be7ac6663b5e36d7acbb826a64a7b398141fefa37708a52882797ba81280e6e6",
+    "paper\\figures\\recent_validation.png": "f71fcdc4cf2e3733282fc166d7bacf83dff8c30483c28cf3050ca3303b0cb51e"
+  },
+  "grasp_views": [
+    {
+      "object": "Mug",
+      "common_zoom": 1.68389892578125,
+      "shared_bounds": [
+        [
+          -0.216962706109023,
+          0.23163754794981492
+        ],
+        [
+          -0.2784372534351759,
+          0.17016300062366205
+        ],
+        [
+          -0.11869432797635686,
+          0.32990592608248104
+        ]
+      ],
+      "evidence": [
+        {
+          "method": "mgm",
+          "metrics": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\public_within_pilot\\mgm\\seed0\\eval_test_nfe1\\metrics.json",
+          "metrics_sha256": "3c526de9513f58296fc72e8094533a648335b159db3ee4523496cb3f0000362e",
+          "samples": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\public_within_pilot\\mgm\\seed0\\eval_test_nfe1\\Mug_10f6e09036350e92b3f21f1137c3c347_0.0002682457830986903.npz",
+          "samples_sha256": "ae6912fcd4d6de812874c4a64715e0ce0f68615d0b12fe8dba7600019bf5950e",
+          "checkpoint": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\public_within_pilot\\mgm\\seed0\\last.pt",
+          "checkpoint_sha256": "aa6695bb527fbf79223920e9833c39fee2e850d5884d9aa5525dfb8cb61cc52f"
+        },
+        {
+          "method": "rmf_mt",
+          "metrics": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\public_within_pilot\\rmf_mt\\seed0\\eval_test_nfe1\\metrics.json",
+          "metrics_sha256": "e141ccf3bc5b4dfb76f122eb9958915549481d95e04034b2c48496b495c0a290",
+          "samples": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\public_within_pilot\\rmf_mt\\seed0\\eval_test_nfe1\\Mug_10f6e09036350e92b3f21f1137c3c347_0.0002682457830986903.npz",
+          "samples_sha256": "a07d4e74664fca7c84c5930d493956b91af7f1bc25f2a5baed09771f41f9ec80",
+          "checkpoint": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\public_within_pilot\\rmf_mt\\seed0\\last.pt",
+          "checkpoint_sha256": "44c54bc0d9674c96ce96302e47ddec4d2da00ddc114a56a6d8517325f6c66e54"
+        },
+        {
+          "method": "rfm",
+          "metrics": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\public_within_pilot\\rfm\\seed0\\eval_test_nfe100\\metrics.json",
+          "metrics_sha256": "30c7e0d8104bb53914e98277f5c03998f22757cdb1494750df5c8bc0c7c312ff",
+          "samples": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\public_within_pilot\\rfm\\seed0\\eval_test_nfe100\\Mug_10f6e09036350e92b3f21f1137c3c347_0.0002682457830986903.npz",
+          "samples_sha256": "843a96bbd5dce40b1fea8cadc8072ed4c08f1b7a6f768cde1601a564535b676f",
+          "checkpoint": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\public_within_pilot\\rfm\\seed0\\last.pt",
+          "checkpoint_sha256": "f1262638d71d12678f63f9855c18e9ed199a85bdba706984d696f605e5a26a77"
+        }
+      ]
+    },
+    {
+      "object": "Table",
+      "common_zoom": 1.8056640625,
+      "shared_bounds": [
+        [
+          2.422309486528343,
+          3.0431626483401724
+        ],
+        [
+          0.9697875683040882,
+          1.590640730115917
+        ],
+        [
+          -0.20417220649878853,
+          0.41668095531304017
+        ]
+      ],
+      "evidence": [
+        {
+          "method": "mgm",
+          "metrics": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\public_within_pilot\\mgm\\seed0\\eval_test_nfe1\\metrics.json",
+          "metrics_sha256": "3c526de9513f58296fc72e8094533a648335b159db3ee4523496cb3f0000362e",
+          "samples": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\public_within_pilot\\mgm\\seed0\\eval_test_nfe1\\Table_99cf659ae2fe4b87b72437fd995483b_0.009700376721042367.npz",
+          "samples_sha256": "93f3e0c09737d3b8c2cce52931a0acdc802f3796a23fb0ecc8c28a1bc6fe7014",
+          "checkpoint": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\public_within_pilot\\mgm\\seed0\\last.pt",
+          "checkpoint_sha256": "aa6695bb527fbf79223920e9833c39fee2e850d5884d9aa5525dfb8cb61cc52f"
+        },
+        {
+          "method": "rmf_mt",
+          "metrics": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\public_within_pilot\\rmf_mt\\seed0\\eval_test_nfe1\\metrics.json",
+          "metrics_sha256": "e141ccf3bc5b4dfb76f122eb9958915549481d95e04034b2c48496b495c0a290",
+          "samples": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\public_within_pilot\\rmf_mt\\seed0\\eval_test_nfe1\\Table_99cf659ae2fe4b87b72437fd995483b_0.009700376721042367.npz",
+          "samples_sha256": "6782a5e40fba93a08a079e6a160c22f4c9de3be8bd9544af1548149dc00d51a0",
+          "checkpoint": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\public_within_pilot\\rmf_mt\\seed0\\last.pt",
+          "checkpoint_sha256": "44c54bc0d9674c96ce96302e47ddec4d2da00ddc114a56a6d8517325f6c66e54"
+        },
+        {
+          "method": "rfm",
+          "metrics": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\public_within_pilot\\rfm\\seed0\\eval_test_nfe100\\metrics.json",
+          "metrics_sha256": "30c7e0d8104bb53914e98277f5c03998f22757cdb1494750df5c8bc0c7c312ff",
+          "samples": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\public_within_pilot\\rfm\\seed0\\eval_test_nfe100\\Table_99cf659ae2fe4b87b72437fd995483b_0.009700376721042367.npz",
+          "samples_sha256": "ad5ae41d416d91953b6edf959345938ec9c5e9ffe212203f8728f9bc08d5c3d0",
+          "checkpoint": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\grasp\\public_within_pilot\\rfm\\seed0\\last.pt",
+          "checkpoint_sha256": "f1262638d71d12678f63f9855c18e9ed199a85bdba706984d696f605e5a26a77"
+        }
+      ]
+    }
+  ]
+}

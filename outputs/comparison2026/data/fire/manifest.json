@@ -1,0 +1,19 @@
+{
+  "name": "fire",
+  "kind": "sphere",
+  "dim": 3,
+  "counts": {
+    "train": 10249,
+    "val": 1280,
+    "test": 1280
+  },
+  "data_seed": 0,
+  "reference": {
+    "bandwidth2": 1.5050982579858299,
+    "coverage_radius": 0.004831470889220299
+  },
+  "source_manifest_sha256": "8a89ea6e2153adb921cd627e023799aac98a224be722c44c664d7ba56ac8766c",
+  "source_arrays_sha256": "9c327fe1ce1a48696df86f66abcb4992b39f034323bb4a79cf67691824a573a0",
+  "arrays_sha256": "9ea934cd9a7b72aff38e3638b802048567927007558657525c88eb7b0fc53e53",
+  "split_policy": "Existing historically exposed row split, no source-group transfer claim"
+}

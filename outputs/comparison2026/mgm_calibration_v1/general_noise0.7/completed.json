@@ -1,0 +1,13 @@
+{
+  "data": "general",
+  "method": "mgm",
+  "seed": 0,
+  "steps": 4000,
+  "attempts": 4500,
+  "train_seconds": 26.452054000000317,
+  "selected_step": 4000,
+  "selected_validation_mmd2": 0.010071803596222506,
+  "test_mmd2": null,
+  "test_evaluations": 0,
+  "selection": "Lowest fixed-probe validation MMD; no test tuning"
+}

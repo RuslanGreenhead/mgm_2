@@ -1,0 +1,65 @@
+\documentclass{article}
+\usepackage{microtype,graphicx,booktabs,multirow}
+\usepackage{hyperref}
+\usepackage{xurl}
+\newcommand{\theHalgorithm}{\arabic{algorithm}}
+\usepackage{icml2026}
+\usepackage{amsmath,amssymb,mathtools,amsthm}
+\usepackage{algorithm,algorithmic}
+\usepackage[capitalize,noabbrev]{cleveref}
+\hypersetup{pdftitle={Midpoint Generative Models for General Geometries},pdfauthor={}}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{lemma}[theorem]{Lemma}
+\theoremstyle{definition}
+\newtheorem{assumption}[theorem]{Assumption}
+\newtheorem{definition}[theorem]{Definition}
+\theoremstyle{remark}
+\newtheorem{remark}[theorem]{Remark}
+\crefname{assumption}{Assumption}{Assumptions}
+\Crefname{assumption}{Assumption}{Assumptions}
+\newcommand{\M}{\mathcal M}
+\newcommand{\R}{\mathbb R}
+\newcommand{\E}{\mathbb E}
+\newcommand{\D}{\mathcal D}
+\newcommand{\Lcal}{\mathcal L}
+\newcommand{\Exp}{\operatorname{Exp}}
+\newcommand{\Log}{\operatorname{Log}}
+\newcommand{\Law}{\operatorname{Law}}
+\newcommand{\grad}{\operatorname{grad}}
+\newcommand{\Tr}{\operatorname{tr}}
+\newcommand{\RMGM}{\textsc{R-MGM}}
+\newcommand{\norm}[2]{\lVert #2\rVert_{#1}}
+\newcommand{\dd}{\,\mathrm d}
+\icmltitlerunning{Midpoint Generative Models for General Geometries}
+\begin{document}
+\twocolumn[
+\icmltitle{Midpoint Generative Models for General Geometries}
+\begin{icmlauthorlist}
+\icmlauthor{Anonymous Authors}{anon}
+\end{icmlauthorlist}
+\icmlaffiliation{anon}{Anonymous Institution}
+\icmlcorrespondingauthor{Anonymous Author}{anon.email@domain.com}
+\icmlkeywords{Generative modeling, Riemannian geometry, midpoint divergence, one-step generation}
+\vskip 0.3in
+]
+\printAffiliationsAndNotice{}
+\begin{abstract}
+Learning a distribution on a curved or constrained domain requires both a suitable statistical objective and a generator that respects the domain. We introduce Riemannian Midpoint Generative Models, which train a manifold-valued one-step generator using a tangent-valued regression critic and randomly flipped geometric interpolations. For reversible finite-energy paths, we prove that the resulting intrinsic discrepancy is symmetric, vanishes exactly when its endpoint distributions agree, and controls the squared Wasserstein-1 distance from above. Its variational form gives an alternating training procedure, with simulation-free interpolation on geometries admitting closed-form paths and no learned flow integration during sampling. Controlled sphere and torus experiments separate initialization from training and expose substantial finite-critic optimization failures; they do not establish a practical advantage over a matched direct-MMD objective. An exploratory mesh study illustrates constrained generation with a projection surrogate outside the exact-path guarantee.
+\end{abstract}
+\input{sections/introduction}
+\input{sections/method}
+\input{sections/geometries}
+\input{sections/experiments}
+\input{sections/discussion}
+\clearpage
+\section*{Impact Statement}
+This work studies distribution learning on geometric domains. Potential applications include molecular representations, covariance modeling, and spatial data, where invalid samples can undermine downstream conclusions. Geometric validity alone does not establish physical, biological, or clinical validity. The empirical study is a methodological evaluation and makes no claim of forecasting hazards or supporting medical decisions. We use public research datasets and disclose the scope and limitations of the evaluations.
+\bibliography{references}
+\bibliographystyle{icml2026}
+\clearpage
+\appendix
+\onecolumn
+\input{sections/appendix}
+\end{document}

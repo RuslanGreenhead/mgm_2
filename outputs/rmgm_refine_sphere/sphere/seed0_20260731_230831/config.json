@@ -1,0 +1,28 @@
+{
+  "config": {
+    "experiment": "sphere",
+    "steps": 6000,
+    "batch_size": 512,
+    "latent_dim": 32,
+    "hidden_dim": 384,
+    "num_layers": 5,
+    "critic_steps": 3,
+    "lr_g": 3e-05,
+    "lr_c": 0.0002,
+    "weight_decay": 0.0,
+    "seed": 0,
+    "log_every": 250,
+    "plot_every": 500,
+    "eval_samples": 4096,
+    "device": "cuda",
+    "output_dir": "../../outputs/rmgm_refine_sphere",
+    "dtype": "float32",
+    "metric_normalize": false,
+    "torus_map": "mod"
+  },
+  "device": "cuda",
+  "torch": "2.5.1",
+  "cuda": "12.1",
+  "manifold": "Sphere",
+  "dim": 3
+}

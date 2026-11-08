@@ -1,0 +1,30 @@
+{
+  "stage": "CPU runtime calibration only; no validation/test sampling or quality selection",
+  "iterations": 100,
+  "batch": 256,
+  "width": 128,
+  "threads": 2,
+  "gpu_used": false,
+  "methods": {
+    "mgm": {
+      "measured_cpu_seconds": 3.0258997999999337,
+      "warmup_seconds": 0.4770901000001686,
+      "cpu_seconds_per_update": 0.025488096999997652,
+      "linear_10000_update_cpu_seconds": 255.35806009997668
+    },
+    "rmf_mt": {
+      "measured_cpu_seconds": 0.8453721999994741,
+      "warmup_seconds": 0.0,
+      "cpu_seconds_per_update": 0.00845372199999474,
+      "linear_10000_update_cpu_seconds": 84.53721999994741
+    },
+    "rfm": {
+      "measured_cpu_seconds": 0.3181614000004629,
+      "warmup_seconds": 0.0,
+      "cpu_seconds_per_update": 0.003181614000004629,
+      "linear_10000_update_cpu_seconds": 31.81614000004629
+    }
+  },
+  "three_seed_total_cpu_seconds_linear": 1115.1342602999111,
+  "gpu_estimate": "Not measured; CPU timing is not a GPU speedup prediction"
+}

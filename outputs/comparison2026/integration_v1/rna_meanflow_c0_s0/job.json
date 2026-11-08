@@ -1,0 +1,40 @@
+{
+  "data": "rna",
+  "method": "meanflow",
+  "seed": 0,
+  "steps": 100,
+  "eval_every": 100,
+  "validation_draws": 1,
+  "score_test": false,
+  "output": "outputs/comparison2026/integration_v1/rna_meanflow_c0_s0",
+  "config": {
+    "width": 128,
+    "depth": 3,
+    "latent_dim": 16,
+    "batch_size": 256,
+    "lr": 0.0002,
+    "variant": "rmf_mt"
+  },
+  "data_manifest_sha256": "4197b386ee2c1cf14e4331f08bd7cbf24e1dded32244f3eadfdd79c39571f935",
+  "model_parameters": 53653,
+  "gpu": "NVIDIA GeForce RTX 4090",
+  "torch": "2.5.1",
+  "critic_parameters": 0,
+  "resolved_config": {
+    "width": 128,
+    "depth": 3,
+    "latent_dim": 16,
+    "lr": 0.0002,
+    "batch_size": 256,
+    "weight_decay": 0.01,
+    "prop_equal_times": 0.75,
+    "time_distribution": "uniform",
+    "variant": "rmf_mt",
+    "torus_fourier": 1,
+    "pcgrad_reduction": "mean",
+    "grad_clip": null
+  },
+  "provenance": {},
+  "executed_worker_sha256": "e22746a936d5319d9ad8388e2576e326dc091782ce9780373f4158d215abe743",
+  "method_source_sha256": "d80909b40c59ea99bc5010aec4977f1c21ac91e57b2ae9f47e14f4be4f082717"
+}

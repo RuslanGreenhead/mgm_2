@@ -1,0 +1,23 @@
+[
+  {
+    "kernel_mmd2_v": 0.006082917856777836,
+    "symmetric_nn": 0.10308566211071286,
+    "minimum_matching_distance": 0.05334202061738144,
+    "radius_coverage": 0.046875,
+    "nn_occupancy_coverage": 0.2451171875,
+    "one_nna": 0.8642578125,
+    "constraint_mean": 3.076639179240646e-08,
+    "generated_n": 1024,
+    "target_n": 1024,
+    "data": "fire",
+    "method": "mgm",
+    "variant": null,
+    "recipe_id": "fire_c0_s0",
+    "seed": 0,
+    "step": 1000,
+    "split": "val",
+    "draw": 0,
+    "train_seconds": 12.757599800000207,
+    "model_forward_calls": 1
+  }
+]

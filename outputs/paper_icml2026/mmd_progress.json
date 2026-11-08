@@ -1,0 +1,140 @@
+{
+  "started_jobs": 12,
+  "finished_jobs": 12,
+  "planned_jobs": 12,
+  "elapsed_seconds": 50.67847769999935,
+  "runs": [
+    {
+      "data": "fire",
+      "method": "mmd_mlp",
+      "seed": 0,
+      "steps": 2000,
+      "train_seconds": 2.8403468999986217,
+      "seconds_per_step": 0.0014201734499993109,
+      "setup_seconds": 0.6860720000004221,
+      "model_parameters": 19075,
+      "critic_parameters": 0
+    },
+    {
+      "data": "fire",
+      "method": "mmd_mlp",
+      "seed": 1,
+      "steps": 2000,
+      "train_seconds": 2.756604800000787,
+      "seconds_per_step": 0.0013783024000003934,
+      "setup_seconds": 0.09431640000002517,
+      "model_parameters": 19075,
+      "critic_parameters": 0
+    },
+    {
+      "data": "fire",
+      "method": "mmd_mlp",
+      "seed": 2,
+      "steps": 2000,
+      "train_seconds": 2.8482230999998137,
+      "seconds_per_step": 0.0014241115499999068,
+      "setup_seconds": 0.041902000000845874,
+      "model_parameters": 19075,
+      "critic_parameters": 0
+    },
+    {
+      "data": "general",
+      "method": "mmd_mlp",
+      "seed": 0,
+      "steps": 2000,
+      "train_seconds": 2.5523381999992125,
+      "seconds_per_step": 0.0012761690999996062,
+      "setup_seconds": 0.22910009999941394,
+      "model_parameters": 18946,
+      "critic_parameters": 0
+    },
+    {
+      "data": "general",
+      "method": "mmd_mlp",
+      "seed": 1,
+      "steps": 2000,
+      "train_seconds": 2.5152877000000444,
+      "seconds_per_step": 0.0012576438500000223,
+      "setup_seconds": 0.21347090000017488,
+      "model_parameters": 18946,
+      "critic_parameters": 0
+    },
+    {
+      "data": "general",
+      "method": "mmd_mlp",
+      "seed": 2,
+      "steps": 2000,
+      "train_seconds": 2.512369000001854,
+      "seconds_per_step": 0.001256184500000927,
+      "setup_seconds": 0.21672350000153529,
+      "model_parameters": 18946,
+      "critic_parameters": 0
+    },
+    {
+      "data": "rna",
+      "method": "mmd_mlp",
+      "seed": 0,
+      "steps": 2000,
+      "train_seconds": 2.565998000000036,
+      "seconds_per_step": 0.001282999000000018,
+      "setup_seconds": 0.16664979999950447,
+      "model_parameters": 19591,
+      "critic_parameters": 0
+    },
+    {
+      "data": "rna",
+      "method": "mmd_mlp",
+      "seed": 1,
+      "steps": 2000,
+      "train_seconds": 2.5265497000000323,
+      "seconds_per_step": 0.0012632748500000161,
+      "setup_seconds": 0.13167749999956868,
+      "model_parameters": 19591,
+      "critic_parameters": 0
+    },
+    {
+      "data": "rna",
+      "method": "mmd_mlp",
+      "seed": 2,
+      "steps": 2000,
+      "train_seconds": 2.6090044000011403,
+      "seconds_per_step": 0.00130450220000057,
+      "setup_seconds": 0.13099609999881068,
+      "model_parameters": 19591,
+      "critic_parameters": 0
+    },
+    {
+      "data": "rna",
+      "method": "mgm_mlp",
+      "seed": 0,
+      "steps": 2000,
+      "train_seconds": 6.8310442000001785,
+      "seconds_per_step": 0.003415522100000089,
+      "setup_seconds": 0.1299751999995351,
+      "model_parameters": 19591,
+      "critic_parameters": 20487
+    },
+    {
+      "data": "rna",
+      "method": "mgm_mlp",
+      "seed": 1,
+      "steps": 2000,
+      "train_seconds": 6.527888399999938,
+      "seconds_per_step": 0.003263944199999969,
+      "setup_seconds": 0.13504930000090098,
+      "model_parameters": 19591,
+      "critic_parameters": 20487
+    },
+    {
+      "data": "rna",
+      "method": "mgm_mlp",
+      "seed": 2,
+      "steps": 2000,
+      "train_seconds": 6.477096000000529,
+      "seconds_per_step": 0.0032385480000002645,
+      "setup_seconds": 0.1284813000002032,
+      "model_parameters": 19591,
+      "critic_parameters": 20487
+    }
+  ]
+}

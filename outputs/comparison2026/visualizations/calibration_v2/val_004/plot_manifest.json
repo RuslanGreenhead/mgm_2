@@ -1,0 +1,283 @@
+{
+  "created_utc": "2026-10-24T08:54:02.240241+00:00",
+  "split": "val",
+  "phases": [
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\calibration_v2",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\mgm_calibration_v1"
+  ],
+  "phase_name": "calibration_v2",
+  "requested_datasets": [
+    "fire"
+  ],
+  "plotted_datasets": [
+    "fire"
+  ],
+  "missing_cells": [
+    [
+      "fire",
+      "mgm",
+      1
+    ],
+    [
+      "fire",
+      "mgm",
+      2
+    ],
+    [
+      "fire",
+      "rwflow",
+      1
+    ],
+    [
+      "fire",
+      "rwflow",
+      2
+    ],
+    [
+      "fire",
+      "kgdm",
+      1
+    ],
+    [
+      "fire",
+      "kgdm",
+      2
+    ],
+    [
+      "fire",
+      "meanflow",
+      1
+    ],
+    [
+      "fire",
+      "meanflow",
+      2
+    ]
+  ],
+  "complete_three_seed_comparison": false,
+  "preview_rule": "minimum completed selected_validation_mmd2 per dataset/method/seed",
+  "candidate_count": 8,
+  "selected_run_count": 4,
+  "selected_runs": [
+    {
+      "data": "fire",
+      "method": "kgdm",
+      "seed": 0,
+      "folder": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\calibration_v2\\fire_kgdm_c2_s0",
+      "step": 4000,
+      "budget": 4000,
+      "config": {
+        "width": 128,
+        "depth": 3,
+        "latent_dim": 16,
+        "batch_size": 256,
+        "lr": 0.0002,
+        "kernel": "gauss",
+        "step_size": 1.0
+      }
+    },
+    {
+      "data": "fire",
+      "method": "meanflow",
+      "seed": 0,
+      "folder": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\calibration_v2\\fire_meanflow_c1_s0",
+      "step": 2000,
+      "budget": 4000,
+      "config": {
+        "width": 128,
+        "depth": 3,
+        "latent_dim": 16,
+        "batch_size": 256,
+        "lr": 0.0002,
+        "variant": "rmf_mt"
+      }
+    },
+    {
+      "data": "fire",
+      "method": "rwflow",
+      "seed": 0,
+      "folder": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\calibration_v2\\fire_rwflow_c1_s0",
+      "step": 4000,
+      "budget": 4000,
+      "config": {
+        "width": 128,
+        "depth": 3,
+        "latent_dim": 16,
+        "batch_size": 256,
+        "lr": 0.0002,
+        "epsilon": 0.3,
+        "flow_step": 0.2,
+        "sinkhorn_iters": 128
+      }
+    },
+    {
+      "data": "fire",
+      "method": "mgm",
+      "seed": 0,
+      "folder": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\mgm_calibration_v1\\fire_noise0",
+      "step": 4000,
+      "budget": 4000,
+      "config": {
+        "width": 128,
+        "depth": 3,
+        "batch_size": 256,
+        "latent_dim": 16,
+        "lr": 0.0002,
+        "lr_c": 0.0002,
+        "critic_steps": 5,
+        "critic_warmup": 500,
+        "harmonics": 4,
+        "noise": 0.0
+      }
+    }
+  ],
+  "figure_seed": 0,
+  "figure_draw": 0,
+  "table_seed_policy": "draw mean within seed; seed mean and sample SD across available seeds 0,1,2",
+  "kde": {
+    "sphere": "vMF on S2, kappa=45, per steradian",
+    "torus": "120x120 histogram, wrapped Gaussian sigma=2.4 bins, per radian squared",
+    "scale": "row max across held-out and all available methods; LogNorm 1e-3*max to max",
+    "rna_pairs_zero_based": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ]
+    ]
+  },
+  "row_scales": {
+    "fire:(0, 1)": {
+      "vmin": 0.0013056804403534963,
+      "vmax": 1.3056804403534963,
+      "unit": "per_steradian"
+    }
+  },
+  "dpi": 240,
+  "vector_pdf": true,
+  "source_files_sha256": {
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\calibration_v2\\fire_kgdm_c0_s0\\job.json": "1f31e48a919e75144f97fd6ad52c202852c27f010705d54f4a9676ffd2bdb04b",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\calibration_v2\\fire_kgdm_c0_s0\\completed.json": "90aef34891be80d8643fcdf05ab6483afd4e4a219cbecb25f964413c3f3a67d1",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\calibration_v2\\fire_kgdm_c1_s0\\job.json": "5ad0bcf03cd09d2e1c3979b9abc52a2b819da95e8688019276e83b5fbf128bdb",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\calibration_v2\\fire_kgdm_c1_s0\\completed.json": "8079157764fcc9112d1ba055dfcfa9abdabd6b3439e72d60d83353e4e7b4d622",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\calibration_v2\\fire_kgdm_c2_s0\\job.json": "0b57a41dc799ac2697627d861e2db622162acc541cdf82194aff5c6b71d6da83",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\calibration_v2\\fire_kgdm_c2_s0\\completed.json": "7395dd81a80f3e1d9f2dd81548f15a25ba20e11a76b44e55bf4a5636fe5988ef",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\calibration_v2\\fire_meanflow_c0_s0\\job.json": "2cf6ea12a459407890d0a8a8573f73ebd49847f22a2a4c24e8d9bcb37fe59864",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\calibration_v2\\fire_meanflow_c0_s0\\completed.json": "4dbf9e8c935805a73aa8330bea4331af78239547c3f33db023788fe430d6df76",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\calibration_v2\\fire_meanflow_c1_s0\\job.json": "0641eccc0ae71b432de97b225cb9a8802a9495f27ad8cca2527e563c80f0a381",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\calibration_v2\\fire_meanflow_c1_s0\\completed.json": "6ad2a4adcd0f9f6ace2dbefae0613ff6ba6c0efe0d2ed3c58317b52a93d364a8",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\calibration_v2\\fire_rwflow_c0_s0\\job.json": "33617f516b1cd2ccd6b41a0cc38d481ecdeb24dc0492e821508814f0975010d3",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\calibration_v2\\fire_rwflow_c0_s0\\completed.json": "f7a06209704334e12530a45ef76b572822c8756860e07e597bdfadc30867c3b4",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\calibration_v2\\fire_rwflow_c1_s0\\job.json": "9019045661f25475669b604e6254e1e9df8c5865f7ce1e469de5ab62c1bd3b45",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\calibration_v2\\fire_rwflow_c1_s0\\completed.json": "632ed7a972cb4f9fd8ba40a94a20c73402176f9845f8998f38b3e059ec654ed2",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\mgm_calibration_v1\\fire_noise0\\job.json": "666a971a95ecdaea026865d5f8564f2cf749125a95d833f3176c33780bee183e",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\mgm_calibration_v1\\fire_noise0\\completed.json": "3fb7ed744836a34172048dfc8e89c1f162395ea73ae6dcb3d92c9c629e00942c",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\mgm_calibration_v1\\general_noise0\\job.json": "827b72df0eef5e93cbac6af6ba113e0529b913014d8f92c7d2506bbf55664f5e",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\mgm_calibration_v1\\general_noise0.7\\job.json": "275a9957648213b9eed38447a3a5dc78a906e48906a2040b5a4f95df0ee04acc",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\mgm_calibration_v1\\rna_noise0\\job.json": "5ea260f85c5334e445a8a00ef0a70c9474779f8e84d674933fbce4dfdb1ab909",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\mgm_calibration_v1\\rna_noise0.7\\job.json": "967cc9a307d8b6a0c2006e7f7432ae538c96965b9371192bd2be868289417f8c",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\calibration_v2\\fire_kgdm_c2_s0\\val_step4000_metrics.json": "8a61f19f487872d53326ecaf14ef9e1b3c9a372b49633b025ff6038e43620df4",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\calibration_v2\\fire_meanflow_c1_s0\\val_step2000_metrics.json": "c58cbd00d7909b656af815d0518ab2ca1f9a20c41aed779145578916871ef85d",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\calibration_v2\\fire_rwflow_c1_s0\\val_step4000_metrics.json": "25ac99321fb5657c4ae2b974829b15def2acef3b171fe116dc0f0b7ddb0352ce",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\mgm_calibration_v1\\fire_noise0\\val_step4000_metrics.json": "7b23b04fa57984db309ae2dc4f061e7b5a28e725c37ffc5f037cda68773e36a8",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\paper\\vendor\\ne_110m_land.geojson": "9e0729ee253ca7d7a5c4ae9395fb1902264c5377c52e224d13dd85010e2835d9",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\calibration_v2\\fire_kgdm_c2_s0\\val_step0_metrics.json": "11e2ab4646ca1762f7808580ed49f0f1f531e8f13428f3233fe974df21e44a7e",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\calibration_v2\\fire_kgdm_c2_s0\\val_step1000_metrics.json": "e58c16f3798e6f7cebc936e3fb9105cbc69a608b82ecc9ead725e9091724eefe",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\calibration_v2\\fire_kgdm_c2_s0\\val_step2000_metrics.json": "8d6ba4dd7c32ddd8024e434e3db1cb097c31466ea91fe49f447de59d9f506a4a",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\calibration_v2\\fire_kgdm_c2_s0\\val_step3000_metrics.json": "93143705d082a50f8e2500e5bb140ced55d25ba96c5a4eb9d3ca7822e17c46f4",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\calibration_v2\\fire_kgdm_c2_s0\\curve.json": "5aee8514e64b85e9c6843c7dee152c467f4015db13887ed1018f156ae3657dbd",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\calibration_v2\\fire_meanflow_c1_s0\\val_step0_metrics.json": "cc5b1abc7685a00f9b08ca728d54c66898ecfb5afa25af38c621786eb3b8bc07",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\calibration_v2\\fire_meanflow_c1_s0\\val_step1000_metrics.json": "b9e5f025641ef95e580c194b15c6445be633ba8edfc18b341b46d47823006196",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\calibration_v2\\fire_meanflow_c1_s0\\val_step3000_metrics.json": "5170ab4bbd244845a3740e5c6d9e53d9698e43424067e0aa7446e213682fcfac",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\calibration_v2\\fire_meanflow_c1_s0\\val_step4000_metrics.json": "4bcbc68e626f4e100b198b49e68e736d007331be0b5dc8216e6660b209e75451",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\calibration_v2\\fire_meanflow_c1_s0\\curve.json": "670ca59c49586eceac76e38900f5bab381ef815f897e91e95276c4b2e9cd2163",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\calibration_v2\\fire_rwflow_c1_s0\\val_step0_metrics.json": "0f843cd1701f3d5dfc6d250a97573fde881265be75935b19d4ac8ff22278df8a",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\calibration_v2\\fire_rwflow_c1_s0\\val_step1000_metrics.json": "48d349f3b0b6e5bf88f2da35f732e2068dd1258b623e619f9b5b4e4733430646",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\calibration_v2\\fire_rwflow_c1_s0\\val_step2000_metrics.json": "99439db0f87afe2918bb7a5b1cfdebf597a52f1f9daf1780e0cfa5833b3dc64c",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\calibration_v2\\fire_rwflow_c1_s0\\val_step3000_metrics.json": "7b46ddb166df3d359685abac7525ad88cef16cb6be9d9f364593c5c0f2a2256a",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\calibration_v2\\fire_rwflow_c1_s0\\curve.json": "43f507daa029ad686346508dd088304f55e2ffb7b6ffc9303f84003ce3f26366",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\mgm_calibration_v1\\fire_noise0\\val_step0_metrics.json": "952c68ec2435dc6d803fbe07f913a5806838bc482335b72cd5e4316a3a3fff32",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\mgm_calibration_v1\\fire_noise0\\val_step1000_metrics.json": "10cd350e5df475f04cdc5be8e2cac6c42293ec06e9b311e6c13aedf7f0521755",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\mgm_calibration_v1\\fire_noise0\\val_step2000_metrics.json": "9bdc5dbd1c1f0183197187aeb9b7c9ea34a59441a2d0399921575bf706ebacb6",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\mgm_calibration_v1\\fire_noise0\\val_step3000_metrics.json": "5a047fc4fd8815746fc16643ef4c258555881ce4933025622372b1b041c1ca13",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\mgm_calibration_v1\\fire_noise0\\curve.json": "b76262a6929c8b108aa6f75a5e1a66d38702935190c8cdbace796f6d7ac2d9a6"
+  },
+  "accessed_npz_members": [
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\data\\fire\\data.npz",
+      "key": "val_target",
+      "shape": [
+        1024,
+        3
+      ],
+      "array_sha256_float64": "4956d4b5f35abf3d0cdead626db299561aae0f21d76bc65ec314f99b025f788b"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\calibration_v2\\fire_kgdm_c2_s0\\val_step4000_samples.npz",
+      "key": "generated_draw_0",
+      "shape": [
+        1024,
+        3
+      ],
+      "array_sha256_float64": "a66e0e225ebedb01b55f32f8ce7c3aeb627d7ec10f341743e5b033cdfb73dd9d"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\calibration_v2\\fire_meanflow_c1_s0\\val_step2000_samples.npz",
+      "key": "generated_draw_0",
+      "shape": [
+        1024,
+        3
+      ],
+      "array_sha256_float64": "83810ad4d88373548909a2be1ae709af4cee2b3e317cfeec94129e876fb22a7c"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\calibration_v2\\fire_rwflow_c1_s0\\val_step4000_samples.npz",
+      "key": "generated_draw_0",
+      "shape": [
+        1024,
+        3
+      ],
+      "array_sha256_float64": "902300a33a6bed6aa09716c3e4e965d9aa9c99ba2e038c80d2dab22a1d496c43"
+    },
+    {
+      "path": "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\mgm_calibration_v1\\fire_noise0\\val_step4000_samples.npz",
+      "key": "generated_draw_0",
+      "shape": [
+        1024,
+        3
+      ],
+      "array_sha256_float64": "a8a843ce1459ed1d3b2ccd811944d029fd7d2b364b0052624c48a282fe19c3e7"
+    }
+  ],
+  "script_sha256": "1f067304e0a3a5bf32cec350f3b4f2ce15c3381f5dd3d2e0ff8fbca63eaaeb97",
+  "warnings": [],
+  "figures": [
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\visualizations\\calibration_v2\\val_004\\fire_comparison.png",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\visualizations\\calibration_v2\\val_004\\fire_comparison.pdf",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\visualizations\\calibration_v2\\val_004\\overview.png",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\visualizations\\calibration_v2\\val_004\\overview.pdf",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\visualizations\\calibration_v2\\val_004\\validation_learning_curves.png",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\visualizations\\calibration_v2\\val_004\\validation_learning_curves.pdf",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\visualizations\\calibration_v2\\val_004\\training_loss_curves.png",
+    "E:\\Codex Projects\\Riemmanian Midpoint Generative Models\\outputs\\comparison2026\\visualizations\\calibration_v2\\val_004\\training_loss_curves.pdf"
+  ]
+}

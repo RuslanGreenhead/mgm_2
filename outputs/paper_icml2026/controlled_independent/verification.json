@@ -1,0 +1,19 @@
+{
+  "all_checks_passed": true,
+  "rerun_jobs": 54,
+  "copied_unchanged_jobs": 18,
+  "rerun_checkpoints_with_saved_rng_states": 108,
+  "evaluation_invariance_checks": 108,
+  "rng_groups_each_distinct_across_three_training_seeds": 216,
+  "copied_files_verified_unchanged": 108,
+  "rerun_evaluation_rows": 972,
+  "copied_metric_jsons_verified_via_v1_archive": 6,
+  "all_evaluation_rows": 1080,
+  "frozen_source_files_verified": 74,
+  "executed_source_modules_verified": 21,
+  "split_and_kernel_manifests_equal_original": true,
+  "sphere_metric_version": "sphere_normalized_float64_atan2_v2",
+  "sphere_rows_corrected": 468,
+  "verification_script_sha256": "4a7654650a31a3f941acf9a4e30b85fd998ff1e4dc6002b8a70c8533594006ba",
+  "new_training_seconds": 906.9194697999901
+}

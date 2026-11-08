@@ -1,0 +1,88 @@
+# Final per-cell settings for the results table (Tab. geo-full).
+#
+# Each formulation gives the model flags shared across datasets; per_dataset
+# entries give the variant selected by seed-mean test MMD between the two
+# ladder weightings:
+#   gradient drifts : drop_T true (uniform ladder) vs false (1/T-weighted)
+#   spectral drifts : spec_norm false (raw NW fields) vs true (per-kappa
+#                     fields rescaled by their e-folding angle)
+# Spectral matern_kappas ladders are calibrated per dataset so each kernel
+# decays to 1/e at the geodesic scale T*dbar (dbar = mean pairwise geodesic
+# distance of the data) induced by each temperature T of the other methods.
+
+euclidean-laplace:
+  drift_type: euclidean
+  kernel: laplace
+  grad_form: false
+
+euclidean-laplace-gradient:
+  drift_type: euclidean
+  kernel: laplace
+  grad_form: true
+  per_dataset:
+    earthquake: {drop_T: true}
+    volcano:    {drop_T: true}
+    fire:       {drop_T: false}
+    flood:      {drop_T: false}
+
+euclidean-gaussian-gradient:
+  drift_type: euclidean
+  kernel: gauss
+  grad_form: true
+  per_dataset:
+    earthquake: {drop_T: true}
+    volcano:    {drop_T: true}
+    fire:       {drop_T: true}
+    flood:      {drop_T: false}
+
+sphere-laplace:
+  drift_type: sphere
+  kernel: laplace
+  grad_form: false
+
+sphere-laplace-gradient:
+  drift_type: sphere
+  kernel: laplace
+  grad_form: true
+  per_dataset:
+    earthquake: {drop_T: false}
+    volcano:    {drop_T: true}
+    fire:       {drop_T: false}
+    flood:      {drop_T: false}
+
+sphere-gaussian-gradient:
+  drift_type: sphere
+  kernel: gauss
+  grad_form: true
+  per_dataset:
+    earthquake: {drop_T: false}
+    volcano:    {drop_T: false}
+    fire:       {drop_T: false}
+    flood:      {drop_T: false}
+
+spectral-nu0.5:
+  drift_type: spectral
+  matern_nu: 0.5
+  per_dataset:
+    earthquake: {spec_norm: true,  matern_kappas: [41.43, 15.63, 3.859]}
+    volcano:    {spec_norm: true,  matern_kappas: [41.11, 15.51, 3.832]}
+    fire:       {spec_norm: true,  matern_kappas: [43.62, 16.4, 4.038]}
+    flood:      {spec_norm: false, matern_kappas: [40.47, 15.29, 3.779]}
+
+spectral-nu2.5:
+  drift_type: spectral
+  matern_nu: 2.5
+  per_dataset:
+    earthquake: {spec_norm: false, matern_kappas: [109.1, 43.66, 10.97]}
+    volcano:    {spec_norm: true,  matern_kappas: [108.4, 43.35, 10.89]}
+    fire:       {spec_norm: true,  matern_kappas: [114.3, 45.74, 11.48]}
+    flood:      {spec_norm: true,  matern_kappas: [106.8, 42.74, 10.74]}
+
+spectral-nuinf:
+  drift_type: spectral
+  matern_nu: .inf
+  per_dataset:
+    earthquake: {spec_norm: true,  matern_kappas: [0.01882, 0.04705, 0.1877]}
+    volcano:    {spec_norm: true,  matern_kappas: [0.01896, 0.04738, 0.189]}
+    fire:       {spec_norm: false, matern_kappas: [0.01796, 0.04491, 0.1792]}
+    flood:      {spec_norm: true,  matern_kappas: [0.01923, 0.04806, 0.1917]}

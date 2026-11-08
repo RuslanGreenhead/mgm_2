@@ -1,0 +1,10 @@
+{
+  "final_table_ready": true,
+  "resolved": true,
+  "required_gate": "FINAL_TABLES_READY.json must exist and verification.json must pass",
+  "reason": "Resolved: all 54 reruns completed; 468 sphere rows and all sphere radii rescored from unchanged NPZs. CPU verification passed and FINAL_TABLES_READY.json exists. Raw v1 scores remain archived.",
+  "metric_version_required": "sphere_normalized_float64_atan2_v2",
+  "raw_scores_preserved_in": "sphere_metric_v1_raw.zip",
+  "final_processor": "paper/experiments/correct_sphere_metrics.py",
+  "calibration_already_corrected": true
+}

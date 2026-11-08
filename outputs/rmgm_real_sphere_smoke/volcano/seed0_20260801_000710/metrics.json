@@ -1,0 +1,14 @@
+{
+  "step": 1,
+  "critic_loss": 0.5332088470458984,
+  "generator_loss": -0.043334949761629105,
+  "target_norm": 1.2740532159805298,
+  "sample_norm": 1.8977959156036377,
+  "mmd2": 0.11256706714630127,
+  "geodesic_nn_sample_to_data": 0.33457064628601074,
+  "geodesic_nn_data_to_sample": 0.3522189259529114,
+  "geodesic_energy": 0.3025718927383423,
+  "constraint_error": 1.862645149230957e-09,
+  "nll": null,
+  "nll_note": "Unavailable for implicit one-step MGM without a density estimator."
+}

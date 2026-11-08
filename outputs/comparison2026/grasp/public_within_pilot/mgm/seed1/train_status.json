@@ -1,0 +1,16 @@
+{
+  "step": 10000,
+  "training_seconds": 289.8398655000001,
+  "losses": {
+    "critic_loss": 2.0576541423797607,
+    "critic_grad_norm": 0.5869869589805603,
+    "loss": 0.09440092742443085,
+    "grad_norm": 1.1759049892425537
+  },
+  "warmup_seconds": 0.549428600000283,
+  "seconds_per_iteration_excluding_warmup": 0.02892904368999998,
+  "generator_updates": 10000,
+  "critic_updates": 50100,
+  "peak_cuda_bytes": 21864448,
+  "checkpoint_sha256": "79bb641fa0eccb211879c6c212e01d2e30a35776d5363d9121cbb4a90e4f5ed3"
+}

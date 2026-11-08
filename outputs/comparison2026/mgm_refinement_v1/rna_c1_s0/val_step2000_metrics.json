@@ -1,0 +1,23 @@
+[
+  {
+    "kernel_mmd2_v": 0.25672910336713695,
+    "symmetric_nn": 1.0884961764270789,
+    "minimum_matching_distance": 0.5900521975447672,
+    "radius_coverage": 0.0021119324181626186,
+    "nn_occupancy_coverage": 0.2967265047518479,
+    "one_nna": 0.9028511087645195,
+    "constraint_mean": 0.0,
+    "generated_n": 947,
+    "target_n": 947,
+    "data": "rna",
+    "method": "mgm",
+    "variant": null,
+    "recipe_id": "rna_c1_s0",
+    "seed": 0,
+    "step": 2000,
+    "split": "val",
+    "draw": 0,
+    "train_seconds": 23.161040300000423,
+    "model_forward_calls": 1
+  }
+]

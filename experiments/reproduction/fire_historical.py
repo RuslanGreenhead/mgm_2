@@ -92,10 +92,10 @@ def main():
   critic=build_critic({"critic":{"hidden_dim":model["hidden_dim"],"num_layers":model["num_layers"],"fourier":8}},manifold,3).to(dev);kmeans_init(gen,split["train"],model,dev);og=torch.optim.AdamW(gen.parameters(),lr=model["learning_rate"]);oc=torch.optim.AdamW(critic.parameters(),lr=model["learning_rate"])
   def draw(i):g=torch.Generator(device=dev).manual_seed(100000+i);return gen(torch.randn(len(target_test),model["latent_dim"],device=dev,generator=g))
   initial={"val":metrics_for(draw,target_val,ref),"test":metrics_for(draw,target_test,ref)};torch.save({"step":0,"generator":gen.state_dict(),"critic":critic.state_dict()},out/"checkpoint_step0.pt")
-  start=time.perf_counter()
+  train=split["train"].to(dev);start=time.perf_counter()
   for step in range(1,steps+1):
-   z=torch.randn(model["batch_size"],model["latent_dim"],device=dev);x=split["train"][torch.randint(len(split["train"]),(model["batch_size"],),device=dev)].to(dev);oc.zero_grad(set_to_none=True);lc,cm=critic_loss(manifold,gen,critic,z,x);lc.backward();oc.step()
-   critic.requires_grad_(False);z=torch.randn(model["batch_size"],model["latent_dim"],device=dev);x=split["train"][torch.randint(len(split["train"]),(model["batch_size"],),device=dev)].to(dev);og.zero_grad(set_to_none=True);lg,gm=generator_loss(manifold,gen,critic,z,x);lg.backward();og.step();critic.requires_grad_(True)
+   z=torch.randn(model["batch_size"],model["latent_dim"],device=dev);x=train[torch.randint(len(train),(model["batch_size"],),device=dev)];oc.zero_grad(set_to_none=True);lc,cm=critic_loss(manifold,gen,critic,z,x);lc.backward();oc.step()
+   critic.requires_grad_(False);z=torch.randn(model["batch_size"],model["latent_dim"],device=dev);x=train[torch.randint(len(train),(model["batch_size"],),device=dev)];og.zero_grad(set_to_none=True);lg,gm=generator_loss(manifold,gen,critic,z,x);lg.backward();og.step();critic.requires_grad_(True)
    if step==1 or step%cfg["runtime"]["log_every"]==0 or step==steps:
     row={"step":step,"critic_loss":float(lc.detach().cpu()),"generator_loss":float(lg.detach().cpu())};log.append(row);print(json.dumps(row),flush=True)
   final={"val":metrics_for(draw,target_val,ref),"test":metrics_for(draw,target_test,ref)};torch.save({"step":steps,"generator":gen.state_dict(),"critic":critic.state_dict()},out/f"checkpoint_step{steps}.pt");extra={"generator_class":gen.__class__.__name__,"critic_class":critic.__class__.__name__,"finite_parameters":finite(gen) and finite(critic)}
@@ -103,9 +103,9 @@ def main():
   field=build_critic({"critic":{"hidden_dim":model["hidden_dim"],"num_layers":model["num_layers"],"fourier":8}},manifold,3).to(dev);base=BaseSampler(manifold,3);opt=torch.optim.AdamW(field.parameters(),lr=model["learning_rate"])
   def draw(i):g=torch.Generator(device=dev).manual_seed(100000+i);tc=TrainConfig(experiment="fire",ode_steps=model["rfm_ode_steps"]);return sample_rfm(tc,manifold,base,field,len(target_test),dev,torch.float32)
   snapshots={}
-  start=time.perf_counter()
+  train=split["train"].to(dev);start=time.perf_counter()
   for step in range(1,steps+1):
-   x0=base.sample(model["batch_size"],dev);x1=split["train"][torch.randint(len(split["train"]),(model["batch_size"],),device=dev)].to(dev);t=torch.rand(model["batch_size"],1,device=dev);xt,u=rfm_path(manifold,x0,x1,t);opt.zero_grad(set_to_none=True);pred=field(t,xt);loss=manifold.inner(xt,pred-u,pred-u).mean()/3;loss.backward();opt.step()
+   x0=base.sample(model["batch_size"],dev);x1=train[torch.randint(len(train),(model["batch_size"],),device=dev)];t=torch.rand(model["batch_size"],1,device=dev);xt,u=rfm_path(manifold,x0,x1,t);opt.zero_grad(set_to_none=True);pred=field(t,xt);loss=manifold.inner(xt,pred-u,pred-u).mean()/3;loss.backward();opt.step()
    if step==1 or step%cfg["runtime"]["log_every"]==0 or step in (2000,steps):log.append({"step":step,"rfm_loss":float(loss.detach().cpu())})
    if step in (2000,steps):snapshots[str(step)]={"val":metrics_for(draw,target_val,ref),"test":metrics_for(draw,target_test,ref)};torch.save({"step":step,"field":field.state_dict()},out/f"checkpoint_step{step}.pt")
   initial=None;final=snapshots;extra={"field_class":field.__class__.__name__,"finite_parameters":finite(field)}

@@ -6,14 +6,21 @@
     "requires_downloaded_raw_data": false
   },
   "method": {
-    "name": "rmgm",
-    "generator": "mlp",
-    "critic": "mlp"
+    "rmgm_generator": "local_gmm",
+    "rmgm_components": 3,
+    "latent_dim": 16,
+    "hidden_dim": 64,
+    "num_layers": 3,
+    "critic_fourier_features": 4,
+    "learning_rate": 0.0002,
+    "rfm_ode_steps": 16
   },
   "runtime": {
     "device_preference": "mps_then_cpu",
     "seed": 0,
-    "max_steps": 20
+    "max_steps": 20,
+    "batch_size": 64,
+    "evaluation_samples": 256
   },
   "output": {
     "root": "artifacts/smoke/sphere-rmgm-seed0",

@@ -1,0 +1,30 @@
+{
+  "purpose": "Portable reproduction of the archived controlled Fire protocol; not a modern baseline comparison.",
+  "data": {
+    "csv": "external/riemannian-fm/data/earth_data/fire.csv",
+    "expected_rows": 12809,
+    "split_seed": 0,
+    "evaluation_size": 1024
+  },
+  "model": {
+    "latent_dim": 16,
+    "hidden_dim": 128,
+    "num_layers": 3,
+    "batch_size": 256,
+    "learning_rate": 0.0002,
+    "weight_decay": 0.0,
+    "mixture_components": 24,
+    "kmeans_samples": 8192,
+    "kmeans_iterations": 40,
+    "rfm_ode_steps": 128
+  },
+  "runtime": {
+    "device_preference": "mps_then_cpu",
+    "log_every": 100,
+    "evaluation_draws": 3
+  },
+  "output": {
+    "root": "artifacts/reproduction/fire/historical",
+    "overwrite": false
+  }
+}

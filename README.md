@@ -1,5 +1,9 @@
 # MGM for General Geometries: статья и экспериментальный код
 
+For the maintained development layout and the location of each method, see
+[PROJECT_STRUCTURE.md](PROJECT_STRUCTURE.md). The archive description below
+documents the original 2026 research bundle.
+
 Архив подготовлен 3 ноября 2026 года. Последняя включенная статья и ее
 экспериментальный срез датированы **26 октября 2026 года**. Упаковка не является
 новым обучением и не добавляет результатов к этому срезу.

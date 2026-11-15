@@ -5,9 +5,10 @@ import argparse,json,datetime as dt,subprocess,sys
 from pathlib import Path
 import torch
 sys.path.insert(0,str(Path(__file__).resolve().parents[2]))
+sys.path.insert(0,str(Path(__file__).resolve().parents[2]/'src'))
 from experiments.reproduction.fire_historical import ROOT,load,reference,fixed_target,scores,device,seed_all
-from paper.benchmarks2026.common import ManifoldOps,make_rng
-from paper.benchmarks2026.meanflow import create_method
+from rmgm.geometry import ManifoldOps,make_rng
+from rmgm.methods.baselines.rmf_mt import create_method
 
 def main():
  p=argparse.ArgumentParser();p.add_argument('--seed',type=int,required=True);p.add_argument('--steps',type=int,default=2000);p.add_argument('--width',type=int,default=128);p.add_argument('--device',choices=('auto','mps','cpu'),default='auto');p.add_argument('--output-root',type=Path);a=p.parse_args()

@@ -7,8 +7,8 @@ import numpy as np
 import torch
 from .common import ManifoldOps
 
-ROOT=Path(__file__).resolve().parents[2]
-OUT=ROOT/"outputs/comparison2026"
+ROOT=Path(__file__).resolve().parents[3]
+OUT=ROOT/"legacy/outputs/comparison2026"
 DATASETS=["volcano","earthquake","flood","fire","general","glycine","proline","prepro","rna"]
 
 

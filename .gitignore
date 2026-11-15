@@ -10,8 +10,8 @@ __pycache__/
 .ruff_cache/
 
 # Local experiment artifacts (never source-of-truth inputs)
-artifacts/*
-!artifacts/.gitkeep
+outputs/*
+!outputs/.gitkeep
 runs/
 local/
 data/raw/

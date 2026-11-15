@@ -29,7 +29,7 @@ from paper.benchmarks2026.meanflow import (
     geodesic_with_velocity, pcgrad_pair, rmf_loss_terms,
 )
 
-AUTHOR = Path(__file__).resolve().parents[2] / "external" / "riemannian-meanflow-author"
+AUTHOR = Path(__file__).resolve().parents[3] / "external" / "riemannian-meanflow-author"
 SRC = AUTHOR / "rmf" / "rmf"
 
 

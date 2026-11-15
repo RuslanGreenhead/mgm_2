@@ -32,7 +32,7 @@ from matplotlib.colors import LogNorm
 from scipy.ndimage import gaussian_filter
 
 
-ROOT = Path(__file__).resolve().parents[2]
+ROOT = Path(__file__).resolve().parents[3]
 BASE = ROOT / "outputs/comparison2026"
 DATASETS = ("volcano", "earthquake", "fire", "flood", "general", "glycine", "proline", "prepro", "rna")
 SPHERE = frozenset(DATASETS[:4])

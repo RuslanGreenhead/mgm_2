@@ -7,7 +7,7 @@ from pathlib import Path
 from statistics import mean, stdev
 
 ROOT = Path(__file__).resolve().parents[1]
-BASE = ROOT / "outputs/comparison2026"
+BASE = ROOT / "legacy/outputs/comparison2026"
 
 
 def read(path):
@@ -21,7 +21,7 @@ def main():
     protocol = read(BASE / "final_v1/protocol.json")
     groups, completed = defaultdict(dict), 0
     for job in protocol["plan"]["jobs"]:
-        folder = ROOT / job["output"].replace("\\", "/")
+        folder = ROOT / "legacy" / job["output"].replace("\\", "/")
         if not (folder / "completed.json").is_file():
             continue
         done = read(folder / "completed.json")

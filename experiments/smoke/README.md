@@ -13,7 +13,7 @@ Run it from the project root after installing the local environment:
   --config configs/development/sphere_smoke.json
 ```
 
-It produces a new, non-overwriting directory below `artifacts/smoke/`.
+It produces a new, non-overwriting directory below `outputs/smoke/`.
 The generated losses and sample metrics are functional checks only. They are
 not comparable with paper tables or the Fire dataset.
 

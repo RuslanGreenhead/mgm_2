@@ -213,9 +213,9 @@ def git_commit() -> str | None:
 
 
 def make_output_dir(cfg: dict[str, Any]) -> Path:
-    destination, artifacts = (ROOT / cfg["output"]["root"]).resolve(), (ROOT / "artifacts").resolve()
-    if artifacts not in destination.parents:
-        raise ValueError("Smoke-test output must be inside artifacts/.")
+    destination, output_root = (ROOT / cfg["output"]["root"]).resolve(), (ROOT / "outputs").resolve()
+    if output_root not in destination.parents:
+        raise ValueError("Smoke-test output must be inside outputs/.")
     stamp = dt.datetime.now(dt.timezone.utc).strftime("%Y%m%dT%H%M%SZ")
     output = destination.parent / f"{destination.name}-{stamp}"
     output.mkdir(parents=True, exist_ok=False)

@@ -23,7 +23,7 @@
     "evaluation_samples": 256
   },
   "output": {
-    "root": "artifacts/smoke/sphere-rmgm-seed0",
+    "root": "outputs/smoke/sphere-rmgm-seed0",
     "overwrite": false
   }
 }

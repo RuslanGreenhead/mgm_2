@@ -9,11 +9,11 @@
 | `paper/benchmarks2026/kgdm.py` | `src/rmgm/methods/baselines/kgdm.py` | Maintained adapter; pinned field stays in `external/kgdm-author/`. |
 | `paper/benchmarks2026/meanflow.py` | `src/rmgm/methods/baselines/rmf_mt.py` | Maintained RMF-MT implementation with clearer name. |
 | `external/riemannian-fm*/` | `src/rmgm/methods/baselines/rfm.py` (source locator only) | RFM retains its own historical protocol and upstream source. |
-| `paper/benchmarks2026/grasp/` | unchanged | SE(3) pilot has different conditional models and data contract. |
-| `paper/experiments/mmd_control.py` | unchanged | Direct-MMD is an experiment control. |
-| `outputs/` | unchanged | Paths and hashes are part of historical provenance. |
+| `paper/benchmarks2026/grasp/` | `src/rmgm/grasp/`; original in `legacy/paper/benchmarks2026/grasp/` | SE(3) pilot retains its distinct data contract. |
+| `paper/benchmarks2026/data_metrics.py` | `src/rmgm/evaluation/metrics.py` (shared metrics) | Reuse evaluator without binding new runs to old output paths. |
+| `paper/experiments/mmd_control.py` | `legacy/paper/experiments/mmd_control.py` | Direct-MMD is an experiment control. |
+| `outputs/`, `artifacts/` | `legacy/outputs/`, `outputs/` respectively | Separate historical evidence from new runs. |
 
-The earlier paths remain in the working tree. The maintained package is used
-by new development; existing 2026 benchmark snapshots continue to describe
-the exact earlier files. There is no claim that the new GMM is identical to
-train-fitted historical mixtures.
+The earlier source code is under `legacy/paper/`. The maintained package is
+used by new development; historical snapshots still describe earlier files.
+The new GMM is not identical to train-fitted historical mixtures.

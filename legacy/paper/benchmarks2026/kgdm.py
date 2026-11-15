@@ -53,7 +53,7 @@ DEFAULTS = {
 @lru_cache(maxsize=1)
 def author_core():
     """Load only the unmodified torch-only field, without sys.path collisions."""
-    path = Path(__file__).resolve().parents[2] / "external/kgdm-author/earth/drift_core.py"
+    path = Path(__file__).resolve().parents[3] / "external/kgdm-author/earth/drift_core.py"
     if not path.is_file():
         raise FileNotFoundError(f"Clone {AUTHOR_URL} at {AUTHOR_COMMIT} into {path.parents[1]}")
     digest = hashlib.sha256(path.read_bytes().replace(b"\r\n", b"\n")).hexdigest()

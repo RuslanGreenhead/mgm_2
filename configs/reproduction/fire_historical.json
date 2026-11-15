@@ -24,7 +24,7 @@
     "evaluation_draws": 3
   },
   "output": {
-    "root": "artifacts/reproduction/fire/historical",
+    "root": "outputs/reproduction/fire/historical",
     "overwrite": false
   }
 }

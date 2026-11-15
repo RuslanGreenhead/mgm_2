@@ -10,7 +10,7 @@ to reproduce the paper-scale CUDA sweeps on the laptop.
 
 The project-local environment is `.venv`, created with Python 3.12. Core
 packages are pinned to the compatible subset of
-`environment/requirements-core-reference.txt`: PyTorch, NumPy, SciPy, pandas,
+`legacy/environment/requirements-core-reference.txt`: PyTorch, NumPy, SciPy, pandas,
 Matplotlib, Geoopt, and torchdiffeq. Mesh/grasp extras (`libigl`, `python-fcl`,
 and related packages) are deliberately not installed because the first smoke
 test is sphere-only.
@@ -36,13 +36,13 @@ python3.12 -m venv .venv
 
 ## Output policy
 
-Write all newly generated local artifacts under `artifacts/`; Git ignores the
-contents. Do not overwrite `outputs/` or paper-output directories. Preserve the
-archive as the baseline evidence.
+Write all newly generated runs under `outputs/`; Git ignores its contents.
+Use a new run directory for each experiment. Historical records are under
+`legacy/outputs/`.
 
 ## Portability status
 
-`paper/experiments/controlled_suite.py` is not laptop-ready: it hard-codes a
+`legacy/paper/experiments/controlled_suite.py` is not laptop-ready: it hard-codes a
 CUDA device and imports mesh dependencies even for its sphere datasets. Its
 historical code will remain untouched. A separate portable smoke runner should
 be added before attempting Table 2 reproduction.
@@ -53,7 +53,7 @@ also awaits documented dataset restoration.
 ## Recommended verification ladder
 
 1. Confirm core imports and MPS availability.
-2. Run a 20-step synthetic-sphere R-MGM smoke test into `artifacts/smoke/`.
+2. Run a 20-step synthetic-sphere R-MGM smoke test into `outputs/smoke/`.
 3. Inspect its config copy, seed, device, losses, and a small generated sample
    plot; compare only for finite values and expected geometry.
 4. Restore Fire data, then run one 2,000-step seed-0 Table 2 R-MGM-mixture

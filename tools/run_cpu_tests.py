@@ -11,6 +11,7 @@ import unittest
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
+sys.path.insert(0, str(ROOT / "src"))
 
 
 def flatten(suite):
@@ -31,9 +32,9 @@ def main():
     loader = unittest.TestLoader()
     suites = []
     if args.suite in ("modern", "all"):
-        suites.append(loader.discover(str(ROOT / "paper/benchmarks2026"), pattern="test_*.py", top_level_dir=str(ROOT)))
+        suites.append(loader.discover(str(ROOT / "legacy/paper/benchmarks2026"), pattern="test_*.py", top_level_dir=str(ROOT / "legacy")))
     if args.suite in ("controlled", "all"):
-        sys.path.insert(0, str(ROOT / "paper/experiments"))
+        sys.path.insert(0, str(ROOT / "legacy/paper/experiments"))
         suites.append(loader.loadTestsFromName("test_controlled_suite"))
     replacements = []
     prepared = unittest.TestSuite()
@@ -43,7 +44,7 @@ def main():
             reason = "Git checkout metadata intentionally omitted; use MANIFEST source hashes and UPSTREAM_PROVENANCE"
         if identity.endswith(".test_split_matches_author") and not (ROOT / "external/riemannian-fm/data/earth_data/fire.csv").is_file():
             reason = "Raw Fire CSV intentionally not included in the code archive"
-        if identity.endswith((".test_saved_float32_sphere_duplicates_are_exact_zero", ".test_saved_volcano_radius_matches_normalized_reference")) and not (ROOT / "outputs/paper_icml2026/datasets/volcano/split_indices_and_targets.npz").is_file():
+        if identity.endswith((".test_saved_float32_sphere_duplicates_are_exact_zero", ".test_saved_volcano_radius_matches_normalized_reference")) and not (ROOT / "legacy/outputs/paper_icml2026/datasets/volcano/split_indices_and_targets.npz").is_file():
             reason = "Saved Volcano binary reference arrays intentionally omitted"
         if reason:
             replacements.append({"test": identity, "reason": reason})

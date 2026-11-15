@@ -23,7 +23,7 @@
     "evaluation_samples": 256
   },
   "output": {
-    "root": "artifacts/diagnostics/sphere-rmgm",
+    "root": "outputs/diagnostics/sphere-rmgm",
     "overwrite": false
   }
 }

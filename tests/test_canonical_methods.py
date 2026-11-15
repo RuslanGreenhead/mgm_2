@@ -6,11 +6,22 @@ import torch
 
 from rmgm.geometry import ManifoldOps
 from rmgm.methods.rmgm import create_method
+from rmgm.evaluation import metrics as current_metrics
 from paper.benchmarks2026.mgm import create_method as archived_create_method
 from paper.benchmarks2026.common import ManifoldOps as ArchivedManifoldOps
+from paper.benchmarks2026.data_metrics import metrics as archived_metrics
 
 
 class CanonicalMethodsTest(unittest.TestCase):
+    def test_evaluator_matches_2026_reference(self):
+        ops = ManifoldOps("sphere", 3)
+        rng = torch.Generator().manual_seed(31)
+        samples = ops.base(12, rng, "cpu")
+        target = ops.base(13, rng, "cpu")
+        reference = {"bandwidth2": 0.75, "coverage_radius": 1.0}
+        self.assertEqual(current_metrics(ops, samples, target, reference),
+                         archived_metrics(ArchivedManifoldOps("sphere", 3), samples, target, reference))
+
     def test_default_rmgm_matches_2026_reference(self):
         config = {"critic_warmup": 0, "critic_steps": 1, "width": 16, "depth": 2, "latent_dim": 4}
         torch.manual_seed(17)

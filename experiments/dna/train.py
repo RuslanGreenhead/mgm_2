@@ -101,11 +101,15 @@ def main() -> None:
     parser.add_argument("--resume", type=Path)
     parser.add_argument("--max-steps", type=int, help="Short local smoke run")
     parser.add_argument("--eval-sei", action="store_true")
+    parser.add_argument("--sei-data-dir", type=Path,
+                        help="Directory containing best.sei.model.pth.tar and target.sei.names")
     parser.add_argument("--test", action="store_true", help="Evaluate the selected checkpoint on chr8/9")
     args = parser.parse_args()
     config = load_config(args.config)
     if args.seed is not None:
         config["seed"] = args.seed
+    if args.sei_data_dir is not None:
+        config["sei_data_dir"] = str(args.sei_data_dir.resolve())
     seed_all(int(config["seed"]))
     device = choose_device(args.device)
     rng = torch.Generator(device=device).manual_seed(int(config["seed"]) + 1000)

@@ -32,6 +32,17 @@ PYTHONPATH=src:. python experiments/dna/evaluate.py outputs/dna/seed0/best.pt --
 PYTHONPATH=src:. python experiments/dna/summarize.py outputs/dna/seed{0,1,2} --output outputs/dna/three_seeds.json
 ```
 
+All data paths can be outside the repository. For a cluster data directory,
+pass `--data`, `--output`, and, when using Sei, `--sei-data-dir` explicitly.
+For example:
+
+```bash
+PYTHONPATH=src python experiments/dna/train.py --config configs/dna/rmgm.json \
+  --data /absolute/path/processed/promoters_rmf10 \
+  --output /absolute/path/runs/rmgm/seed0 \
+  --eval-sei --sei-data-dir /absolute/path/raw/promoter_design
+```
+
 If the full archive is downloaded manually, save it as `data/raw/data.tar.gz`
 and run `PYTHONPATH=src python experiments/dna/download.py --extract-only`.
 That command checks the published MD5 before extracting the promoter files.

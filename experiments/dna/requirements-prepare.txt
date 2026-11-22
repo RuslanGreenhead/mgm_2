@@ -1,0 +1,2 @@
+pyfaidx==0.9.2.3
+pyBigWig==0.3.30

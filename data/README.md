@@ -10,3 +10,6 @@ out of Git. Dataset identity, splits, preprocessing version, and hashes must
 be recorded in each new experiment protocol. Existing files in `external/`
 and `legacy/outputs/` are historical references and should not be relocated merely
 to fill this directory.
+
+The promoter source archive and extracted files go in `data/raw/`; compact
+prepared arrays go in `data/processed/`. See [the DNA experiment protocol](../experiments/dna/README.md).

@@ -51,7 +51,8 @@ For the optional Sei metric, install its isolated dependency list without
 letting Selene replace the project's PyTorch build:
 
 ```bash
-python -m pip install --no-deps -r experiments/dna/requirements-sei.txt
+python -m pip install -r experiments/dna/requirements-sei.txt
+python -m pip install --no-deps selene-sdk==0.6.0
 ```
 
 The local smoke environment imported Selene's `NonStrandSpecific` wrapper with

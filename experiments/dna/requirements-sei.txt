@@ -1,20 +1,23 @@
-# Install with: python -m pip install --no-deps -r requirements-sei.txt
+# Install these dependencies normally, then install selene-sdk==0.6.0
+# separately with --no-deps to preserve the chosen CUDA PyTorch build.
 #
 # Selene 0.6.0 declares torch<=2.3.1, while this project uses the repository
 # PyTorch environment.  Its NonStrandSpecific wrapper imports successfully with
 # torch 2.5.1 in the local smoke environment, but run the actual Sei forward on
 # the target GPU/HPC environment before a production experiment.
 setuptools<81
-selene-sdk==0.6.0
 click
 cython>=0.29.24
 h5py
+matplotlib
+pandas
 plotly
 pyfaidx
 pytabix
 pyyaml>=5.1
 ruamel.yaml
 scikit-learn
+scipy
 seaborn
 six
 statsmodels

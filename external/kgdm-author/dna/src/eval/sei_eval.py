@@ -8,13 +8,30 @@ import re
 
 import pandas as pd
 import torch
-from selene_sdk.utils import NonStrandSpecific
 from torch import Tensor
 
 # tap -> (submodule path, hook kind). reshape: 15360-d pre-classifier conv
 # latent (encoder features); chrom: 21907-d post classifier[0]+ReLU (pre-sigmoid).
 
 from .sei import Sei
+
+
+class NonStrandSpecific(torch.nn.Module):
+    """Average Sei predictions for a sequence and its reverse complement.
+
+    This is the 1D, mean-mode behavior of Selene's wrapper. Keeping the
+    ``model`` attribute preserves the published checkpoint's state-dict keys
+    without importing Selene's unrelated training and genome dependencies.
+    """
+
+    def __init__(self, model: torch.nn.Module):
+        super().__init__()
+        self.model = model
+
+    def forward(self, sequence: Tensor) -> Tensor:
+        # Input is [batch, A/C/G/T, positions]. Reverse both DNA axes.
+        reverse_complement = torch.flip(sequence, dims=(1, 2))
+        return (self.model(sequence) + self.model(reverse_complement)) / 2
 
 
 def _upgrade_state_dict(state_dict, prefixes=("module.",)):

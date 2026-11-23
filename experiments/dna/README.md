@@ -47,24 +47,22 @@ If the full archive is downloaded manually, save it as `data/raw/data.tar.gz`
 and run `PYTHONPATH=src python experiments/dna/download.py --extract-only`.
 That command checks the published MD5 before extracting the promoter files.
 The required preparation readers are listed in `requirements-prepare.txt`.
-For the optional Sei metric, install its isolated dependency list without
-letting Selene replace the project's PyTorch build:
+For the optional Sei metric, install its small dependency list. On older HPC
+systems, require wheels to avoid building pandas or scipy from source:
 
 ```bash
-python -m pip install -r experiments/dna/requirements-sei.txt
-python -m pip install --no-deps selene-sdk==0.6.0
+python -m pip install --only-binary=:all: -r experiments/dna/requirements-sei.txt
 ```
 
-The local smoke environment imported Selene's `NonStrandSpecific` wrapper with
-PyTorch 2.5.1. Selene 0.6.0 formally declares an older PyTorch range, so run a
+The vendored Sei evaluator implements Selene's 1D mean-mode strand averaging
+locally, so it does not import Selene's training and genome dependencies. Run a
 small GPU Sei forward on the target cluster before relying on that metric in a
 full training run.
 
 For a short local test after preparation, use `--max-steps 3` and a smaller
 configuration. The default 20-block networks are intended for a GPU. Add
 `--eval-sei` only after the PyTorch Sei checkpoint and `target.sei.names` are
-available in `sei_data_dir` and the KGDM evaluator's Selene dependency is
-installed. `--test` evaluates the selected checkpoint on chr8/9.
+available in `sei_data_dir`. `--test` evaluates the selected checkpoint on chr8/9.
 
 The metric code computes pooled six-mer Pearson correlation and the vendored
 KGDM Sei evaluator's paired H3K4me3 mean squared error. The latter pads each

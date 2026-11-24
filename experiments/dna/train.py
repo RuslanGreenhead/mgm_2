@@ -169,8 +169,10 @@ def main() -> None:
         start_epoch = state["epoch"]
         start_batch = state.get("next_batch", 0)
         best_score = state["best_score"]
-        rng.set_state(state["rng"])
-        torch.set_rng_state(state["torch_rng"])
+        # map_location=device also moves RNG byte tensors to CUDA, but both
+        # Generator.set_state and torch.set_rng_state require CPU byte tensors.
+        rng.set_state(state["rng"].cpu())
+        torch.set_rng_state(state["torch_rng"].cpu())
         np.random.set_state(state["numpy_rng"])
         random.setstate(state["python_rng"])
     valid_loader = make_loader(args.data, "valid", config)

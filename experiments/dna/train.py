@@ -123,6 +123,8 @@ def main() -> None:
     parser.add_argument("--device", default="auto")
     parser.add_argument("--seed", type=int, help="Override the configured seed for repeated runs")
     parser.add_argument("--resume", type=Path)
+    parser.add_argument("--generator-init", type=Path,
+                        help="Generator warmup checkpoint; only for a fresh run")
     parser.add_argument("--max-steps", type=int, help="Short local smoke run")
     parser.add_argument("--max-valid-examples", type=int,
                         help="Limit validation examples for a smoke run only")
@@ -131,6 +133,8 @@ def main() -> None:
                         help="Directory containing best.sei.model.pth.tar and target.sei.names")
     parser.add_argument("--test", action="store_true", help="Evaluate the selected checkpoint on chr8/9")
     args = parser.parse_args()
+    if args.resume and args.generator_init:
+        parser.error("--resume and --generator-init cannot be combined")
     config = load_config(args.config)
     if args.seed is not None:
         config["seed"] = args.seed
@@ -140,9 +144,18 @@ def main() -> None:
     device = choose_device(args.device)
     rng = torch.Generator(device=device).manual_seed(int(config["seed"]) + 1000)
     model = PromoterRMGM(config, device)
+    if args.generator_init:
+        warmup = torch.load(args.generator_init, map_location=device, weights_only=True)
+        for key in ("seed", "width", "blocks", "train_shift"):
+            if warmup["config"].get(key) != config.get(key):
+                raise ValueError(f"Generator warmup configuration changed: {key}")
+        model.generator.load_state_dict(warmup["generator"])
+        model.ema.load_state_dict(warmup["generator"])
+        config["generator_warmup_steps"] = int(warmup["steps"])
     args.output.mkdir(parents=True, exist_ok=True)
     manifest = verify_prepared(args.data)
     (args.output / "run.json").write_text(json.dumps({"config": config,
+                                                       "generator_init": str(args.generator_init) if args.generator_init else None,
                                                        "max_valid_examples": args.max_valid_examples,
                                                        "data_manifest": manifest,
                                                        "git_commit": git_commit(), "device": str(device)}, indent=2) + "\n")

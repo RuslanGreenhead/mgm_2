@@ -81,6 +81,16 @@ through the frozen critic. Loss inner products use the unit-sphere metric,
 averaged over bases and batch. Fisher-Rao distances are twice the product-
 sphere distance; this uniform factor would scale both losses by four.
 
+An exploratory generator initialization is available through
+`warmup_generator.py --steps 1000`, followed by `train.py --generator-init
+PATH/generator_warmup.pt`. It trains the same conditional generator to map
+tangent-perturbed real promoters and their CAGE profiles back to the real
+sequence with a positionwise squared chordal loss. The regular generator
+optimizer starts fresh, and the EMA is initialized from the warmup weights.
+Warmup inputs differ from the Gaussian latent used at generation time; this
+adaptation must be compared against a no-warmup run for both quality and
+sequence diversity before it becomes the default protocol.
+
 Use `--seed 0`, `--seed 1`, and `--seed 2` with distinct output directories for
 the three full runs. The runner uses plain PyTorch and JSON configuration, so the same command can
 be placed in a Slurm job once cluster paths, GPU limits, and environment modules

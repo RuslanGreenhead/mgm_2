@@ -14,6 +14,7 @@
   "ema_decay": 0.999,
   "train_shift": 10,
   "eval_every_epochs": 1,
+  "sei_batch_size": 1,
   "checkpoint_every_steps": 1000,
   "log_every": 50,
   "sei_data_dir": "data/raw/promoter_design"

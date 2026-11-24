@@ -59,20 +59,35 @@ def make_loader(directory: Path, split: str, config: dict, epoch: int = 0) -> Da
 
 
 def evaluate(model: PromoterRMGM, loader: DataLoader, rng: torch.Generator,
-             sei: KGDMSeiMetric | None = None) -> dict:
+             sei: KGDMSeiMetric | None = None, max_examples: int | None = None,
+             sei_batch_size: int = 1) -> dict:
+    if max_examples is not None and max_examples < 1:
+        raise ValueError("max_examples must be positive")
+    if sei_batch_size < 1:
+        raise ValueError("sei_batch_size must be positive")
     true_counts = np.zeros(4096, dtype=np.int64)
     generated_counts = np.zeros(4096, dtype=np.int64)
     sei_sum = 0.0
     examples = 0
     for labels, signal in loader:
+        if max_examples is not None:
+            remaining = max_examples - examples
+            if remaining <= 0:
+                break
+            labels, signal = labels[:remaining], signal[:remaining]
         generated = model.sample(signal, rng).square().argmax(dim=-1)
         true_counts += kmer_counts(labels.numpy())
         generated_counts += kmer_counts(generated.cpu().numpy())
         if sei is not None:
-            predicted = one_hot_with_unknown(generated).to(model.device)
-            reference = one_hot_with_unknown(labels).to(model.device)
-            errors = sei.squared_error(predicted, reference)
-            sei_sum += float(errors.sum())
+            predicted = one_hot_with_unknown(generated)
+            reference = one_hot_with_unknown(labels)
+            # Sei's 4096-base CNN is much larger than the generator. Score it
+            # in small batches while keeping generation's configured batch size.
+            for start in range(0, len(labels), sei_batch_size):
+                stop = start + sei_batch_size
+                errors = sei.squared_error(predicted[start:stop].to(model.device),
+                                           reference[start:stop].to(model.device))
+                sei_sum += float(errors.sum())
         examples += len(labels)
     result = {"examples": examples, "kmer_pearson": kmer_pearson(true_counts, generated_counts)}
     if sei is not None:
@@ -100,6 +115,8 @@ def main() -> None:
     parser.add_argument("--seed", type=int, help="Override the configured seed for repeated runs")
     parser.add_argument("--resume", type=Path)
     parser.add_argument("--max-steps", type=int, help="Short local smoke run")
+    parser.add_argument("--max-valid-examples", type=int,
+                        help="Limit validation examples for a smoke run only")
     parser.add_argument("--eval-sei", action="store_true")
     parser.add_argument("--sei-data-dir", type=Path,
                         help="Directory containing best.sei.model.pth.tar and target.sei.names")
@@ -116,7 +133,9 @@ def main() -> None:
     model = PromoterRMGM(config, device)
     args.output.mkdir(parents=True, exist_ok=True)
     manifest = verify_prepared(args.data)
-    (args.output / "run.json").write_text(json.dumps({"config": config, "data_manifest": manifest,
+    (args.output / "run.json").write_text(json.dumps({"config": config,
+                                                       "max_valid_examples": args.max_valid_examples,
+                                                       "data_manifest": manifest,
                                                        "git_commit": git_commit(), "device": str(device)}, indent=2) + "\n")
     start_epoch, start_batch, best_score = 0, 0, float("-inf")
     if args.resume:
@@ -156,7 +175,9 @@ def main() -> None:
                     break
             # The holdout is consulted for checkpoint selection; test remains sealed.
             if epoch % int(config.get("eval_every_epochs", 1)) == 0 or args.max_steps:
-                metrics = evaluate(model, valid_loader, rng, sei)
+                metrics = evaluate(model, valid_loader, rng, sei,
+                                   max_examples=args.max_valid_examples,
+                                   sei_batch_size=int(config.get("sei_batch_size", 1)))
                 event = {"epoch": epoch, "step": model.iteration, "split": "valid", **metrics}
                 history.write(json.dumps(event) + "\n")
                 history.flush()
@@ -172,7 +193,8 @@ def main() -> None:
         selected = torch.load(args.output / "best.pt", map_location=device, weights_only=False)
         model.load_state_dict(selected["method"])
         test_rng = torch.Generator(device=device).manual_seed(int(config["seed"]) + 2000)
-        metrics = evaluate(model, make_loader(args.data, "test", config), test_rng, sei)
+        metrics = evaluate(model, make_loader(args.data, "test", config), test_rng, sei,
+                           sei_batch_size=int(config.get("sei_batch_size", 1)))
         (args.output / "test.json").write_text(json.dumps(metrics, indent=2) + "\n")
         print({"split": "test", **metrics})
 

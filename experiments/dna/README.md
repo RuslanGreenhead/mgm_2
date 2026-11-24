@@ -63,6 +63,9 @@ For a short local test after preparation, use `--max-steps 3` and a smaller
 configuration. The default 20-block networks are intended for a GPU. Add
 `--eval-sei` only after the PyTorch Sei checkpoint and `target.sei.names` are
 available in `sei_data_dir`. `--test` evaluates the selected checkpoint on chr8/9.
+Sei uses a separate evaluation batch size of one by default to fit alongside
+the R-MGM networks on 11 GB GPUs. A runner smoke test may use
+`--max-valid-examples 32`; omit that flag for a full validation run.
 
 The metric code computes pooled six-mer Pearson correlation and the vendored
 KGDM Sei evaluator's paired H3K4me3 mean squared error. The latter pads each

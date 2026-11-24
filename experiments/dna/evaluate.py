@@ -32,7 +32,8 @@ def main() -> None:
     rng = torch.Generator(device=device).manual_seed(int(config["seed"]) + 2000)
     sei = KGDMSeiMetric(args.sei_data_dir, ROOT / "external/kgdm-author/dna") if args.sei_data_dir else None
     result = {"checkpoint": str(args.checkpoint), "split": args.split,
-              "metrics": evaluate(model, make_loader(args.data, args.split, config), rng, sei)}
+              "metrics": evaluate(model, make_loader(args.data, args.split, config), rng, sei,
+                                  sei_batch_size=int(config.get("sei_batch_size", 1)))}
     print(json.dumps(result, indent=2))
     if args.output:
         args.output.parent.mkdir(parents=True, exist_ok=True)

@@ -44,7 +44,16 @@ def seed_all(seed: int) -> None:
 
 
 def git_commit() -> str | None:
-    result = subprocess.run(["git", "rev-parse", "HEAD"], cwd=ROOT, capture_output=True, text=True)
+    # Batch nodes may lack the Git executable; the submit shell can export the
+    # resolved commit so run.json still records the code version.
+    submitted_commit = os.environ.get("RMGM_GIT_COMMIT")
+    if submitted_commit:
+        return submitted_commit
+    try:
+        result = subprocess.run(["git", "rev-parse", "HEAD"], cwd=ROOT,
+                                capture_output=True, text=True)
+    except OSError:
+        return None
     return result.stdout.strip() if result.returncode == 0 else None
 
 

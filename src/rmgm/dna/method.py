@@ -46,8 +46,12 @@ class PromoterRMGM:
             self.opt_c.zero_grad(set_to_none=True)
             residual = self.critic(t, x, signal) - velocity
             critic_loss = mean_inner(residual, residual)
+            if not torch.isfinite(critic_loss):
+                raise FloatingPointError(f"Non-finite critic loss at step {self.iteration}")
             critic_loss.backward()
             torch.nn.utils.clip_grad_norm_(self.critic.parameters(), float(self.config.get("grad_clip", 1.0)))
+            if not all(torch.isfinite(p.grad).all() for p in self.critic.parameters() if p.grad is not None):
+                raise FloatingPointError(f"Non-finite critic gradient at step {self.iteration}")
             self.opt_c.step()
             self.critic_updates += 1
 
@@ -60,8 +64,12 @@ class PromoterRMGM:
                 field = self.critic(t, x, signal)
                 # Frozen critic weights; gradients through its input reach the generator.
                 generator_loss = 2 * mean_inner(field, velocity) - mean_inner(field, field)
+                if not torch.isfinite(generator_loss):
+                    raise FloatingPointError(f"Non-finite generator loss at step {self.iteration}")
                 generator_loss.backward()
                 torch.nn.utils.clip_grad_norm_(self.generator.parameters(), float(self.config.get("grad_clip", 1.0)))
+                if not all(torch.isfinite(p.grad).all() for p in self.generator.parameters() if p.grad is not None):
+                    raise FloatingPointError(f"Non-finite generator gradient at step {self.iteration}")
                 self.opt_g.step()
             finally:
                 self.critic.requires_grad_(True)

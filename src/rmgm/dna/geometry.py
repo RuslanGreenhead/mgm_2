@@ -15,8 +15,10 @@ def target_sphere(labels: torch.Tensor) -> torch.Tensor:
 
 
 def from_logits(logits: torch.Tensor) -> torch.Tensor:
-    """Return strictly positive unit-sphere coordinates at every position."""
-    return torch.softmax(logits.float(), dim=-1).sqrt()
+    """Square-root probabilities with a stable derivative for sharp logits."""
+    # sqrt(softmax) differentiates through sqrt(0) when softmax underflows.
+    # exp(log_softmax / 2) is mathematically identical without that singularity.
+    return torch.exp(0.5 * torch.log_softmax(logits.float(), dim=-1))
 
 
 def tangent(x: torch.Tensor, v: torch.Tensor) -> torch.Tensor:
